@@ -2,14 +2,13 @@ This repository contains scripts for the evolution analysis based on protein 3D 
 * Last update: 2019-06-08
 
 
-
 ## Contributing
 
-Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/yeast-GEM/blob/master/.github/CONTRIBUTING.md) to get started.
+Contributions are always welcome!
   
 ## Contributors
 
-* [Gang Li], Chalmers University of Technology, Sweden
+* [Gang Li](https://www.sysbio.se/people/gang-li), Chalmers University of Technology, Sweden
 * [Hongzhong Lu](https://www.sysbio.se/people/hongzhong-lu) ([@hongzhonglu](https://github.com/hongzhonglu)), Chalmers University of Technology, Sweden
 
 
