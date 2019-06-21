@@ -100,6 +100,9 @@ start0 = 1 #pdb_inf['sstart2'][i]
 end0 = 500 #pdb_inf['send2'][i]
 # set directory for the input and output
 infile = '/Users/luho/PycharmProjects/3D_model/evolution/data/' + pdbID #pdbfile + pdbID
+outfile = '/Users/luho/PycharmProjects/3D_model/evolution/result/' + pdbID + '.txt' #pdbfile + pdbID
+
+
 
 
 # calculation for one time
@@ -119,10 +122,10 @@ for chain in model:
 if  chainID in chainID0:
     chain = model[chainID]
     chain_filter, chain_filter2 = preprocessResidueHOMO(chain0=chain, start1=start0, end1=end0)
-    ss = calc_dist_matrix(chain_filter, chain_filter)
+    ss = calc_dist_matrix(chain_filter, chain_filter, type='minimum')
     dimension1 = list(ss.shape)
     if dimension1[0] == length0:
-        #np.savetxt(outfile, ss, delimiter=',')
+        np.savetxt(outfile, ss, delimiter=',')
         print('right residue distance')
     else:
         PDB_check=pdbID
@@ -133,16 +136,57 @@ else:
     chainID = chainID0[0]
     chain = model[chainID]
     chain_filter, chain_filter2 = preprocessResidueHOMO(chain0=chain, start1=start0, end1=end0)
-    ss = calc_dist_matrix(chain_filter, chain_filter)
-
-
+    ss = calc_dist_matrix(chain_filter, chain_filter, type='minimum')
     dimension1 = list(ss.shape)
     if dimension1[0] == length0:
-        #np.savetxt(outfile, ss, delimiter=',')
+        np.savetxt(outfile, ss, delimiter=',')
         print('right residue distance')
     else:
         PDB_check =pdbID
     chain_error=pdbID
+
+
+
+
+
+# find the near residues within 5Å of the any atom of residues in the feature
+# batch process
+site_3D_all = dict()
+for key in feature_all:
+    interest_site = feature_all[key]
+    # get the original coordinates of residues from proteins
+    coordinate_mapping = list(range(start0, end0 + 1))
+    # this is coordinate of distance matrix
+    distance_index = list(range(len(coordinate_mapping)))
+    # change the site coordinate into the distance_index
+    interest_index = [y for x, y in zip(coordinate_mapping, distance_index) if x in interest_site]
+    if len(interest_site) >=100:
+        print('The length of feature is over 100')
+        # here we only choose the intersection of site covered with pdb
+        site_3D = list(set(interest_site) & set(coordinate_mapping))
+    else:
+        if len(interest_index) >=1:
+            distance_set = ss[interest_index,]
+            target_index = np.where(distance_set < 5)[1]
+            site_3D_index = list(np.unique(target_index))
+            # change the index into the coordinate
+            site_3D = [coordinate_mapping[i] for i in site_3D_index]
+            print('', key, 'original site', feature_all[key], '3D site', site_3D, sep="\n")
+        else:
+            print('No more site can be found!')
+    if len(site_3D) >1:
+        site_3D_all[key] = site_3D
+
+
+# save the site information
+with open('../result/3D site YCL040W.csv', 'w') as f:
+    for key in site_3D_all.keys():
+        f.write("%s\t%s\n"%(key,site_3D_all[key]))
+
+
+
+
+
 
 
 
