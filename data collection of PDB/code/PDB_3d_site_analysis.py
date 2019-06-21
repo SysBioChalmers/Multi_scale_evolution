@@ -1,7 +1,6 @@
 #--------------------------------------------------------------------------------------
 # 3D site definition
 #--------------------------------------------------------------------------------------
-
 from Bio.PDB import *
 import os    ##for directory
 import numpy as np
@@ -10,7 +9,6 @@ from Bio.PDB.PDBParser import PDBParser
 import xlwt
 from Bio.PDB.Polypeptide import PPBuilder
 import sys
-
 sys.path.append(r"/Users/luho/PycharmProjects/3D_model/evolution/code")
 os.chdir('/Users/luho/PycharmProjects/3D_model/evolution/code')
 from pdb_function_module import *
@@ -46,6 +44,9 @@ for j in count_ele:
         if x['group'] ==j:
             smallset.append(x['position'])
     secondary_structure_set[j]=smallset
+
+
+
 
 
 # parse the general structure
@@ -84,8 +85,12 @@ site1 = feature_all['test_site@test']
 
 
 
-'''calculate the residue matrix using normal method'''
 
+
+
+
+
+'''calculate the residue matrix using normal method'''
 # input
 # input the geneID or PDB ID
 pdbID = 'YCL040W_3D_site_example.pdb' #pdb_inf['coordinate_id0'][i]
@@ -129,6 +134,8 @@ else:
     chain = model[chainID]
     chain_filter, chain_filter2 = preprocessResidueHOMO(chain0=chain, start1=start0, end1=end0)
     ss = calc_dist_matrix(chain_filter, chain_filter)
+
+
     dimension1 = list(ss.shape)
     if dimension1[0] == length0:
         #np.savetxt(outfile, ss, delimiter=',')
@@ -136,3 +143,74 @@ else:
     else:
         PDB_check =pdbID
     chain_error=pdbID
+
+
+
+
+'''
+# example
+# write a function to calculate the minimum distance between all atoms of two residues
+residue_one = chain_filter[0]
+residue_two = chain_filter[1]
+# as the fist step we need extract all the atom in a residues
+atoms_one = []
+atoms_two = []
+for atom in residue_one.child_list:
+    print(atom.id)
+    atoms_one.append(atom.id)
+for atom in residue_two.child_list:
+    print(atom.id)
+    atoms_two.append(atom.id)
+answer = np.zeros((len(atoms_one), len(atoms_two)), np.float)
+for row, a_one in enumerate(atoms_one) :
+    for col, a_two in enumerate(atoms_two) :
+        answer[row, col] = residue_one[a_one] - residue_two[a_two]
+        #diff_vector = residue_one[a_one].coord - residue_two[a_two].coord
+        #answer[row, col] =np.sqrt(np.sum(diff_vector * diff_vector))
+np.amin(answer) # this is the minimum distance beween all atoms from two residues
+
+
+# write a function to calculate the distance between centroid of two residues
+residue_one = chain_filter[0]
+residue_two = chain_filter[1]
+# as the fist step we need extract all the atom in a residues
+atoms_one = []
+atoms_two = []
+for atom in residue_one.child_list:
+    print(atom.id)
+    atoms_one.append(atom.id)
+for atom in residue_two.child_list:
+    print(atom.id)
+    atoms_two.append(atom.id)
+
+x,y,z=0,0,0
+for row, a_one in enumerate(atoms_one):
+    x+= residue_one[a_one].coord[0]
+    y+= residue_one[a_one].coord[1]
+    z+= residue_one[a_one].coord[2]
+x_new = x/len(atoms_one)
+y_new = y/len(atoms_one)
+z_new = z/len(atoms_one)
+
+x1,y1,z1=0,0,0
+for row, a_two in enumerate(atoms_two):
+    x1+= residue_two[a_two].coord[0]
+    y1+= residue_two[a_two].coord[1]
+    z1+= residue_two[a_two].coord[2]
+x1_new = x1/len(atoms_two)
+y1_new = y1/len(atoms_two)
+z1_new = z1/len(atoms_two)
+np.sqrt((x1_new-x_new)**2+(y1_new-y_new)**2+(z1_new-z_new)**2)
+
+
+# using the function to calculate different distances
+# input the residue
+residue_one0 = chain_filter[0]
+residue_two0 = chain_filter[1]
+# the distance of 'CA' atom
+calc_residue_dist(residue_one0, residue_two0)
+# the minimum distance of all atom
+calc_residue_miniDist(residue_one0, residue_two0)
+# the minimum distance of centroid in a residue
+calc_residue_centroidDist(residue_one0, residue_two0)
+'''
