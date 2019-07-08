@@ -74,17 +74,37 @@ def calc_residue_centroidDist(residue_one, residue_two):
     z1_new = z1 / len(atoms_two)
     return np.sqrt((x1_new - x_new) ** 2 + (y1_new - y_new) ** 2 + (z1_new - z_new) ** 2)
 
-def calc_dist_matrix(chain_one, chain_two) :
-    """Returns a matrix of C-alpha distances between two chains"""
+def calc_dist_matrix(chain_one, chain_two, type = 'CA'):
+    """
+       Calculate the distances of residues from pdb files
+       Parameters
+       ----------
+       chain_one: a chain of pdb file
+       chain_two: a chain of pdb file
+       type: the distance type of residues, it can be the distance of 'CA' carbons of two residues
+            or the minimum distance of all atoms of two residues or distance of centroids of two residues
+       Returns
+       -------
+       answer
+           The distance of two residues
 
-    ''' an example
-    chain_one = chain
-    chain_two = chain'''
+       Examples
+       -------
+    """
     answer = np.zeros((len(chain_one), len(chain_two)), np.float)
     for row, residue_one in enumerate(chain_one) :
         for col, residue_two in enumerate(chain_two) :
-            answer[row, col] = calc_residue_dist(residue_one, residue_two)
+            if type is 'CA':
+                answer[row, col] = calc_residue_dist(residue_one, residue_two)
+            if type is 'minimum':
+                answer[row, col] = calc_residue_miniDist(residue_one, residue_two)
+            if type is 'centroid':
+                answer[row, col] = calc_residue_centroidDist(residue_one, residue_two)
+            print(row,col)
     return answer
+
+
+
 
 # in this function, for the homology pdb files, the residues were obtained based on the original coordinates of proteins
 # not the relative coordinates of the pdb structures
