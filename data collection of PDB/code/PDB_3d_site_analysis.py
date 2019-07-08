@@ -32,7 +32,7 @@ df_second['description'] = score0
 from itertools import groupby
 count_ele = [x for x, group in groupby(type0)]
 count_dups = [sum(1 for x in group) for x, group in groupby(type0)]
-count_ele =[x + '@group' + str(i) for i, x in enumerate(count_ele)]
+count_ele =[x + '_group' + str(i) for i, x in enumerate(count_ele)]
 unique_group = [[x]*y for x, y in zip(count_ele, count_dups)]
 unique_group0 = sum(unique_group, []) # flatten the list
 df_second['group'] = unique_group0
@@ -52,7 +52,10 @@ for j in count_ele:
 # parse the general structure
 general_3D_site = pd.read_excel('../data/YCL040W_site_definition.xlsx', sheet_name='general_site')
 # establish unique group
-general_3D_site['id'] = general_3D_site['feature_key'] + '@' + general_3D_site['description']
+# to avoid the duplicated id
+s0 = ["_group" +str(i) for i in range(len(general_3D_site['gene']))]
+general_3D_site['order'] = s0
+general_3D_site['id'] = general_3D_site['feature_key'] + '@' + general_3D_site['description'] + general_3D_site['order']
 # establish a dict
 feature_set = dict()
 for i,x in general_3D_site.iterrows():
@@ -80,10 +83,6 @@ feature_all = {**secondary_structure_set, **feature_set}
 for key in feature_all:
     print(key, 'length:', len(feature_all[key]), feature_all[key])
 
-# one example to find the 3D site
-site1 = feature_all['test_site@test']
-
-
 
 
 
@@ -101,9 +100,6 @@ end0 = 500 #pdb_inf['send2'][i]
 # set directory for the input and output
 infile = '/Users/luho/PycharmProjects/3D_model/evolution/data/' + pdbID #pdbfile + pdbID
 outfile = '/Users/luho/PycharmProjects/3D_model/evolution/result/' + pdbID + '.txt' #pdbfile + pdbID
-
-
-
 
 # calculation for one time
 # in the future this will be put into a function to make it simple
@@ -151,6 +147,9 @@ else:
 
 # find the near residues within 5Å of the any atom of residues in the feature
 # batch process
+
+# To load the saved distance data
+ss = np.loadtxt(outfile,delimiter=',')
 site_3D_all = dict()
 for key in feature_all:
     interest_site = feature_all[key]
@@ -178,10 +177,12 @@ for key in feature_all:
         site_3D_all[key] = site_3D
 
 
+
 # save the site information
+# here the siteID, the original site and new 3D site were saved together
 with open('../result/3D site YCL040W.csv', 'w') as f:
     for key in site_3D_all.keys():
-        f.write("%s\t%s\n"%(key,site_3D_all[key]))
+        f.write("%s\t%s\t%s\t%s\n"%(key, feature_all[key], str(len(feature_all[key])), site_3D_all[key]))
 
 
 
