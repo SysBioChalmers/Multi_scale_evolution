@@ -4,7 +4,8 @@ This repository contains scripts for the evolution analysis based on protein 3D 
 
 ## Contributing
 
-Contributions are always welcome!
+* Contributions are always welcome! 
+* For contributors: Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/yeast-GEM/tree/devel).
   
 ## Contributors
 
