@@ -82,39 +82,13 @@ for i, x in enumerate(site0):
 site_detail = pd.DataFrame({'site': site1})
 # separate one column into four columns
 site_detail2 = site_detail['site'].str.split('@', expand=True)
+# rename each column
+site_detail2.columns = ['Entry', 'feature_key', 'description', 'coordinate']
+# save the result in excel format
+writer = pd.ExcelWriter('../result/sce_site_summary.xlsx')
+site_detail2.to_excel(writer,'Sheet1')
+writer.save()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# extract the site for one gene to check the result
+# P17709 as an example
+site_P17709 = site_detail2[site_detail2['Entry']=='P17709']
