@@ -242,3 +242,61 @@ def exactResidueEXP(chain0, qstart1, qend1, sstart1, send1):
             original_coordinate_new[0], original_coordinate_new[-1],
             residue_one1]
 
+
+
+def calcAndSaveDistanceMatrix(pdbID, chainID, start0, end0, infile, outfile, method='minimum'):
+    '''
+    This function is used to calculate the residues distance matrix for homology pdb files.
+    It contains the homology pdb files quality check, the residue distance calculation and result saving.
+    :param pdbID:  A string containing the pdbID
+    :param chainID: A string containing the chainID
+    :param start0: start0 mean the coordinate of "from" for homology model provided by swiss model database
+    :param end0: end0 mean the the coordinate of "to" for homology model provided by swiss model database
+    :param infile: The directory containing the pdb file
+    :param outfile: The directory to store the result
+    :method: The way to calculate the residue distance, like alpha 'C' distance
+    :return:
+    '''
+
+    # calculation for one time
+    # in the future this will be put into a function to make it simple
+    coordinate = list(range(start0, end0))
+    length0 = len(coordinate) + 1
+    # outfile = '/Users/luho/Google Drive/R application and code/protein 3D structure QC and QA/Evolution analysis/residue_distance/pdb_homo/' + pdbID + '.txt'
+    # get the paired distance
+    p = PDBParser()
+    structure = p.get_structure(pdbID, infile)
+    model = structure[0]
+    # first obtain the chainID for the model
+    chainID0 = []
+    for chain in model:
+        chainID0.append(chain.get_id())
+
+    PDB_check = '' # save the pdb id which need check
+    chain_error = '' # save the pdb id with a wrong chainID
+    if chainID in chainID0:
+        chain = model[chainID]
+        chain_filter, chain_filter2 = preprocessResidueHOMO(chain0=chain, start1=start0, end1=end0)
+        ss = calc_dist_matrix(chain_filter, chain_filter, type= method)
+        dimension1 = list(ss.shape)
+        if dimension1[0] == length0:
+            np.savetxt(outfile, ss, delimiter=',')
+            print('right residue distance')
+        else:
+            PDB_check = pdbID
+    else:
+        print("Oops!  ChainID is not right! New chainID from pdb file will be used!")
+
+        # here we use the new chainID from the pdb structure
+        chainID = chainID0[0]
+        chain = model[chainID]
+        chain_filter, chain_filter2 = preprocessResidueHOMO(chain0=chain, start1=start0, end1=end0)
+        ss = calc_dist_matrix(chain_filter, chain_filter, type = method )
+        dimension1 = list(ss.shape)
+        if dimension1[0] == length0:
+            np.savetxt(outfile, ss, delimiter=',')
+            print('right residue distance')
+        else:
+            PDB_check = pdbID
+        chain_error = pdbID
+    return PDB_check, chain_error
