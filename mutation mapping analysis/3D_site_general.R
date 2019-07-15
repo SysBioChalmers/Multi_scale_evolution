@@ -137,33 +137,33 @@ rotate_x(site_3D0, 'p_value', site_3D0$site_group, 20)
 
 
 # Test the above pipeline using some real case data
-strain_classification <- read_excel("data/strain_classification.xls") %>%  select(., Standardized_name)
-colnames(strain_classification) <- c('strain_name')
-strain_classification$type <- 'All'
-strain_type <-"All"
+strain_classification <- read_excel("data/strain_classification.xls") %>% select(., Standardized_name)
+colnames(strain_classification) <- c("strain_name")
+strain_classification$type <- "All"
+strain_type <- "All"
 strain_select1 <- chooseStrain(type = "All")
 
-##batch process for the above whole process
+## batch process for the above whole process
 # step 0
 # input the gene information
-pdb_info  <- read_excel("/Users/luho/PycharmProjects/3D_model/evolution/result/pdb_homo_filter_manual_check.xlsx")
-#as sometimes we need the update the coordinates in the pdb homology files thus we use the mapid directly from the
-#provided by the swiss model database
-#pdb_info$pdbid <- paste(pdb_info$sstart2, pdb_info$send2, pdb_info$template, pdb_info$coordinate_id,sep = "_")
+pdb_info <- read_excel("/Users/luho/PycharmProjects/3D_model/evolution/result/pdb_homo_filter_manual_check.xlsx")
+# as sometimes we need the update the coordinates in the pdb homology files thus we use the mapid directly from the
+# provided by the swiss model database
+# pdb_info$pdbid <- paste(pdb_info$sstart2, pdb_info$send2, pdb_info$template, pdb_info$coordinate_id,sep = "_")
 pdb_info$pdbid <- pdb_info$mapid
 pdb_info$with_distance <- NA
 pdb_info <- filter(pdb_info, is.na(pdb_info$with_distance))
 pdb_info <- select(pdb_info, locus, pdbid, sstart2, send2)
 geneWithSNP <- getGeneNameWithSNP()
-pdb_info <- pdb_info[which(pdb_info$locus %in% geneWithSNP ==TRUE),]
+pdb_info <- pdb_info[which(pdb_info$locus %in% geneWithSNP == TRUE), ]
 
-#add two more clumns
+# add two more clumns
 pdb_info$strain_type <- strain_type
 pdb_info$p_value <- NA
 
 
-#creat new file to store the results
-outfile0 <- paste('result/CLUMPS from pdb_homo for ', strain_type, sep = "")
+# creat new file to store the results
+outfile0 <- paste("result/CLUMPS from pdb_homo for ", strain_type, sep = "")
 dir.create(outfile0)
 print(outfile0)
 
@@ -183,48 +183,56 @@ for (i in 1:length(pdb_info$locus)) {
   ResidueDistance0 <- read.table(dirForDistanceMatrix, sep = ",") # in the followed calculation, the matrix dosen't have the col and row names
   ResidueDistance0 <- as.matrix(ResidueDistance0)
 
-  clumpsAnalysis(gene0 = ss,
-                 SNPlist0 = mutated_gene1,
-                 gene_annotation0 = gene_feature0,
-                 pdb = ResidueDistance0,
-                 sstart0 = pdb_info$sstart2[i],
-                 send0 = pdb_info$send2[i],
-                 input_dir= FALSE)
+  clumpsAnalysis(
+    gene0 = ss,
+    SNPlist0 = mutated_gene1,
+    gene_annotation0 = gene_feature0,
+    pdb = ResidueDistance0,
+    sstart0 = pdb_info$sstart2[i],
+    send0 = pdb_info$send2[i],
+    input_dir = FALSE
+  )
 
 
   # input the cluster
-  site_dir <- paste('/Users/luho/PycharmProjects/3D_model/evolution/result/3D_site/' , pdbID, '.pdb.csv', sep = "")
+  site_dir <- paste("/Users/luho/PycharmProjects/3D_model/evolution/result/3D_site/", pdbID, ".pdb.csv", sep = "")
   site_3D_info <- read_delim(site_dir, "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
-  colnames(site_3D_info) <- c('Entry','site_group','original_site','length','coordinate','pdbid')
-  site_3D = list()
-  for (j in seq_along(site_3D_info$site_group)){
-    print(j)
-    c1 <- site_3D_info$coordinate[j]
-    c1 <- str_replace_all(c1, "\\[", "") %>% str_replace_all(.,"\\]", "")
-    c1 <- str_trim(unlist(str_split(c1, ",")), side = "both")
-    c1 <- as.numeric(c1)
-    site_3D[[site_3D_info$site_group[j]]] <- c1
-  }
-  # conduct the 3D site analysis
-  result0 <- clumpsAnalysis.3Dsite(gene0 = ss,
-                                   SNPlist0 = mutated_gene1,
-                                   gene_annotation0 = gene_feature0,
-                                   pdb = ResidueDistance0,
-                                   sstart0 = pdb_info$sstart2[i],
-                                   send0 = pdb_info$send2[i],
-                                   site_input = site_3D,
-                                   input_dir = FALSE)
+  if (nrow(site_3D_info) >= 1) {
+    colnames(site_3D_info) <- c("Entry", "site_group", "original_site", "length", "coordinate", "pdbid")
+    site_3D <- list()
+    for (j in seq_along(site_3D_info$site_group)) {
+      print(j)
+      c1 <- site_3D_info$coordinate[j]
+      c1 <- str_replace_all(c1, "\\[", "") %>% str_replace_all(., "\\]", "")
+      c1 <- str_trim(unlist(str_split(c1, ",")), side = "both")
+      c1 <- as.numeric(c1)
+      site_3D[[site_3D_info$site_group[j]]] <- c1
+    }
 
-  # Step 4
-  # Dispplay the result
-  site_3D_info$p_value <- result0
-  # plot the result
-  # simple analysis
-  site_3D0 <- filter(site_3D_info, str_detect(site_3D_info$site_group, "@"))
-  rotate_x <- function(data, column_to_plot, labels_vec, rot_angle) {
-    plt <- barplot(data[[column_to_plot]], col='steelblue', xaxt="n")
-    text(plt, par("usr")[3], labels = labels_vec, srt = rot_angle, adj = c(1.1,1.1), xpd = TRUE, cex=0.6)
-  }
-  rotate_x(site_3D0, 'p_value', site_3D0$site_group, 20)
+    # conduct the 3D site analysis
+    result0 <- clumpsAnalysis.3Dsite(
+      gene0 = ss,
+      SNPlist0 = mutated_gene1,
+      gene_annotation0 = gene_feature0,
+      pdb = ResidueDistance0,
+      sstart0 = pdb_info$sstart2[i],
+      send0 = pdb_info$send2[i],
+      site_input = site_3D,
+      input_dir = FALSE
+    )
 
+    # Step 4
+    # Dispplay the result
+    site_3D_info$p_value <- result0
+    # plot the result
+    # simple analysis
+    site_3D0 <- filter(site_3D_info, str_detect(site_3D_info$site_group, "@"))
+    rotate_x <- function(data, column_to_plot, labels_vec, rot_angle) {
+      plt <- barplot(data[[column_to_plot]], col = "steelblue", xaxt = "n")
+      text(plt, par("usr")[3], labels = labels_vec, srt = rot_angle, adj = c(1.1, 1.1), xpd = TRUE, cex = 0.6)
+    }
+    rotate_x(site_3D0, "p_value", site_3D0$site_group, 20)
+  } else {
+    print("No defined 3D site")
+  }
 }
