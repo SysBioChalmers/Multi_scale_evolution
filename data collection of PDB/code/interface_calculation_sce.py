@@ -132,9 +132,10 @@ def save_constrained(filename_in, filename_out, thelist):
             if resname in thelist:
                 f_out.write(line + "\n")
 
-# This function is used to obtain the interface of two chains
+
 def getInterface(pbddir, pdbid):
     '''
+    This function is used to obtain the interface of two chains
     :param pbddir: The dir of a pdb file, like '../data/5hoi.pdb'
     :return:
     '''

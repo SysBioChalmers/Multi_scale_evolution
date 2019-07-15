@@ -17,7 +17,7 @@ from pdb_function_module import *
 
 
 #pre-process the pdb meta information before calculate the residue distance
-infile = '/Users/luho/Google Drive/R application and code/protein 3D structure QC and QA/Evolution analysis/data/pdb_homo_filter.txt'
+infile = '../data/pdb_homo_filter.txt'
 #read meta data for one group of structure
 pdb_sce = pd.read_csv(infile, sep="\t")
 pdb_sce['coordinate_id0'] = pdb_sce['mapid'] + '.pdb'
@@ -67,7 +67,7 @@ for i in range(0, len(pdb_inf['coordinate_id0'])):
 
     # set directory for the input and output
     infile = pdbfile + pdbID
-    outfile = '/Users/luho/PycharmProjects/3D_model/evolution/result/Distance_mini/' + pdbID + '.txt'
+    outfile = '../result/Distance_mini/' + pdbID + '.txt'
 
     structure = p.get_structure(pdbID, infile)
     model = structure[0]
@@ -173,7 +173,7 @@ Here we found the number of pdbs with residues distances is smaller than the inp
 This is due to that the coordinate (start and end coordinate) from swiss model is not consistent with pdb file
 '''
 
-outfile0 = '/Users/luho/Google Drive/R application and code/protein 3D structure QC and QA/Evolution analysis/residue_distance/pdb_homo/'
+outfile0 = '../result/Distance_mini/'
 homo_pdb_calculate = os.listdir(outfile0)
 homo_pdb_calculate = pd.Series(homo_pdb_calculate)
 homo_pdb_calculate = homo_pdb_calculate.str.replace('.txt','')
@@ -181,26 +181,26 @@ homo_pdb_not_calculate = list(np.setdiff1d(pdb_sce['coordinate_id0'], homo_pdb_c
 
 # new round of calculation
 pdb_sce_need_check = pdb_sce0[pdb_sce0['coordinate_id0'].isin(homo_pdb_not_calculate)]
-pdb_inf = pdb_sce_need_check
+pdb_inf2 = pdb_sce_need_check
 PDB_check = []
 chain_error = []
-for i in list(pdb_inf.index):
+for i in list(pdb_inf2.index):
     print(i)
     # get the paired distance
     p = PDBParser()
     # input the geneID or PDB ID
-    pdbID = pdb_inf['coordinate_id0'][i]
-    chainID = pdb_inf['chainID'][i]
+    pdbID = pdb_inf2['coordinate_id0'][i]
+    chainID = pdb_inf2['chainID'][i]
 
     # input the relative coordinated of PDB structure
-    start0 = pdb_inf['sstart2'][i]
-    end0 = pdb_inf['send2'][i]
+    start0 = pdb_inf2['sstart2'][i]
+    end0 = pdb_inf2['send2'][i]
     coordinate = list(range(start0, end0))
     length0 = len(coordinate) + 1
 
     # set directory for the input and output
     infile = pdbfile + pdbID
-    outfile = '/Users/luho/Google Drive/R application and code/protein 3D structure QC and QA/Evolution analysis/residue_distance/pdb_homo/' + pdbID + '.txt'
+    outfile = '../result/Distance_mini/' + pdbID + '.txt'
 
     structure = p.get_structure(pdbID, infile)
     model = structure[0]
@@ -212,7 +212,7 @@ for i in list(pdb_inf.index):
     if  chainID in chainID0:
         chain = model[chainID]
         chain_filter, chain_filter2 = preprocessResidueHOMO(chain0=chain, start1=start0, end1=end0)
-        ss = calc_dist_matrix(chain_filter, chain_filter)
+        ss = calc_dist_matrix(chain_filter, chain_filter, type='minimum')
         dimension1 = list(ss.shape)
 
     # how to add quality control for the distance before save the file for the downstream analysis
@@ -230,8 +230,8 @@ for i in list(pdb_inf.index):
             np.savetxt(outfile, ss, delimiter=',')
             print('Update the coordinate of pdb_homo files')
             coordinate_update = getNewCoordinatePDBhomo(from1=start0, to1=end0, chain_test=chain_filter)
-            pdb_inf['sstart2'][i] = coordinate_update[0] # new coordinate
-            pdb_inf['send2'][i] = coordinate_update[1] # new coordinate
+            pdb_inf2['sstart2'][i] = coordinate_update[0] # new coordinate
+            pdb_inf2['send2'][i] = coordinate_update[1] # new coordinate
             PDB_check.append(pdbID)
             continue
     else:
@@ -241,7 +241,7 @@ for i in list(pdb_inf.index):
         chainID = chainID0[0]
         chain = model[chainID]
         chain_filter, chain_filter2 = preprocessResidueHOMO(chain0=chain, start1=start0, end1=end0)
-        ss = calc_dist_matrix(chain_filter, chain_filter)
+        ss = calc_dist_matrix(chain_filter, chain_filter, type='minimum')
         dimension1 = list(ss.shape)
         if dimension1[0] == length0:
             np.savetxt(outfile, ss, delimiter=',')
@@ -258,7 +258,8 @@ for i in list(pdb_inf.index):
 # update the coordinate for the pdb_homo with the wrong coordinates
 pdb_sce_right = pdb_sce0[~pdb_sce0['coordinate_id0'].isin(homo_pdb_not_calculate)]
 
-pdb_homo_manual_check = pd.concat([pdb_sce_right, pdb_sce_need_check], axis=0, sort=False)
+# here 'pdb_sce_need_check' is right????
+pdb_homo_manual_check = pd.concat([pdb_sce_right, pdb_inf2], axis=0, sort=False)
 
 writer = pd.ExcelWriter('../result/pdb_homo_filter_manual_check.xlsx')
 pdb_homo_manual_check.to_excel(writer,'Sheet1')

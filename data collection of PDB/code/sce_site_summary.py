@@ -91,4 +91,4 @@ writer.save()
 
 # extract the site for one gene to check the result
 # P17709 as an example
-site_P17709 = site_detail2[site_detail2['Entry']=='P17709']
+# site_P17709 = site_detail2[site_detail2['Entry']=='P17709']

@@ -300,3 +300,37 @@ def calcAndSaveDistanceMatrix(pdbID, chainID, start0, end0, infile, outfile, met
             PDB_check = pdbID
         chain_error = pdbID
     return PDB_check, chain_error
+
+
+def updateSiteFormatFromUniprot(general_3D_site):
+    '''
+    This function is used to change the coordinate of sites from uniprot into a vector format, should have the column -'feature_key', 'coordinate'
+    i.e, change '1-5' into [1,2,3,4,5]
+    :param general_3D_site: A dataframe contains the detailed sites annotation of a protein
+    :return: A dict contains the detailed coordinate information of each site
+    '''
+    s0 = ["_group" + str(i) for i in range(general_3D_site.shape[0])]
+    general_3D_site['order'] = s0
+    general_3D_site['id'] = general_3D_site['feature_key'] + '@' + general_3D_site['order']
+
+    # establish a dict, in which the coordinates are stored in a list
+    feature_set = dict()
+    for i, x in general_3D_site.iterrows():
+        cor = x['coordinate']
+        print(cor)
+        if isinstance(cor, int):
+            s2 = [cor]
+            feature_set[x['id']] = s2
+        elif '?' in cor:
+            pass
+        else:
+            if '-' in cor:
+                cor = cor.replace(';', '')
+                s1 = cor.split('-')
+                s1 = [int(x.strip()) for x in s1]
+                s2 = list(range(s1[0], s1[1] + 1))
+            else:
+                s1 = cor.split(' ')
+                s2 = [int(x.strip()) for x in s1]
+            feature_set[x['id']] = s2
+    return feature_set
