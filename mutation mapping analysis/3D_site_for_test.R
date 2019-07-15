@@ -17,6 +17,7 @@ result0 <- clumpsAnalysis(gene0 = 'YCL040W',
                           send0 = 500,
                           input_dir= FALSE)
 
+
 # print the mutation information for the input SNP list contained in the protein 3D structure
 pdbID <- 'YCL040W_3D_site_example'
 SNP_list <- printSNPforGene(gene0 = 'YCL040W',
@@ -25,6 +26,7 @@ SNP_list <- printSNPforGene(gene0 = 'YCL040W',
                 pdbID0 = pdbID,
                 sstart0 = 1,
                 send0 = 500)
+
 #-------------------------------------------------
 # Mutation hot spot analysis
 #------------------------------------------------
@@ -94,9 +96,11 @@ if (length(pos_mutation_3D) >= 2) {
   print("Not enough mutation")
 }
 
+
+
 # input the cluster
-site_3D_YCL040W <- read_excel("data/3D site YCL040W.xlsx", col_names = FALSE)
-colnames(site_3D_YCL040W) <- c('site_group','coordinate')
+site_3D_YCL040W <- read_delim("data/3D site YCL040W.csv", "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+colnames(site_3D_YCL040W) <- c('site_group','original_site','length','coordinate')
 site_3D = list()
 for (i in seq_along(site_3D_YCL040W$site_group)){
   print(i)
@@ -108,11 +112,12 @@ for (i in seq_along(site_3D_YCL040W$site_group)){
 }
 
 
+
 # conduct the mapping analysis
 pvalue <- vector()
 for(i in 1:length(site_3D)){
   cluster1 <- site_3D[[i]]
-  pos_mutation_t0 <- intersect(cluster1,pos_mutation_3D)
+  pos_mutation_t0 <- intersect(cluster1,pos_mutation_3D) # cluster1 and pos_mutation_3D should both be the coordinates of protein 3D structures
   if (length(pos_mutation_t0) >= 2) {
     sample_standard = sample_standard1
     distance = ResidueDistance
@@ -129,4 +134,15 @@ for(i in 1:length(site_3D)){
 }
 
 site_3D_YCL040W$p_value <- pvalue
+
+
+# plot the result
+# simple analysis
+site_3D0 <- filter(site_3D_YCL040W, str_detect(site_3D_YCL040W$site_group, "@"))
+rotate_x <- function(data, column_to_plot, labels_vec, rot_angle) {
+  plt <- barplot(data[[column_to_plot]], col='steelblue', xaxt="n")
+  text(plt, par("usr")[3], labels = labels_vec, srt = rot_angle, adj = c(1.1,1.1), xpd = TRUE, cex=0.6)
+}
+rotate_x(site_3D0, 'p_value', site_3D0$site_group, 20)
+
 
