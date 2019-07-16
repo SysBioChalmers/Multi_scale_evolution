@@ -302,6 +302,7 @@ def calcAndSaveDistanceMatrix(pdbID, chainID, start0, end0, infile, outfile, met
     return PDB_check, chain_error
 
 
+
 def updateSiteFormatFromUniprot(general_3D_site):
     '''
     This function is used to change the coordinate of sites from uniprot into a vector format, should have the column -'feature_key', 'coordinate'
@@ -317,6 +318,7 @@ def updateSiteFormatFromUniprot(general_3D_site):
     feature_set = dict()
     for i, x in general_3D_site.iterrows():
         cor = x['coordinate']
+        cor = '13,22,28,46,51,82,99'
         print(cor)
         if isinstance(cor, int):
             s2 = [cor]
@@ -324,11 +326,28 @@ def updateSiteFormatFromUniprot(general_3D_site):
         elif '?' in cor:
             pass
         else:
-            if '-' in cor:
+            if '-' in cor and ',' not in cor:
                 cor = cor.replace(';', '')
                 s1 = cor.split('-')
                 s1 = [int(x.strip()) for x in s1]
                 s2 = list(range(s1[0], s1[1] + 1))
+            elif '-' in cor and ',' in cor:
+                #for the special format as the followed:
+                #cor = '61,168,198,200-205,207,221-222,233,235-236'
+                cor = cor.split(',')
+                n1 = []
+                for new in cor:
+                    if '-' in new:
+                        new1 = new.split('-')
+                        new1 = [int(x.strip()) for x in new1]
+                        new2 = list(range(new1[0], new1[1] + 1))
+                    else:
+                        new2 = [int(new.strip())]
+                    n1.append(new2)
+                s2 = sum(n1, [])
+            elif '-' not in cor and ',' in cor: # for case- '13,22,28,46,51,82,99'
+                s1 = cor.split(',')
+                s2 = [int(x.strip()) for x in s1]
             else:
                 s1 = cor.split(' ')
                 s2 = [int(x.strip()) for x in s1]

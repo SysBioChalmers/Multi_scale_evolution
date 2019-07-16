@@ -54,6 +54,9 @@ secondary_structure_set = dict()
 interface_structure_set = dict()
 
 
+
+
+
 # step 3
 # parse the general structure
 # this is the key sites used all the analysis
@@ -69,7 +72,6 @@ site_detail = pd.read_excel('../result/sce_site_summary.xlsx')
 distance_wrong = []
 for i in range(0, len(pdb_inf['coordinate_id0'])):
     print(i)
-    #i = 58 # need check
     #i =512 # need check
     #i = 1032
     entryID = pdb_inf['UniProtKB_ac'][i]
