@@ -89,8 +89,30 @@ clumpsAnalysis.3Dsite <- function(gene0, SNPlist0, gene_annotation0, pdb, sstart
   return(pvalue)
 }
 
-data('gene_feature0')
 
+# function to visualize the p-value for each 3D sites
+# possible this function can be used to filter the different sites
+# but now we just remove these 3D sites with p_value=1
+vis3Dsite <- function(site_result, p_value_max=1.1, site_type = 'ALL'){
+  # Input
+  # site_result: a dataframe should have column 'p_value', 'site_group'
+  # site_result <- site_3D_YCL040W
+  site_result <- filter(site_result, p_value < p_value_max)
+  if(site_type=='ALL'){
+    site_result0 = site_result
+  }
+  par(mar = c(2, 16, 0, 2))
+  barplot(site_result0$p_value,
+          xlab = "p-value",
+          names.arg = site_result0$site_group,cex.names=0.6,
+          col = "LightCoral",
+          horiz = TRUE, las=1)
+}
+
+
+# Step 0
+# Load the genome annotation data
+data('gene_feature0')
 
 # Step 1
 # Input data for YCL040W
@@ -122,20 +144,15 @@ result0 <- clumpsAnalysis.3Dsite(gene0 = 'YCL040W',
                                  send0 = 500,
                                  site_input = site_3D,
                                  input_dir = FALSE)
+site_3D_YCL040W$p_value <- result0
+
+
 # Step 4
 # Dispplay the result
-site_3D_YCL040W$p_value <- result0
-# plot the result
-# simple analysis
-site_3D0 <- filter(site_3D_YCL040W, str_detect(site_3D_YCL040W$site_group, "@"))
-rotate_x <- function(data, column_to_plot, labels_vec, rot_angle) {
-  plt <- barplot(data[[column_to_plot]], col='steelblue', xaxt="n")
-  text(plt, par("usr")[3], labels = labels_vec, srt = rot_angle, adj = c(1.1,1.1), xpd = TRUE, cex=0.6)
-}
-rotate_x(site_3D0, 'p_value', site_3D0$site_group, 20)
+vis3Dsite(site_result=site_3D_YCL040W,p_value_max=1.1)
 
 
-
+# Batch process
 # Test the above pipeline using some real case data
 strain_classification <- read_excel("data/strain_classification.xls") %>% select(., Standardized_name)
 colnames(strain_classification) <- c("strain_name")
@@ -220,18 +237,10 @@ for (i in 1:length(pdb_info$locus)) {
       site_input = site_3D,
       input_dir = FALSE
     )
-
+    site_3D_info$p_value <- result0
     # Step 4
     # Dispplay the result
-    site_3D_info$p_value <- result0
-    # plot the result
-    # simple analysis
-    site_3D0 <- filter(site_3D_info, str_detect(site_3D_info$site_group, "@"))
-    rotate_x <- function(data, column_to_plot, labels_vec, rot_angle) {
-      plt <- barplot(data[[column_to_plot]], col = "steelblue", xaxt = "n")
-      text(plt, par("usr")[3], labels = labels_vec, srt = rot_angle, adj = c(1.1, 1.1), xpd = TRUE, cex = 0.6)
-    }
-    rotate_x(site_3D0, "p_value", site_3D0$site_group, 20)
+    vis3Dsite(site_result=site_3D_info, p_value_max=1.1)
   } else {
     print("No defined 3D site")
   }
