@@ -5,6 +5,7 @@
 import os    ##for directory
 import pandas as pd
 import sys
+from functools import reduce
 sys.path.append(r"/Users/luho/PycharmProjects/3D_model/evolution/code")
 os.chdir('/Users/luho/PycharmProjects/3D_model/evolution/code')
 from pdb_function_module import *
@@ -22,9 +23,6 @@ secondary_structure = pd.read_excel('../data/functional site/uniprot_yeast_secon
 
 # merge
 # change multiple columns into one column
-
-
-from functools import reduce
 site_all = reduce(lambda x,y: pd.merge(x,y, on='Entry', how='outer'), [subcellular, sce_function, mutagenesis, PTM, family_domain, secondary_structure])
 df1 = site_all.iloc[:, 0:2]
 name0 = list(df1.columns)[1]
@@ -84,11 +82,30 @@ site_detail = pd.DataFrame({'site': site1})
 site_detail2 = site_detail['site'].str.split('@', expand=True)
 # rename each column
 site_detail2.columns = ['Entry', 'feature_key', 'description', 'coordinate']
+
+
+
+
+# summarize the interface annotation data
+# this data is from https://www.biorxiv.org/content/10.1101/700070v1
+interface = pd.read_excel('../data/functional site/sce_protein_interface.xlsx')
+interface['feature_key'] = interface['P1'] + '+' + interface['P2'] + '_interface'
+interface1 = interface[['P1','feature_key', 'Source','P1_Interface_residues']]
+interface2 = interface[['P2','feature_key', 'Source','P2_Interface_residues']]
+interface1.columns =  ['Entry', 'feature_key', 'description', 'coordinate']
+interface2.columns =  ['Entry', 'feature_key', 'description', 'coordinate']
+# merge the interface site data into the final data
+site_final = pd.concat([site_detail2,interface1,interface2], axis=0, join='outer')
+
+
 # save the result in excel format
 writer = pd.ExcelWriter('../result/sce_site_summary.xlsx')
-site_detail2.to_excel(writer,'Sheet1')
+site_final.to_excel(writer,'Sheet1')
 writer.save()
-
 # extract the site for one gene to check the result
 # P17709 as an example
 # site_P17709 = site_detail2[site_detail2['Entry']=='P17709']
+
+
+
+
