@@ -353,3 +353,98 @@ def updateSiteFormatFromUniprot(general_3D_site):
                 s2 = [int(x.strip()) for x in s1]
             feature_set[x['id']] = s2
     return feature_set
+
+
+'''general function for easy use of python'''
+def splitAndCombine(gene, rxn, sep0, moveDuplicate=False):
+    ## one rxn has several genes, this function was used to splite the genes
+    ## used for the dataframe data
+
+    gene = gene.fillna('NA')  # fill the NaN with 'NA'
+    gene0 = gene.tolist()
+    rxn0 = rxn.tolist()
+    s1 = list()
+    s2 = list()
+    for i in range(len(gene0)):
+        s1 = s1 + [rxn0[i]] * len(gene0[i].split(sep0))
+        s2 = s2 + gene0[i].split(sep0)
+    df0 = pd.DataFrame({'V1': s1,
+                        'V2': s2}
+                       )
+    if moveDuplicate == True:
+        df00 = df0.drop_duplicates()
+    else:
+        df00 = df0
+    return df00
+
+def singleMapping (description, item1, item2, dataframe=True):
+    """get the single description of from item1 for item2 based on mapping"""
+    #description = w
+    #item1 = v
+    #item2 = testData
+    # used for the list data
+    if dataframe:
+        description = description.tolist()
+        item1 = item1.tolist()
+        item2 = item2.tolist()
+    else:
+        pass
+    index = [None]*len(item2)
+    result = [None]*len(item2)
+    tt = [None]*len(item2)
+    for i in range(len(item2)):
+        if item2[i] in item1:
+            index[i] = item1.index(item2[i])
+            result[i] = description[index[i]]
+        else:
+            index[i] = None
+            result[i] = None
+    return result
+'''
+w=['a','b','c']
+v=[1,2,3]
+s=[3,1,2,4]
+singleMapping(w,v,s,dataframe=False)
+'''
+
+
+def multiMapping (description, item1, item2, dataframe=True, sep=";", removeDuplicates=True):
+    """get multiple description of from item1 for item2 based on mapping"""
+    #description = w
+    #item1 = v
+    #item2 = testData
+    #used for the list data
+    if dataframe:
+        description = description.tolist()
+        item1 = item1.tolist()
+        item2 = item2.tolist()
+    else:
+        pass
+    result = [None]*len(item2)
+    for i in range(len(item2)):
+        if item2[i] in item1:
+            index0 = [description[index] for index in range(len(item1)) if item1[index] == item2[i]]
+            if removeDuplicates:
+                index1 = pd.unique(index0).tolist()
+            else:
+                index1 = index0
+            result[i] = sep.join(str(e) for e in index1) #string cat
+        else:
+            result[i] = None
+    return result
+
+'''
+# example data to test all the above function
+df1 = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
+                    'B' : ['A', 'B', 'C'] * 4,
+                    'C' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2}
+                   )
+
+df2 = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
+                    'B' : ['A', 'B', 'C'] * 4,
+                    'D' : np.random.randn(12)})
+
+
+df2['C'] = singleMapping(df1['C'], df1['A'], df2['A'])
+df2['C'] = multiMapping(df1['C'], df1['A'], df2['A'])
+'''
