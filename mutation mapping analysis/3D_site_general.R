@@ -146,13 +146,17 @@ result0 <- clumpsAnalysis.3Dsite(gene0 = 'YCL040W',
                                  input_dir = FALSE)
 site_3D_YCL040W$p_value <- result0
 
-
 # Step 4
 # Dispplay the result
 vis3Dsite(site_result=site_3D_YCL040W,p_value_max=1.1)
 
 
+
+
+
+#-------------------------------------------------------------------------------
 # Batch process
+#-------------------------------------------------------------------------------
 # Test the above pipeline using some real case data
 strain_classification <- read_excel("data/strain_classification.xls") %>% select(., Standardized_name)
 colnames(strain_classification) <- c("strain_name")
@@ -218,7 +222,7 @@ for (i in 1:length(pdb_info$locus)) {
     colnames(site_3D_info) <- c("Entry", "site_group", "original_site", "length", "coordinate", "pdbid")
     site_3D <- list()
     for (j in seq_along(site_3D_info$site_group)) {
-      print(j)
+      #print(j)
       c1 <- site_3D_info$coordinate[j]
       c1 <- str_replace_all(c1, "\\[", "") %>% str_replace_all(., "\\]", "")
       c1 <- str_trim(unlist(str_split(c1, ",")), side = "both")
