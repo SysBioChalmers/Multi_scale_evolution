@@ -318,7 +318,6 @@ def updateSiteFormatFromUniprot(general_3D_site):
     feature_set = dict()
     for i, x in general_3D_site.iterrows():
         cor = x['coordinate']
-        cor = '13,22,28,46,51,82,99'
         print(cor)
         if isinstance(cor, int):
             s2 = [cor]
