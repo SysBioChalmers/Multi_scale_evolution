@@ -242,3 +242,208 @@ def exactResidueEXP(chain0, qstart1, qend1, sstart1, send1):
             original_coordinate_new[0], original_coordinate_new[-1],
             residue_one1]
 
+
+
+def calcAndSaveDistanceMatrix(pdbID, chainID, start0, end0, infile, outfile, method='minimum'):
+    '''
+    This function is used to calculate the residues distance matrix for homology pdb files.
+    It contains the homology pdb files quality check, the residue distance calculation and result saving.
+    :param pdbID:  A string containing the pdbID
+    :param chainID: A string containing the chainID
+    :param start0: start0 mean the coordinate of "from" for homology model provided by swiss model database
+    :param end0: end0 mean the the coordinate of "to" for homology model provided by swiss model database
+    :param infile: The directory containing the pdb file
+    :param outfile: The directory to store the result
+    :method: The way to calculate the residue distance, like alpha 'C' distance
+    :return:
+    '''
+
+    # calculation for one time
+    # in the future this will be put into a function to make it simple
+    coordinate = list(range(start0, end0))
+    length0 = len(coordinate) + 1
+    # outfile = '/Users/luho/Google Drive/R application and code/protein 3D structure QC and QA/Evolution analysis/residue_distance/pdb_homo/' + pdbID + '.txt'
+    # get the paired distance
+    p = PDBParser()
+    structure = p.get_structure(pdbID, infile)
+    model = structure[0]
+    # first obtain the chainID for the model
+    chainID0 = []
+    for chain in model:
+        chainID0.append(chain.get_id())
+
+    PDB_check = '' # save the pdb id which need check
+    chain_error = '' # save the pdb id with a wrong chainID
+    if chainID in chainID0:
+        chain = model[chainID]
+        chain_filter, chain_filter2 = preprocessResidueHOMO(chain0=chain, start1=start0, end1=end0)
+        ss = calc_dist_matrix(chain_filter, chain_filter, type= method)
+        dimension1 = list(ss.shape)
+        if dimension1[0] == length0:
+            np.savetxt(outfile, ss, delimiter=',')
+            print('right residue distance')
+        else:
+            PDB_check = pdbID
+    else:
+        print("Oops!  ChainID is not right! New chainID from pdb file will be used!")
+
+        # here we use the new chainID from the pdb structure
+        chainID = chainID0[0]
+        chain = model[chainID]
+        chain_filter, chain_filter2 = preprocessResidueHOMO(chain0=chain, start1=start0, end1=end0)
+        ss = calc_dist_matrix(chain_filter, chain_filter, type = method )
+        dimension1 = list(ss.shape)
+        if dimension1[0] == length0:
+            np.savetxt(outfile, ss, delimiter=',')
+            print('right residue distance')
+        else:
+            PDB_check = pdbID
+        chain_error = pdbID
+    return PDB_check, chain_error
+
+
+
+def updateSiteFormatFromUniprot(general_3D_site):
+    '''
+    This function is used to change the coordinate of sites from uniprot into a vector format, should have the column -'feature_key', 'coordinate'
+    i.e, change '1-5' into [1,2,3,4,5]
+    :param general_3D_site: A dataframe contains the detailed sites annotation of a protein
+    :return: A dict contains the detailed coordinate information of each site
+    '''
+    s0 = ["_group" + str(i) for i in range(general_3D_site.shape[0])]
+    general_3D_site['order'] = s0
+    general_3D_site['id'] = general_3D_site['feature_key'] + '@' + general_3D_site['order']
+
+    # establish a dict, in which the coordinates are stored in a list
+    feature_set = dict()
+    for i, x in general_3D_site.iterrows():
+        cor = x['coordinate']
+        print(cor)
+        if isinstance(cor, int):
+            s2 = [cor]
+            feature_set[x['id']] = s2
+        elif '?' in cor:
+            pass
+        else:
+            if '-' in cor and ',' not in cor:
+                cor = cor.replace(';', '')
+                s1 = cor.split('-')
+                s1 = [int(x.strip()) for x in s1]
+                s2 = list(range(s1[0], s1[1] + 1))
+            elif '-' in cor and ',' in cor:
+                #for the special format as the followed:
+                #cor = '61,168,198,200-205,207,221-222,233,235-236'
+                cor = cor.split(',')
+                n1 = []
+                for new in cor:
+                    if '-' in new:
+                        new1 = new.split('-')
+                        new1 = [int(x.strip()) for x in new1]
+                        new2 = list(range(new1[0], new1[1] + 1))
+                    else:
+                        new2 = [int(new.strip())]
+                    n1.append(new2)
+                s2 = sum(n1, [])
+            elif '-' not in cor and ',' in cor: # for case- '13,22,28,46,51,82,99'
+                s1 = cor.split(',')
+                s2 = [int(x.strip()) for x in s1]
+            else:
+                s1 = cor.split(' ')
+                s2 = [int(x.strip()) for x in s1]
+            feature_set[x['id']] = s2
+    return feature_set
+
+
+'''general function for easy use of python'''
+def splitAndCombine(gene, rxn, sep0, moveDuplicate=False):
+    ## one rxn has several genes, this function was used to splite the genes
+    ## used for the dataframe data
+
+    gene = gene.fillna('NA')  # fill the NaN with 'NA'
+    gene0 = gene.tolist()
+    rxn0 = rxn.tolist()
+    s1 = list()
+    s2 = list()
+    for i in range(len(gene0)):
+        s1 = s1 + [rxn0[i]] * len(gene0[i].split(sep0))
+        s2 = s2 + gene0[i].split(sep0)
+    df0 = pd.DataFrame({'V1': s1,
+                        'V2': s2}
+                       )
+    if moveDuplicate == True:
+        df00 = df0.drop_duplicates()
+    else:
+        df00 = df0
+    return df00
+
+def singleMapping (description, item1, item2, dataframe=True):
+    """get the single description of from item1 for item2 based on mapping"""
+    #description = w
+    #item1 = v
+    #item2 = testData
+    # used for the list data
+    if dataframe:
+        description = description.tolist()
+        item1 = item1.tolist()
+        item2 = item2.tolist()
+    else:
+        pass
+    index = [None]*len(item2)
+    result = [None]*len(item2)
+    tt = [None]*len(item2)
+    for i in range(len(item2)):
+        if item2[i] in item1:
+            index[i] = item1.index(item2[i])
+            result[i] = description[index[i]]
+        else:
+            index[i] = None
+            result[i] = None
+    return result
+'''
+w=['a','b','c']
+v=[1,2,3]
+s=[3,1,2,4]
+singleMapping(w,v,s,dataframe=False)
+'''
+
+
+def multiMapping (description, item1, item2, dataframe=True, sep=";", removeDuplicates=True):
+    """get multiple description of from item1 for item2 based on mapping"""
+    #description = w
+    #item1 = v
+    #item2 = testData
+    #used for the list data
+    if dataframe:
+        description = description.tolist()
+        item1 = item1.tolist()
+        item2 = item2.tolist()
+    else:
+        pass
+    result = [None]*len(item2)
+    for i in range(len(item2)):
+        if item2[i] in item1:
+            index0 = [description[index] for index in range(len(item1)) if item1[index] == item2[i]]
+            if removeDuplicates:
+                index1 = pd.unique(index0).tolist()
+            else:
+                index1 = index0
+            result[i] = sep.join(str(e) for e in index1) #string cat
+        else:
+            result[i] = None
+    return result
+
+'''
+# example data to test all the above function
+df1 = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
+                    'B' : ['A', 'B', 'C'] * 4,
+                    'C' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2}
+                   )
+
+df2 = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
+                    'B' : ['A', 'B', 'C'] * 4,
+                    'D' : np.random.randn(12)})
+
+
+df2['C'] = singleMapping(df1['C'], df1['A'], df2['A'])
+df2['C'] = multiMapping(df1['C'], df1['A'], df2['A'])
+'''
