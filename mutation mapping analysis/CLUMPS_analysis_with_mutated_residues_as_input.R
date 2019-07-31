@@ -1,5 +1,5 @@
 # Note:
-# This script is showing how to conduct the mutation mapping analysis for the small SNP dataset
+# This script is showing how to conduct the mutation mapping analysis using residues mutation information
 data('gene_feature0')
 
 # Input data for YCL040W
@@ -38,6 +38,7 @@ clumpsAnalysis2 <- function(gene0, SNPlist0, gene_annotation0, pdb, sstart0, sen
   # step 1
   # preprocess the SNP information
   gene_snp <- getGeneCoordinate(gene_name = gene0, genesum = gene_annotation0)
+  # check the type of data: it can be mutated residues list or SNP list
   if (snp_type){
     gene_snp[["pro_mutation_count"]] <- countMutationProtein(gene_name = gene0, mutation_annotation = SNPlist0, gene_snp0=gene_snp)
     } else{
@@ -119,6 +120,7 @@ hotSpotAnalysis2 <- function(gene0 = ss0,
   # step 1
   # preprocess the SNP information
   gene_snp <- getGeneCoordinate(gene_name = gene0, genesum = gene_annotation0)
+  # check the type of data: it can be mutated residues list or SNP list
   if(snp_type){
     gene_snp[["pro_mutation_count"]] <- countMutationProtein(gene_name = gene0, mutation_annotation = SNPlist0, gene_snp0 = gene_snp)
   } else{
