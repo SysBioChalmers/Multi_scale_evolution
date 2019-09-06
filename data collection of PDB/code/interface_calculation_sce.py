@@ -7,8 +7,8 @@ import Bio.PDB
 from optparse import OptionParser
 import random
 import sys
-sys.path.append(r"/Users/luho/PycharmProjects/3D_model/evolution/code")
-os.chdir('/Users/luho/PycharmProjects/3D_model/evolution/code')
+sys.path.append(r"/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code")
+os.chdir('/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code')
 
 def is_number(s):
     try:

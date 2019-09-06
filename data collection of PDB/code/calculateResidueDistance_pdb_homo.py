@@ -14,7 +14,7 @@ from Bio.PDB.PDBParser import PDBParser
 import xlwt
 
 from Bio.PDB.Polypeptide import PPBuilder
-os.chdir('/Users/luho/PycharmProjects/3D_model/evolution/code')
+os.chdir('/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code')
 
 #function
 def calc_residue_dist(residue_one, residue_two):

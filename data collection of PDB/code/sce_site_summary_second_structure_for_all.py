@@ -5,8 +5,8 @@
 import os    ##for directory
 import pandas as pd
 import sys
-sys.path.append(r"/Users/luho/PycharmProjects/3D_model/evolution/code")
-os.chdir('/Users/luho/PycharmProjects/3D_model/evolution/code')
+sys.path.append(r"/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code")
+os.chdir('/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code')
 from pdb_function_module import *
 
 # parse the second structure
