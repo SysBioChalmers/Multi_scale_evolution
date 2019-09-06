@@ -9,8 +9,8 @@ from Bio.PDB.PDBParser import PDBParser
 import xlwt
 from Bio.PDB.Polypeptide import PPBuilder
 import sys
-sys.path.append(r"/Users/luho/PycharmProjects/3D_model/evolution/code")
-os.chdir('/Users/luho/PycharmProjects/3D_model/evolution/code')
+sys.path.append(r"/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code")
+os.chdir('/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code')
 from pdb_function_module import *
 
 
@@ -104,8 +104,8 @@ In the batch process calculation, the residue matrix will be calculated in advan
 # input the geneID or PDB ID
 pdbID0 = 'YCL040W_3D_site_example.pdb' #pdb_inf['coordinate_id0'][i]
 # set directory for the input and output
-infile1 = '/Users/luho/PycharmProjects/3D_model/evolution/data/' + pdbID0 #pdbfile + pdbID
-outfile1 = '/Users/luho/PycharmProjects/3D_model/evolution/result/' + pdbID0 + '.txt' #pdbfile + pdbID
+infile1 = '/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/data/' + pdbID0 #pdbfile + pdbID
+outfile1 = '/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/result/' + pdbID0 + '.txt' #pdbfile + pdbID
 calcAndSaveDistanceMatrix(pdbID = pdbID0 ,
                           chainID = 'A',
                           start0 = 1, #pdb_inf['sstart2'][i], the relative coordinated of PDB structure

@@ -5,12 +5,12 @@
 # Protein 3D structures, domains and 3D site(around the important phosphate sites)
 # Therefore, it is important to further refine the datasets
 #--------------------------------------------------------------------------------------
-import os    ##for directory
+import os    #for directory
 import pandas as pd
 import sys
 from functools import reduce
-sys.path.append(r"/Users/luho/PycharmProjects/3D_model/evolution/code")
-os.chdir('/Users/luho/PycharmProjects/3D_model/evolution/code')
+sys.path.append(r"/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code")
+os.chdir('/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code')
 from pdb_function_module import *
 
 # parse the second structure
@@ -92,8 +92,6 @@ for x in site0:
 
 phosphate_site_final['coordinate'] = site_new
 phosphate_site_final['number'] = length0
-
-
 
 # Initially analyze the relation between the phosphate site number and the related protein abundances
 '''
