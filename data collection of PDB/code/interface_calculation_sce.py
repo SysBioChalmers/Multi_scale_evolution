@@ -7,8 +7,8 @@ import Bio.PDB
 from optparse import OptionParser
 import random
 import sys
-sys.path.append(r"/Users/luho/PycharmProjects/3D_model/evolution/code")
-os.chdir('/Users/luho/PycharmProjects/3D_model/evolution/code')
+sys.path.append(r"/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code")
+os.chdir('/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code')
 
 def is_number(s):
     try:
@@ -133,17 +133,87 @@ def save_constrained(filename_in, filename_out, thelist):
                 f_out.write(line + "\n")
 
 
+def getInterface(pbddir, pdbid):
+    '''
+    This function is used to obtain the interface of two chains
+    :param pbddir: The dir of a pdb file, like '../data/5hoi.pdb'
+    :return:
+    '''
+    str_1 = PDBParser().get_structure('first_one', pbddir)  # load your molecule
+    str_2 = PDBParser().get_structure('second_one', pbddir)  # load your molecule
+    # first obtain the chainID for the model
+    model = str_1[0]
+    chainID0 = []
+    for chain in model:
+        chainID0.append(chain.get_id())
+    # obtain the combination of two chains in a pdb file
+    from itertools import combinations
+    chain_mix = list(combinations(chainID0, 2))
+    dict0 = dict()
+    for i in range(len(chain_mix)):
+        ss = chain_mix[i]
+        chains_1 = ss[0]
+        chains_2 = ss[1]
+
+        # Load the structures - they can be the same!
+        atoms_1 = Selection.unfold_entities(str_1, 'C')  # C for chains
+        atoms_2 = Selection.unfold_entities(str_2, 'C')  # C for chains
+
+        # get the mapping from chain,residue id to the atom lists
+        input_1 = get_atom_list(atoms_1, chains_1)
+        input_2 = get_atom_list(atoms_2, chains_2)
+        # get the full atom lists for neighbor search
+        all_atoms_1 = get_all_atoms(input_1)
+        all_atoms_2 = get_all_atoms(input_2)
+
+        cutoff = 4.5
+        i_cutoff = 0 #10.0  """For most applications when you want to get the interface CONTACTS without the neighborhood just run the program with the option –i 0 – this will not add any intramolecular neighborhood to your results."""
+        # run neighbor search on both instances - not optimal but good enough for most imaginable applications.
+        contacts_1 = get_contacts(input_1, all_atoms_2, "First molecule, residue ", cutoff)
+        contacts_2 = get_contacts(input_2, all_atoms_1, "Second molecule, residue ", cutoff)
+
+        # color the structures according to their new BFactors
+        contact_map_1 = []
+        # Color molecule 1
+        for residue in contacts_1:
+            for atom in input_1[residue]:
+                atom.set_bfactor(100.0)
+                contact_map_1.append(atom)
+
+        # Color molecule 2
+        contact_map_2 = []
+        for residue in contacts_2:
+            for atom in input_2[residue]:
+                atom.set_bfactor(100.0)
+                contact_map_2.append(atom)
+
+        # Get interface's residues
+        # run neighbor search on both instances - not optimal but good enough for most imaginable applications.
+        interface_1 = contacts_1
+        interface_2 = contacts_2
+
+        if (i_cutoff > 0):
+            interface_1 = get_contacts(input_1, contact_map_1, "First molecule, interfacial residue ", i_cutoff)
+            interface_2 = get_contacts(input_2, contact_map_2, "Second molecule, interfacial residue ", i_cutoff)
+        # some combinations may have no contact
+        if interface_1:
+            dict1 = {pdbid + '.' + chains_1 + '@' + chains_1 + 'and' + chains_2: interface_1}
+            dict2 = {pdbid + '.' + chains_2 + '@' + chains_1 + 'and' + chains_2: interface_2}
+            dict0.update(dict1)
+            dict0.update(dict2)
+            print(dict1, dict2, sep='\n')
+    return dict0
+
+'''
+# This is the original code used to find the interface residues
 
 #str_1 = PDBParser().get_structure('first_one', '1A2Y.pdb')  # load your molecule
 #str_2 = PDBParser().get_structure('second_one', '1A2Y.pdb')  # load your molecule
-
+# one example
 str_1 = PDBParser().get_structure('first_one', '../data/5hoi.pdb')  # load your molecule
 str_2 = PDBParser().get_structure('second_one', '../data/5hoi.pdb')  # load your molecule
-
-
 chains_1 = 'A'
 chains_2 = 'B'
-
 
 # Load the structures - they can be the same!
 atoms_1 = Selection.unfold_entities(str_1, 'C')  # C for chains
@@ -188,7 +258,37 @@ interface_2 = contacts_2
 if (i_cutoff > 0):
     interface_1 = get_contacts(input_1, contact_map_1, "First molecule, interfacial residue ", i_cutoff)
     interface_2 = get_contacts(input_2, contact_map_2, "Second molecule, interfacial residue ", i_cutoff)
+'''
 
+# for simple test
+infile = '../data/5hoi.pdb'
+getInterface(pbddir = infile, pdbid='5hoi')
+
+
+# for a loop test
+infile = ['../data/1A2Y.pdb','../data/5hoi.pdb']
+pdbID = ['1A2Y', '5hoi']
+all_interface = dict()
+for i in range(len(infile)):
+    all_interface.update(getInterface(pbddir = infile[i], pdbid = pdbID[i]))
+
+
+# for all sce experiment files
+# Note these experiment files were downloaded on 2018-5-31
+pdbfile = '/Users/luho/Documents/pdb file/PDB experimental pdb files/' # all experimental pdb files were stored in this directory
+exp_pdb_all = os.listdir(pdbfile)
+# remove the non pdb files
+exp_pdb_all0 = [x for x in exp_pdb_all if x.endswith('pdb')]
+all_interface = dict()
+for i,x in enumerate(exp_pdb_all0):
+    print(x)
+    pdbID0 = x.split('.pdb')[0]
+    infile0 = pdbfile + x
+    all_interface.update(getInterface(pbddir=infile0, pdbid=pdbID0))
+
+
+""" 
+# These script not used
 # Color molecule 1
 for residue in interface_1:
     if residue in contacts_1:
@@ -204,11 +304,7 @@ for residue in interface_2:
     for atom in input_2[residue]:
         atom.set_bfactor(50.0)
 
-
-
-
-
-""" save result"""
+#save result
 cwd = "../result"
 out_folder = ''
 
@@ -228,10 +324,7 @@ f.close()
 
 
 # Constrain the pdb files to the interface residues only
-save_constrained(cwd + "/" + out_folder + "/molecule_1.pdb", cwd + "/" + out_folder + "/molecule_1_constrained.pdb",
+ save_constrained(cwd + "/" + out_folder + "/molecule_1.pdb", cwd + "/" + out_folder + "/molecule_1_constrained.pdb",
                  interface_1)
-save_constrained(cwd + "/" + out_folder + "/molecule_2.pdb", cwd + "/" + out_folder + "/molecule_2_constrained.pdb",
-                 interface_2)
-
-
-
+ save_constrained(cwd + "/" + out_folder + "/molecule_2.pdb", cwd + "/" + out_folder + "/molecule_2_constrained.pdb", interface_2)
+ """

@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 from Bio.PDB.PDBParser import PDBParser
 from Bio.PDB.Polypeptide import PPBuilder
-os.chdir('/Users/luho/PycharmProjects/3D_model/evolution/code')
+os.chdir('/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/code')
 
 #function
 def calc_residue_dist(residue_one, residue_two):
@@ -268,27 +268,27 @@ def exactResidueEXP(chain0, qstart1, qend1, sstart1, send1):
 
 
 
-pdb_inf = pdb_sce_need_check
+pdb_inf2 = pdb_sce_need_check
 PDB_check = []
 chain_error = []
 key_error= []
-for i in list(pdb_inf.index):
+for i in list(pdb_inf2.index):
     print(i)
     # get the paired distance
     #i = 813 used for the new function
     p = PDBParser()
     # input the geneID or PDB ID
-    pdbID0 = pdb_inf['template'][i]
-    pdbID = pdb_inf['coordinate_id0'][i]
-    chainID = pdb_inf['chain_new'][i]
+    pdbID0 = pdb_inf2['template'][i]
+    pdbID = pdb_inf2['coordinate_id0'][i]
+    chainID = pdb_inf2['chain_new'][i]
 
     # input the relative coordinated of PDB structure
     # the start0, end0 are quite different from that used in the homology model
-    start0 = pdb_inf['qstart2'][i]
-    end0 = pdb_inf['qend2'][i]
+    start0 = pdb_inf2['qstart2'][i]
+    end0 = pdb_inf2['qend2'][i]
     # input the original protein coordinate from the blast analysis
-    start1 = pdb_inf['sstart2'][i]
-    end1 = pdb_inf['send2'][i]
+    start1 = pdb_inf2['sstart2'][i]
+    end1 = pdb_inf2['send2'][i]
 
     coordinate = list(range(start0, end0))
     length0 = len(coordinate) + 1 #the coordinate lose the last number, so the length0 should be added 1.
@@ -306,10 +306,10 @@ for i in list(pdb_inf.index):
     if  chainID in chainID0:
         chain11 = model[chainID]
         w1,w2,w3,w4,chain_filter = exactResidueEXP(chain0=chain11, qstart1=start0, qend1=end0, sstart1=start1, send1=end1)
-        pdb_inf['qstart2'][i] = w1
-        pdb_inf['qend2'][i] = w2
-        pdb_inf['sstart2'][i] = w3
-        pdb_inf['send2'][i] = w4
+        pdb_inf2['qstart2'][i] = w1
+        pdb_inf2['qend2'][i] = w2
+        pdb_inf2['sstart2'][i] = w3
+        pdb_inf2['send2'][i] = w4
         try:
             ss = calc_dist_matrix(chain_filter, chain_filter)
         except KeyError:
@@ -349,7 +349,7 @@ pdb_not_calculate = list(np.setdiff1d(pdb_sce['coordinate_id0'], pdb_calculate))
 
 # update the coordinate for the pdb_homo with the wrong coordinates
 pdb_sce_right = pdb_sce0[~pdb_sce0['coordinate_id0'].isin(PDB_check0)]
-pdb_sce_manual_check = pd.concat([pdb_sce_right, pdb_inf], axis=0, sort=False)
+pdb_sce_manual_check = pd.concat([pdb_sce_right, pdb_inf2], axis=0, sort=False)
 
 writer = pd.ExcelWriter('../result/pdb_ex_filter_manual_check.xlsx')
 pdb_sce_manual_check.to_excel(writer,'Sheet1')
