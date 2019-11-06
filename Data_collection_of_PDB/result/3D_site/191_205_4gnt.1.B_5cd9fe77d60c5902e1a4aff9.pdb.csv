@@ -1,0 +1,28 @@
+Q00816	Modified residue@_group0	[2]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group1	[73]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group2	[75]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group3	[242]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group4	[254]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group5	[311]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group6	[421]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group7	[480]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group8	[490]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group9	[570]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group10	[572]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group11	[576]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group12	[610]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group13	[614]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group14	[680]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group15	[896]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group16	[898]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Modified residue@_group17	[980]	1	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Compositional bias@_group18	[543, 544, 545, 546, 547, 548, 549, 550, 551, 552]	10	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Compositional bias@_group19	[742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760]	19	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Compositional bias@_group20	[834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844]	11	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Motif@_group21	[277, 278, 279, 280, 281, 282, 283]	7	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Motif@_group22	[595, 596, 597, 598, 599]	5	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	Motif@_group23	[873, 874, 875, 876, 877, 878, 879]	7	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	P06782+Q00816_interface@_group24	[643, 766]	2	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	P29311+Q00816_interface@_group25	[643, 766]	2	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	P32598+Q00816_interface@_group26	[643, 766]	2	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb
+Q00816	P54113+Q00816_interface@_group27	[643, 766]	2	[59, 60, 61, 62, 63]	191_205_4gnt.1.B_5cd9fe77d60c5902e1a4aff9.pdb

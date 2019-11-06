@@ -1,0 +1,3 @@
+The results in this folder were obtained using the following parameters:
+Contact distance: 4.5A
+Interface distance: 0A

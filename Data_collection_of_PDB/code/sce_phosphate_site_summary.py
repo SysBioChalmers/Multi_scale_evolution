@@ -50,6 +50,7 @@ phosphate_site_summary1['source'] = ['Lanz']*phosphate_site_summary1.shape[0]
 
 
 # input the site summary from uniprot database
+# there are total 6256 phosphate site annotation from uniprot database until 2019
 site_uniprot = pd.read_excel('../result/sce_site_summary.xlsx')
 phosphate_site_uniprot= site_uniprot[site_uniprot['feature_key']=='Modified residue']
 # further filter the phosphate site from uniprot database
@@ -93,35 +94,9 @@ for x in site0:
 phosphate_site_final['coordinate'] = site_new
 phosphate_site_final['number'] = length0
 
-# Initially analyze the relation between the phosphate site number and the related protein abundances
-'''
-# input the abundance data from https://pax-db.org/species/4932
-abundance = pd.read_csv('../data/4932-WHOLE_ORGANISM-integrated.txt', sep="\t")
-id_mapping2 = pd.read_excel('../data/uniprotGeneID_mapping.xlsx')
-abundance['string_external_id'] = abundance['string_external_id'].str.replace('4932.','')
-abundance['Entry'] = singleMapping(description=id_mapping2['Entry'], item1=id_mapping2['GeneName'], item2=abundance['string_external_id'], dataframe=True)
-phosphate_site_final['abundance'] = singleMapping(description=abundance['abundance'], item1=abundance['Entry'], item2=phosphate_site_final['Entry'], dataframe=True)
-phosphate_site_final['abundance'] = pd.to_numeric(phosphate_site_final['abundance'])
 
 
-phosphate_site_final = phosphate_site_final.dropna()
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.stats import gaussian_kde
-# Generate fake data
-y = phosphate_site_final['number']
-x = phosphate_site_final['abundance']
-# Calculate the point density
-xy = np.vstack([x,y])
-z = gaussian_kde(xy)(xy)
-# Sort the points by density, so that the densest points are plotted last
-idx = z.argsort()
-x, y, z = x[idx], y[idx], z[idx]
-fig, ax = plt.subplots()
-ax.scatter(x, y, c=z, s=30, edgecolor='')
-plt.xlim([0, 2000])
-plt.show()
-'''
+# explore the relation between the protein abundance and the phosphate site number of each protein
 # input the abundance data from one article from cell system https://doi.org/10.1016/j.cels.2017.12.004
 abundance = pd.read_excel('../data/abundance_cell_system.xlsx')
 id_mapping2 = pd.read_excel('../data/uniprotGeneID_mapping.xlsx')
@@ -130,14 +105,15 @@ phosphate_site_final['abundance'] = singleMapping(description=abundance['abundan
 phosphate_site_final['abundance'] = pd.to_numeric(phosphate_site_final['abundance'])
 phosphate_site_final = phosphate_site_final.dropna()
 
-x = phosphate_site_final['abundance']
-y = phosphate_site_final['number']
 
 # Plot the result
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import gaussian_kde
 # Calculate the point density
+x = phosphate_site_final['abundance']
+y = phosphate_site_final['number']
+
 xy = np.vstack([x,y])
 z = gaussian_kde(xy)(xy)
 # Sort the points by density, so that the densest points are plotted last
@@ -147,3 +123,14 @@ fig, ax = plt.subplots()
 ax.scatter(x, y, c=z, s=30, edgecolor='')
 plt.xlim([0, 100000])
 plt.show()
+
+
+
+
+# Finally we will choose the new phosphate sites and combine it with other site
+phosphate_site_summary1['unique_id'] = phosphate_site_summary1['Entry'] + '@' + phosphate_site_summary1['coordinate']
+phosphate_site_uniprot1['unique_id'] = phosphate_site_uniprot1['Entry'] + '@' + phosphate_site_uniprot1['coordinate']
+new_phosphate_site = list(set(phosphate_site_summary1['unique_id'])-set(phosphate_site_uniprot1['unique_id']))
+phosphate_site_summary2 = phosphate_site_summary1[phosphate_site_summary1['unique_id'].isin(new_phosphate_site)]
+phosphate_site_summary2 = phosphate_site_summary2[['Entry', 'feature_key', 'description', 'coordinate']]
+phosphate_site_summary2.to_excel("../result/new_phosphate_site_summary.xlsx")

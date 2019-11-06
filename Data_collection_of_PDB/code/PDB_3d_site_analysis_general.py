@@ -11,6 +11,9 @@ from pdb_function_module import *
 
 
 # step 1
+# input the site summary information
+site_detail = pd.read_excel('../result/sce_site_summary.xlsx')
+
 # parse the second structure
 '''
 secondary_structure = pd.read_excel('../data/YCL040W_site_definition.xlsx', sheet_name='secodary_structure')
@@ -44,16 +47,11 @@ for j in count_ele:
     secondary_structure_set[j]=smallset
 '''
 # now, to represent the whole process
-secondary_structure_set = dict()
+ss_site = pd.read_excel('../result/predict_secondary_structure.xlsx')
+new_phosphate_site = pd.read_excel('../result/new_phosphate_site_summary.xlsx')
 
-
-# step 2
-# prepare the interface residues sites
-# will do when all the interface residues are calculated
-# now, to represent the whole process
-interface_structure_set = dict()
-
-
+# merge all the sites together
+site_detail = pd.concat([site_detail, ss_site, new_phosphate_site ], axis=0, join='outer')
 
 
 
@@ -67,8 +65,7 @@ infile = '../result/pdb_homo_filter_manual_check.xlsx'
 pdb_inf = pd.read_excel(infile)
 #check whether the pdb_sce existed in the aimed file
 pdbfile = '/Users/luho/Documents/pdb file/homolog pdb_2019_5/'
-# input the site summary information
-site_detail = pd.read_excel('../result/sce_site_summary.xlsx')
+
 distance_wrong = []
 for i in range(0, len(pdb_inf['coordinate_id0'])):
     print(i)
@@ -88,7 +85,7 @@ for i in range(0, len(pdb_inf['coordinate_id0'])):
     # change the sites from UniProt into a vector format
     feature_set0 = updateSiteFormatFromUniprot(general_3D_site=site_protein)
     # combine the three dict
-    feature_all = {**secondary_structure_set, **interface_structure_set, **feature_set0}
+    feature_all = feature_set0
     # next get the residues coordinate from structure
     # in the example the coordinates are same between the pdb and protein
     # with these information, we need define the 3D sites for features with smaller than 100 residues, if

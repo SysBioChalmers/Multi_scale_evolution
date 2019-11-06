@@ -1,0 +1,12 @@
+P46969	Metal binding@_group0	[34]	1	[9, 33, 34, 35, 78]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	Metal binding@_group1	[36]	1	[35, 36, 37, 80]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	Metal binding@_group2	[80]	1	[36, 79, 80, 81, 102]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	Metal binding@_group3	[185]	1	[184, 185, 186]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	Binding site@_group4	[9]	1	[8, 9, 10, 34, 207]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	Binding site@_group5	[80]	1	[36, 79, 80, 81, 102]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	Binding site@_group6	[187]	1	[162, 186, 187, 188]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	Active site@_group7	[36]	1	[35, 36, 37, 80]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	Active site@_group8	[185]	1	[184, 185, 186]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	Region@_group9	[156, 157, 158, 159]	4	[155, 156, 157, 158, 159, 160]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	Region@_group10	[207, 208]	2	[9, 206, 207, 208, 209, 211]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb
+P46969	P46969+P46969_interface@_group11	[11, 12, 14, 15, 16, 17, 19, 20, 39, 40, 41, 44, 45, 46, 47, 49, 50, 51, 52, 55, 58, 59, 84, 85, 88, 89, 92, 211]	28	[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 208, 210, 211, 212]	6_235_3ovp.1.B_5cd6910cd60c599abdc47f1a.pdb

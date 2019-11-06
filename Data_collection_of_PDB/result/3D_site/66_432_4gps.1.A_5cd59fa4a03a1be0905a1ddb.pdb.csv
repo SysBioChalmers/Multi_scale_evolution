@@ -1,0 +1,5 @@
+Q06349	Metal binding@_group0	[255]	1	[252, 254, 255, 256]	66_432_4gps.1.A_5cd59fa4a03a1be0905a1ddb.pdb
+Q06349	Metal binding@_group1	[295]	1	[294, 295, 296]	66_432_4gps.1.A_5cd59fa4a03a1be0905a1ddb.pdb
+Q06349	Metal binding@_group2	[306]	1	[305, 306, 307, 339]	66_432_4gps.1.A_5cd59fa4a03a1be0905a1ddb.pdb
+Q06349	Compositional bias@_group3	[41, 42, 43, 44, 45, 46]	6	[305, 306, 307, 339]	66_432_4gps.1.A_5cd59fa4a03a1be0905a1ddb.pdb
+Q06349	P43554+Q06349_interface@_group4	[16, 191, 295, 355, 359]	5	[190, 191, 192, 294, 295, 296, 354, 355, 356, 358, 359, 360]	66_432_4gps.1.A_5cd59fa4a03a1be0905a1ddb.pdb
