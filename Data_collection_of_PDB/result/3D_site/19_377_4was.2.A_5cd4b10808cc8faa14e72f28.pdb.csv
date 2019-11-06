@@ -1,0 +1,10 @@
+P38071	Nucleotide binding@_group0	[185, 186, 187, 188]	4	[157, 184, 185, 186, 187, 188, 189]	19_377_4was.2.A_5cd4b10808cc8faa14e72f28.pdb
+P38071	Nucleotide binding@_group1	[208, 209, 210]	3	[207, 208, 209, 210, 211]	19_377_4was.2.A_5cd4b10808cc8faa14e72f28.pdb
+P38071	Nucleotide binding@_group2	[283, 284, 285, 286]	4	[261, 262, 282, 283, 284, 285, 286, 287, 308]	19_377_4was.2.A_5cd4b10808cc8faa14e72f28.pdb
+P38071	Nucleotide binding@_group3	[308, 309, 310]	3	[283, 307, 308, 309, 310, 311, 313]	19_377_4was.2.A_5cd4b10808cc8faa14e72f28.pdb
+P38071	Binding site@_group4	[157]	1	[156, 157, 158, 188]	19_377_4was.2.A_5cd4b10808cc8faa14e72f28.pdb
+P38071	Binding site@_group5	[373]	1	[372, 373, 374]	19_377_4was.2.A_5cd4b10808cc8faa14e72f28.pdb
+P38071	Active site@_group6	[73]	1	[68, 72, 73, 74]	19_377_4was.2.A_5cd4b10808cc8faa14e72f28.pdb
+P38071	Mutagenesis@_group7	[73]	1	[68, 72, 73, 74]	19_377_4was.2.A_5cd4b10808cc8faa14e72f28.pdb
+P38071	Modified residue@_group8	[339]	1	[338, 339, 340]	19_377_4was.2.A_5cd4b10808cc8faa14e72f28.pdb
+P38071	Transit peptide@_group9	[1, 2, 3, 4, 5, 6, 7, 8, 9]	9	[338, 339, 340]	19_377_4was.2.A_5cd4b10808cc8faa14e72f28.pdb

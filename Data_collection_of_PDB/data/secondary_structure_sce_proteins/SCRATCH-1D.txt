@@ -1,0 +1,133 @@
+====================================================================================================
+
+                      SCRATCH Suite of One-Dimensional Predictors (SCRATCH-1D)
+
+                             Method Description & Project Documentation
+
+====================================================================================================
+
+Author(s) :  Christophe Magnan (cmagnan@ics.uci.edu)
+Copyright :  Institute for Genomics and Bioinformatics
+             University of California, Irvine
+Modified  :  2018/11/24
+
+====================================================================================================
+                                         Method Description
+====================================================================================================
+
+SCRATCH-1D is a suite of one-dimensional predictors included in the long-established and widely used
+SCRATCH suite of predictors developed by the Institute for Genomics and Bioinformatics (IGB) of the
+University of California, Irvine (UCI) : http://scratch.proteomics.ics.uci.edu
+
+SCRATCH-1D currently includes the following predictors and tools:
+
+ - SSpro      Release 5.2  Protein secondary structure prediction (3-class)
+ - SSpro8     Release 5.2  Protein secondary structure prediction (8-class)
+ - ACCpro     Release 5.2  Protein relative solvent accessibility prediction (at the 25% threshold)
+ - ACCpro20   Release 5.2  Protein relative solvent accessibility prediction (thresholds 0% to 95%)
+
+ - PROFILpro  Release 1.2  Protein evolutionary information / sequence profiles for 1D predictors
+ - HOMOLpro   Release 1.2  Homology-based secondary structure & solvent accessibility prediction
+ - 1D-BRNN    Release 3.3  One-dimensional bidirectional recurrent neural networks
+
+Several 1D predictors in SCRATCH have similar methods, use identical reference protein databases,
+and share the same third-party tools. SCRATCH-1D unifies all these predictors in a single software
+allowing a more efficent processing of the queries, both in terms of computing resources and time.
+For instance, the sequence profiles needed in input of the neural networks for each predictor are
+generated following the same protocol and databases for all the predictors. These profiles are no
+longer generated separately by each predictor but are now generated only once using a new software
+developed specifically for this task : PROFILpro. Also, all the predictors and corresponding tools
+are now compatible with multi-core machines, allowing to process large datasets rapidly and with
+no hands-on necessary (up to 5,000 protein sequences a day on a 16-core machine for instance).
+
+All the predictors and tools included in SCRATCH-1D are located in the 'pkg' sub-folder and
+are delivered with their own documentation and method description. Please refer directly to
+these documentations for more information about SCRATCH-1D predictors and tools.
+
+====================================================================================================
+                                        Project Documentation
+====================================================================================================
+
+This section provides a description of the project folder and how to use SCRATCH-1D.
+
+=========================================  Project Folder  =========================================
+
+A brief description of the project folders is given below.
+
+- bin             Scripts to run SCRATCH-1D predictors
+- doc             Documentation of the software
+- env             Bash profile for running SCRATCH-1D
+- lib             SCRATCH-1D library scripts to run the predictors
+- pkg             SCRATCH-1D predictors and tools
+- tmp             Temporary work folder for the software
+
+=========================================  Software Usage  =========================================
+
+SCRATCH-1D comes with only one script to run all the predictors : bin/run_SCRATCH-1D_predictors.sh
+
+    Usage :  ./run_SCRATCH-1D_predictors.sh  input_fasta  output_prefix  [num_threads]
+
+With:
+
+- input_fasta     Input protein sequences in FASTA file format
+
+- output_prefix   Prefix for the output file names, 4 output files will be created:
+
+                  - output_prefix.ss    : predicted secondary structure (3-class, SSpro)
+                  - output_prefix.ss8   : predicted secondary structure (8-class, SSpro8)
+                  - output_prefix.acc   : predicted solvent accessibility (2-class, ACCpro)
+                  - output_prefix.acc20 : predicted solvent accessibility (20-class, ACCpro20)
+
+- num_threads     Number of cores to use to process the dataset (default=1)
+
+
+A large part of the processing time is taken by generating the sequence profiles and by running the
+homology analysis on the Protein Data Bank. Since these two steps are shared by all the predictors,
+running one predictor only or running all the predictors at once on a set of protein sequences does
+not make a significant difference in terms of computation time. SCRATCH-1D will thus systematically
+run the four predictors on the input protein sequences and all the predictions will be reported in
+the output files listed above. If only one predictor is needed, please ignore the other predictions.
+
+An additional script 'get_abinitio_predictions.sh' is provided in the 'bin' folder of SCRATCH-1D in
+order to get the ab-initio predictions only. The homology analysis will not be performed with this
+script and the predictions will not be improved by this second stage prediction. This script is only
+provided for evaluation purposes. Usage is identical to 'run_SCRATCH-1D_predictors.sh'.
+
+=======================================  Input Files Format  =======================================
+
+Input files must be in the standard FASTA file format. There is no limit for the number of input
+sequences to process beside the amount of RAM memory available on the machine running the program.
+
+====================================  Output Files Description  ====================================
+
+Output files are in the same file format than the input files where the protein amino-acid sequence
+is replaced by the predicted secondary structure or relative solvent accessibility. Headers are
+reported as provided in input and predictions are given in the same order than the input sequences.
+
+====================================================================================================
+                                           Release Notes
+====================================================================================================
+
+Version 1.2 (2018)
+
+Author      :  Christophe Magnan
+Description :  update of the package databases
+Comments    :  PROFILpro protein database UNIREF50 updated
+               HOMOLpro template database pdb_full updated
+
+Version 1.1 (2015)
+
+Author      :  Christophe Magnan
+Description :  Update + Bug fixes for version 1.0
+Comments    :  Databases for profiles and homology updated
+               Non-standard amino acids replaced by X
+               Sequences of length greater than 10,000 ignored
+
+Version 1.0 (2013)
+
+Author(s)   :  Christophe Magnan
+Description :  First release of the software
+Comments    :  Wrapper tool for SSpro, SSpro8, ACCpro, ACCpro20, PROFILpro, HOMOLpro, and 1D-BRNN.
+
+====================================================================================================
+

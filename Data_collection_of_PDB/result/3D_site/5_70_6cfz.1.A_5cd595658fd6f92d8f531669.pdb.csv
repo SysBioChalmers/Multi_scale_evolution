@@ -1,0 +1,15 @@
+P35734	Modified residue@_group0	[26]	1	[23, 25, 26, 27]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	Modified residue@_group1	[118]	1	[23, 25, 26, 27]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	Modified residue@_group2	[134]	1	[23, 25, 26, 27]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	Modified residue@_group3	[140]	1	[23, 25, 26, 27]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	Modified residue@_group4	[155]	1	[23, 25, 26, 27]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	Modified residue@_group5	[156]	1	[23, 25, 26, 27]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	Modified residue@_group6	[200]	1	[23, 25, 26, 27]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	Modified residue@_group7	[216]	1	[23, 25, 26, 27]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	Modified residue@_group8	[250]	1	[23, 25, 26, 27]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	P35734+P36162_interface@_group9	[52, 97, 124]	3	[49, 51, 52, 53, 55]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	P35734+P69851_interface@_group10	[52, 97, 124]	3	[49, 51, 52, 53, 55]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	P35734+P69852_interface@_group11	[52, 97, 124]	3	[49, 51, 52, 53, 55]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	P35734+Q02574_interface@_group12	[52, 97, 124]	3	[49, 51, 52, 53, 55]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	P35734+Q02724_interface@_group13	[52, 97, 124]	3	[49, 51, 52, 53, 55]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb
+P35734	P35734+Q04272_interface@_group14	[52, 97, 124]	3	[49, 51, 52, 53, 55]	5_70_6cfz.1.A_5cd595658fd6f92d8f531669.pdb

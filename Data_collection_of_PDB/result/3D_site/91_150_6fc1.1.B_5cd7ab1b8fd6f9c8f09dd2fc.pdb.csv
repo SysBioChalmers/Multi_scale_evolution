@@ -1,0 +1,21 @@
+P36041	Mutagenesis@_group1	[109]	1	[108, 109, 110]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Mutagenesis@_group2	[114]	1	[113, 114, 115]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Modified residue@_group3	[30]	1	[113, 114, 115]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Modified residue@_group4	[281]	1	[113, 114, 115]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Modified residue@_group5	[282]	1	[113, 114, 115]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Modified residue@_group6	[327]	1	[113, 114, 115]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Modified residue@_group7	[344]	1	[113, 114, 115]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Modified residue@_group8	[387]	1	[113, 114, 115]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Helix@_group9	[93, 94, 95, 96]	4	[92, 93, 94, 95, 96, 97, 111]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Helix@_group10	[111, 112, 113, 114, 115, 116]	6	[95, 110, 111, 112, 113, 114, 115, 116, 117]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Helix@_group11	[122, 123, 124]	3	[121, 122, 123, 124, 125, 127, 128]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Helix@_group12	[130, 131, 132, 133, 134, 135, 136, 137]	8	[129, 130, 131, 132, 133, 134, 135, 136, 137, 138]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Helix@_group13	[142, 143, 144, 145]	4	[141, 142, 143, 144, 145, 146]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Helix@_group14	[147, 148, 149]	3	[146, 147, 148, 149, 150]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	Turn@_group15	[125, 126, 127]	3	[123, 124, 125, 126, 127, 128]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	P36041+P38753_interface@_group16	[105, 112, 137, 146, 479]	5	[104, 105, 106, 111, 112, 113, 115, 136, 137, 138, 145, 146, 147]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	P36041+P38822_interface@_group17	[105, 112, 137, 146, 479]	5	[104, 105, 106, 111, 112, 113, 115, 136, 137, 138, 145, 146, 147]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	P36041+P40958_interface@_group18	[105, 112, 137, 146, 479]	5	[104, 105, 106, 111, 112, 113, 115, 136, 137, 138, 145, 146, 147]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	P07260+P36041_interface@_group19	[105, 112, 137, 146, 479]	5	[104, 105, 106, 111, 112, 113, 115, 136, 137, 138, 145, 146, 147]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	P23292+P36041_interface@_group20	[105, 112, 137, 146, 479]	5	[104, 105, 106, 111, 112, 113, 115, 136, 137, 138, 145, 146, 147]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb
+P36041	P35732+P36041_interface@_group21	[105, 112, 137, 146, 479]	5	[104, 105, 106, 111, 112, 113, 115, 136, 137, 138, 145, 146, 147]	91_150_6fc1.1.B_5cd7ab1b8fd6f9c8f09dd2fc.pdb

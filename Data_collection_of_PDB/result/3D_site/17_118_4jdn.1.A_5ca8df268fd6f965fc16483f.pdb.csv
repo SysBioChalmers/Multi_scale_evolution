@@ -1,0 +1,5 @@
+Q12025	Glycosylation@_group0	[47]	1	[46, 47, 48]	17_118_4jdn.1.A_5ca8df268fd6f965fc16483f.pdb
+Q12025	Signal peptide@_group1	[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]	17	[17, 18, 102]	17_118_4jdn.1.A_5ca8df268fd6f965fc16483f.pdb
+Q12025	P27999+Q12025_interface@_group2	[7]	1	[17, 18, 102]	17_118_4jdn.1.A_5ca8df268fd6f965fc16483f.pdb
+Q12025	P38822+Q12025_interface@_group3	[7]	1	[17, 18, 102]	17_118_4jdn.1.A_5ca8df268fd6f965fc16483f.pdb
+Q12025	P51533+Q12025_interface@_group4	[7]	1	[17, 18, 102]	17_118_4jdn.1.A_5ca8df268fd6f965fc16483f.pdb

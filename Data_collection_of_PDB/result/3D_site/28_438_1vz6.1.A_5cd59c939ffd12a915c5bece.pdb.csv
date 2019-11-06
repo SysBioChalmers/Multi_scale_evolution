@@ -1,0 +1,12 @@
+Q04728	Site@_group0	[136]	1	[99, 102, 135, 136, 137]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Site@_group1	[137]	1	[100, 101, 102, 136, 137, 138]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Site@_group2	[214, 215]	2	[207, 213, 214, 215, 216]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Binding site@_group3	[177]	1	[176, 177, 178]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Binding site@_group4	[204]	1	[203, 204, 205]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Binding site@_group5	[215]	1	[214, 215, 216]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Binding site@_group6	[301]	1	[300, 301, 302]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Binding site@_group7	[436]	1	[435, 436, 437]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Binding site@_group8	[441]	1	[435, 436, 437]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Active site@_group9	[215]	1	[214, 215, 216]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Mutagenesis@_group10	[215]	1	[214, 215, 216]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb
+Q04728	Transit peptide@_group11	[1, 2, 3, 4, 5, 6, 7, 8]	8	[214, 215, 216]	28_438_1vz6.1.A_5cd59c939ffd12a915c5bece.pdb

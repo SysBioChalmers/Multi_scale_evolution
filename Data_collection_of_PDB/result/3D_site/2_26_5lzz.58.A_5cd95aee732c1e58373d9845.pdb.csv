@@ -1,0 +1,11 @@
+P14724	Modified residue@_group0	[12]	1	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
+P14724	Compositional bias@_group1	[53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77]	25	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
+P14724	P14724+P16522_interface@_group2	[92]	1	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
+P14724	P14724+P25644_interface@_group3	[92]	1	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
+P14724	P14724+P38042_interface@_group4	[92]	1	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
+P14724	P14724+P47135_interface@_group5	[92]	1	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
+P14724	P14724+P53068_interface@_group6	[92]	1	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
+P14724	P14724+P53886_interface@_group7	[92]	1	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
+P14724	P14724+Q12440_interface@_group8	[92]	1	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
+P14724	P14724+Q12473_interface@_group9	[92]	1	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
+P14724	P09798+P14724_interface@_group10	[92]	1	[11, 12, 13]	2_26_5lzz.58.A_5cd95aee732c1e58373d9845.pdb
