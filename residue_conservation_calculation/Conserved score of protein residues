@@ -1,0 +1,42 @@
+ls# calculation the conservation score using the JSD method
+# please refer to Capra JA and Singh M. Predicting functionally important residues from sequence conservation. Bioinformatics, 23(15):1875-82, 2007. 
+# -g	gap cutoff. Do not score columns that contain more than gap cutoff fraction gaps. Default=.3 [real in [0, 1)]
+
+
+
+cd /Users/luho/Documents/GitHub/Conservation_code
+python2 score_conservation.py -h
+
+# using the another fasta data file. It can be found that the fasta length is not different
+# possibly due to in the proteinER we remove the stop coden????????????
+python2 score_conservation.py  -o /Users/luho/Documents/GitHub/proteinER/result/OG5327_conservation_score_jsd /Users/luho/Documents/GitHub/proteinER/measuring_dNdS/OG5327_aa_aligned.fasta
+
+
+
+# other example
+python2 score_conservation.py -s js_divergence -w 3 -d swissprot.distribution -o alignment.scores alignment.clustal
+
+
+# run the code on the cluster
+## prepare the data
+scp -r /Users/luho/Documents/conservation_code/  luho@hebbe.c3se.chalmers.se:/c3se/users/luho/Hebbe
+scp -r /Users/luho/Documents/protein_all/  luho@hebbe.c3se.chalmers.se:/c3se/users/luho/Hebbe
+
+## run the code
+cd /c3se/users/luho/Hebbe/conservation_code/
+chmod u+x step1_protein_align.sh
+./step1_protein_align.sh
+
+chmod u+x step2_conservation_score_jds.sh
+./step2_conservation_score_jds.sh
+
+
+
+
+
+#on mac
+#python2 score_conservation.py  -o /Users/luho/Documents/GitHub/proteinER/result/OG5327_conservation_score_jsd /Users/luho/Documents/GitHub/proteinER/measuring_dNdS/OG5327_aa_aligned.fasta
+
+
+cd /c3se/users/luho/Hebbe/conservation_code/
+python2 score_conservation.py  -g 0.3 -o /c3se/users/luho/Hebbe/result/OG5327_conservation_score_jsd /c3se/users/luho/Hebbe/protein_all/OG5327_aa_aligned.fasta
