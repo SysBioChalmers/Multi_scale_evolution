@@ -1,0 +1,114 @@
+# install method1
+# cd Trimal/source
+# make
+
+# install method2
+conda install trimal
+
+# initial protocol to trim the multiple sequence alignment
+
+### step 1 alignment
+mafft --auto --inputorder /Users/luho/Desktop/example/data/OG5327_aa.fasta > /Users/luho/Desktop/example/data/OG5327_aa_aligned.fasta
+
+
+### step 2 trim
+# method1
+trimal -in /Users/luho/Desktop/example/data/OG5327_aa_aligned.fasta -out /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim.fasta -gt 0.9 -cons 60
+
+# method2 --- maybe the best one!!
+# when using the above code, there are still a lot of gaps in the residue sequence, so how to further improve the quality?
+trimal -in /Users/luho/Desktop/example/data/OG5327_aa_aligned.fasta -out /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta -automated1
+
+# method3
+# it needs a very long time to run the followed method
+trimal -in /Users/luho/Desktop/example/data/OG5327_aa_aligned.fasta -out /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim3.fasta -htmlout /Users/luho/Desktop/example/data/output6.html -gappyout
+
+# method4 using Phyutility
+# when install phyutility i meet the followed error:
+# cp: /usr/bin/phyutility: Operation not permitted
+
+
+### step 3 build tree
+# method1-raxmlHPC
+# method1 is quite slow in speed
+cd /Users/luho/Desktop/example/data/
+raxmlHPC -s /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim.fasta -n OG5327_aa_aligned_trim_tree -m PROTCATLG -p 12345
+
+# method2-fastTree
+# conda install -c bioconda fasttree
+FastTree -lg < /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim.fasta > /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim.tre
+
+FastTree -lg < /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta > /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.tre
+
+
+### step 4 tree pruner
+# remove these redundant
+# during this step the parameter could affect the gene number after pruning
+
+# method1
+# it seems when decreasing support value from 0.95 to 0.7, the OTU number is also decreased??
+# this method is not used in the followed analysis
+phylopypruner --dir /Users/luho/Desktop/example/data --min-taxa 10 --min-support 0.7 --mask pdist
+phylopypruner --dir /Users/luho/Desktop/example/data --min-taxa 10 --min-support 0.95 --mask pdist
+phylopypruner --dir /Users/luho/Desktop/example/data --min-taxa 150 --min-support 0.95 --mask pdist --trim-divergent 0.95
+
+# method2
+# test using the real data
+cd /Users/luho/Documents/PhyloTreePruner
+java PhyloTreePruner /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.tre 4 /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta 0.5 u⁩
+
+
+###step 5 check the tree quality after tree pruner
+# the pruner is from method 2
+FastTree -lg < /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta_pruned.fa > /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta_pruned.tre
+
+
+
+
+
+####################################################
+## another fasta file to check the above protocal
+## this is used to refine and simplify all the steps
+####################################################
+
+### step 1 alignment
+mafft --auto --inputorder /Users/luho/Desktop/example/data/OG5327_aa.fasta > /Users/luho/Desktop/example/data/OG5327_aa_aligned.fasta
+
+### step 2 trim
+# method2
+# when using the above code, there are still a lot of gaps in the residue sequence, so how to further improve the quality?
+trimal -in /Users/luho/Desktop/example/data/OG5327_aa_aligned.fasta -out /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta -automated1
+
+# method1
+trimal -in /Users/luho/Desktop/example/data/OG5327_aa_aligned.fasta -out /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim.fasta -gt 0.9 -cons 60
+
+# method3
+# it needs a very long time to run the followed method
+trimal -in /Users/luho/Desktop/example/data/OG5327_aa_aligned.fasta -out /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim3.fasta -htmlout /Users/luho/Desktop/example/data/output6.html -gappyout
+
+# method4 using Phyutility
+# when install phyutility i meet the followed error:
+# cp: /usr/bin/phyutility: Operation not permitted
+
+
+### step 3 build tree
+# method1-raxmlHPC
+# this is quite low
+cd /Users/luho/Desktop/example/data/
+raxmlHPC -s /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta -n OG5327_aa_aligned_trim2 -m PROTCATLG -p 12345
+
+# method2-fastTree
+FastTree -lg < /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta > /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.tre
+
+### step 4 tree pruner
+# remove these redundant
+# during this step the parameter could affect the OTU number after pruning
+
+# method2
+# test using the real data
+cd /Users/luho/Documents/PhyloTreePruner
+java PhyloTreePruner /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.tre 4 /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta 0.5 u⁩
+
+###step 5 check the tree quality after tree pruner
+# the pruner is from method2 
+FastTree -lg < /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta_pruned.fa > /Users/luho/Desktop/example/data/OG5327_aa_aligned_trim2.fasta_pruned.tre

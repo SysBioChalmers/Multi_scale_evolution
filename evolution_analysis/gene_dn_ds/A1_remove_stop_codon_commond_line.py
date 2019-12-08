@@ -74,10 +74,13 @@ def main():
     # read in the amino acid alignment file
     all_ortholog = os.listdir(nuc_seq_file)
     for i in all_ortholog:
-        infile = nuc_seq_file + i
-        outfile = out_file + i.split(".")[0] + "_remove_stop.fasta"
-        print(infile, outfile)
-        removeStopCode(fasta_input=infile, fasta_out=outfile)
+        if "_code" in i:
+            infile = nuc_seq_file + i
+            outfile = out_file + i.split(".")[0] + "_remove_stop.fasta"
+            print(infile, outfile)
+            removeStopCode(fasta_input=infile, fasta_out=outfile)
+        else:
+            pass
 
 if __name__ == "__main__":
     main()
