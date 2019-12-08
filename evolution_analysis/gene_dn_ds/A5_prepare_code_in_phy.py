@@ -8,12 +8,12 @@
 # The script will be changed as a function.
 import os
 from Bio import AlignIO, SeqIO
-#import pandas as pd
+import pandas as pd
 import argparse
 
 
 ## part1
-def prepareFastaPAML(fast_input, phy_out, id_mapping_out):
+def prepareFastaPAML(fast_input, phy_out, id_mapping0):
     '''
      All three files are the directories to input and output file
     :param fast_input:
@@ -21,6 +21,11 @@ def prepareFastaPAML(fast_input, phy_out, id_mapping_out):
     :param id_mapping_out:
     :return:
     '''
+    
+    # test
+    #fast_input = "/Users/luho/Documents/pan_genome/cds_all0/OG5328_code_align.fasta"
+    #phy_out = "/Users/luho/Documents/pan_genome/cds_all0/OG5328_code_align.phy"
+
     ss0 = open(fast_input).readlines()
     OG_original = list(SeqIO.parse(fast_input, "fasta"))
     for x in OG_original:
@@ -31,25 +36,27 @@ def prepareFastaPAML(fast_input, phy_out, id_mapping_out):
     first_line = str(num_species) + "  " + str(num_code) + "\n"
     ss0.insert(0, first_line)
     newfile = open(phy_out, "w")
-    newfile2 = open(id_mapping_out, "w")
-    id_mapping = {}
+    #newfile2 = open(id_mapping_out, "w")
+    #id_mapping = {}
 
-    i = 0
+    #i = 0
     for line in ss0:
         if ">" in line:
-            i = i + 1
+            #i = i + 1
+            print(line)
             old_id = line.replace(">", "").strip("\n")
-            new_id = "seq" + str(i)
-            id_conversion = new_id + "\t" + old_id + "\n"
+            #new_id = "seq" + str(i)
+            #id_conversion = new_id + "\t" + old_id + "\n"
+            new_id = id_mapping0[old_id]
             newline = new_id + "   " + "\n"
             newfile.write(newline)
-            newfile2.write(id_conversion)
-            print(i, newline)
-            id_mapping[old_id] = new_id
+            #newfile2.write(id_conversion)
+            print(newline)
+            #id_mapping[old_id] = new_id
         else:
             newfile.write(line)
     newfile.close()
-    newfile2.close()
+    #newfile2.close()
 
 # an example
 # ID = "OG5327_aligned_codon"
@@ -68,6 +75,7 @@ def main():
             description = 'Remove the stop code or "Y" letter in the code sequence.')
     #adding arguments
     parser.add_argument('-n', metavar = 'input_file', type = str, help = 'input file which has unaligned/aligned nucleotide/codon sequence file')
+    parser.add_argument('-id', metavar='input_file', type=str, help='input_the_id_mapping_file')
     parser.add_argument('-o', metavar = 'output_file', type = str, help = 'output file to store the result')
     args = parser.parse_args()
     #set up output file name if none is given
@@ -78,15 +86,18 @@ def main():
 
     nuc_seq_file = args.n
     # read in the amino acid alignment file
+    id_mapping_in =args.id #"/Users/luho/Documents/pan_genome/orthomcl_SeqIDs_index.txt"
+    id_input = pd.read_csv(id_mapping_in, sep=": ", header=None)
+    id_mapping1 = {v: k for k, v in zip(id_input.iloc[:, 0].tolist(), id_input.iloc[:, 1].tolist())}
+
     all_ortholog = os.listdir(nuc_seq_file)
     for i in all_ortholog:
         if "code_align" in i:
             infile = nuc_seq_file + i
             outfile2 = out_file + i.split(".")[0] + ".phy"
-            outfile3 = out_file + i.split(".")[0] + "_id_mapping"
+            #outfile3 = out_file + i.split(".")[0] + "_id_mapping"
             print(infile, outfile2)
-            prepareFastaPAML(fast_input=infile, phy_out=outfile2, id_mapping_out=outfile3)
-    
+            prepareFastaPAML(fast_input=infile, phy_out=outfile2, id_mapping0=id_mapping1)
         else: pass
 
     # to reduce the file number, here we will delete file not used in the followed analysis
@@ -103,5 +114,6 @@ if __name__ == "__main__":
 
 # usage
 # the fasta file is stored in "cds_all"
-# python remove_stop_codon_commond_line.py  -n /Users/luho/Documents/cds_all/ -o /Users/luho/Documents/cds_all0/
-# python remove_stop_codon_commond_line.py  -h
+# python 5_prepare_code_in_phy.py -n  -id  -o
+# python 5_prepare_code_in_phy.py  -n /Users/luho/Documents/pan_genome/cds_all0/ -id /Users/luho/Documents/pan_genome/orthomcl_SeqIDs_index.txt -o /Users/luho/Documents/pan_genome/cds_all0/
+
