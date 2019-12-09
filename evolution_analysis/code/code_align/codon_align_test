@@ -1,0 +1,119 @@
+####################################################################
+# codon align test on mac
+
+# package install
+# RAxML https://www.biostars.org/p/278375/
+cd /Users/luho/Desktop/evolution_analysis/code/gene_dn_ds
+
+# step0
+# remove the stop coden
+mkdir /Users/luho/Documents/pan_genome/cds_all0/
+
+python 1_remove_stop_codon_commond_line.py  -n /Users/luho/Documents/pan_genome/cds_test/ -o /Users/luho/Documents/pan_genome/cds_all0/
+
+# step1
+# Collect the nucleotide sequences
+
+# step2
+python 2_translate_aln_codon_to_aa.py  -n /Users/luho/Documents/pan_genome/cds_all0/ -o /Users/luho/Documents/pan_genome/cds_all0/
+
+# step3
+cd /Users/luho/Desktop/evolution_analysis/code/gene_dn_ds
+chmod u+x 3_mafft_batch.sh
+./3_mafft_batch.sh
+
+
+# step4
+# method 1
+# in the method1 some uncommon code like TTN could lead error
+#python 4_translate_aln_aa_to_codon.py \
+#         -a /Users/luho/Documents/pan_genome/cds_all0/ \
+#         -n /Users/luho/Documents/pan_genome/cds_all_test/ \
+#         -o /Users/luho/Documents/pan_genome/cds_all0/
+
+# method2
+chmod u+x 4_code_align.sh
+./4_code_align.sh
+
+
+## macse usage http://bioweb.supagro.inra.fr/macse/doc/doc_MACSE_v2.03.pdf 
+#java -jar macse.jar -prog alignSequences -seq /Users/luho/Documents/pan_genome/cds_all0/OG4478_code_remove_stop.fasta -out_NT /Users/luho/Documents/pan_genome/aligned_CDS_NT.fasta -out_AA /Users/luho/Documents/pan_genome/aligned_CDS_AA.fasta
+#java -jar macse.jar -prog reportGapsAA2NT -align_AA /Users/luho/Documents/pan_genome/cds_all0/OG4478.aligned.fasta  -seq /Users/luho/Documents/pan_genome/cds_all0/OG4478_code_remove_stop.fasta -out_NT /Users/luho/Documents/pan_genome/cds_all0/OG4478_code_remove_stop2.fasta
+
+
+# step5
+# change the aligned code into the phy format
+python 5_prepare_code_in_phy.py  -n /Users/luho/Documents/pan_genome/cds_all0/ -id /Users/luho/Documents/pan_genome/orthomcl_SeqIDs_index.txt -o /Users/luho/Documents/pan_genome/cds_all0/
+
+
+
+
+
+
+
+
+
+
+
+####################################################################
+# code align TEST ON THE CLUSTER
+#############################################
+# copy the data and code
+scp -r /Users/luho/Documents/pan_genome/cds_all_test/  luho@hebbe.c3se.chalmers.se:/c3se/users/luho/Hebbe
+
+scp -r /Users/luho/Desktop/example/code/data_prepare_PAML/  luho@hebbe.c3se.chalmers.se:/c3se/users/luho/Hebbe
+
+
+mv  -v /c3se/users/luho/Hebbe/cds_all_test/* /c3se/users/luho/Hebbe/cds_all
+mv  -v /c3se/users/luho/Hebbe/cds_all/* /c3se/users/luho/Hebbe/cds_all_test
+
+cp /c3se/users/luho/Hebbe/cds_all/OG5327_code.fasta /c3se/users/luho/Hebbe/cds_all_test/
+cp /c3se/users/luho/Hebbe/cds_all/OG5328_code.fasta /c3se/users/luho/Hebbe/cds_all_test/
+cp /c3se/users/luho/Hebbe/cds_all/OG5329_code.fasta /c3se/users/luho/Hebbe/cds_all_test/
+
+
+# step0
+# remove the stop coden
+module load intel/2016b Python/3.5.2
+module load Biopython/1.68-Python-3.5.2
+module load Java/11.0.2
+
+cd /c3se/users/luho/Hebbe/
+rm -rf cds_all0
+mkdir cds_all0
+
+cd /c3se/users/luho/Hebbe/data_prepare_PAML
+python 1_remove_stop_codon_commond_line.py  -n /c3se/users/luho/Hebbe/cds_all_test/ -o /c3se/users/luho/Hebbe/cds_all0/
+
+
+# step1
+# Collect the nucleotide sequences
+
+# step2
+python 2_translate_aln_codon_to_aa.py  -n /c3se/users/luho/Hebbe/cds_all0/ -o /c3se/users/luho/Hebbe/cds_all0/
+
+# step3
+chmod u+x 3_mafft_batch_cluster.sh
+./3_mafft_batch_cluster.sh
+
+# step4
+# method2
+chmod u+x 4_code_align_cluster.sh
+./4_code_align_cluster.sh
+
+
+# step5
+# change the aligned code into the phy format
+python 5_prepare_code_in_phy.py  -n /c3se/users/luho/Hebbe/cds_all0/ -o /c3se/users/luho/Hebbe/cds_all0/
+
+
+
+
+
+########################################################
+# how to align code seq?
+########################################################
+cd /Users/luho/Documents/pan_genome/pal2nal.v14
+chmod u+x pal2nal.pl
+./pal2nal.pl  test.aln  test.nuc  -output paml  -nogap >  for_paml/test2.codon
+./pal2nal.pl  OG5327_aa_aligned.fasta  OG5327_code_updated_remove_stop.fasta  -output paml  -nogap >  for_paml/test2.codon
