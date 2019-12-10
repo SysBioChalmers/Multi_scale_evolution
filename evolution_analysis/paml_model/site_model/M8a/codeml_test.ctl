@@ -1,6 +1,6 @@
-      seqfile = /Users/luho/Documents/pan_genome/cds_all0/OG5326_code_align.phy
+      seqfile = /Users/luho/Documents/pan_genome/cds_align_test/OG5326_code_align.phy
      treefile = /Users/luho/Documents/pan_genome/protein_test/OG5326_aa_unroot_unify.tre
-      outfile = /Users/luho/Documents/pan_genome/site_result/OG5326.out_M8a
+      outfile = /Users/luho/Documents/pan_genome/site_result/OG5326.tre_M8a
 
         noisy = 9  * 0,1,2,3,9: how much rubbish on the screen
       verbose = 1  * 0: concise; 1: detailed, 2: too much

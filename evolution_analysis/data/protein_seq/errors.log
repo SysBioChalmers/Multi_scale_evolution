@@ -1,0 +1,3 @@
+
+Error:The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons in call to assert(fel.codon_filter.sites*3==fel.codon_data.sites, error_msg);
+The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons in call to assert(fel.codon_filter.sites*3==fel.codon_data.sites, error_msg);

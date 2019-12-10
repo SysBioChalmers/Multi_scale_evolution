@@ -107,9 +107,6 @@ chmod u+x 4_code_align_cluster.sh
 python 5_prepare_code_in_phy.py  -n /c3se/users/luho/Hebbe/cds_all0/ -o /c3se/users/luho/Hebbe/cds_all0/
 
 
-
-
-
 ########################################################
 # how to align code seq?
 ########################################################
@@ -120,86 +117,25 @@ chmod u+x pal2nal.pl
 
 
 
-
-
-
-
-
-
-
+###########################################
+# yn00 method test on the mac
+cd /Users/luho/Desktop/evolution_analysis/code/gene_dn_ds_paml/
+chmod u+x G2_gene_dN_dS_paml.sh
+./u+x G2_gene_dN_dS_paml.sh
 
 
 
 
 ##########################################
 # yn00 method test on the cluster
-# step6
-# produce the control file for the ortholog groups
-mkdir paml_yn00
-mkdir paml_result
-python 6_produce_control_file.py  -n /c3se/users/luho/Hebbe/cds_all0/ -c /c3se/users/luho/Hebbe/data_prepare_PAML/paml_yn00/ -o /c3se/users/luho/Hebbe/data_prepare_PAML/paml_result/
+# upload the code
+scp -r /Users/luho/Desktop/evolution_analysis  luho@hebbe.c3se.chalmers.se:/c3se/users/luho/Hebbe
+# upload the data
 
-
-# step7
-## PAML usage
-# install from conda
-# cd /Users/luho/Documents/pan_genome/PAML/code
-# yn00 /Users/luho/Documents/pan_genome/paml_yn00/yn00_OG4481.ctl
-chmod u+x 7_yn00_batch_cluster.sh
-./7_yn00_batch_cluster.sh
-
-
-###### using the real data
-scp -r /Users/luho/Documents/pan_genome/ortholog_all.zip/  luho@hebbe.c3se.chalmers.se:/c3se/users/luho/Hebbe
-scp -r /Users/luho/Documents/pan_genome/cds_align.zip/  luho@hebbe.c3se.chalmers.se:/c3se/users/luho/Hebbe
-
-
-
-
-########################################################
-# uopload task
-########################################################
-
-sbatch /c3se/users/luho/Hebbe/cluster_code/step1_protein_align.sh
-
-
-########################################################
-# download result
-########################################################
-
-scp -r luho@hebbe.c3se.chalmers.se:/c3se/users/luho/Hebbe/cds_all0.tar/ /Users/luho/Documents/pan_genome/cluster_result/
-scp -r luho@hebbe.c3se.chalmers.se:/c3se/users/luho/Hebbe/data_prepare_PAML.tar/ /Users/luho/Documents/pan_genome/cluster_result/
-
-
-
-
-
-
-
-
-
-#############yn00 method test on the mac
-# step6
-# produce the control file for the ortholog groups
-mkdir /Users/luho/Documents/pan_genome/control_yn00/
-mkdir /Users/luho/Documents/pan_genome/yn00_result/
-python 6_produce_control_file.py  -n /Users/luho/Documents/pan_genome/cds_all0/ -c /Users/luho/Documents/pan_genome/control_yn00/ -o /Users/luho/Documents/pan_genome/yn00_result/
-
-# step7
-## PAML usage
-# install from conda
-# cd /Users/luho/Documents/pan_genome/PAML/code
-# yn00 /Users/luho/Documents/pan_genome/paml_yn00/yn00_OG4481.ctl
-
-chmod u+x 7_yn00_batch.sh
-./7_yn00_batch.sh
-
-
-# new test
-cd /Users/luho/Desktop/evolution_analysis/code/gene_dn_ds_paml/
-
-
-
+cd /c3se/NOBACKUP/users/luho/cds_align
+mkdir gene_dN_dS_result
+cd /c3se/users/luho/Hebbe/evolution_analysis/code/gene_dn_ds_paml
+sbatch sbatch G2_gene_dN_dS_paml_cluster.sh
 
 
 

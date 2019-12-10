@@ -17,22 +17,22 @@ import argparse
 #site_model = "/Users/luho/Documents/PAML/site_model/"
 #result_out = "/Users/luho/Documents/paml_result/Example2_out"
 
-def prepareSiteFile(fast_input,tree_input,site_model, result_out):
+def prepareSiteFile(fast_input,tree_input,site_model):
+    #site_model = "/Users/luho/Desktop/evolution_analysis/hyphy_model/"
     model_type = os.listdir(site_model)
-    model_type = [x for x in model_type if "_" not in x]
+    model_type = [x for x in model_type if "runLEISR0.bf" in x]
     for x in model_type:
         print(x)
         # test
         # x = "M2a"
-        model_dir = site_model + x + "/" + "codeml.ctl0"
+        model_dir = site_model + x
         model_inf = open(model_dir).readlines()
-        model_inf[0] = "      seqfile = " + fast_input + "\n"
-        model_inf[1] = "     treefile = " + tree_input + "\n"
-        model_inf[2] = "      outfile = " + result_out + "_" + x + "\n"
+        model_inf[13] = model_inf[13].replace("fasta", fast_input)
+        model_inf[14] = model_inf[14].replace("tree", tree_input)
         try:
-            os.remove(site_model + x + "/" + "codeml_test.ctl") # remove the old files
+            os.remove(site_model + x.split(".")[0] + "_test.bf") # remove the old files
         except: pass
-        new_codefile = open(site_model + x + "/" + "codeml_test.ctl", "w")
+        new_codefile = open(site_model + x.split(".")[0] + "_test.bf", "w")
         new_codefile.writelines(model_inf)
         new_codefile.close()
 
@@ -46,16 +46,16 @@ def main():
     parser.add_argument('-n', metavar = 'input_file', type = str, help = 'input the codon sequence file')
     parser.add_argument('-t', metavar = 'input_file', type = str, help = 'input the tree file')
     parser.add_argument('-c', metavar = 'output_file', type = str, help = 'output file to store code')
-    parser.add_argument('-o', metavar='output_file', type=str, help='output file to store the result')
+    #parser.add_argument('-o', metavar='output_file', type=str, help='output file to store the result')
 
     args = parser.parse_args()
     cdsfile = args.n  # store the cds in phy format
     treefile = args.t
     codefile = args.c # store the code
-    resultfile = args.o  # store the result
-    prepareSiteFile(fast_input=cdsfile,tree_input=treefile,site_model=codefile, result_out=resultfile)
+    #resultfile = args.o  # store the result
+    prepareSiteFile(fast_input=cdsfile,tree_input=treefile,site_model=codefile)
 if __name__ == "__main__":
     main()
 
 # an example
-# python C1_produce_control_file.py -n /Users/luho/Documents/PAML/data/Example2.pml -t /Users/luho/Documents/PAML/data/Example2.tree -c /Users/luho/Documents/PAML/site_model/ -o /Users/luho/Documents/paml_result/Example2_out
+# python C1_produce_control_file.py -n /Users/luho/Documents/PAML/data/Example2.pml -t /Users/luho/Documents/PAML/data/Example2.tree -c /Users/luho/Documents/PAML/site_model/
