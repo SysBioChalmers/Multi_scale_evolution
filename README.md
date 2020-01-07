@@ -1,5 +1,5 @@
 This repository contains scripts for the evolution analysis based on protein 3D structures for 300 yeast species.
-* Last update: 2019-011-14
+* Last update: 2020-01-07
 
 
 ## Contributing
