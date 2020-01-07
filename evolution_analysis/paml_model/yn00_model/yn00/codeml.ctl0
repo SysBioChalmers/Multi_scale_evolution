@@ -1,0 +1,7 @@
+seqfile = /Users/luho/Documents/PAML/data/OG4478_code_align.phy
+outfile = /Users/luho/Documents/PAML/result/OG4478_yn00.out
+verbose = 1
+icode = 0
+weighting = 0
+commonf3x4 = 0
+ndata = 1

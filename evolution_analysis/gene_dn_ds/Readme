@@ -1,3 +1,0 @@
-For the calculation of gene level dN/dS, all steps will be divided into main steps
-step1 yn00_step1.sh--conduct the cds align and change it into phy format
-step2 yn00_step2.sh--produce the control file for dN/dS calculation and calculate the dN/dS
