@@ -9,9 +9,8 @@
 
 import os
 import argparse
+
 ## part1
-#ef prepareControlFile(fast_input, tree_input, code_out, result_out, ev_model):
-    # for the test
 #fast_input = "/Users/luho/Documents/PAML/data/Example2.pml"
 #tree_input = "/Users/luho/Documents/PAML/data/Example2.tree"
 #ev_model = "/Users/luho/Documents/PAML/yn00_model/"
@@ -53,7 +52,7 @@ def main():
     #treefile = args.t
     codefile = args.c # store the code
     resultfile = args.o  # store the result
-    prepareSiteFile(fast_input=cdsfile,ev_model=codefile, result_out=resultfile)
+    prepareSiteFile(fast_input=cdsfile, ev_model=codefile, result_out=resultfile)
 if __name__ == "__main__":
     main()
 

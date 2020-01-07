@@ -80,7 +80,7 @@ def main():
     for ele in og_list:
         print(ele)
         fasta_after_trim0 = newfile + ele
-        fasta_before_trim0 = oldfile + ele.replace("_trim", "")
+        fasta_before_trim0 = oldfile + ele
         fasta_output0 = outfile + ele
         filterSeqUsingRatio(fasta_before_trim0, fasta_after_trim0, fasta_output0, ratio_choose=0.5)
 if __name__ == "__main__":

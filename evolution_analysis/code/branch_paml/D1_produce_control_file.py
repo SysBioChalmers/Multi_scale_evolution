@@ -14,7 +14,7 @@ import argparse
     # for the test
 #fast_input = "/Users/luho/Documents/PAML/data/Example2.pml"
 #tree_input = "/Users/luho/Documents/PAML/data/Example2.tree"
-#ev_model = "/Users/luho/Documents/PAML/branch_model/"
+#ev_model = "/Users/luho/Documents/PAML/BM/"
 #result_out = "/Users/luho/Documents/paml_result/Example2_out"
 
 def prepareSiteFile(fast_input,tree_input, ev_model, result_out):

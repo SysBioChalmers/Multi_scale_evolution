@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578339943082.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "193269787",
+    "id" : "1DE52817",
+    "lastKnownWriteTime" : 1578422326,
+    "last_content_update" : 1578422326576,
+    "path" : "~/Documents/evolution_analysis/code/tree_build/other_test/gene_tree_manipulation.R",
+    "project_path" : "other_test/gene_tree_manipulation.R",
+    "properties" : {
+        "cursorPosition" : "111,0",
+        "disableDependencyDiscovery" : "1",
+        "scrollLine" : "77"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,9 +1,0 @@
-
-Error:'/Users/luho/Desktop/evolution_analysis/data/tree/HRH1.tre' could not be opened for reading by fscanf. Path stack:
-	//miniconda3/lib/hyphy/
-	/Users/luho/Desktop/evolution_analysis/hyphy_model/
-	//miniconda3/lib/hyphy/TemplateBatchFiles/ in call to fscanf(PROMPT_FOR_FILE,"RawREWIND, ",treeString, );
-'/Users/luho/Desktop/evolution_analysis/data/tree/HRH1.tre' could not be opened for reading by fscanf. Path stack:
-	//miniconda3/lib/hyphy/
-	/Users/luho/Desktop/evolution_analysis/hyphy_model/
-	//miniconda3/lib/hyphy/TemplateBatchFiles/ in call to fscanf(PROMPT_FOR_FILE,"RawREWIND, ",treeString, );

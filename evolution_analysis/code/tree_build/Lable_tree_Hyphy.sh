@@ -1,2 +1,2 @@
 #!/bin/bash
-Rscript Lable_tree_Hyphy.R
+Rscript Lable_tree_hyphy.R
