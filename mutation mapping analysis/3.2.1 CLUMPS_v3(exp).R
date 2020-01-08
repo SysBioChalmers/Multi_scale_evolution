@@ -23,7 +23,7 @@ strain_select1 <- chooseStrain(type = "PDETOH_high")
 
 # step 0
 # input the gene information
-pdb_Ex <- read_excel("/Users/luho/PycharmProjects/3D_model/evolution/result/pdb_ex_filter_manual_check.xlsx")
+pdb_Ex <- read_excel("/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/result/pdb_ex_filter_manual_check.xlsx")
 pdb_Ex$With_distance <- NA
 pdb_Ex <- filter(pdb_Ex, is.na(pdb_Ex$With_distance))
 pdb_Ex$pdbid <- pdb_Ex$template

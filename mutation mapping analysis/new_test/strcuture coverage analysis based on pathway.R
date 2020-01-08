@@ -15,7 +15,7 @@ sce_pathway_reactome <- read.table('data/sce_pathway_reactome.txt', header = TRU
 
 # input the strucutre data
 # pdb_ex
-pdb_Ex <- read_excel("/Users/luho/PycharmProjects/3D_model/evolution/result/pdb_ex_filter_manual_check.xlsx")
+pdb_Ex <- read_excel("/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/result/pdb_ex_filter_manual_check.xlsx")
 pdb_Ex$With_distance <- NA
 pdb_Ex <- filter(pdb_Ex, is.na(pdb_Ex$With_distance))
 pdb_Ex$pdbid <- pdb_Ex$template
@@ -23,7 +23,7 @@ pdb_Ex <- select(pdb_Ex, locus, pdbid, sstart2, send2)
 pdb_Ex$type <- 'Experiment'
 
 # pdb_homo
-pdb_info  <- read_excel("/Users/luho/PycharmProjects/3D_model/evolution/result/pdb_homo_filter_manual_check.xlsx")
+pdb_info  <- read_excel("/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/result/pdb_homo_filter_manual_check.xlsx")
 pdb_info$pdbid <- pdb_info$mapid
 pdb_info$with_distance <- NA
 pdb_info <- filter(pdb_info, is.na(pdb_info$with_distance))
@@ -32,6 +32,8 @@ pdb_info$type <- 'Homology'
 
 # merge above two sources
 pdb_all <- rbind.data.frame(pdb_Ex, pdb_info)
+
+
 
 # mapping the pdb onto the pathway
 sce_pathway_reactome$pdbID <- getMultipleReactionFormula(pdb_all$pdbid,pdb_all$locus,sce_pathway_reactome$geneID)
@@ -77,6 +79,7 @@ ggplot(data=pathway_unique0, aes(x=pathwayName, y=ratio_pdb)) + geom_bar(stat="i
 # Proteins need I-TASSER work
 # here possiblly we only focus on the core carbon metabolism
 protein_need_ITASSER <- filter(sce_pathway_kegg, is.na(pdbID))
+
 write.table(protein_need_ITASSER,'result/protein without pdb files of high quality-need itasser.txt', row.names = FALSE, sep = "\t")
 
 

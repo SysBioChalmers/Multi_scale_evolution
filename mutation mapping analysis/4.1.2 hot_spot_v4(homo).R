@@ -21,7 +21,7 @@ strain_select1 <- chooseStrain(type = "PDETOH_high")
 # step 0
 # input the gene information
 # input the gene information
-pdb_info  <- read_excel("/Users/luho/PycharmProjects/3D_model/evolution/result/pdb_homo_filter_manual_check.xlsx")
+pdb_info  <- read_excel("/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/result/pdb_homo_filter_manual_check.xlsx")
 #as sometimes we need the update the coordinates in the pdb homology files thus we use the mapid directly from the
 #provided by the swiss model database
 #pdb_info$pdbid <- paste(pdb_info$sstart2, pdb_info$send2, pdb_info$template, pdb_info$coordinate_id,sep = "_")
