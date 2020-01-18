@@ -13,7 +13,7 @@ os.chdir("/home/luhongzhong/Documents/evolution_analysis/temporary_code_for_test
 #####################################################
 # cds translation
 # for the cds data preprocess, first of all, we add cds from sce_288c in each gene group
-# please run -- python Add_sce_288c_coden_seq_as_reference.py
+# please run -- python Z6_Add_sce_288c_coden_seq_as_reference.py
 # after this we can obtain the file "cds" from the file "cds_original", based on this file, we conduct the followed analysis.
 
 with open("A0_translate_aln_codon_to_aa_macse.sh", "w") as rsh:
@@ -280,24 +280,26 @@ os.system("python /home/luhongzhong/Documents/evolution_analysis/code/gene_dn_ds
 # conservation analysis
 #####################################################
 # conservation score calculation
+# here should we use the initial protein alignment result to calculate the conservation???
 with open("conservation_score.sh", "w") as rsh:
     rsh.write('''\
 #!/usr/bin/env bash
 mkdir /media/luhongzhong/newdisk/Genomics_data/protein_sce_conservation_score
-cd /media/luhongzhong/newdisk/Genomics_data/protein_refine_align/
+cd /media/luhongzhong/newdisk/Genomics_data/protein_align/
 
 for i in *_aa_aligned.fasta
     do
         cd /home/luhongzhong/Documents/evolution_analysis/code/protein_conservation
-        python2 score_conservation.py  -g 0.3 -o /media/luhongzhong/newdisk/Genomics_data/protein_sce_conservation_score/${i%_aa_aligned.fasta}_conservation_score_jsd /media/luhongzhong/newdisk/Genomics_data/protein_refine_align/$i
+        python2 score_conservation.py  -g 0.3 -o /media/luhongzhong/newdisk/Genomics_data/protein_sce_conservation_score/${i%_aa_aligned.fasta}_conservation_score_jsd /media/luhongzhong/newdisk/Genomics_data/protein_align/$i
     done
     ''')
 os.system("chmod u+x conservation_score.sh")
 os.system("./conservation_score.sh")
+
 # parse the conservation score
 code_dir0 = "/home/luhongzhong/Documents/evolution_analysis/code/protein_conservation/"
 cmd = "python" + " " + \
                   code_dir0 + \
-                  "step2_parse_jds_result.py -p0 /media/luhongzhong/newdisk/Genomics_data/all_reference_aa_1011_sce_update_align/ -s /media/luhongzhong/newdisk/Genomics_data/protein_sce_conservation_score/ -o /media/luhongzhong/newdisk/Genomics_data/result_jsd"
+                  "step2_parse_jds_result_with_sce_as_reference.py -p0 /media/luhongzhong/newdisk/Genomics_data/protein_align/ -s /media/luhongzhong/newdisk/Genomics_data/protein_sce_conservation_score/ -o /media/luhongzhong/newdisk/Genomics_data/result_jsd/"
 os.system("mkdir /media/luhongzhong/newdisk/Genomics_data/result_jsd")
 os.system(cmd)

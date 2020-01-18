@@ -1,8 +1,12 @@
 #!/bin/bash
-cd /Users/luho/Desktop/evolution_analysis/data/cds_seq/
+cd /home/luhongzhong/ortholog_sce_prune/cds_align_macse
 
-for i in *_code_align.fasta
-do
-	hyphy meme --alignment /Users/luho/Desktop/evolution_analysis/data/cds_seq/$i --tree /Users/luho/Desktop/evolution_analysis/data/tree/${i%_code_align.fasta}_aa_unroot.tre --pvalue 0.1
+for i in *_code.fasta
+  do
 
-done
+	  hyphy meme --alignment /home/luhongzhong/ortholog_sce_prune/cds_align_macse/$i --tree /home/luhongzhong/ortholog_sce_prune/unroot_tree/${i%_code.fasta}_aa_unroot.tre --pvalue 0.1
+
+  done
+
+# Error:
+# Internal error in  _LikelihoodFunction::GradientLocateTheBump: in the Brent loop iteration 1. -8.694365600932544 / -8.694365600931965.
