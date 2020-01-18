@@ -55,5 +55,5 @@ if __name__ == "__main__":
     main()
 
 # an example
-# python C1_produce_control_file.py -n /Users/luho/Documents/PAML/data/Example2.pml -t /Users/luho/Documents/PAML/data/Example2.tree -c /Users/luho/Documents/PAML/site_model/
-# python C1_produce_control_file.py -n /Users/luho/Documents/PAML/data/Example2.pml -t /Users/luho/Documents/PAML/data/Example2.tree -c /Users/luho/Documents/PAML/site_model/
+# python B1_produce_control_file_in_batch.py -n /Users/luho/Documents/PAML/data/Example2.pml -t /Users/luho/Documents/PAML/data/Example2.tree -c /Users/luho/Documents/PAML/site_model/
+# python B1_produce_control_file_in_batch.py -n /Users/luho/Documents/PAML/data/Example2.pml -t /Users/luho/Documents/PAML/data/Example2.tree -c /Users/luho/Documents/PAML/site_model/

@@ -242,7 +242,7 @@ os.system("./conservation_score.sh")
 code_dir0 = "/home/luhongzhong/Documents/evolution_analysis/code/protein_conservation/"
 cmd = "python" + " " + \
                   code_dir0 + \
-                  "step2_parse_jds_result.py -p0 /home/luhongzhong/ortholog_sce_unprune/all_reference_aa_1011_sce_update_align/ -s /home/luhongzhong/ortholog_sce_unprune/protein_sce_conservation_score/ -o /home/luhongzhong/ortholog_sce_unprune/result_jsd"
+                  "step2_parse_jds_result_with_sce_as_reference.py -p0 /home/luhongzhong/ortholog_sce_unprune/all_reference_aa_1011_sce_update_align/ -s /home/luhongzhong/ortholog_sce_unprune/protein_sce_conservation_score/ -o /home/luhongzhong/ortholog_sce_unprune/result_jsd"
 os.system("mkdir /home/luhongzhong/ortholog_sce_unprune/result_jsd")
 os.system(cmd)
 

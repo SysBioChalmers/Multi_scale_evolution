@@ -45,7 +45,7 @@ def main():
     #adding arguments
     parser.add_argument('-p', metavar = 'input_file', type = str, help = 'input the protein sequence file')
     parser.add_argument('-t', metavar = 'input_file', type = str, help = 'input the tree file')
-    parser.add_argument('-c', metavar = 'template_file', type = str, help = 'template file directory')
+    parser.add_argument('-c', metavar = 'template_file', type = str, help = 'test file directory')
     parser.add_argument('-o', metavar='output_file', type=str, help='output file directory')
 
     args = parser.parse_args()
@@ -61,18 +61,13 @@ def main():
         profile0 = profile + id
         treefile0 = treefile + id.replace("aa_aligned.fasta", "aa_unroot.tre")
         outputfile0 = outputfile + id.split(".")[0] + "_test.bf"
-        prepareSiteFile(fast_input=profile0,tree_input=treefile0,template_model=codefile,out_dir=outputfile0 )
+        prepareSiteFile(fast_input=profile0,tree_input=treefile0,template_model=codefile,out_dir=outputfile0)
 if __name__ == "__main__":
     main()
 
 # an example
-# to produce the control file on the mac
-# python leisr_produce_control_file_batch.py -p /home/luhongzhong/protein_all_refine_align_sce/ -t /home/luhongzhong/protein_all_align_tree/ -c /home/luhongzhong/Documents/evolution_analysis/hyphy_model/ -o /home/luhongzhong/Documents/evolution_analysis/hyphy_model/leisr_bf/
-
-# to produce the control file on the cluster
-# python leisr_produce_control_file_batch.py -p /c3se/NOBACKUP/users/luho/protein_all_refine_align_sce/ -t /c3se/NOBACKUP/users/luho/protein_all_align_tree/ -c /c3se/users/luho/Hebbe/evolution_analysis/hyphy_model/ -o /c3se/users/luho/Hebbe/evolution_analysis/hyphy_model/leisr_bf/
+# on the mac
+# python leisr_produce_control_file_batch.py -p /home/luhongzhong/ortholog_343/protein_refine/ -t /home/luhongzhong/ortholog_343/unroot_tree/ -c /home/luhongzhong/Documents/evolution_analysis/hyphy_model/ -o /home/luhongzhong/Documents/evolution_analysis/hyphy_model/leisr_bf/
 
 # on the new cluster
-# python leisr_produce_control_file_batch.py -p /c3se/NOBACKUP/users/luho/protein_all_refine_align_sce/ -t /c3se/NOBACKUP/users/luho/protein_all_align_tree/ -c /cephyr/users/luho/Hebbe/evolution_analysis/hyphy_model/ -o /cephyr/users/luho/Hebbe/evolution_analysis/hyphy_model/leisr_bf/
-
-
+# python leisr_produce_control_file_batch.py -p /c3se/NOBACKUP/users/luho/protein_refine/ -t /c3se/NOBACKUP/users/luho/unroot_tree/ -c /cephyr/users/luho/Hebbe/evolution_analysis/hyphy_model/ -o /cephyr/users/luho/Hebbe/evolution_analysis/hyphy_model/leisr_bf/

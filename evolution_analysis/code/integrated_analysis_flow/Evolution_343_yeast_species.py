@@ -143,7 +143,7 @@ for i in *_aa.tre
 cd /home/luhongzhong/ortholog_343/protein_align_s2_R
 
 # move file
-for i in *_aa.tre
+for i in *_pruned.fa
     do
         mv $i /home/luhongzhong/ortholog_343/protein_align_pruner/
     done
@@ -334,7 +334,7 @@ os.system(cmd)
 
 
 ####################################################
-# evolution analysis
+# evolution analysis based on PAML
 ####################################################
 # gene level dN/dS
 with open("gene_dN_dS.sh", "w") as rsh:
@@ -348,26 +348,51 @@ with open("gene_dN_dS.sh", "w") as rsh:
             yn00 /home/luhongzhong/Documents/evolution_analysis/paml_model/yn00_model/yn00/codeml_test.ctl
         done
     ''')
-
 os.system("chmod u+x gene_dN_dS.sh")
 os.system("./gene_dN_dS.sh")
 # parse the result
-os.mkdir("/home/luhongzhong/ortholog_343/result_paml_parse")
+os.system("mkdir /home/luhongzhong/ortholog_343/result_paml_parse")
 os.system("python /home/luhongzhong/Documents/evolution_analysis/code/gene_dn_ds_paml/result_parse_yn00.py -i /home/luhongzhong/ortholog_343/result_paml/ -o /home/luhongzhong/ortholog_343/result_paml_parse/ -m median")
 
+# site level dN_dS using paml
+with open("site_model.sh", "w") as rsh:
+    rsh.write('''\
+    #!/bin/bash
+    mkdir /home/luhongzhong/ortholog_343/site_model_result/
+    cd /home/luhongzhong/ortholog_343/cds_align_unify/
+    for i in *_code.phy
+        do
+        python /home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_paml/produce_single_control_file.py -n /home/luhongzhong/ortholog_343/cds_align_unify/$i -t /home/luhongzhong/ortholog_343/unroot_tree_unify/${i%_code.phy}_aa_unroot_unify.tre -c  /home/luhongzhong/Documents/evolution_analysis/paml_model/site_model/test/ -o /home/luhongzhong/ortholog_343/site_model_result/${i%_code.phy}.out
+        #codeml /Users/luho/Desktop/evolution_analysis/paml_model/site_model/test/M0/codeml_test.ctl
+        #codeml /Users/luho/Desktop/evolution_analysis/paml_model/site_model/test/M1a/codeml_test.ctl
+        #codeml /Users/luho/Desktop/evolution_analysis/paml_model/site_model/test/M2a/codeml_test.ctl
+        #codeml /Users/luho/Desktop/evolution_analysis/paml_model/site_model/test/M3/codeml_test.ctl
+        codeml /home/luhongzhong/Documents/evolution_analysis/paml_model/site_model/test/M7/codeml_test.ctl
+        codeml /home/luhongzhong/Documents/evolution_analysis/paml_model/site_model/test/M8/codeml_test.ctl
+        codeml /home/luhongzhong/Documents/evolution_analysis/paml_model/site_model/test/M8a/codeml_test.ctl
+        done
+    ''')
+os.system("chmod u+x site_model.sh")
+os.system("./site_model.sh")
+
+
+####################################################
+# evolution analysis based on Hyphy
+####################################################
 
 # site level dN/dS
-with open("site_fubar.sh", "w") as rsh:
+with open("fubar.sh", "w") as rsh:
     rsh.write('''\
     #!/bin/bash
     mkdir /home/luhongzhong/ortholog_343/fubar_result/
 
-    cd /home/luhongzhong/ortholog_343/cds_align_unify
-    for i in *_code.phy
+    cd /home/luhongzhong/ortholog_343/cds_align_macse_remove_stop_code
+    for i in *_code.fasta
         do
-            hyphy fubar --alignment /home/luhongzhong/ortholog_343/cds_align_unify/$i --tree /home/luhongzhong/ortholog_343/unroot_tree_unify/${i%_code.phy}_aa_unroot_unify.tre --output /home/luhongzhong/ortholog_343/fubar_result/${i%_code.phy}_code.phy.FUBAR.json
+            hyphy fubar --alignment /home/luhongzhong/ortholog_343/cds_align_macse_remove_stop_code/$i --tree /home/luhongzhong/ortholog_343/unroot_tree/${i%_code.fasta}_aa_unroot.tre --output /home/luhongzhong/ortholog_343/fubar_result/${i%_code.fasta}_code.fasta.FUBAR.json
+            rm /home/luhongzhong/ortholog_343/cds_align_macse_remove_stop_code/${i%_code.fasta}_code.fasta.FUBAR.cache
         done
+    
     ''')
-
-os.system("chmod u+x site_fubar.sh")
-os.system("./site_fubar.sh")
+os.system("chmod u+x fubar.sh")
+os.system("./fubar.sh")

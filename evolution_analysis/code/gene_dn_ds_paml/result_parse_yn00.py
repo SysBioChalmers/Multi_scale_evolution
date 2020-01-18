@@ -64,7 +64,9 @@ def calMean_dN_dS(paml_gene_dn_ds_file, output_dir, id0, method="median"):
     #max_dn_ds = max(omega_all)
     new = np.array(omega_all)
     # here should we filter out omega > 50
-    new = new[new < 50]
+    # here it may be not reasonable to filter out omega > 50. In fact, these value should be zero
+    # new = new[new < 50]
+    new[new > 50] = 0
     median_dn_ds = np.median(new[np.isfinite(new)])
     average_dn_ds = np.mean(new[np.isfinite(new)])
     max_dn_ds = np.nanmax(new)
@@ -76,8 +78,6 @@ def calMean_dN_dS(paml_gene_dn_ds_file, output_dir, id0, method="median"):
         return max_dn_ds
     else:
         return result_dict
-
-
 
 
 # for all the orthologs subset

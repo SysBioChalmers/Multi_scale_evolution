@@ -1,20 +1,14 @@
 #!/usr/bin/python
 
 # Note
+# The script is used to extract paired seq from one big gene family
 
 import os
 import argparse
-import statistics
-import pandas as pd
-from Bio import SeqIO
-import pandas as pd
 
 input0 = "/media/luhongzhong/newdisk/Genomics_data/cds_align_unify/"
-os.system("mkdir /media/luhongzhong/newdisk/Genomics_data/cds_align_unify_remove_duplicates/")
+all_gene = os.listdir(input0)
 
-outfile0 = "/media/luhongzhong/newdisk/Genomics_data/cds_align_unify_remove_duplicates/"
-
-all_gene = os.listdir("/media/luhongzhong/newdisk/Genomics_data/cds_align_unify/")
 for gene in all_gene:
     if ".phy" in gene:
         print(gene)
@@ -23,7 +17,6 @@ for gene in all_gene:
         s0 = open(fasta0, "r").readlines()
         # firstly build the id and seq dict
         general_information = s0[0].split(" ")
-
         id_index = []
         id = []
         for i, s in enumerate(s0):
@@ -48,20 +41,32 @@ for gene in all_gene:
             id_seq_dict[id_new] = seq_choose
 
         # build a temporary fold
-        os.system(" rm -rf /media/luhongzhong/newdisk/Genomics_data/cds_align_unify/paired_OG")
-        os.system("mkdir /media/luhongzhong/newdisk/Genomics_data/cds_align_unify/paired_OG")
-        outfile = "/media/luhongzhong/newdisk/Genomics_data/cds_align_unify/paired_OG/"
+        commond1 = "rm -rf " + input0 + "paired_gene_" + gene + "/"
+        commond2 = "mkdir " + input0 + "paired_gene_" + gene + "/"
+        os.system(commond1)
+        os.system(commond2)
+
+        outfile = input0 + "paired_gene_" + gene + "/"
         id_update = [x.strip("\n") for x in id]
         id_update = [x.strip(" ") for x in id_update]
-        general_information_new = str(len(2)) + " " + " ".join(general_information[1:])
-        for ss in id_update:
-            # print(ss)
-            if "SACE_288c" not in ss:
-                print(ss)
-                file_out = outfile + ss
-                out = open(file_out, "w")
-                out.write(general_information_new)
-                out.write(ss + "  " + "\n")
-                out.writelines("".join(id_seq_dict[ss]))
-                out.write("SACE_288c" + "  " + "\n")
-                out.write("".join(id_seq_dict["SACE_288c"]))
+        # how to find the referenceID
+        # for the 1011 sce genome project
+        # referenceID = "SACE_288c"
+        # id_update = ["110_1", "120_2"] # example for 343 yeast species genome
+        referenceID_all = [x for x in id_update if x== "SACE_288c" or x.split("_")[0]=="110"]
+        if len(referenceID_all) >=1:
+            referenceID = referenceID_all[0]
+            general_information_new = str(2) + " " + " ".join(general_information[1:])
+            for ss in id_update:
+                # print(ss)
+                if referenceID not in ss:
+                    print(ss)
+                    file_out = outfile + ss
+                    out = open(file_out, "w")
+                    out.write(general_information_new)
+                    out.write(ss + "  " + "\n")
+                    out.writelines("".join(id_seq_dict[ss]))
+                    out.write(referenceID + "  " + "\n")
+                    out.write("".join(id_seq_dict[referenceID]))
+        else:
+            pass

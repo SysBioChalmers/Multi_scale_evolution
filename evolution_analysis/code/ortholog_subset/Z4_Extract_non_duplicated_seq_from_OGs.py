@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 # Note
+# The script is to analyze the duplicated seq for the 1011 sce sequence project.
 
 import os
 import argparse
@@ -11,10 +12,14 @@ import pandas as pd
 
 input0 = "/media/luhongzhong/newdisk/Genomics_data/cds_align_unify/"
 os.system("mkdir /media/luhongzhong/newdisk/Genomics_data/cds_align_unify_remove_duplicates/")
-
 outfile0 = "/media/luhongzhong/newdisk/Genomics_data/cds_align_unify_remove_duplicates/"
 
 all_gene = os.listdir("/media/luhongzhong/newdisk/Genomics_data/cds_align_unify/")
+
+gene_cluster = []
+duplicated_seq_num = []
+non_duplicate_seq_num = []
+
 for gene in all_gene:
     if ".phy" in gene:
         print(gene)
@@ -59,6 +64,10 @@ for gene in all_gene:
         df = pd.DataFrame({"ID": id_all, "seq": seq_all})
         duplicate0 = df[df.duplicated(['seq'], keep=False)]
         print("total seq:" + str(len(seq_all)) + "====> duplicate_seq:" + str(len(duplicate0["seq"])))
+        # summarize the duplicated seq
+        gene_cluster.append(gene)
+        duplicated_seq_num.append(len(duplicate0["seq"]))
+        non_duplicate_seq_num.append(1012-len(duplicate0["seq"]))
 
         # save the non duplicate ones
         new_df = df.drop_duplicates(subset=['seq'], keep=False)
@@ -71,3 +80,28 @@ for gene in all_gene:
             out.write(ss0 + "  " + "\n")
             out.writelines("".join(id_seq_dict[ss0]))
         out.close()
+
+
+
+
+# further summarize the duplicate seq information
+duplicate_seq = pd.DataFrame({"cluster": gene_cluster, "duplicate_num": duplicated_seq_num, "unique_num": non_duplicate_seq_num})
+duplicate_seq.sort_values("unique_num", inplace=True)
+duplicate_seq["cluster"] =  duplicate_seq["cluster"].str.replace(".phy","")
+
+
+conserved_gene = duplicate_seq[duplicate_seq["unique_num"] <=16] # here we just choose top 2.5%, 145 gene id
+conserved_gene_list = conserved_gene["cluster"].tolist()
+print(len(conserved_gene_list))
+conserved_gene_list0 = ",".join(conserved_gene_list)
+print(conserved_gene_list0)
+
+
+unconserved_gene = duplicate_seq[duplicate_seq["unique_num"] >= 300] # here we just choose top 2.5%, 149 gene id
+unconserved_gene_list = unconserved_gene["cluster"].tolist()
+print(len(unconserved_gene_list))
+unconserved_gene_list0 = ",".join(unconserved_gene_list)
+print(unconserved_gene_list0)
+
+
+duplicate_seq.to_csv("/home/luhongzhong/Documents/R_code_for_graph/data/duplicate_gene_analysis_1011_sce.csv")
