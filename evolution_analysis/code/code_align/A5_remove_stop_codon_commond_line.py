@@ -1,12 +1,9 @@
 #!/usr/bin/python
 
 # Note
-# This script is used to remove the stop codon and the sequence contains letter "Y"
-# In the initial method, we just remove the sequence contains letter "Y"
-# This may be not the best option to handle it.
-# For the example of "OG5327", one seq contains letter "Y", so we remove it.
-# The script will be changed as a function.
-
+# This script is used to replace any stop codon with "---".
+# Here please careful about when finding the positive selected sites, is it still correct to mapping the sites into the
+# original reference protein sequences.
 
 from Bio import SeqIO
 from Bio.Seq import Seq

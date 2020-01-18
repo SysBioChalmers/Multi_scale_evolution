@@ -28,7 +28,8 @@ def getMaxSeqFromSameTax(ele0):
 #file1 = source1 + 'OG5327_aa_aligned_trim.fasta'
 #file2 = source2 + 'OG5327_aa_aligned_trim.fasta'
 
-def filterOG(fasta_input, fast_output, max_specie=7, max_paralog=3, seq_species_ratio=1.5, mini_seq_length=30):
+# Note: here to improve the coverage we improve the max_paralog from 3 to 5
+def filterOG(fasta_input, fast_output, max_specie=7, max_paralog=5, seq_species_ratio=1.5, mini_seq_length=30):
     OG_trim = list(SeqIO.parse(fasta_input, "fasta"))
     proteinID = []
     for record in OG_trim:

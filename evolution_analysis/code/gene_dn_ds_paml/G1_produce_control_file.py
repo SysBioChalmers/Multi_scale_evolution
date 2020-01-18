@@ -57,4 +57,4 @@ if __name__ == "__main__":
     main()
 
 # an example
-# python C1_produce_control_file.py -n /Users/luho/Documents/PAML/data/Example2.pml -c /Users/luho/Documents/PAML/yn00_model/ -o /Users/luho/Documents/paml_result/Example2_out
+# python B1_produce_control_file_in_batch.py -n /Users/luho/Documents/PAML/data/Example2.pml -c /Users/luho/Documents/PAML/yn00_model/ -o /Users/luho/Documents/paml_result/Example2_out
