@@ -6,34 +6,6 @@
 
 
 
-# function need to adjusted:
-preprocessSNP <- function(gene0, gene_feature) {
-  # inut a gene name,
-  # then the function will read all the SNP information for this gene
-  # output
-  # a dataframe contains each SNP information which including:
-  # chrosome, geneName, ref, alf and completment sign
-  infile <- paste("data/gene_snp/", gene0, sep = "")
-  mutated_test <- read.table(infile, header = FALSE, sep = "\t", stringsAsFactors = FALSE)
-  colnames(mutated_test) <- c("strain", "Gene2", "Chr", "Pos", "Ref", "Alt")
-  mutated_test$complement_sign <- getSingleReactionFormula(gene_feature$complement_sign, gene_feature$locus_tag, mutated_test$Gene2)
-  mutated_gene0 <- mutated_test
-  for (i in seq(length(mutated_gene0$Chr))) {
-    if (mutated_gene0$complement_sign[i]) {
-      mutated_gene0$Ref[i] <- changeATCG(mutated_gene0$Ref[i])
-      mutated_gene0$Alt[i] <- changeATCG(mutated_gene0$Alt[i])
-    } else {
-      mutated_gene0$Ref[i] <- mutated_gene0$Ref[i]
-      mutated_gene0$Alt[i] <- mutated_gene0$Alt[i]
-    }
-  }
-
-  return(mutated_gene0)
-}
-
-
-
-
 
 #step0 choose samples that need to be analyzed
 strain_classification <- read.table("data/strain_PDETOH_classification.txt", header = TRUE)
@@ -49,7 +21,7 @@ strain_select1 <- chooseStrain(type = "PDETOH_high")
 
 # step 0
 # input the gene information
-pdb_info  <- read_excel("/Users/luho/PycharmProjects/3D_model/evolution/result/pdb_homo_filter_manual_check.xlsx")
+pdb_info  <- read_excel("/Users/luho/PycharmProjects/3D_model/Data_collection_of_PDB/result/pdb_homo_filter_manual_check.xlsx")
 #as sometimes we need the update the coordinates in the pdb homology files thus we use the mapid directly from the
 #provided by the swiss model database
 #pdb_info$pdbid <- paste(pdb_info$sstart2, pdb_info$send2, pdb_info$template, pdb_info$coordinate_id,sep = "_")
@@ -143,3 +115,37 @@ for (i in 1:length(pdb_info$locus)) {
 
 # save the result
 write.table(pdb_info, paste(outfile0,'/','pdb_info.txt', sep = ""), row.names = FALSE, sep = "\t")
+
+
+
+
+
+# function need to adjusted:
+preprocessSNP <- function(gene0, gene_feature) {
+  # inut a gene name,
+  # then the function will read all the SNP information for this gene
+  # output
+  # a dataframe contains each SNP information which including:
+  # chrosome, geneName, ref, alf and completment sign
+  infile <- paste("data/gene_snp/", gene0, sep = "")
+  mutated_test <- read.table(infile, header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+  colnames(mutated_test) <- c("strain", "Gene2", "Chr", "Pos", "Ref", "Alt")
+  mutated_test$complement_sign <- getSingleReactionFormula(gene_feature$complement_sign, gene_feature$locus_tag, mutated_test$Gene2)
+  mutated_gene0 <- mutated_test
+  for (i in seq(length(mutated_gene0$Chr))) {
+    if (mutated_gene0$complement_sign[i]) {
+      mutated_gene0$Ref[i] <- changeATCG(mutated_gene0$Ref[i])
+      mutated_gene0$Alt[i] <- changeATCG(mutated_gene0$Alt[i])
+    } else {
+      mutated_gene0$Ref[i] <- mutated_gene0$Ref[i]
+      mutated_gene0$Alt[i] <- mutated_gene0$Alt[i]
+    }
+  }
+
+  return(mutated_gene0)
+}
+
+
+
+
+

@@ -191,8 +191,9 @@ for (i in seq_along(nsSNP_subsytem$pathwayName)) {
           legend.text = element_text(size = 13, family = "Arial")) +  ggtitle('') +
     theme(panel.background = element_rect(fill = "white", colour = "black", size = 1))
   s <- str_replace_all(s, "\\ / ", "_")
-  ggsave(out <- paste("result/", s, ".png", sep = ""), width = 8, height = 6, dpi = 300)
+  ggsave(out <- paste("result/pathway_analysis_dN_dS/", s, ".png", sep = ""), width = 8, height = 6, dpi = 300)
 }
+
 
 #--------------------------------------------------------------------------------------------
 # classify gene based on essential
@@ -262,20 +263,3 @@ ggplot(gene_essential, aes(dN_dS, fill = type_combine, colour = type_combine)) +
         legend.text = element_text(size = 10, family = "Arial")) +
   ggtitle('') +
   theme(panel.background = element_rect(fill = "white", colour = "black", size = 1))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

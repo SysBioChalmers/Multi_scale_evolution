@@ -14,9 +14,6 @@ strain_classification <- strain_classification[, c('strain_name','type')]
 strain_type <-"glycerol_high"
 strain_select1 <- chooseStrain(type = "glycerol_high")
 
-
-
-
 # input the data of clumps method
 clumps_ex <- read.table(paste('result/CLUMPS from pdb_ex for ',strain_type, '/pdb_EX.txt',sep = ""), header= TRUE, sep = "\t", stringsAsFactors = FALSE)
 clumps_ex$pdb_source <- "Exp"
@@ -37,10 +34,6 @@ clumps_all_fiter0 <- merge.data.frame(clumps_all_fiter0,gene_annotation,by.x = "
 # gene with pdb file which have mutation enrichment
 gene_sum <- unique(clumps_all_fiter0$locus)
 gene_sum0 <- paste0(gene_sum,collapse = ",")
-
-
-
-
 
 # interest geneset1 enrichment in glycosis pathway: 'YDR050C', 'YKL060C', 'YAL054C', 'YGL253W', 'YGR240C', 'YKR097W', 'YDL021W'
 # YGL253W's PDB file only contain 17 amino acids residue
@@ -72,10 +65,3 @@ for (i in 1:length(geneset1_detail$locus)) {
                              sstart0 = p1,
                              send0 = p2)
 }
-
-
-
-
-
-
-
