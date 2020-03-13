@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582219108679.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "13|113|129|0|\n",
+    "hash" : "3693901281",
+    "id" : "3788800D",
+    "lastKnownWriteTime" : 1583780278,
+    "last_content_update" : 1583780278634,
+    "path" : "~/Documents/evolution_analysis/code/tree_build/Lable_tree_hyphy_update.R",
+    "project_path" : "Lable_tree_hyphy_update.R",
+    "properties" : {
+        "cursorPosition" : "211,2",
+        "scrollLine" : "178"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -24,7 +24,8 @@ def prepareSiteFile(OG, fast_input, tree_input, template_model, new_model_dir, r
     model_type = os.listdir(template0)
     # here we choose model types
     #model_type = [x for x in model_type if "_" not in x]
-    model_type = ["M7","M8","M8a"]
+    #model_type = ["M7","M8","M8a"]
+    model_type = ["M1a","M2a", "M7", "M8"]
     for x in model_type:
         print(x)
         # test

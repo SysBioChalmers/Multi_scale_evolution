@@ -156,4 +156,4 @@ if __name__ == "__main__":
     main()
 
 # example code
-# python /home/luhongzhong/Documents/evolution_analysis/code/protein_conservation/3_connect_site_data_with_sequence.py -p0 /home/luhongzhong/protein_all_refine_align_sce/ -s /home/luhongzhong/protein_sce_conservation_score/ -o /home/luhongzhong/Documents/result_jsd/
+# python /home/luhongzhong/Documents/evolution_analysis/code/protein_conservation/step2_parse_jds_result_general.py -p0 /home/luhongzhong/protein_all_refine_align_sce/ -s /home/luhongzhong/protein_sce_conservation_score/ -o /home/luhongzhong/Documents/result_jsd/

@@ -45,8 +45,8 @@ def main():
             description = 'Collect the protein seq of high quality for each OG group, which will be use for the cds alignment.')
     #adding arguments
     parser.add_argument('-p0', metavar='input_file', type=str, help='input the protein seq alignment before trim')
-    parser.add_argument('-p1', metavar = 'input_file', type = str, help = 'input the protein seq after trim')
-    parser.add_argument('-o', metavar = 'output_file', type = str, help = 'output file to store the new protein seq')
+    parser.add_argument('-p1', metavar = 'input_file', type=str, help = 'input the protein seq after trim')
+    parser.add_argument('-o', metavar = 'output_file', type=str, help = 'output file to store the new protein seq')
     # the newly added parameters
     parser.add_argument('-t', metavar='kind of refined protein align', type=str, help='check the format of protein after alignment')
 

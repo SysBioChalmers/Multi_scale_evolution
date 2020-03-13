@@ -250,6 +250,17 @@ cmd = "python" + " " + \
                   "A7_prepare_code_for_paml_1011_sce.py -n /media/luhongzhong/newdisk/Genomics_data/cds_align_macse_remove_stop_code/ -o /media/luhongzhong/newdisk/Genomics_data/cds_align_unify/"
 os.system(cmd)
 
+# In the followed steps, there are two options, one is to remove the duplicates
+# another is to keep the duplicates. It seems that the results from the two methods will be the same, as in the followed calculation, if Ks < 0.001, the dN/dS will be not calculated
+
+# option 1 remove the duplicates
+# especially we can find there are lots of duplicated sequences under a gene family, thus we need firstly remove them.
+# a new directory is established: /media/luhongzhong/newdisk/Genomics_data/cds_align_unify_remove_duplicates.
+# here it may be not reasonable if we want to compare strains from different clades as the interesting strains can be removed in the analysis.
+os.system("python /home/luhongzhong/Documents/evolution_analysis/code/ortholog_subset/Z4_Extract_non_duplicated_seq_from_OGs.py")
+
+# option 2 keep the duplicates
+
 
 ####################################################
 # evolution analysis
@@ -272,8 +283,8 @@ os.system("chmod u+x gene_dN_dS_1011.sh")
 os.system("./gene_dN_dS_1011.sh")
 
 # result parse
-os.mkdir("/media/luhongzhong/newdisk/Genomics_data/result_paml_parse")
-os.system("python /home/luhongzhong/Documents/evolution_analysis/code/gene_dn_ds_paml/result_parse_yn00.py -i /media/luhongzhong/newdisk/Genomics_data/result_paml/ -o /media/luhongzhong/newdisk/Genomics_data/result_paml_parse/ -m median")
+os.system("mkdir /media/luhongzhong/newdisk/Genomics_data/result_paml_parse")
+os.system("python /home/luhongzhong/Documents/evolution_analysis/code/gene_dn_ds_paml/result_parse_yn00_update.py -i /media/luhongzhong/newdisk/Genomics_data/result_paml/ -o /media/luhongzhong/newdisk/Genomics_data/result_paml_parse/ -m median")
 
 
 #####################################################

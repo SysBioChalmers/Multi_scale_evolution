@@ -33,6 +33,13 @@ write.tree(tree2, file = "/home/luhongzhong/Documents/evolution_analysis/data/da
 
 
 # label tree
+tr0 <- "((((Pig:0.147969,Cow:0.213430):0.085099,Horse:0.165787,Cat:0.264806):0.058611,((RhMonkey{PR}:0.002015,Baboon{PR}:0.003108){PR}:0.022733,(Human{PR}:0.004349,Chimp{PR}:0.000799){PR}:0.011873){PR}:0.101856){PR}:0.340802,Rat:0.050958,Mouse:0.097950);"
+tr0 <- read.tree(text = tr0)
+tr0 <- makeNodeLabel(tr0, "u", nodeList = list(Pan = "Pan", Homo = "Homo"))
+plot(tr0, show.node.label = TRUE)
+
+
+
 tr <- "((Pan_paniscus,Pan_troglodytes),((Homo_sapiens,Homo_erectus),Homo_abilis));"
 tr <- read.tree(text = tr)
 tr <- makeNodeLabel(tr, "u", nodeList = list(Pan = "Pan", Homo = "Homo"))
@@ -52,6 +59,8 @@ tr <- "((Pan_paniscus,Pan_troglodytes),((Homo_sapiens,Homo_erectus),Homo_abilis)
 tr <- read.tree(text = tr)
 plot(tr, show.node.label = TRUE)
 nodelabels()
+
+
 
 
 
