@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 # The function could be used for connect the site wise dN/dS with the sequence!
 # Hongzhong
-# 2020-03-12
+# 2020-04-20
 
 
 from Bio import SeqIO
 import os
 import pandas as pd
-import statistics
 import argparse
 
 ## part1
@@ -23,6 +22,13 @@ def connect_site_data_with_seq(fasta_file, site_file, outfile, sce_as_ref=False)
     :param output:
     :return:
     '''
+
+    # test using fel result
+
+    #fasta_file = "/Users/luho/Documents/site_model_FEL/OG5017_aa_aligned.fasta"
+    #site_file = "/Users/luho/Documents/site_model_FEL/fel_csv/OG5017.csv"
+    #sce_as_ref = False
+
     OG_original = list(SeqIO.parse(fasta_file, "fasta"))
     # build a dataframe to calculate the gap ratio in each site
     # check the ID
@@ -83,7 +89,8 @@ def connect_site_data_with_seq(fasta_file, site_file, outfile, sce_as_ref=False)
     csv_file = pd.read_csv(site_file)
     csv_file.index.name = 'newhead'
     csv_file.reset_index(inplace=True)
-    csv_file.columns = ["site",	"alpha", "beta","beta-alpha","Prob[alpha>beta]","Prob[alpha<beta]",	"BayesFactor[alpha<beta]","para1", "para2"]
+    #the column names are automatically give for fel result, which for the FUBAR method, the followed is needed.
+    #csv_file.columns = ["site",	"alpha", "beta","beta-alpha","Prob[alpha>beta]","Prob[alpha<beta]",	"BayesFactor[alpha<beta]","para1", "para2"]
 
     # try to merge the site select data and sequence site file.
     # however the above two tables should have the same row names
@@ -93,9 +100,7 @@ def connect_site_data_with_seq(fasta_file, site_file, outfile, sce_as_ref=False)
     if row1 == row2:
         df_site["alpha"] = csv_file["alpha"]
         df_site["beta"] = csv_file["beta"]
-        df_site["dN_dS"] = csv_file["beta"]/csv_file["alpha"]
-        df_site["Prob[alpha>beta]"] = csv_file["Prob[alpha>beta]"]
-        df_site["Prob[alpha<beta]"] = csv_file["Prob[alpha<beta]"]
+        df_site["p-value"] = csv_file["p-value"]
         df_site.to_csv(outfile)
 
     else:
@@ -107,7 +112,7 @@ def main():
     parser = argparse.ArgumentParser(
             formatter_class = argparse.RawDescriptionHelpFormatter,
             description = 'Parse the dN/dS data calculated by Hyphy')
-    
+
     #adding arguments
     parser.add_argument('-p0', metavar='input_file', type=str, help='input the protein seq alignment')
     parser.add_argument('-s', metavar = 'input_file', type = str, help = 'input the dN/dS data')
@@ -120,7 +125,7 @@ def main():
     out_dir = args.o
 
     # test code
-    
+
     #source = '/home/luhongzhong/ortholog_sce_unprune/protein_refine/'
     #source2 = '/home/luhongzhong/Documents/cluster_result/fubar/fubar_csv/'
     #out_dir = '/home/luhongzhong/Documents/cluster_result/fubar/result_site/'
@@ -134,29 +139,14 @@ def main():
         fasta_file0 = source + i.replace(".csv", "_aa_aligned.fasta")
         site_file0 = source2 + i
         outfile0 = out_dir + i
-        connect_site_data_with_seq(fasta_file=fasta_file0, site_file=site_file0, outfile=outfile0, sce_as_ref=True)
+        connect_site_data_with_seq(fasta_file=fasta_file0, site_file=site_file0, outfile=outfile0, sce_as_ref=False)
 
 if __name__ == "__main__":
     main()
 
 # example code
-# for OGs with sce as the refrence
-# python /home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_hyphy/3_connect_site_data_with_sequence.py -p0 /home/luhongzhong/protein_all_refine_align_sce/ -s /home/luhongzhong/Documents/cluster_result/fubar/fubar_csv/ -o /home/luhongzhong/Documents/cluster_result/fubar/result_site/
-
 
 # for all OGs
-# python /home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_hyphy/3_connect_site_data_with_sequence.py -p0 /home/luhongzhong/ortholog_343/protein_refine/  -s /home/luhongzhong/ortholog_343/fubar_csv/ -o /home/luhongzhong/ortholog_343/result_fubar_site/
-
-
-
-
-
-
-
-
-
-
-
-
-
+# os.system("mkdir /home/luhongzhong/ortholog_343/fel_result_site/")
+# python /home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_hyphy/4_effects_of_gap_on_positive_sites_num.py -p0 /home/luhongzhong/ortholog_343/protein_refine/  -s /home/luhongzhong/ortholog_343/fel_csv/ -o /home/luhongzhong/ortholog_343/fel_result_site/
 

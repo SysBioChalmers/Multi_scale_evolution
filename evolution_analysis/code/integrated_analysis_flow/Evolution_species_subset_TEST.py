@@ -11,7 +11,7 @@ os.chdir("/home/luhongzhong/Documents/evolution_analysis/temporary_code_for_test
 os.system(" mkdir /home/luhongzhong/ortholog_subset/")
 
 # firstly run the species subset function
-# os.system("python /home/luhongzhong/Documents/evolution_analysis/code/ortholog_subset/Z1_Extract_OGs_from_two_different_clades.py")
+# os.system("python /home/luhongzhong/Documents/evolution_analysis/code/ortholog_subset/Z1_Extract_OGs_from_two_different_clades_or_traits.py")
 
 
 #####################################################
