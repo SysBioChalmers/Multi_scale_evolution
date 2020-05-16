@@ -37,6 +37,10 @@ def Export_dn_ds(dnds1, output_file):
     return df1
 
 def calMean_dN_dS(paml_gene_dn_ds_file, output_dir, id0, method="median"):
+
+    # for the test
+    #paml_gene_dn_ds_file = "/media/luhongzhong/newdisk/Genomics_data/result_paml/YAL004W.out_yn00"
+
     result_file = open(paml_gene_dn_ds_file).readlines()
     index0 = [i for i, x in enumerate(result_file) if "seq. seq." in x]
     index1 = [i for i, x in enumerate(result_file) if "(C) LWL85, LPB93 & LWLm methods" in x]
@@ -81,10 +85,10 @@ def calMean_dN_dS(paml_gene_dn_ds_file, output_dir, id0, method="median"):
 
 
 # for all the orthologs subset
-result_dir = "/home/luhongzhong/ortholog_343/result/"
+# result_dir = "/home/luhongzhong/ortholog_343/result/"
 # output file
-output_dir ="/home/luhongzhong/ortholog_343/result_paml/"
-method0 = "median"
+# output_dir ="/home/luhongzhong/ortholog_343/result_paml/"
+# method0 = "median"
 
 
 def main():

@@ -1,13 +1,9 @@
 #!/usr/bin/python
 
 # Note
-# The script is to analyze the duplicated seq for the 1011 sce sequence project.
+# The script is to analyze the duplicated gene seq for the 1011 sce sequence project.
 
 import os
-import argparse
-import statistics
-import pandas as pd
-from Bio import SeqIO
 import pandas as pd
 
 input0 = "/media/luhongzhong/newdisk/Genomics_data/cds_align_unify/"
@@ -103,5 +99,5 @@ print(len(unconserved_gene_list))
 unconserved_gene_list0 = ",".join(unconserved_gene_list)
 print(unconserved_gene_list0)
 
-
 duplicate_seq.to_csv("/home/luhongzhong/Documents/R_code_for_graph/data/duplicate_gene_analysis_1011_sce.csv")
+

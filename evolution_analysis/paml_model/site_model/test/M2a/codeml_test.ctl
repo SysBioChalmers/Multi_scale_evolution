@@ -1,6 +1,6 @@
-      seqfile = /home/luhongzhong/ortholog_343/cds_align_unify/OG10000_code.phy
-     treefile = /home/luhongzhong/ortholog_343/unroot_tree_unify/OG10000_aa_unroot_unify.tre
-      outfile = /home/luhongzhong/ortholog_343/site_model_result/OG10000.out_M2a
+      seqfile = /home/luhongzhong/ortholog_343/cds_align_unify/OG1084_code.phy
+     treefile = /home/luhongzhong/ortholog_343/unroot_tree_unify/OG1084_aa_unroot_unify.tre
+      outfile = /home/luhongzhong/ortholog_343/site_model_result/OG1084.out_M2a
 
         noisy = 9   * 0,1,2,3,9: how much rubbish on the screen
       verbose = 0   * 1: detailed output, 0: concise output

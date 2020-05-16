@@ -10,6 +10,10 @@ os.chdir("/home/luhongzhong/Documents/evolution_analysis/temporary_code_for_test
 # all the analysis results were put in
 os.system(" mkdir /home/luhongzhong/ortholog_subset/")
 
+# firstly run the species subset function
+# os.system("python /home/luhongzhong/Documents/evolution_analysis/code/ortholog_subset/Z1_Extract_OGs_from_two_different_clades.py")
+
+
 #####################################################
 # protein_align
 #####################################################
@@ -245,9 +249,24 @@ os.system("./gene_dN_dS.sh")
 
 # parse the result
 os.mkdir("/home/luhongzhong/ortholog_subset/result_paml_parse")
-os.system("python /home/luhongzhong/Documents/evolution_analysis/code/gene_dn_ds_paml/result_parse_yn00.py -i /home/luhongzhong/ortholog_subset/result_paml/ -o /home/luhongzhong/ortholog_subset/result_paml_parse/ -m median")
+os.system("python /home/luhongzhong/Documents/evolution_analysis/code/gene_dn_ds_paml/result_parse_yn00_update.py -i /home/luhongzhong/ortholog_subset/result_paml/ -o /home/luhongzhong/ortholog_subset/result_paml_parse/ -m median")
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 # site level dN/dS
 with open("site_model.sh", "w") as rsh:
     rsh.write('''\
@@ -370,4 +389,22 @@ with open("busted.sh", "w") as rsh:
 os.system("chmod u+x busted.sh")
 os.system("./busted.sh")
 # for the single test
-# "hyphy busted --alignment /home/luhongzhong/ortholog_subset/cds_align_unify/OG1351_code.phy --tree /home/luhongzhong/ortholog_subset/tree_label_hyphy/OG1351_aa_unroot_unify.tre --branches Foreground --srv Yes"
+# branch site model
+
+# hyphy absrel --alignment /home/luhongzhong/test/OG7984_code.fasta --tree /home/luhongzhong/test/OG7984_aa_unroot_LABEL_v2.tre --branches Foreground
+
+# hyphy busted --alignment /home/luhongzhong/test/OG7984_code.fasta --tree /home/luhongzhong/test/OG7984_aa_unroot_LABEL_v2.tre --branches Foreground --srv No
+
+# site model
+
+# hyphy fel --alignment /home/luhongzhong/test/OG7984_code.fasta --tree /home/luhongzhong/test/OG7984_aa_unroot_LABEL_v2.tre --branches Foreground --srv No --pvalue 0.1
+
+# hyphy meme --alignment /home/luhongzhong/test/OG7984_code.fasta --tree /home/luhongzhong/test/OG7984_aa_unroot_LABEL_v2.tre --branches Foreground --pvalue 0.1
+
+
+# Foreground setting test
+# here species from OG was randomly set as the Foreground
+# hyphy absrel --alignment /home/luhongzhong/test/OG1064_code.fasta --tree /home/luhongzhong/test/OG1064_aa_unroot_LABEL.tre --branches Foreground
+"""
+
+

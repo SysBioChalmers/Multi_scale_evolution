@@ -36,9 +36,6 @@ os.system("chmod u+x A0_translate_aln_codon_to_aa_macse.sh")
 os.system("./A0_translate_aln_codon_to_aa_macse.sh")
 
 
-# protein quality check
-
-
 # protein align
 with open("protein_align_step0.sh", "w") as rsh:
     rsh.write('''\
@@ -95,12 +92,6 @@ os.system("./protein_align_step3.sh")
 
 
 # further filtration
-"""
-# combine the protein alignment
-os.system("./protein_align_step0.sh")
-os.system("./protein_align_step1.sh")
-os.system("python /home/luhongzhong/Documents/evolution_analysis/code/protein_align/s2_remove_seq_reduce_length_by_50%.py -p1 /home/luhongzhong/ortholog_343/protein_align/ -p2 /home/luhongzhong/ortholog_343/protein_align_s1/ -o /home/luhongzhong/ortholog_343/protein_align_s1_R/")
-os.system("./protein_align_step3.sh")"""
 code_dir0 = "/home/luhongzhong/Documents/evolution_analysis/code/protein_align/"
 cmd = "python" + " " + \
       code_dir0 + \
@@ -352,7 +343,8 @@ os.system("chmod u+x gene_dN_dS.sh")
 os.system("./gene_dN_dS.sh")
 # parse the result
 os.system("mkdir /home/luhongzhong/ortholog_343/result_paml_parse")
-os.system("python /home/luhongzhong/Documents/evolution_analysis/code/gene_dn_ds_paml/result_parse_yn00.py -i /home/luhongzhong/ortholog_343/result_paml/ -o /home/luhongzhong/ortholog_343/result_paml_parse/ -m median")
+os.system("python /home/luhongzhong/Documents/evolution_analysis/code/gene_dn_ds_paml/result_parse_yn00_update.py -i /home/luhongzhong/ortholog_343/result_paml/ -o /home/luhongzhong/ortholog_343/result_paml_parse/ -m median")
+
 
 # site level dN_dS using paml
 with open("site_model.sh", "w") as rsh:
@@ -379,7 +371,6 @@ os.system("./site_model.sh")
 ####################################################
 # evolution analysis based on Hyphy
 ####################################################
-
 # site level dN/dS
 with open("fubar.sh", "w") as rsh:
     rsh.write('''\

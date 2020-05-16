@@ -4,6 +4,10 @@
 # This script is used to compare the species number and protein ID number under the same OG id
 # in the protein alignment before and after pruner.
 
+# This script is updated on MAC
+# Hongzhong Lu, 2020-02-08
+
+
 import os
 import argparse
 import pandas as pd
@@ -15,8 +19,7 @@ original_pro_input = pro_dir1 + "OG5327_aa_aligned_trim.fasta"
 pro_pruned = pro_dir2 + "OG5327_aa_aligned_trim.fasta_pruned.fa"
 
 
-def FindChangeAfterTreePruner (pro_before_pruner, pro_after_pruner):
-
+def FindChangeAfterTreePruner(pro_before_pruner, pro_after_pruner):
     proteinID = []
     try:
         OG_trim = list(SeqIO.parse(pro_before_pruner, "fasta"))
@@ -44,8 +47,9 @@ def FindChangeAfterTreePruner (pro_before_pruner, pro_after_pruner):
     species_num2 = len(speciesID2)
     return gene_num1, gene_num2, species_num1, species_num2
 
-all_og = os.listdir(pro_dir1)
 
+
+all_og = os.listdir(pro_dir1)
 gene_num1_all = []
 gene_num2_all = []
 species_num1_all = []
@@ -67,6 +71,8 @@ result_all = pd.DataFrame({"OG":all_og,
                            "gene_num2":gene_num2_all,
                            "species_num2":species_num2_all,
                            "ration_species":ratio_species})
+result_all.to_csv("/home/luhongzhong/ortholog_343/species_comparison_before_and_after_prune.csv")
+
 # so how many OGs with reduced species after tree pruner:
 # total 2396 species with the reduced species
 # why and how to avoid??

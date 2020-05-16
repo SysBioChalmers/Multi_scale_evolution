@@ -17,23 +17,23 @@
   </component>
   <component name="ProjectId" id="1V3uyf0Sv5SXbFOGGwPdb0RtoCL" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/HGT_analysis" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code/integrated_analysis_flow" />
       <recent name="$PROJECT_DIR$/code/evolution_hyphy/old_version" />
       <recent name="$PROJECT_DIR$/code/evolution_hyphy" />
       <recent name="$PROJECT_DIR$/code/ortholog_subset" />
       <recent name="$PROJECT_DIR$/code/integrated_analysis_flow/others" />
-      <recent name="$PROJECT_DIR$/code/tree_build/other_redundent" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/code/evolution_hyphy" />
-      <recent name="$PROJECT_DIR$/code/site_dn_ds_paml" />
+      <recent name="$PROJECT_DIR$/code/HGT_analysis" />
       <recent name="$PROJECT_DIR$/code/integrated_analysis_flow" />
-      <recent name="$PROJECT_DIR$/code/protein_conservation" />
-      <recent name="$PROJECT_DIR$/code/tree_build" />
+      <recent name="$PROJECT_DIR$/code/ortholog_subset" />
+      <recent name="$PROJECT_DIR$/code/gene_dn_ds_paml" />
+      <recent name="$PROJECT_DIR$/code/evolution_hyphy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -60,5 +60,26 @@
       <updated>1572164958276</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/integrated_analysis_flow/Evolution_1393_sce_strains.py</url>
+          <line>240</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/integrated_analysis_flow/Evolution_1393_sce_strains.py</url>
+          <line>241</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/integrated_analysis_flow/Evolution_1393_sce_strains.py</url>
+          <line>242</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

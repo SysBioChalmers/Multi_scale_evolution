@@ -2,6 +2,9 @@
 
 # Note
 # This script is used to update the protein ID name for 1011 strains so it is consistent with that in the code seq
+# For example
+# After this step, ">SACE_YAU_YAL001C_TFC3 ==> >SACE_YAU" for each protein id
+
 
 import os
 import argparse
