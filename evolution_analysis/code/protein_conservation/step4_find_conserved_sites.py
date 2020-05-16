@@ -63,6 +63,7 @@ def find_conserved_sites(fasta_file, pi_cutoff=0.9):
 
     # prepare the reference seq
     # choose s288c seq as the reference seq automatically
+    # as the better strategy, we should choose panID as the reference
     index_sce = [i for i, x in enumerate(geneID) if "Saccharomyces_cerevisiae@" in x]
     if len(index_sce)>=1:
         refseq = OG_original[index_sce[0]].seq._data
@@ -100,5 +101,9 @@ if __name__ == "__main__":
     main()
 
 
-# example code
-# python /home/luhongzhong/Documents/evolution_analysis/code/protein_conservation/step4_find_conserved_sites.py -p0 /home/luhongzhong/ortholog_sce_unprune/protein_refine/ -o /home/luhongzhong/ortholog_sce_unprune/pidentity_result/
+# example
+# OG with sce
+# python /home/luhongzhong/Documents/evolution_analysis/code/protein_conservation/step4_find_conserved_sites.py -p0 /home/luhongzhong/ortholog_sce_unprune/protein_refine/ -o /home/luhongzhong/ortholog_sce_unprune/result_conserved_site/
+
+# All OGs
+# python /home/luhongzhong/Documents/evolution_analysis/code/protein_conservation/step4_find_conserved_sites.py -p0 /home/luhongzhong/ortholog_343/protein_refine/ -o /home/luhongzhong/ortholog_343/result_conserved_site/

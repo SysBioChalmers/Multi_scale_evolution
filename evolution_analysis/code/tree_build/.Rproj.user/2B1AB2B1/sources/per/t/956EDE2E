@@ -1,19 +1,19 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1582219108679.000,
+    "created" : 1584732355600.000,
     "dirty" : false,
     "encoding" : "UTF-8",
-    "folds" : "13|113|129|0|\n",
-    "hash" : "3693901281",
-    "id" : "3788800D",
-    "lastKnownWriteTime" : 1583780278,
-    "last_content_update" : 1583780278634,
+    "folds" : "159|48|186|0|\n",
+    "hash" : "3077663334",
+    "id" : "956EDE2E",
+    "lastKnownWriteTime" : 1585430551,
+    "last_content_update" : 1585430551837,
     "path" : "~/Documents/evolution_analysis/code/tree_build/Lable_tree_hyphy_update.R",
     "project_path" : "Lable_tree_hyphy_update.R",
     "properties" : {
-        "cursorPosition" : "211,2",
-        "scrollLine" : "178"
+        "cursorPosition" : "156,0",
+        "scrollLine" : "127"
     },
     "read_only" : false,
     "read_only_alternatives" : [

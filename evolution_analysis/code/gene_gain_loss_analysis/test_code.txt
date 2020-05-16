@@ -1,0 +1,6 @@
+# site level
+/Users/luho/Documents/gainLoss/programs/gainLoss/gainLoss /Users/luho/Documents/gene_gain_loss_analysis/ParamFile_GLOOME.txt
+
+
+# gene family level
+/Users/luho/Documents/gainLoss/programs/gainLoss/gainLoss /Users/luho/Documents/gene_gain_loss_analysis/ParamFile_GLOOME2.txt
