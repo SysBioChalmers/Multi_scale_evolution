@@ -11,6 +11,6 @@ This repository contains scripts for the evolution analysis based on protein 3D 
 
 * [Gang Li](https://www.sysbio.se/people/gang-li), Chalmers University of Technology, Sweden
 * [Hongzhong Lu](https://www.sysbio.se/people/hongzhong-lu) ([@hongzhonglu](https://github.com/hongzhonglu)), Chalmers University of Technology, Sweden
-* [Le Yuan]
+* [Le Yuan](https://www.sysbio.se/people/le-yuan/), Chalmers University of Technology, Sweden
 
 This repository is administered by Hongzhong Lu ([@hongzhonglu](https://github.com/hongzhonglu)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
