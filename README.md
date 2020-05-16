@@ -1,5 +1,5 @@
 This repository contains scripts for the evolution analysis based on protein 3D structures for 300 yeast species.
-* Last update: 2020-01-07
+* Last update: 2020-05-16
 
 
 ## Contributing
@@ -11,6 +11,6 @@ This repository contains scripts for the evolution analysis based on protein 3D 
 
 * [Gang Li](https://www.sysbio.se/people/gang-li), Chalmers University of Technology, Sweden
 * [Hongzhong Lu](https://www.sysbio.se/people/hongzhong-lu) ([@hongzhonglu](https://github.com/hongzhonglu)), Chalmers University of Technology, Sweden
-
+* [Le Yuan]
 
 This repository is administered by Hongzhong Lu ([@hongzhonglu](https://github.com/hongzhonglu)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
