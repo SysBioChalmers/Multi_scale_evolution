@@ -145,7 +145,7 @@ if __name__ == "__main__":
 
 
 # for all OGs
-# python /home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_hyphy/3_connect_site_data_with_sequence.py -p0 /home/luhongzhong/ortholog_343/protein_refine/  -s /home/luhongzhong/ortholog_343/fubar_csv/ -o /home/luhongzhong/ortholog_343/result_site/
+# python /home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_hyphy/3_connect_site_data_with_sequence.py -p0 /home/luhongzhong/ortholog_343/protein_refine/  -s /home/luhongzhong/ortholog_343/fubar_csv/ -o /home/luhongzhong/ortholog_343/result_fubar_site/
 
 
 

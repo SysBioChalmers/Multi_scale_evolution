@@ -139,8 +139,8 @@ target_clade <- "Saccharomycetaceae"
 clade_df0 <- clade_df[clade_df$`Major clade` == target_clade, ]
 # extract the species id
 interest_species <- clade_df0$old_speceis_names # take care of the id differences
-input <- "/home/luhongzhong/ortholog_343_simplify2/unroot_tree/"
-output <- "/home/luhongzhong/ortholog_343_simplify2/unroot_tree_label/"
+input <- "/home/luhongzhong/ortholog_343_simplify2/cds_align_guidance_new_tree_unroot/"
+output <- "/home/luhongzhong/ortholog_343_simplify2/cds_align_guidance_new_tree_unroot_label/"
 allfile <- list.files(input)
 # the output directory should be firstly established
 dir.create(output)
@@ -159,6 +159,13 @@ for (i in 1:length(allfile)) {
 # produce label tree for each clade
 label_tree_based_clade <- function(clade_name) {
   # This function is used to label the tree based on the clade
+
+  # usage
+  # clade <- unique(clade_df$`Major clade`)
+  # clade <- clade[1:12]
+  # for (i in clade) {
+  #   label_tree_based_clade(clade_name = i)
+  # }
 
   clade_df <- read_excel("/home/luhongzhong/Documents/evolution_analysis/data/data_tree/343taxa_speicies-name_clade-name_color-code.xlsx")
   target_clade <- clade_name
@@ -179,11 +186,6 @@ label_tree_based_clade <- function(clade_name) {
   }
 }
 
-clade <- unique(clade_df$`Major clade`)
-clade <- clade[1:12]
-for (i in clade) {
-  label_tree_based_clade(clade_name = i)
-}
 
 
 
@@ -191,17 +193,21 @@ for (i in clade) {
 # produce the tree based on the specific phenotype??
 # here the question is that whether we only choose the species with accurate classification
 # if yes, then we should extracted the related cds sequen
-yeasts_pathogen <- read_excel("~/Documents/evolution_analysis/data/data_tree/genome_summary_332_yeasts_heat_Ethanol_updated_02_20.xlsx", sheet = "pathogen")
+# yeasts_pathogen <- read_excel("~/Documents/evolution_analysis/data/data_tree/genome_summary_332_yeasts_heat_Ethanol_updated_02_20.xlsx", sheet = "pathogen")
 yeasts_heat <- read_excel("~/Documents/evolution_analysis/data/data_tree/genome_summary_332_yeasts_heat_Ethanol_updated_02_20.xlsx", sheet = "heat")
-yeasts_fermentation <- read_excel("~/Documents/evolution_analysis/data/data_tree/genome_summary_332_yeasts_heat_Ethanol_updated_02_20.xlsx", sheet = "glucose_fermentation")
+#yeasts_fermentation <- read_excel("~/Documents/evolution_analysis/data/data_tree/genome_summary_332_yeasts_heat_Ethanol_updated_02_20.xlsx", sheet = "glucose_fermentation")
+yeasts_crabtree <- read_excel("~/Documents/evolution_analysis/data/data_tree/genome_summary_332_yeasts_heat_Ethanol_updated_02_20.xlsx", sheet = "crabtree_effect")
 yeasts_methanol <- read_excel("~/Documents/evolution_analysis/data/data_tree/genome_summary_332_yeasts_heat_Ethanol_updated_02_20.xlsx", sheet = "methonal_utilization")
+yeasts_anaerobic <- read_excel("~/Documents/evolution_analysis/data/data_tree/genome_summary_332_yeasts_heat_Ethanol_updated_02_20.xlsx", sheet = "anaerobic")
 
-# methanol
+
+
+# methanol-update 2020-03-17
 interest_species1 <- yeasts_methanol[yeasts_methanol$Methanol == "+", ]
 interest_species <- interest_species1$old_species_id
 interest_species <- interest_species[!is.na(interest_species)]
-input <- "/home/luhongzhong/ortholog_343_methanol/unroot_tree/"
-output <- "/home/luhongzhong/ortholog_343_methanol/unroot_tree_label_methanol/"
+input <- "/home/luhongzhong/ortholog_343_methanol/cds_align_guidance_new_tree_unroot/"
+output <- "/home/luhongzhong/ortholog_343_methanol/cds_align_guidance_new_tree_unroot_label/"
 dir.create(output)
 allfile <- list.files(input)
 for (i in 1:length(allfile)) {
@@ -209,3 +215,74 @@ for (i in 1:length(allfile)) {
   t <- allfile[i]
   produceLabelTree(tr_id = t, tr_dir = input, out_dir = output, species_choose = interest_species)
 }
+
+
+
+# heat
+interest_species1 <- yeasts_heat[yeasts_heat$heat_tolerance == "Yes", ]
+interest_species <- interest_species1$old_species_id
+interest_species <- interest_species[!is.na(interest_species)]
+input <- "/home/luhongzhong/ortholog_343_heat_tolerance/cds_align_guidance_new_tree_unroot/"
+output <- "/home/luhongzhong/ortholog_343_heat_tolerance/cds_align_guidance_new_tree_unroot_label/"
+dir.create(output)
+allfile <- list.files(input)
+for (i in 1:length(allfile)) {
+  print(i)
+  t <- allfile[i]
+  produceLabelTree(tr_id = t, tr_dir = input, out_dir = output, species_choose = interest_species)
+}
+
+
+# heat2
+
+interest_species1 <- yeasts_heat[yeasts_heat$heat_tolerance == "Yes", ]
+interest_species <- interest_species1$old_species_id
+interest_species <- interest_species[!is.na(interest_species)]
+input <- "/home/luhongzhong/ortholog_select_OG_for_heat/unroot_tree/"
+output <- "/home/luhongzhong/ortholog_select_OG_for_heat/unroot_tree_label/"
+dir.create(output)
+allfile <- list.files(input)
+for (i in 1:length(allfile)) {
+  print(i)
+  t <- allfile[i]
+  produceLabelTree(tr_id = t, tr_dir = input, out_dir = output, species_choose = interest_species)
+}
+
+
+
+
+
+
+
+# crabtree
+interest_species1 <- yeasts_crabtree[yeasts_crabtree$crabtree_effect == "Yes", ]
+interest_species <- interest_species1$old_species_id
+interest_species <- interest_species[!is.na(interest_species)]
+input <-"/home/luhongzhong/ortholog_343_crabtree/cds_align_guidance_new_tree_unroot/"
+output <- "/home/luhongzhong/ortholog_343_crabtree/cds_align_guidance_new_tree_unroot_label/"
+dir.create(output)
+allfile <- list.files(input)
+for (i in 1:length(allfile)) {
+  print(i)
+  t <- allfile[i]
+  produceLabelTree(tr_id = t, tr_dir = input, out_dir = output, species_choose = interest_species)
+}
+
+
+
+# anaerobic
+interest_species1 <- yeasts_anaerobic[yeasts_anaerobic$anaerobic == "Yes", ]
+interest_species <- interest_species1$old_species_id
+interest_species <- interest_species[!is.na(interest_species)]
+input <- "/home/luhongzhong/ortholog_343_anaerobic/cds_align_guidance_new_tree_unroot/"
+output <- "/home/luhongzhong/ortholog_343_anaerobic/cds_align_guidance_new_tree_unroot_label/"
+dir.create(output)
+allfile <- list.files(input)
+for (i in 1:length(allfile)) {
+   print(i)
+   t <- allfile[i]
+   produceLabelTree(tr_id = t, tr_dir = input, out_dir = output, species_choose = interest_species)
+ }
+
+
+
