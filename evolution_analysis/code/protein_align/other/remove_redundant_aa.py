@@ -12,7 +12,7 @@ from Bio import SeqIO
 import os
 os.getcwd()
 
-# other small task
+# others small task
 # compare the result after the tree pruner
 # here with OG1000 as an example
 source = '/Users/luho/Desktop/example/data/'

@@ -75,7 +75,7 @@ if __name__ == "__main__":
     main()
 
 # an example
-# other usage: to extract the original protein align based on the trimed remaining gene id
+# others usage: to extract the original protein align based on the trimed remaining gene id
 # python os.mkdir("/home/luhongzhong/protein_all_refine_align/")
 # cd /home/luhongzhong/Documents/evolution_analysis/code/code_align
 # python s5_collect_proteinID_high_quality.py -p0 /home/luhongzhong/protein_align/ -p1 /home/luhongzhong/protein_align_s2_R/ -o /home/luhongzhong/protein_refine_align/ -t unprune

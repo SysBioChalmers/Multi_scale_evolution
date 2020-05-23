@@ -67,7 +67,7 @@
 # 
 # - bg_distr: a list containing an amino acid probability distribution. Not
 # all methods use this parameter. The default is the blosum62 background, but
-# other distributions can be given. 
+# others distributions can be given.
 #
 # - seq_weights: an array of floats that is used to weight the contribution
 # of each seqeuence. If the len(seq_weights) != len(col), then every sequence 
@@ -178,7 +178,7 @@ def shannon_entropy(col, sim_matrix, bg_distr, seq_weights, gap_penalty=1):
     bg_distr are ignored. If gap_penalty == 1, then gaps are penalized. The 
     entropy will be between zero and one because of its base. See p.13 of 
     Valdar 02 for details. The information score 1 - h is returned for the sake 
-    of consistency with other scores."""
+    of consistency with others scores."""
 
     fc = weighted_freq_count_pseudocount(col, seq_weights, PSEUDOCOUNT)
 
