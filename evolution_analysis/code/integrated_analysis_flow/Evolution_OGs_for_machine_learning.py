@@ -35,7 +35,7 @@ OG_interest.to_csv("/home/luhongzhong/Documents/evolution_analysis/result/OG_nee
 # protein_align
 #####################################################
 # firstly translate all the cds into protein
-with open("A0_translate_aln_codon_to_aa_macse.sh", "w") as rsh:
+with open("A1_translate_aln_codon_to_aa_macse.sh", "w") as rsh:
     rsh.write('''\
 #!/bin/bash
 mkdir  /home/luhongzhong/ortholog_ML_unprune/protein_extract/
@@ -52,8 +52,8 @@ for i in *_AA.fasta
     done
 echo "moving the files have been done!"
     ''')
-os.system("chmod u+x A0_translate_aln_codon_to_aa_macse.sh")
-os.system("./A0_translate_aln_codon_to_aa_macse.sh")
+os.system("chmod u+x A1_translate_aln_codon_to_aa_macse.sh")
+os.system("./A1_translate_aln_codon_to_aa_macse.sh")
 
 # protein quality check
 

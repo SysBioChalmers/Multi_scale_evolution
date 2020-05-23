@@ -50,7 +50,7 @@ os.system("./A4_code_align_all_guidance.sh")
 
 # transfer the aligned cds sequence into a new file
 os.system("mkdir /home/luhongzhong/ortholog_343_crabtree/cds_align_guidance_new")
-os.system("python /home/luhongzhong/Documents/evolution_analysis/code/code_align/A9_move_align_guidance_into_new_file.py  -r /home/luhongzhong/ortholog_343_crabtree/cds_align_guidance/ -n /home/luhongzhong/ortholog_343_crabtree/cds_align_guidance_new/")
+os.system("python /home/luhongzhong/Documents/evolution_analysis/code/code_align/A7_move_align_guidance_into_new_file.py  -r /home/luhongzhong/ortholog_343_crabtree/cds_align_guidance/ -n /home/luhongzhong/ortholog_343_crabtree/cds_align_guidance_new/")
 
 
 #####################################################

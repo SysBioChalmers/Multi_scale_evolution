@@ -101,7 +101,7 @@ def get_Reduced_SpeciesID(pro_seq, clade_df, num_random_species=10):
     list5 = []  # CUG-Ser1
     list6 = []  # Saccharomycodaceae
     list7 = []  # Lipomycetaceae
-    list_o = []  # other
+    list_o = []  # others
     for i, x in OG_df.iterrows():
         # print(i, x["clade"])
         s0 = x["clade"]
@@ -176,7 +176,7 @@ def calculateSiteLength(fastinput):
 def ReduceGeneIDofSpecies(pro_dir, geneID_list):
     """
     This function is used to further refine the gene id list for each species. As whole, the gene with the max length
-    after the aliggment will be choose as the the representative id of each species
+    after the alignment will be choose as the the representative id of each species
 
     :param pro_dir:
     :param geneID_list:
@@ -225,10 +225,7 @@ pro_all_dir = "/home/luhongzhong/ortholog_343/protein_align_s2_R/"
 cds_all_dir = "/home/luhongzhong/ortholog_343/cds/"
 
 
-# branch site model for different clade information
-# output directory
-clade0 = "Saccharomycetaceae"
-
+# Collect the sequences based on the clade
 def collect_cds_pro_seq(clade00, minimum_seq_num = 3):
     os.mkdir("/home/luhongzhong/ortholog_" + clade00 + "/")
     out_dir = "/home/luhongzhong/ortholog_" + clade00 + "/protein_align_s2_R/"
