@@ -5,7 +5,7 @@
 
 def colour_consurf(selection="all"):
     
-    # Colour other chains gray, while maintaining
+    # Colour others chains gray, while maintaining
     # oxygen in red, nitrogen in blue and hydrogen in white    
     cmd.color("white", selection)
     cmd.util.cnc()

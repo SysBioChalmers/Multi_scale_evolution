@@ -2,7 +2,7 @@
 # -*- python 3 -*-
 # -*- hongzhong Lu -*-
 
-# note: the script is updated on MAC
+# note: the script is updated on linux
 
 
 #data_dir = "/home/luhongzhong/ortholog_343/cds_align_unify"
@@ -14,11 +14,12 @@
 from Bio import SeqIO
 import os
 
-data_dir = "/Users/luho/Documents/cds_align_macse_remove_stop_code/"
-result_file = "/Users/luho/Documents/fel_result"
+data_dir = "/home/luhongzhong/ortholog_343/cds_align_guidance_new/"
+result_file = "/home/luhongzhong/ortholog_343/fel_result_guidance/"
 
 all_file0 = os.listdir(data_dir)
 all_file0 = [x for x in all_file0 if "_code" in x]
+
 all_result = os.listdir(result_file)
 all_result = [x.replace(".FEL.json","_code.fasta") for x in all_result]
 all_file = list(set(all_file0)-set(all_result))
@@ -68,17 +69,11 @@ def produceFel_batch(OG_list, out_sh_file, parallel=20):
 
 
 def produceFel_linux_parallel(OG_list, out_sh_file):
-    outfile = "/Users/luho/Documents/evolution_analysis/code/site_dn_ds_hyphy/" + out_sh_file
-    template0 = "mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/FEL.bf --alignment /home/luhongzhong/ortholog_343/cds_align_macse_remove_stop_code/OG2049_code.fasta --tree /home/luhongzhong/ortholog_343/unroot_tree/OG2049_aa_unroot.tre --srv Yes --pvalue 0.1 --output /home/luhongzhong/ortholog_343/fel_result/OG2049.FEL.json"
+    outfile = "/home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_hyphy/" + out_sh_file
+    template0 = "mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/FEL.bf --alignment /home/luhongzhong/ortholog_343/cds_align_guidance_new/OG2049_code.fasta --tree /home/luhongzhong/ortholog_343/cds_align_guidance_new_tree_unroot/OG2049_aa_unroot.tre --srv Yes --pvalue 0.1 --output /home/luhongzhong/ortholog_343/fel_result_guidance/OG2049.FEL.json"
     newfile = open(outfile, "w")
     # write in the start file
-    start_part = "#!/bin/bash\n" \
-                 "#SBATCH -A C3SE2020-1-8\n" \
-                 "#SBATCH -N 1\n#SBATCH -n 20\n" \
-                 "#SBATCH -o out.txt\n" \
-                 "#SBATCH -t 4-00:00:00\n" \
-                 "#SBATCH --mail-user=luho@chalmers.se\n" \
-                 "#SBATCH --mail-type=end\n"
+    start_part = "#!/bin/bash\n"
     newfile.writelines(start_part)
     for i, cds in enumerate(OG_list):
         print(i)
@@ -178,28 +173,21 @@ all_file10 = [x for x, y in zip(all_file, seq_num) if y >= 300 and y < 350]
 #produceFel_mac_parallel(OG_list=all_file3, out_sh_file="fel_03_01_m3.sh")
 #produceFel_mac_parallel(OG_list=all_file4, out_sh_file="fel_03_01_m4.sh")
 
-# using the parallel calculation on the cluster
-produceFel_cluster_parallel(OG_list=all_file2, out_sh_file="fel_03_01_c2.sh")
-produceFel_cluster_parallel(OG_list=all_file3, out_sh_file="fel_03_01_c3.sh")
-produceFel_cluster_parallel(OG_list=all_file4, out_sh_file="fel_03_01_c4.sh")
 
 
 
 # using the parallel calculation on the linux
-produceFel_linux_parallel(OG_list=all_file5, out_sh_file="fel_03_01_5.sh")
-produceFel_linux_parallel(OG_list=all_file6, out_sh_file="fel_03_01_6.sh")
-produceFel_linux_parallel(OG_list=all_file7, out_sh_file="fel_03_01_7.sh")
-#produceFel_linux_parallel(OG_list=all_file8, out_sh_file="fel_03_01_8.sh")
-#produceFel_linux_parallel(OG_list=all_file9, out_sh_file="fel_03_01_9.sh")
-#produceFel_linux_parallel(OG_list=all_file10, out_sh_file="fel_03_01_10.sh")
-
-
-# using the parallel calculation on the cluster
-produceFel_cluster_parallel(OG_list=all_file8, out_sh_file="fel_03_01_c8.sh")
-produceFel_cluster_parallel(OG_list=all_file9, out_sh_file="fel_03_01_c9.sh")
-produceFel_cluster_parallel(OG_list=all_file10, out_sh_file="fel_03_01_c10.sh")
-
-
+produceFel_linux_parallel(OG_list=all_file0, out_sh_file="fel_05_01_0.sh")
+produceFel_linux_parallel(OG_list=all_file1, out_sh_file="fel_05_01_1.sh")
+produceFel_linux_parallel(OG_list=all_file2, out_sh_file="fel_05_01_2.sh")
+produceFel_linux_parallel(OG_list=all_file3, out_sh_file="fel_05_01_3.sh")
+produceFel_linux_parallel(OG_list=all_file4, out_sh_file="fel_05_01_4.sh")
+produceFel_linux_parallel(OG_list=all_file5, out_sh_file="fel_05_01_5.sh")
+produceFel_linux_parallel(OG_list=all_file6, out_sh_file="fel_05_01_6.sh")
+produceFel_linux_parallel(OG_list=all_file7, out_sh_file="fel_05_01_7.sh")
+produceFel_linux_parallel(OG_list=all_file8, out_sh_file="fel_05_01_8.sh")
+produceFel_linux_parallel(OG_list=all_file9, out_sh_file="fel_05_01_9.sh")
+produceFel_linux_parallel(OG_list=all_file10, out_sh_file="fel_05_01_10.sh")
 
 
 
@@ -215,7 +203,7 @@ produceFel_cluster_parallel(OG_list=all_file10, out_sh_file="fel_03_01_c10.sh")
 #all_file8 77 71 78
 #all_file9 125 121 129
 #all_file10 180 176 188
-
+print(len(all_file0))
 print(len(all_file1))
 print(len(all_file2))
 print(len(all_file3))

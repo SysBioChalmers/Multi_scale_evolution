@@ -1,5 +1,0 @@
-# Empirical Bayesian Rates
-# Rate in each gamma category: category 1, Rate= 8.44006e-06 category 2, Rate= 0.01543967 category 3, Rate= 2.232417 
-# Posterior probability for each category, and each position is given.
-POS	Rate	Categ 1	Categ 2	Categ 3	
-1	2.23238	7.207166e-09	1.66688e-05	0.9999833	

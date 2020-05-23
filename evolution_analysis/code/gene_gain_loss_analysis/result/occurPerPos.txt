@@ -1,2 +1,0 @@
-POS	occur	unknown
-1	13	0
