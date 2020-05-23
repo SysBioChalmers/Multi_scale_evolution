@@ -61,9 +61,9 @@ def connect_site_data_with_seq(fasta_file, outfile, sce_as_ref=False):
     :return:
     '''
     # test
-    # fasta_file = "/Users/luho/Documents/branch_site_heat/protein_align/OG1145_aa_aligned.fasta"
-    # sce_as_ref = False
-    # outfile = "/Users/luho/Documents/branch_site_heat/unique_mutation_of_selected_gene/OG1145.csv"
+    # fasta_file = "/Users/luho/Documents/branch_site_heat/protein_align/OG3865_aa_aligned.fasta"
+    # sce_as_ref = True
+    # outfile = "/Users/luho/Documents/branch_site_heat/unique_mutation_of_selected_gene/OG3865.csv"
 
     # input the aligned protein sequences
     OG_original = list(SeqIO.parse(fasta_file, "fasta"))
@@ -140,6 +140,7 @@ def connect_site_data_with_seq(fasta_file, outfile, sce_as_ref=False):
     df_site_new['gap_ratio'] = [None] * df_site_new.shape[0]
     df_site_new['site_ratio'] = [None] * df_site_new.shape[0]
 
+
     # set the reference seq to enable map the common sites onto the protein 3D structures
     # be careful to choose the reference seq from sce as in a ortholog group, there may be several paralogs
     if sce_as_ref:
@@ -153,13 +154,14 @@ def connect_site_data_with_seq(fasta_file, outfile, sce_as_ref=False):
         # choose the longest seq as the reference
         index_general = [i for i,x in enumerate(seq_legnth_no_gap) if x == max(seq_legnth_no_gap)]
 
-    if len(index_general)>=1:
+    if len(index_general) >=1:
         refseq = OG_original[index_general[0]].seq._data
         refseq0 = list(refseq)
         df_site_new['refsite'] = refseq0
-
-    # remove gaps
-    df_site_new_no_gap = df_site_new[df_site_new["refsite"] !="-"]
+        df_site_new_no_gap = df_site_new[df_site_new["refsite"] !="-"]
+    else:
+        df_site_new['refsite'] = [None]*df_site_new.shape[0]
+        df_site_new_no_gap = df_site_new[df_site_new["refsite"] != "-"]
 
     # rearrange the column order
     geneID_test = [x for x in geneID if x.split("@")[0] in species_heat_tolerance]
@@ -174,14 +176,16 @@ def connect_site_data_with_seq(fasta_file, outfile, sce_as_ref=False):
     # so for example, in the test, residue at PI=90% is E; in the reference, residue at PI=90% is F. Then
     # we can say that the residue could be unique for the test group
     a, b = calculateSiteRatio(df_input=df_site_test, pi_cutoff=0.8)
-    c, d = calculateSiteRatio(df_input=df_site_ref, pi_cutoff=0.8)
+    c, d = calculateSiteRatio(df_input=df_site_ref, pi_cutoff=0.2)
     df_site_new_no_gap["site_test"] = a
     df_site_new_no_gap["conserved_test"] = b
     df_site_new_no_gap["site_ref"] = c
     df_site_new_no_gap["conserved_ref"] = d
+
+
     # check whether the mutation is unique from test group
     unique_sign = []
-    for x, y in zip(b, c):
+    for x, y in zip(b, d):
         if not x:
             unique_sign.append("NO")
 
@@ -196,8 +200,10 @@ def connect_site_data_with_seq(fasta_file, outfile, sce_as_ref=False):
 
     df_site_new_no_gap["unique_mutation"] = unique_sign
     # only output the result with the unique mutation from the test group
-    #if "Yes" in unique_sign:
-    df_site_new_no_gap.to_csv(outfile)
+    if "Yes" in unique_sign:
+        df_site_new_no_gap.to_csv(outfile)
+
+
 
 
 
@@ -218,7 +224,7 @@ def main():
     parser = argparse.ArgumentParser(
             formatter_class = argparse.RawDescriptionHelpFormatter,
             description = 'Parse the dN/dS data calculated by Hyphy')
-
+    
     #adding arguments
     parser.add_argument('-p0', metavar='input_file', type=str, help='input the protein seq alignment')
     parser.add_argument('-o', metavar = 'output_file', type = str, help = 'output file to store the result')
@@ -229,8 +235,8 @@ def main():
     out_dir = args.o
 
     # test code
-    #source = '/Users/luho/Documents/branch_site_heat/protein_refine/'
-    #out_dir = '/Users/luho/Documents/branch_site_heat/unique_mutation_of_selected_gene/'
+    # source = '/Users/luho/Documents/branch_site_heat/protein_align/'
+    # out_dir = '/Users/luho/Documents/branch_site_heat/unique_mutation_of_selected_gene/'
 
     all_ID = os.listdir(source)
     for i in all_ID:
@@ -239,7 +245,35 @@ def main():
         # i = "YAL030W_aa_aligned.fasta"
         fasta_file0 = source + i
         outfile0 = out_dir + i.replace("_aa_aligned.fasta", ".csv")
-        connect_site_data_with_seq(fasta_file=fasta_file0, outfile=outfile0, sce_as_ref=False)
+        connect_site_data_with_seq(fasta_file=fasta_file0, outfile=outfile0, sce_as_ref=True)
+
+
+    # data summary
+    all_target_OG = os.listdir(out_dir)
+    unique_mutation_sum = []
+    site_all = []
+    for ss in all_target_OG:
+        print(ss)
+        #ss = "OG2701.csv"
+        og_inf = pd.read_csv(out_dir + ss)
+        # if with sce as the reference, first give the coordinate, then return the the related unique mutation information
+        og_inf["coordinate"] = list(range(1, og_inf.shape[0]+1)) # give the coordinates
+        # filter the unique mutation
+        og_inf1 = og_inf[og_inf["unique_mutation"]=="Yes"]
+        # get the coordinate and unique_mutation
+        site_summary =[]
+        for i, x in og_inf1.iterrows():
+            print(x["conserved_test"], x["coordinate"])
+            site_test0 = list(x["conserved_test"])[2]
+            coordinate0 = x["coordinate"]
+            site_inf = site_test0 + str(coordinate0)
+            site_summary.append(site_inf)
+
+        unique_mutation_sum.append(og_inf1.shape[0])
+        site_all.append(site_summary)
+
+    unique_site_df = pd.DataFrame({"OG":all_target_OG, "num":unique_mutation_sum, "site_inf":site_all})
+    unique_site_df.to_csv('/Users/luho/Documents/branch_site_heat/unique_mutation_analaysis_result.csv')
 
 if __name__ == "__main__":
     main()
@@ -249,3 +283,6 @@ if __name__ == "__main__":
 # for all OGs
 # os.system("mkdir /Users/luho/Documents/branch_site_heat/unique_mutation_of_selected_gene/")
 # os.system("python /Users/luho/Documents/evolution_analysis/code/convergent_analysis/1_common_residue_site_analysis.py -p0 /Users/luho/Documents/branch_site_heat/protein_align/   -o /Users/luho/Documents/branch_site_heat/unique_mutation_of_selected_gene/")
+
+
+
