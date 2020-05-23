@@ -1,0 +1,13 @@
+# print with MP based on the cost matrix: 
+#  0->0 =0
+#  0->1 =1
+#  1->0 =1
+#  1->1 =0
+G/L	POS	branch	branchLength	distance2Root	distance2NearestOTU	numOfNodes2NearestOTU	probability	expectation
+gain	1	Escherichia_coli_K12	0.00044	0.78069	0	0	1	1
+gain	1	Yersinia_pestis	0.0458	0.78661	0	0	1	1
+gain	1	N19	0.14404	0.60423	0.10689	2	1	1
+gain	1	Deinococcus_radiodurans	0.58909	0.72078	0	0	1	1
+gain	1	N29	0.50557	0.53203	0.160861	1	1	1
+gain	1	N35	0.03907	0.32311	0.0986	1	1	1
+gain	1	Staphylococcus_aureus_N315	0.19889	0.45477	0	0	1	1
