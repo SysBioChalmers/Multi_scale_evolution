@@ -1,0 +1,13 @@
+Alignment	ali.fa
+Convergent_branches	['8,0,1,2,3,4,5,6,7', '49,45,46,47,48', '38', '98,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97', '137,133,134,135,136']
+NbCat_Est	10
+Position_to_highlight	[]
+Tree	tree.nw
+date	20200513_132200
+gamma	False
+inv_gamma	False
+max_gap_allowed	5
+max_gap_allowed_in_conv_leaves	5
+pp_threshold_OC	0.8
+pp_threshold_PC	0.8
+pp_threshold_PCOC	0.8
