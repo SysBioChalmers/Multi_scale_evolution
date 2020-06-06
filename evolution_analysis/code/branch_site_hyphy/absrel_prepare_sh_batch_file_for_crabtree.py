@@ -37,7 +37,12 @@ OG_interest1 = [x+"_code.fasta" for x in OG_interest0 if x is not np.nan]
 
 
 # update all_file
-all_file = list(set(all_file) & set(OG_interest1))
+all_file = list(set(all_file) & set(OG_interest1)) # this is first time calculation only for the interesting OGs from core metabolic pathway and the TFs
+
+# now we will calculating the remaining OGs
+all_file = list(set(all_file0)-set(all_result))
+
+
 
 
 # here we will calculate the seq number from each ortholog group
@@ -109,7 +114,7 @@ def produceaBSREL_cluster_parallel_lu(OG_list, out_sh_file, parallel=10):
     newfile = open(outfile, "w")
     # write in the start file
     start_part = "#!/bin/bash\n" \
-                 "#SBATCH -A C3SE2020-1-8\n" \
+                 "#SBATCH -A SNIC2020-7-18\n" \
                  "#SBATCH -N 1\n#SBATCH -n 20\n" \
                  "#SBATCH -o out.txt\n" \
                  "#SBATCH -t 5-00:00:00\n" \
@@ -150,11 +155,11 @@ all_file7 = [x for x, y in zip(all_file, seq_num) if y >= 54 and y < 56]
 all_file8 = [x for x, y in zip(all_file, seq_num) if y >= 56 and y < 58]
 
 
-print(len(all_file0)) #1
-print(len(all_file1)) #19
-print(len(all_file2)) #23
-print(len(all_file3)) #109
-print(len(all_file4)) #26
+print(len(all_file0)) #16
+print(len(all_file1)) #205
+print(len(all_file2)) #394
+print(len(all_file3)) #2446
+print(len(all_file4)) #502
 
 
 print(len(all_file5)) #0
@@ -184,17 +189,18 @@ produceaBSREL_cluster_parallel_lu(OG_list=all_file7, out_sh_file="aBSREL_03_24_7
 produceaBSREL_cluster_parallel_lu(OG_list=all_file8, out_sh_file="aBSREL_03_24_8.sh")
 """
 
+
 # cluster-lu
-produceaBSREL_cluster_parallel_lu(OG_list=all_file0, out_sh_file="aBSREL_04-07_00.sh")
-produceaBSREL_cluster_parallel_lu(OG_list=all_file1, out_sh_file="aBSREL_04-07_01.sh")
-produceaBSREL_cluster_parallel_lu(OG_list=all_file2, out_sh_file="aBSREL_04-07_02.sh")
-produceaBSREL_cluster_parallel_lu(OG_list=all_file4, out_sh_file="aBSREL_04-07_04.sh")
+produceaBSREL_cluster_parallel_lu(OG_list=all_file0, out_sh_file="aBSREL_06-07_00.sh")
+produceaBSREL_cluster_parallel_lu(OG_list=all_file1, out_sh_file="aBSREL_06-07_01.sh")
+produceaBSREL_cluster_parallel_lu(OG_list=all_file2, out_sh_file="aBSREL_06-07_02.sh")
+produceaBSREL_cluster_parallel_lu(OG_list=all_file4, out_sh_file="aBSREL_06-07_04.sh")
 
 
 # split file 4 into
 import numpy
 l = numpy.array_split(numpy.array(all_file3), 5)
-file_name = ["aBSREL_04-07_03_" + str(i) + ".sh" for i in range(5)]
+file_name = ["aBSREL_06-07_03_" + str(i) + ".sh" for i in range(5)]
 for row, out in zip(l,file_name):
     print(row, out)
     s0 = row
