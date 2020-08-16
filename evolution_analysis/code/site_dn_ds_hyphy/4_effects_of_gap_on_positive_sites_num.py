@@ -148,5 +148,5 @@ if __name__ == "__main__":
 
 # for all OGs
 # os.system("mkdir /home/luhongzhong/ortholog_343/fel_result_site/")
-# python /home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_hyphy/4_effects_of_gap_on_positive_sites_num.py -p0 /home/luhongzhong/ortholog_343/protein_refine/  -s /home/luhongzhong/ortholog_343/fel_csv/ -o /home/luhongzhong/ortholog_343/fel_result_site/
+# python /home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_hyphy/1_common_residue_site_analysis.py -p0 /home/luhongzhong/ortholog_343/protein_refine/  -s /home/luhongzhong/ortholog_343/fel_csv/ -o /home/luhongzhong/ortholog_343/fel_result_site/
 
