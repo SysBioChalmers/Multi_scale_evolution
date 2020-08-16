@@ -112,7 +112,7 @@ def main():
     parser = argparse.ArgumentParser(
             formatter_class = argparse.RawDescriptionHelpFormatter,
             description = 'Parse the dN/dS data calculated by Hyphy')
-
+    
     #adding arguments
     parser.add_argument('-p0', metavar='input_file', type=str, help='input the protein seq alignment')
     parser.add_argument('-s', metavar = 'input_file', type = str, help = 'input the dN/dS data')
@@ -125,7 +125,7 @@ def main():
     out_dir = args.o
 
     # test code
-
+    
     #source = '/home/luhongzhong/ortholog_sce_unprune/protein_refine/'
     #source2 = '/home/luhongzhong/Documents/cluster_result/fubar/fubar_csv/'
     #out_dir = '/home/luhongzhong/Documents/cluster_result/fubar/result_site/'
@@ -148,5 +148,5 @@ if __name__ == "__main__":
 
 # for all OGs
 # os.system("mkdir /home/luhongzhong/ortholog_343/fel_result_site/")
-# python /home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_hyphy/4_effects_of_gap_on_positive_sites_num.py -p0 /home/luhongzhong/ortholog_343/protein_refine/  -s /home/luhongzhong/ortholog_343/fel_csv/ -o /home/luhongzhong/ortholog_343/fel_result_site/
+# python /home/luhongzhong/Documents/evolution_analysis/code/site_dn_ds_hyphy/1_common_residue_site_analysis.py -p0 /home/luhongzhong/ortholog_343/protein_refine/  -s /home/luhongzhong/ortholog_343/fel_csv/ -o /home/luhongzhong/ortholog_343/fel_result_site/
 
