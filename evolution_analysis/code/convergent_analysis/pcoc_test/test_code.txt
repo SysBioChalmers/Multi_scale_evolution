@@ -1,0 +1,8 @@
+docker run -e LOCAL_USER_ID=`id -u $USER` --rm -v $PWD:$PWD -e CWD=$PWD carinerey/pcoc pcoc_num_tree.py -t tree_dir/tree.nw -o num_tree.pdf
+
+scenario="8,0,1,2,3,4,5,6,7/49,45,46,47,48/38/98,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97/137,133,134,135,136"
+CMD_PCOC_DOCKER="docker run -e LOCAL_USER_ID=`id -u $USER` --rm -v $PWD:$PWD -e CWD=$PWD carinerey/pcoc"
+$CMD_PCOC_DOCKER pcoc_num_tree.py -t tree_dir/tree.nw -o num_tree.pdf -m $scenario
+
+
+$CMD_PCOC_DOCKER pcoc_det.py -t tree_dir/tree.nw -aa ali.fa -o output_pcoc_det -m $scenario -f 0.8

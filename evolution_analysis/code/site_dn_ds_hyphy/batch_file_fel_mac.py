@@ -14,8 +14,10 @@
 from Bio import SeqIO
 import os
 
-data_dir = "/Users/luho/Documents/cds_align_macse_remove_stop_code/"
-result_file = "/Users/luho/Documents/fel_result"
+#data_dir = "/Users/luho/Documents/cds_align_macse_remove_stop_code/"
+#result_file = "/Users/luho/Documents/fel_result"
+data_dir = "/Users/luho/Documents/fel_all_OG_align_by_guidance/cds_align_guidance_new/"
+result_file = "/Users/luho/Documents/fel_all_OG_align_by_guidance/fel_result"
 
 all_file0 = os.listdir(data_dir)
 all_file0 = [x for x in all_file0 if "_code" in x]
@@ -90,18 +92,18 @@ def produceFel_linux_parallel(OG_list, out_sh_file):
         newfile.write(out1)
     newfile.close()
 
-
-def produceFel_cluster_parallel(OG_list, out_sh_file):
+# this is updated for cluster based on the GUIDANCE alignment
+def produceFel_cluster_parallel(OG_list, out_sh_file, parallel=6):
     outfile = "/Users/luho/Documents/evolution_analysis/code/site_dn_ds_hyphy/" + out_sh_file
-    template0 = "mpirun -np 20 HYPHYMPI LIBPATH=/c3se/users/leyu/Vera/hyphy/res/ /c3se/users/leyu/Vera/hyphy/res/TemplateBatchFiles/SelectionAnalyses/FEL.bf --alignment /c3se/users/leyu/Vera/cds_align_macse_remove_stop_code/OG2049_code.fasta --tree /c3se/users/leyu/Vera/unroot_tree/OG2049_aa_unroot.tre --srv Yes --pvalue 0.1 --output /c3se/users/leyu/Vera/fel_result/OG2049.FEL.json"
+    template0 = "mpirun -np 20 HYPHYMPI LIBPATH=/cephyr/users/luho/Hebbe/hyphy/res/ /cephyr/users/luho/Hebbe/hyphy/res/TemplateBatchFiles/SelectionAnalyses/FEL.bf --alignment /cephyr/users/luho/Hebbe/cds_align_guidance_new/OG2049_code.fasta --tree /cephyr/users/luho/Hebbe/cds_align_guidance_new_tree_unroot/OG2049_aa_unroot.tre --srv Yes --pvalue 0.1 --output /cephyr/users/luho/Hebbe/fel_result/OG2049.FEL.json"
     newfile = open(outfile, "w")
     # write in the start file
     start_part = "#!/bin/bash\n" \
-                 "#SBATCH -A C3SE2020-1-16\n" \
+                 "#SBATCH -A C3SE2020-1-8\n" \
                  "#SBATCH -N 1\n#SBATCH -n 20\n" \
                  "#SBATCH -o out.txt\n" \
-                 "#SBATCH -t 3-00:00:00\n" \
-                 "#SBATCH --mail-user=leyu@chalmers.se\n" \
+                 "#SBATCH -t 7-00:00:00\n" \
+                 "#SBATCH --mail-user=luho@chalmers.se\n" \
                  "#SBATCH --mail-type=end\n" \
                  "module load GCC/8.3.0\n" \
                  "module load CUDA/10.1.243\n" \
@@ -113,9 +115,14 @@ def produceFel_cluster_parallel(OG_list, out_sh_file):
         tree_id = cds.replace("_code.fasta", "_aa_unroot.tre")
         result_id = cds.replace("_code.fasta", ".FEL.json")
         out1 = template0.replace("OG2049_code.fasta", cds).replace('OG2049_aa_unroot.tre', tree_id).replace(
-            'OG2049.FEL.json', result_id) + "\n"
+            'OG2049.FEL.json', result_id) + " & \n"
         print(out1)
-        newfile.write(out1)
+        if (i + 1) % parallel == 0:
+            newfile.write(out1)
+            newfile.write("wait" + "\n")
+        else:
+            newfile.write(out1)
+    newfile.write("wait" + "\n")
     newfile.close()
 
 
@@ -180,9 +187,33 @@ all_file10 = [x for x, y in zip(all_file, seq_num) if y >= 300 and y < 350]
 #produceFel_mac_parallel(OG_list=all_file4, out_sh_file="fel_03_01_m4.sh")
 
 # using the parallel calculation on the cluster
-produceFel_cluster_parallel(OG_list=all_file2, out_sh_file="fel_03_01_c2.sh")
-produceFel_cluster_parallel(OG_list=all_file3, out_sh_file="fel_03_01_c3.sh")
-produceFel_cluster_parallel(OG_list=all_file4, out_sh_file="fel_03_01_c4.sh")
+produceFel_cluster_parallel(OG_list=all_file4, out_sh_file="fel_07_12_c4.sh")
+produceFel_cluster_parallel(OG_list=all_file6, out_sh_file="fel_07_12_c6.sh")
+produceFel_cluster_parallel(OG_list=all_file7, out_sh_file="fel_07_12_c7.sh")
+produceFel_cluster_parallel(OG_list=all_file8, out_sh_file="fel_07_12_c8.sh")
+
+
+import numpy
+l = numpy.array_split(numpy.array(all_file9),2)
+file_name = ["fel_07_12_c9_" + str(i) + ".sh" for i in range(2)]
+for row, out in zip(l,file_name):
+    print(row, out)
+    s0 = row
+    s1= [x.replace("\n","") for x in s0]
+    produceFel_cluster_parallel(OG_list=s1, out_sh_file=out)
+
+
+l = numpy.array_split(numpy.array(all_file10),10)
+file_name = ["fel_07_12_c10_" + str(i) + ".sh" for i in range(10)]
+for row, out in zip(l,file_name):
+    print(row, out)
+    s0 = row
+    s1= [x.replace("\n","") for x in s0]
+    produceFel_cluster_parallel(OG_list=s1, out_sh_file=out)
+
+
+
+
 
 
 
@@ -218,14 +249,14 @@ produceFel_cluster_parallel(OG_list=all_file10, out_sh_file="fel_03_01_c10.sh")
 #all_file8 77 71 78 41 0 0
 #all_file9 125 121 129 92 26 0
 #all_file10 180 176 188 188 150 57
-
-print(len(all_file1))
-print(len(all_file2))
-print(len(all_file3))
-print(len(all_file4))
-print(len(all_file5))
-print(len(all_file6))
-print(len(all_file7))
-print(len(all_file8))
-print(len(all_file9))
-print(len(all_file10))
+#print(len(all_file0))
+#print(len(all_file1))
+#print(len(all_file2))
+#print(len(all_file3))
+print(len(all_file4)) # 80
+#print(len(all_file5))
+print(len(all_file6)) #140
+print(len(all_file7)) #213
+print(len(all_file8)) #311
+print(len(all_file9)) #639
+print(len(all_file10)) #983

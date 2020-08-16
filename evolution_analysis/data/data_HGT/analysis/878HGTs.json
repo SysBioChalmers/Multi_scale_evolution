@@ -1,0 +1,5270 @@
+[
+    {
+        "id": "Candida_versatilis@Seq_1283",
+        "index": "31_1281",
+        "ortholog": "OG45796",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4090",
+        "index": "31_4088",
+        "ortholog": "OG45792",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_807",
+        "index": "31_805",
+        "ortholog": "OG27387",
+        "species": "4"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1793",
+        "index": "138_1792",
+        "ortholog": "OG45792",
+        "species": "2"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_2190",
+        "index": "138_2189",
+        "ortholog": "OG45796",
+        "species": "2"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_447",
+        "index": "138_446",
+        "ortholog": "OG27387",
+        "species": "4"
+    },
+    {
+        "id": "Candida_apicola@Seq_2694",
+        "index": "13_2693",
+        "ortholog": "OG3811",
+        "species": "273"
+    },
+    {
+        "id": "Candida_apicola@Seq_3293",
+        "index": "13_3292",
+        "ortholog": "OG23078",
+        "species": "5"
+    },
+    {
+        "id": "Candida_apicola@Seq_4682",
+        "index": "13_4681",
+        "ortholog": "OG3581",
+        "species": "303"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_2180",
+        "index": "130_2179",
+        "ortholog": "OG3581",
+        "species": "303"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_2202",
+        "index": "130_2201",
+        "ortholog": "OG3811",
+        "species": "273"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_586",
+        "index": "130_585",
+        "ortholog": "OG23078",
+        "species": "5"
+    },
+    {
+        "id": "Candida_apicola@Seq_264",
+        "index": "13_263",
+        "ortholog": "OG32748",
+        "species": "3"
+    },
+    {
+        "id": "Candida_apicola@Seq_4218",
+        "index": "13_4217",
+        "ortholog": "OG5563",
+        "species": "104"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_1824",
+        "index": "130_1823",
+        "ortholog": "OG32748",
+        "species": "3"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_4148",
+        "index": "130_4147",
+        "ortholog": "OG45050",
+        "species": "2"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_493",
+        "index": "130_492",
+        "ortholog": "OG5563",
+        "species": "104"
+    },
+    {
+        "id": "Candida_apicola@Seq_1537",
+        "index": "13_1536",
+        "ortholog": "OG4564",
+        "species": "207"
+    },
+    {
+        "id": "Candida_apicola@Seq_1633",
+        "index": "13_1632",
+        "ortholog": "OG27101",
+        "species": "4"
+    },
+    {
+        "id": "Candida_apicola@Seq_4144",
+        "index": "13_4143",
+        "ortholog": "OG19962",
+        "species": "4"
+    },
+    {
+        "id": "Candida_apicola@Seq_4337",
+        "index": "13_4336",
+        "ortholog": "OG19962",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1563",
+        "index": "31_1561",
+        "ortholog": "OG27101",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2482",
+        "index": "31_2480",
+        "ortholog": "OG19962",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4370",
+        "index": "31_4368",
+        "ortholog": "OG19962",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4982",
+        "index": "31_4980",
+        "ortholog": "OG4564",
+        "species": "207"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_3159",
+        "index": "130_3158",
+        "ortholog": "OG4564",
+        "species": "207"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_3166",
+        "index": "130_3165",
+        "ortholog": "OG27101",
+        "species": "4"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1893",
+        "index": "138_1892",
+        "ortholog": "OG4564",
+        "species": "207"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_2034",
+        "index": "138_2033",
+        "ortholog": "OG27101",
+        "species": "4"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_1653",
+        "index": "130_1652",
+        "ortholog": "OG19962",
+        "species": "4"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_1653",
+        "index": "130_1652",
+        "ortholog": "OG19962",
+        "species": "4"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_516",
+        "index": "138_515",
+        "ortholog": "OG19962",
+        "species": "4"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_516",
+        "index": "138_515",
+        "ortholog": "OG19962",
+        "species": "4"
+    },
+    {
+        "id": "Candida_apicola@Seq_1399",
+        "index": "13_1398",
+        "ortholog": "OG17703",
+        "species": "5"
+    },
+    {
+        "id": "Candida_apicola@Seq_3222",
+        "index": "13_3221",
+        "ortholog": "OG32767",
+        "species": "3"
+    },
+    {
+        "id": "Candida_apicola@Seq_666",
+        "index": "13_665",
+        "ortholog": "OG32798",
+        "species": "3"
+    },
+    {
+        "id": "Candida_apicola@Seq_799",
+        "index": "13_798",
+        "ortholog": "OG19999",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1307",
+        "index": "31_1305",
+        "ortholog": "OG93875",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2266",
+        "index": "31_2264",
+        "ortholog": "OG26041",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2347",
+        "index": "31_2345",
+        "ortholog": "OG32798",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2997",
+        "index": "31_2995",
+        "ortholog": "OG32767",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3582",
+        "index": "31_3580",
+        "ortholog": "OG31266",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4107",
+        "index": "31_4105",
+        "ortholog": "OG212257",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4893",
+        "index": "31_4891",
+        "ortholog": "OG26800",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_692",
+        "index": "31_690",
+        "ortholog": "OG6296",
+        "species": "27"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_1802",
+        "index": "130_1801",
+        "ortholog": "OG6296",
+        "species": "27"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_2239",
+        "index": "130_2238",
+        "ortholog": "OG31266",
+        "species": "3"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_3459",
+        "index": "130_3458",
+        "ortholog": "OG32767",
+        "species": "3"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_4063",
+        "index": "130_4062",
+        "ortholog": "OG194813",
+        "species": "1"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_737",
+        "index": "130_736",
+        "ortholog": "OG32798",
+        "species": "3"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1077",
+        "index": "138_1076",
+        "ortholog": "OG10272",
+        "species": "15"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1450",
+        "index": "138_1449",
+        "ortholog": "OG10272",
+        "species": "15"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_2414",
+        "index": "138_2413",
+        "ortholog": "OG10272",
+        "species": "15"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_341",
+        "index": "138_340",
+        "ortholog": "OG10272",
+        "species": "15"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3826",
+        "index": "138_3825",
+        "ortholog": "OG68527",
+        "species": "1"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_748",
+        "index": "138_747",
+        "ortholog": "OG10272",
+        "species": "15"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_824",
+        "index": "138_823",
+        "ortholog": "OG14060",
+        "species": "10"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_850",
+        "index": "138_849",
+        "ortholog": "OG5620",
+        "species": "63"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1849",
+        "index": "138_1848",
+        "ortholog": "OG7959",
+        "species": "38"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2007",
+        "index": "31_2005",
+        "ortholog": "OG184623",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3848",
+        "index": "31_3846",
+        "ortholog": "OG153929",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4065",
+        "index": "31_4063",
+        "ortholog": "OG6746",
+        "species": "62"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4305",
+        "index": "31_4303",
+        "ortholog": "OG6293",
+        "species": "75"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5014",
+        "index": "31_5012",
+        "ortholog": "OG10331",
+        "species": "16"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5064",
+        "index": "31_5062",
+        "ortholog": "OG9852",
+        "species": "18"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1796",
+        "index": "31_1794",
+        "ortholog": "OG5631",
+        "species": "80"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2597",
+        "index": "31_2595",
+        "ortholog": "OG33238",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3218",
+        "index": "31_3216",
+        "ortholog": "OG26213",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3615",
+        "index": "31_3613",
+        "ortholog": "OG11152",
+        "species": "14"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3872",
+        "index": "31_3870",
+        "ortholog": "OG1168",
+        "species": "334"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4544",
+        "index": "31_4542",
+        "ortholog": "OG59681",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5010",
+        "index": "31_5008",
+        "ortholog": "OG5360",
+        "species": "112"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5277",
+        "index": "31_5275",
+        "ortholog": "OG169209",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1151",
+        "index": "31_1149",
+        "ortholog": "OG30495",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1278",
+        "index": "31_1276",
+        "ortholog": "OG19206",
+        "species": "6"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2506",
+        "index": "31_2504",
+        "ortholog": "OG29773",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3167",
+        "index": "31_3165",
+        "ortholog": "OG9293",
+        "species": "28"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2696",
+        "index": "31_2694",
+        "ortholog": "OG11587",
+        "species": "15"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2985",
+        "index": "31_2983",
+        "ortholog": "OG19999",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_311",
+        "index": "31_309",
+        "ortholog": "OG9030",
+        "species": "27"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5234",
+        "index": "31_5232",
+        "ortholog": "OG9782",
+        "species": "19"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5344",
+        "index": "31_5342",
+        "ortholog": "OG17693",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1488",
+        "index": "31_1486",
+        "ortholog": "OG5636",
+        "species": "78"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2212",
+        "index": "31_2210",
+        "ortholog": "OG59681",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2395",
+        "index": "31_2393",
+        "ortholog": "OG7636",
+        "species": "44"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3992",
+        "index": "31_3990",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5405",
+        "index": "31_5403",
+        "ortholog": "OG4299",
+        "species": "194"
+    },
+    {
+        "id": "Kuraishia_capsulata@Seq_2135",
+        "index": "53_2134",
+        "ortholog": "OG10716",
+        "species": "12"
+    },
+    {
+        "id": "Kuraishia_capsulata@Seq_3120",
+        "index": "53_3119",
+        "ortholog": "OG10716",
+        "species": "12"
+    },
+    {
+        "id": "Kuraishia_capsulata@Seq_507",
+        "index": "53_506",
+        "ortholog": "OG10716",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000034903_Ogataea_naganishii@Seq_1463",
+        "index": "237_1462",
+        "ortholog": "OG23231",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034903_Ogataea_naganishii@Seq_1563",
+        "index": "237_1562",
+        "ortholog": "OG23231",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034903_Ogataea_naganishii@Seq_2092",
+        "index": "237_2091",
+        "ortholog": "OG23231",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000035335_Candida_blattae@Seq_3695",
+        "index": "290_3694",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000034606_Priceomyces_medius@Seq_1298",
+        "index": "172_1297",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "Candida_tenuis@Seq_3183",
+        "index": "29_3182",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000034986_Candida_oregonensis@Seq_3292",
+        "index": "254_3291",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000035252_Yamadazyma_nakazawae@Seq_2940",
+        "index": "276_2939",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000035707_Candida_heveicola@Seq_2615",
+        "index": "327_2614",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000035640_Yamadazyma_philogaea@Seq_279",
+        "index": "294_278",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000035641_Yamadazyma_scolyti@Seq_4381",
+        "index": "295_4380",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "Candida_tanzawaensis@Seq_4071",
+        "index": "28_4070",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000035296_Priceomyces_carsonii@Seq_4621",
+        "index": "284_4620",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000041863_Candida_gorgasii@Seq_1932",
+        "index": "340_1931",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000035679_Candida_rhagii@Seq_1797",
+        "index": "314_1796",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000041833_Candida_tammaniensis@Seq_4624",
+        "index": "336_4623",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000034973_Danielozyma_ontarioensis@Seq_934",
+        "index": "250_933",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "Candida_auris@Seq_5164",
+        "index": "15_5163",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "Priceomyces_haplophilus@Seq_4966",
+        "index": "108_4965",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "Priceomyces_haplophilus@Seq_3646",
+        "index": "108_3645",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "Candida_intermedia@Seq_5097",
+        "index": "22_5096",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "yHMPu5000035018_Candida_canberraensis@Seq_5442",
+        "index": "260_5441",
+        "ortholog": "OG9976",
+        "species": "22"
+    },
+    {
+        "id": "Candida_carpophila@Seq_4916",
+        "index": "17_4915",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "Candida_intermedia@Seq_4665",
+        "index": "22_4664",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000041713_Debaryomyces_maramus@Seq_965",
+        "index": "330_964",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000041829_Debaryomyces_fabryi@Seq_5440",
+        "index": "335_5439",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "Meyerozyma_guilliermondii@Seq_3220",
+        "index": "91_3219",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "Hyphopichia_burtonii@Seq_721",
+        "index": "47_720",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000041824_Debaryomyces_subglobosus@Seq_1304",
+        "index": "334_1303",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000035335_Candida_blattae@Seq_5280",
+        "index": "290_5279",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000041833_Candida_tammaniensis@Seq_2663",
+        "index": "336_2662",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "Candida_auris@Seq_4992",
+        "index": "15_4991",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "Candida_homilentoma@Seq_1913",
+        "index": "20_1912",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000034606_Priceomyces_medius@Seq_2659",
+        "index": "172_2658",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000035296_Priceomyces_carsonii@Seq_2557",
+        "index": "284_2556",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "Debaryomyces_hansenii@Seq_697",
+        "index": "36_696",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000035681_Candida_gotoi@Seq_4729",
+        "index": "315_4728",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000035679_Candida_rhagii@Seq_1376",
+        "index": "314_1375",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000041678_Debaryomyces_prosopidis@Seq_2451",
+        "index": "328_2450",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000035318_Hyphopichia_heimii@Seq_2717",
+        "index": "288_2716",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000041693_Debaryomyces_nepalensis@Seq_315",
+        "index": "329_314",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "yHMPu5000035681_Candida_gotoi@Seq_354",
+        "index": "315_353",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "yHMPu5000034862_Zygotorulaspora_florentina@Seq_2884",
+        "index": "217_2883",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "yHMPu5000026256_Zygotorulaspora_mrakii@Seq_1734",
+        "index": "166_1733",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Candida_orthopsilosis@Seq_1396",
+        "index": "23_1395",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "yHAB158_Kazachstania_viticola@Seq_5563",
+        "index": "155_5562",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Nakaseomyces_delphensis@Seq_324",
+        "index": "97_323",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Candida_parapsilosis@Seq_703",
+        "index": "24_702",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Nakaseomyces_bracarensis@Seq_2505",
+        "index": "95_2504",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "yHMPu5000026152_Torulaspora_franciscae@Seq_1461",
+        "index": "164_1460",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "yHMPu5000034614_Saturnispora_silvae@Seq_184",
+        "index": "178_183",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Torulaspora_delbrueckii@Seq_367",
+        "index": "135_366",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Candida_intermedia@Seq_4585",
+        "index": "22_4584",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Saccharomyces_cerevisiae@YJL218W",
+        "index": "110_1521",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Naumovozyma_castellii@Seq_3276",
+        "index": "100_3275",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Ogataea_polymorpha@Seq_1624",
+        "index": "105_1623",
+        "ortholog": "OG4186",
+        "species": "217"
+    },
+    {
+        "id": "Debaryomyces_hansenii@Seq_5396",
+        "index": "36_5395",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "yHMPu5000041678_Debaryomyces_prosopidis@Seq_5141",
+        "index": "328_5140",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "yHMPu5000041824_Debaryomyces_subglobosus@Seq_4401",
+        "index": "334_4400",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "yHMPu5000041713_Debaryomyces_maramus@Seq_4062",
+        "index": "330_4061",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "Candida_intermedia@Seq_1298",
+        "index": "22_1297",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "Candida_carpophila@Seq_2447",
+        "index": "17_2446",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "yHMPu5000035679_Candida_rhagii@Seq_4066",
+        "index": "314_4065",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "yHMPu5000035296_Priceomyces_carsonii@Seq_2758",
+        "index": "284_2757",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "yHMPu5000035335_Candida_blattae@Seq_5399",
+        "index": "290_5398",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "Candida_intermedia@Seq_5458",
+        "index": "22_5457",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "yHMPu5000035335_Candida_blattae@Seq_18",
+        "index": "290_17",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "Meyerozyma_guilliermondii@Seq_2887",
+        "index": "91_2886",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "yHMPu5000041829_Debaryomyces_fabryi@Seq_2333",
+        "index": "335_2332",
+        "ortholog": "OG9831",
+        "species": "20"
+    },
+    {
+        "id": "yHMPu5000041713_Debaryomyces_maramus@Seq_2370",
+        "index": "330_2369",
+        "ortholog": "OG197267",
+        "species": "1"
+    },
+    {
+        "id": "Zygosaccharomyces_bailii@Seq_740",
+        "index": "341_739",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "yHMPu5000034866_Zygosaccharomyces_bisporus@Seq_3421",
+        "index": "219_3420",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "Zygosaccharomyces_rouxii@Seq_4134",
+        "index": "342_4133",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "yHMPu5000034615_Saturnispora_zaruensis@Seq_3438",
+        "index": "179_3437",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "yHMPu5000034610_Saturnispora_hagleri@Seq_3427",
+        "index": "174_3426",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "yHMPu5000034622_Pichia_occidentalis@Seq_991",
+        "index": "180_990",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "Candida_sorboxylosa@Seq_1322",
+        "index": "26_1319",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "Candida_orthopsilosis@Seq_2255",
+        "index": "23_2254",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "yHMPu5000034629_Pichia_exigua@Seq_3201",
+        "index": "185_3200",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "Candida_parapsilosis@Seq_4886",
+        "index": "24_4885",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "Nadsonia_fulvescens_var_elongata@Seq_2822",
+        "index": "93_2821",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "Candida_apicola@Seq_1226",
+        "index": "13_1225",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_628",
+        "index": "130_627",
+        "ortholog": "OG4895",
+        "species": "190"
+    },
+    {
+        "id": "Lachancea_lanzarotensis@Seq_2336",
+        "index": "59_2335",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "Lachancea_mirantina@Seq_1985",
+        "index": "61_1984",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "Lachancea_nothofagi@Seq_482",
+        "index": "62_481",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000034862_Zygotorulaspora_florentina@Seq_2934",
+        "index": "217_2933",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "Lachancea_cidri@Seq_3275",
+        "index": "54_3274",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000035651_Torulaspora_microellipsoides@Seq_2882",
+        "index": "299_2881",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "Lachancea_fermentati@Seq_3891",
+        "index": "57_3890",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "Zygosaccharomyces_bailii@Seq_3873",
+        "index": "341_3872",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "Lachancea_fantastica@Seq_3562",
+        "index": "56_3561",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "Lachancea_meyersii@Seq_3737",
+        "index": "60_3736",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_1465",
+        "index": "66_1464",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_5525",
+        "index": "66_5524",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1376",
+        "index": "31_1374",
+        "ortholog": "OG7775",
+        "species": "35"
+    },
+    {
+        "id": "yHMPu5000034605_Spencermartinsiella_europaea@Seq_1562",
+        "index": "171_1561",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000034681_Blastobotrys_americana@Seq_1851",
+        "index": "206_1850",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_3163",
+        "index": "200_3162",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "Arxula_adeninivorans@Seq_5111",
+        "index": "4_5110",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000035244_Candida_incommunis@Seq_4663",
+        "index": "275_4662",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000034671_Blastobotrys_peoriensis@Seq_3381",
+        "index": "202_3380",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000034974_Deakozyma_indianensis@Seq_2914",
+        "index": "251_2913",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000035665_Middelhovenomyces_tepae@Seq_3903",
+        "index": "305_3902",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000035691_Candida_salmanticensis@Seq_189",
+        "index": "322_188",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000034674_Blastobotrys_muscicola@Seq_6315",
+        "index": "204_6314",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000035242_Zygoascus_ofunaensis@Seq_4012",
+        "index": "273_4011",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000035243_Zygoascus_meyerae@Seq_1466",
+        "index": "274_1465",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000034660_Diddensiella_caesifluorescens@Seq_2062",
+        "index": "196_2061",
+        "ortholog": "OG11748",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000034885_Ogataea_zsoltii@Seq_4069",
+        "index": "226_4068",
+        "ortholog": "OG161662",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034897_Ogataea_glucozyma@Seq_1104",
+        "index": "233_1103",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000034887_Ogataea_trehaloabstinens@Seq_182",
+        "index": "228_181",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000026124_Ogataea_henricii@Seq_2551",
+        "index": "160_2550",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000034637_Ogataea_populiabae@Seq_1150",
+        "index": "190_1149",
+        "ortholog": "OG1760",
+        "species": "190"
+    },
+    {
+        "id": "yHMPu5000034885_Ogataea_zsoltii@Seq_1002",
+        "index": "226_1001",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000034897_Ogataea_glucozyma@Seq_2896",
+        "index": "233_2895",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000034885_Ogataea_zsoltii@Seq_4747",
+        "index": "226_4746",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000034897_Ogataea_glucozyma@Seq_4401",
+        "index": "233_4400",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000026124_Ogataea_henricii@Seq_2460",
+        "index": "160_2459",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000034885_Ogataea_zsoltii@Seq_1446",
+        "index": "226_1445",
+        "ortholog": "OG230313",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034897_Ogataea_glucozyma@Seq_1529",
+        "index": "233_1528",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000026124_Ogataea_henricii@Seq_2827",
+        "index": "160_2826",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000041693_Debaryomyces_nepalensis@Seq_5526",
+        "index": "329_5525",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "Debaryomyces_hansenii@Seq_1826",
+        "index": "36_1825",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000041678_Debaryomyces_prosopidis@Seq_2232",
+        "index": "328_2231",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000041824_Debaryomyces_subglobosus@Seq_1789",
+        "index": "334_1788",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "Lachancea_meyersii@Seq_3557",
+        "index": "60_3556",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "Lachancea_lanzarotensis@Seq_1641",
+        "index": "59_1640",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "Lachancea_mirantina@Seq_505",
+        "index": "61_504",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "Lachancea_quebecensis@Seq_1559",
+        "index": "63_1558",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "Lachancea_dasiensis@Seq_4757",
+        "index": "55_4756",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "Lachancea_dasiensis@Seq_3876",
+        "index": "55_3875",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "Lachancea_nothofagi@Seq_1463",
+        "index": "62_1462",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "Lachancea_fantastica@Seq_2675",
+        "index": "56_2674",
+        "ortholog": "OG12079",
+        "species": "13"
+    },
+    {
+        "id": "Saccharomyces_arboricola@Seq_1631",
+        "index": "109_1630",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "Saccharomyces_uvarum@Seq_4277",
+        "index": "115_4276",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "Saccharomyces_paradoxus@Seq_2115",
+        "index": "114_2114",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "Saccharomyces_mikatae@Seq_2520",
+        "index": "113_2519",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000034866_Zygosaccharomyces_bisporus@Seq_3050",
+        "index": "219_3049",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "Saccharomyces_cerevisiae@YJL217W",
+        "index": "110_894",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "Saccharomyces_kudriavzevii@Seq_2888",
+        "index": "112_2887",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "Saccharomyces_eubayanus@Seq_4585",
+        "index": "111_4584",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000034862_Zygotorulaspora_florentina@Seq_3872",
+        "index": "217_3871",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "Torulaspora_delbrueckii@Seq_404",
+        "index": "135_403",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "Sugiyamaella_lignohabitans@Seq_6323",
+        "index": "131_6322",
+        "ortholog": "OG11668",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000026124_Ogataea_henricii@Seq_2885",
+        "index": "160_2884",
+        "ortholog": "OG15183",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034897_Ogataea_glucozyma@Seq_3813",
+        "index": "233_3812",
+        "ortholog": "OG15183",
+        "species": "9"
+    },
+    {
+        "id": "Candida_arabinofermentans@Seq_470",
+        "index": "14_469",
+        "ortholog": "OG15183",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034885_Ogataea_zsoltii@Seq_3089",
+        "index": "226_3088",
+        "ortholog": "OG15183",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034891_Ogataea_pini@Seq_5146",
+        "index": "230_5145",
+        "ortholog": "OG15183",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034933_Kuraishia_molischiana@Seq_3955",
+        "index": "241_3954",
+        "ortholog": "OG15183",
+        "species": "9"
+    },
+    {
+        "id": "Kuraishia_capsulata@Seq_4014",
+        "index": "53_4013",
+        "ortholog": "OG15183",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034883_Peterozyma_xylosa@Seq_1411",
+        "index": "224_1410",
+        "ortholog": "OG15183",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034884_Peterozyma_toletana@Seq_536",
+        "index": "225_535",
+        "ortholog": "OG15183",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034933_Kuraishia_molischiana@Seq_468",
+        "index": "241_467",
+        "ortholog": "OG217269",
+        "species": "1"
+    },
+    {
+        "id": "Yarrowia_lipolytica@Seq_5889",
+        "index": "144_5888",
+        "ortholog": "OG11440",
+        "species": "16"
+    },
+    {
+        "id": "yHMPu5000035643_Yarrowia_bubula@Seq_5509",
+        "index": "296_5508",
+        "ortholog": "OG11440",
+        "species": "16"
+    },
+    {
+        "id": "Yarrowia_deformans@Seq_4778",
+        "index": "142_4777",
+        "ortholog": "OG11440",
+        "species": "16"
+    },
+    {
+        "id": "Yarrowia_keelungensis@Seq_3636",
+        "index": "143_3635",
+        "ortholog": "OG11440",
+        "species": "16"
+    },
+    {
+        "id": "yHMPu5000034675_Blastobotrys_mokoenaii@Seq_4367",
+        "index": "205_4366",
+        "ortholog": "OG11440",
+        "species": "16"
+    },
+    {
+        "id": "Arxula_adeninivorans@Seq_4941",
+        "index": "4_4940",
+        "ortholog": "OG11440",
+        "species": "16"
+    },
+    {
+        "id": "yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_1740",
+        "index": "200_1739",
+        "ortholog": "OG11440",
+        "species": "16"
+    },
+    {
+        "id": "yHMPu5000035633_Candida_hispaniensis@Seq_1767",
+        "index": "292_1766",
+        "ortholog": "OG11440",
+        "species": "16"
+    },
+    {
+        "id": "Torulaspora_delbrueckii@Seq_4227",
+        "index": "135_4226",
+        "ortholog": "OG11440",
+        "species": "16"
+    },
+    {
+        "id": "yHMPu5000034881_Torulaspora_pretoriensis@Seq_1094",
+        "index": "223_1093",
+        "ortholog": "OG11440",
+        "species": "16"
+    },
+    {
+        "id": "yHMPu5000034605_Spencermartinsiella_europaea@Seq_4361",
+        "index": "171_4360",
+        "ortholog": "OG11222",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000034681_Blastobotrys_americana@Seq_2602",
+        "index": "206_2601",
+        "ortholog": "OG11222",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000034667_Blastobotrys_serpentis@Seq_5395",
+        "index": "199_5394",
+        "ortholog": "OG11222",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000035243_Zygoascus_meyerae@Seq_1299",
+        "index": "274_1298",
+        "ortholog": "OG11222",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000034660_Diddensiella_caesifluorescens@Seq_4413",
+        "index": "196_4412",
+        "ortholog": "OG11222",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000035242_Zygoascus_ofunaensis@Seq_4410",
+        "index": "273_4409",
+        "ortholog": "OG11222",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000035242_Zygoascus_ofunaensis@Seq_742",
+        "index": "273_741",
+        "ortholog": "OG11222",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000035242_Zygoascus_ofunaensis@Seq_3648",
+        "index": "273_3647",
+        "ortholog": "OG11222",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000034605_Spencermartinsiella_europaea@Seq_4882",
+        "index": "171_4881",
+        "ortholog": "OG11222",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000035691_Candida_salmanticensis@Seq_2530",
+        "index": "322_2529",
+        "ortholog": "OG11222",
+        "species": "13"
+    },
+    {
+        "id": "Candida_arabinofermentans@Seq_2176",
+        "index": "14_2175",
+        "ortholog": "OG13157",
+        "species": "11"
+    },
+    {
+        "id": "yHMPu5000034902_Ogataea_minuta@Seq_666",
+        "index": "236_665",
+        "ortholog": "OG13157",
+        "species": "11"
+    },
+    {
+        "id": "yHMPu5000034904_Ogataea_nonfermentans@Seq_5185",
+        "index": "238_5184",
+        "ortholog": "OG13157",
+        "species": "11"
+    },
+    {
+        "id": "yHMPu5000034636_Ogataea_nitratoaversa@Seq_2107",
+        "index": "189_2106",
+        "ortholog": "OG13157",
+        "species": "11"
+    },
+    {
+        "id": "yHMPu5000026124_Ogataea_henricii@Seq_2343",
+        "index": "160_2342",
+        "ortholog": "OG13157",
+        "species": "11"
+    },
+    {
+        "id": "yHMPu5000034892_Ogataea_pilisensis@Seq_5355",
+        "index": "231_5354",
+        "ortholog": "OG13157",
+        "species": "11"
+    },
+    {
+        "id": "Ogataea_methanolica@Seq_3160",
+        "index": "103_3159",
+        "ortholog": "OG13157",
+        "species": "11"
+    },
+    {
+        "id": "yHMPu5000034891_Ogataea_pini@Seq_3820",
+        "index": "230_3819",
+        "ortholog": "OG13157",
+        "species": "11"
+    },
+    {
+        "id": "yHMPu5000034885_Ogataea_zsoltii@Seq_4536",
+        "index": "226_4535",
+        "ortholog": "OG13157",
+        "species": "11"
+    },
+    {
+        "id": "Debaryomyces_hansenii@Seq_1633",
+        "index": "36_1632",
+        "ortholog": "OG11605",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000041829_Debaryomyces_fabryi@Seq_3579",
+        "index": "335_3578",
+        "ortholog": "OG11605",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000041693_Debaryomyces_nepalensis@Seq_5432",
+        "index": "329_5431",
+        "ortholog": "OG11605",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000041824_Debaryomyces_subglobosus@Seq_2380",
+        "index": "334_2379",
+        "ortholog": "OG11605",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000041713_Debaryomyces_maramus@Seq_3786",
+        "index": "330_3785",
+        "ortholog": "OG11605",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000041713_Debaryomyces_maramus@Seq_1928",
+        "index": "330_1927",
+        "ortholog": "OG12192",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000041693_Debaryomyces_nepalensis@Seq_223",
+        "index": "329_222",
+        "ortholog": "OG12192",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000041678_Debaryomyces_prosopidis@Seq_4111",
+        "index": "328_4110",
+        "ortholog": "OG11605",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000041713_Debaryomyces_maramus@Seq_2407",
+        "index": "330_2406",
+        "ortholog": "OG11605",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000034612_Saturnispora_saitoi@Seq_1745",
+        "index": "176_1744",
+        "ortholog": "OG11135",
+        "species": "17"
+    },
+    {
+        "id": "yHMPu5000034615_Saturnispora_zaruensis@Seq_3882",
+        "index": "179_3881",
+        "ortholog": "OG11135",
+        "species": "17"
+    },
+    {
+        "id": "Pichia_membranifaciens@Seq_1850",
+        "index": "107_1849",
+        "ortholog": "OG11135",
+        "species": "17"
+    },
+    {
+        "id": "yHMPu5000035040_Ambrosiozyma_maleeae@Seq_3064",
+        "index": "266_3063",
+        "ortholog": "OG11135",
+        "species": "17"
+    },
+    {
+        "id": "Candida_sorboxylosa@Seq_2997",
+        "index": "26_2992",
+        "ortholog": "OG11135",
+        "species": "17"
+    },
+    {
+        "id": "yHMPu5000034614_Saturnispora_silvae@Seq_1429",
+        "index": "178_1428",
+        "ortholog": "OG11135",
+        "species": "17"
+    },
+    {
+        "id": "yHMPu5000034625_Pichia_kudriavzevii@Seq_1026",
+        "index": "183_1025",
+        "ortholog": "OG11135",
+        "species": "17"
+    },
+    {
+        "id": "yHMPu5000034622_Pichia_occidentalis@Seq_390",
+        "index": "180_389",
+        "ortholog": "OG11135",
+        "species": "17"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_6034",
+        "index": "66_6033",
+        "ortholog": "OG14060",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000034754_Lipomyces_arxii@Seq_5089",
+        "index": "212_5088",
+        "ortholog": "OG14060",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_4785",
+        "index": "215_4784",
+        "ortholog": "OG14060",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000034748_Lipomyces_oligophaga@Seq_5567",
+        "index": "210_5566",
+        "ortholog": "OG14060",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000034757_Lipomyces_doorenjongii@Seq_4263",
+        "index": "213_4262",
+        "ortholog": "OG14060",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000034742_Lipomyces_suomiensis@Seq_5053",
+        "index": "209_5052",
+        "ortholog": "OG14060",
+        "species": "10"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3307",
+        "index": "31_3305",
+        "ortholog": "OG14060",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000035041_Ambrosiozyma_pseudovanderkliftii@Seq_4371",
+        "index": "267_4370",
+        "ortholog": "OG12019",
+        "species": "7"
+    },
+    {
+        "id": "Ambrosiozyma_monospora@Seq_674",
+        "index": "2_673",
+        "ortholog": "OG12019",
+        "species": "7"
+    },
+    {
+        "id": "Candida_boidinii_JCM9604@Seq_4978",
+        "index": "16_4977",
+        "ortholog": "OG12019",
+        "species": "7"
+    },
+    {
+        "id": "Ambrosiozyma_monospora@Seq_5947",
+        "index": "2_5945",
+        "ortholog": "OG37247",
+        "species": "1"
+    },
+    {
+        "id": "Candida_boidinii_JCM9604@Seq_1478",
+        "index": "16_1477",
+        "ortholog": "OG12019",
+        "species": "7"
+    },
+    {
+        "id": "yHMPu5000034947_Ambrosiozyma_philentoma@Seq_2857",
+        "index": "244_2856",
+        "ortholog": "OG69955",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000026137_Ambrosiozyma_ambrosiae@Seq_6048",
+        "index": "161_6047",
+        "ortholog": "OG12019",
+        "species": "7"
+    },
+    {
+        "id": "Lachancea_kluyveri@Seq_2221",
+        "index": "58_2220",
+        "ortholog": "OG12019",
+        "species": "7"
+    },
+    {
+        "id": "Lachancea_fermentati@Seq_1187",
+        "index": "57_1186",
+        "ortholog": "OG11669",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000035651_Torulaspora_microellipsoides@Seq_3591",
+        "index": "299_3590",
+        "ortholog": "OG11669",
+        "species": "15"
+    },
+    {
+        "id": "Saccharomyces_arboricola@Seq_1905",
+        "index": "109_1904",
+        "ortholog": "OG11669",
+        "species": "15"
+    },
+    {
+        "id": "Saccharomyces_uvarum@Seq_1415",
+        "index": "115_1414",
+        "ortholog": "OG11669",
+        "species": "15"
+    },
+    {
+        "id": "Lachancea_thermotolerans@Seq_1058",
+        "index": "64_1057",
+        "ortholog": "OG11669",
+        "species": "15"
+    },
+    {
+        "id": "Saccharomyces_cerevisiae@YOL164W",
+        "index": "110_4618",
+        "ortholog": "OG11669",
+        "species": "15"
+    },
+    {
+        "id": "Saccharomyces_eubayanus@Seq_128",
+        "index": "111_127",
+        "ortholog": "OG11669",
+        "species": "15"
+    },
+    {
+        "id": "Sporopachydermia_quercuum@Seq_3840",
+        "index": "128_3838",
+        "ortholog": "OG11669",
+        "species": "15"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3942",
+        "index": "138_3941",
+        "ortholog": "OG1016",
+        "species": "342"
+    },
+    {
+        "id": "Candida_apicola@Seq_4299",
+        "index": "13_4298",
+        "ortholog": "OG1016",
+        "species": "342"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_755",
+        "index": "130_754",
+        "ortholog": "OG1016",
+        "species": "342"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1672",
+        "index": "31_1670",
+        "ortholog": "OG1016",
+        "species": "342"
+    },
+    {
+        "id": "Candida_infanticola@Seq_3032",
+        "index": "21_3031",
+        "ortholog": "OG1016",
+        "species": "342"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5318",
+        "index": "31_5316",
+        "ortholog": "OG1016",
+        "species": "342"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2181",
+        "index": "31_2179",
+        "ortholog": "OG1016",
+        "species": "342"
+    },
+    {
+        "id": "Candida_infanticola@Seq_3267",
+        "index": "21_3266",
+        "ortholog": "OG1016",
+        "species": "342"
+    },
+    {
+        "id": "Candida_apicola@Seq_3747",
+        "index": "13_3746",
+        "ortholog": "OG1020",
+        "species": "310"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_2687",
+        "index": "130_2686",
+        "ortholog": "OG1020",
+        "species": "310"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_3506",
+        "index": "66_3505",
+        "ortholog": "OG1020",
+        "species": "310"
+    },
+    {
+        "id": "yHMPu5000034884_Peterozyma_toletana@Seq_549",
+        "index": "225_548",
+        "ortholog": "OG1020",
+        "species": "310"
+    },
+    {
+        "id": "Komagataella_pastoris@Seq_883",
+        "index": "52_882",
+        "ortholog": "OG1020",
+        "species": "310"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_461",
+        "index": "66_460",
+        "ortholog": "OG1020",
+        "species": "310"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_4742",
+        "index": "192_4741",
+        "ortholog": "OG1020",
+        "species": "310"
+    },
+    {
+        "id": "yHMPu5000035686_Cyberlindnera_saturnus@Seq_3496",
+        "index": "317_3495",
+        "ortholog": "OG11993",
+        "species": "14"
+    },
+    {
+        "id": "yHMPu5000034978_Cyberlindnera_mrakii@Seq_2125",
+        "index": "252_2124",
+        "ortholog": "OG11993",
+        "species": "14"
+    },
+    {
+        "id": "Torulaspora_delbrueckii@Seq_133",
+        "index": "135_132",
+        "ortholog": "OG11993",
+        "species": "14"
+    },
+    {
+        "id": "yHMPu5000034881_Torulaspora_pretoriensis@Seq_4590",
+        "index": "223_4589",
+        "ortholog": "OG11993",
+        "species": "14"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1380",
+        "index": "31_1378",
+        "ortholog": "OG11993",
+        "species": "14"
+    },
+    {
+        "id": "Nadsonia_fulvescens_var_elongata@Seq_702",
+        "index": "93_701",
+        "ortholog": "OG11993",
+        "species": "14"
+    },
+    {
+        "id": "Lachancea_dasiensis@Seq_574",
+        "index": "55_573",
+        "ortholog": "OG11993",
+        "species": "14"
+    },
+    {
+        "id": "Candida_apicola@Seq_1759",
+        "index": "13_1758",
+        "ortholog": "OG4823",
+        "species": "173"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_1094",
+        "index": "130_1093",
+        "ortholog": "OG4823",
+        "species": "173"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5079",
+        "index": "31_5077",
+        "ortholog": "OG4823",
+        "species": "173"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1689",
+        "index": "31_1687",
+        "ortholog": "OG4823",
+        "species": "173"
+    },
+    {
+        "id": "Candida_apicola@Seq_958",
+        "index": "13_957",
+        "ortholog": "OG4823",
+        "species": "173"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_2131",
+        "index": "192_2130",
+        "ortholog": "OG4823",
+        "species": "173"
+    },
+    {
+        "id": "Candida_infanticola@Seq_119",
+        "index": "21_118",
+        "ortholog": "OG4823",
+        "species": "173"
+    },
+    {
+        "id": "Lachancea_fantastica@Seq_1691",
+        "index": "56_1690",
+        "ortholog": "OG13310",
+        "species": "9"
+    },
+    {
+        "id": "Lachancea_meyersii@Seq_4046",
+        "index": "60_4045",
+        "ortholog": "OG13310",
+        "species": "9"
+    },
+    {
+        "id": "Lachancea_thermotolerans@Seq_40",
+        "index": "64_39",
+        "ortholog": "OG13310",
+        "species": "9"
+    },
+    {
+        "id": "Lachancea_cidri@Seq_4509",
+        "index": "54_4508",
+        "ortholog": "OG13310",
+        "species": "9"
+    },
+    {
+        "id": "Lachancea_lanzarotensis@Seq_1498",
+        "index": "59_1497",
+        "ortholog": "OG13310",
+        "species": "9"
+    },
+    {
+        "id": "Lachancea_quebecensis@Seq_4562",
+        "index": "63_4561",
+        "ortholog": "OG13310",
+        "species": "9"
+    },
+    {
+        "id": "Lachancea_fermentati@Seq_4616",
+        "index": "57_4615",
+        "ortholog": "OG13310",
+        "species": "9"
+    },
+    {
+        "id": "Meyerozyma_guilliermondii@Seq_4866",
+        "index": "91_4865",
+        "ortholog": "OG14906",
+        "species": "9"
+    },
+    {
+        "id": "Candida_carpophila@Seq_3063",
+        "index": "17_3062",
+        "ortholog": "OG14906",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000035662_Meyerozyma_caribbica@Seq_3139",
+        "index": "304_3138",
+        "ortholog": "OG14906",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034606_Priceomyces_medius@Seq_1967",
+        "index": "172_1966",
+        "ortholog": "OG14906",
+        "species": "9"
+    },
+    {
+        "id": "Priceomyces_haplophilus@Seq_868",
+        "index": "108_867",
+        "ortholog": "OG14906",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000035296_Priceomyces_carsonii@Seq_5363",
+        "index": "284_5362",
+        "ortholog": "OG14906",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000035297_Priceomyces_castillae@Seq_3579",
+        "index": "285_3578",
+        "ortholog": "OG14906",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_4229",
+        "index": "192_4228",
+        "ortholog": "OG4867",
+        "species": "191"
+    },
+    {
+        "id": "Candida_infanticola@Seq_4209",
+        "index": "21_4208",
+        "ortholog": "OG4867",
+        "species": "191"
+    },
+    {
+        "id": "Candida_apicola@Seq_2123",
+        "index": "13_2122",
+        "ortholog": "OG4867",
+        "species": "191"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3739",
+        "index": "31_3737",
+        "ortholog": "OG4867",
+        "species": "191"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_3400",
+        "index": "130_3399",
+        "ortholog": "OG4867",
+        "species": "191"
+    },
+    {
+        "id": "yHMPu5000035279_Tortispora_starmeri@Seq_3900",
+        "index": "281_3899",
+        "ortholog": "OG4867",
+        "species": "191"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1584",
+        "index": "138_1583",
+        "ortholog": "OG19614",
+        "species": "6"
+    },
+    {
+        "id": "Candida_infanticola@Seq_98",
+        "index": "21_97",
+        "ortholog": "OG19614",
+        "species": "6"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3974",
+        "index": "31_3972",
+        "ortholog": "OG19614",
+        "species": "6"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_113",
+        "index": "130_112",
+        "ortholog": "OG19614",
+        "species": "6"
+    },
+    {
+        "id": "Candida_apicola@Seq_1438",
+        "index": "13_1437",
+        "ortholog": "OG19614",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_5141",
+        "index": "192_5140",
+        "ortholog": "OG19614",
+        "species": "6"
+    },
+    {
+        "id": "Yarrowia_lipolytica@Seq_1585",
+        "index": "144_1584",
+        "ortholog": "OG15155",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000035645_Yarrowia_divulgata@Seq_5712",
+        "index": "297_5711",
+        "ortholog": "OG15155",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000035643_Yarrowia_bubula@Seq_4638",
+        "index": "296_4637",
+        "ortholog": "OG15155",
+        "species": "9"
+    },
+    {
+        "id": "Yarrowia_deformans@Seq_1085",
+        "index": "142_1084",
+        "ortholog": "OG15155",
+        "species": "9"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_5593",
+        "index": "66_5592",
+        "ortholog": "OG15155",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_1689",
+        "index": "215_1688",
+        "ortholog": "OG15155",
+        "species": "9"
+    },
+    {
+        "id": "Yarrowia_lipolytica@Seq_2581",
+        "index": "144_2580",
+        "ortholog": "OG8372",
+        "species": "26"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_2377",
+        "index": "130_2376",
+        "ortholog": "OG8372",
+        "species": "26"
+    },
+    {
+        "id": "Candida_versatilis@Seq_267",
+        "index": "31_265",
+        "ortholog": "OG8372",
+        "species": "26"
+    },
+    {
+        "id": "Yarrowia_deformans@Seq_3887",
+        "index": "142_3886",
+        "ortholog": "OG8372",
+        "species": "26"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_4455",
+        "index": "192_4454",
+        "ortholog": "OG8372",
+        "species": "26"
+    },
+    {
+        "id": "Lachancea_nothofagi@Seq_3604",
+        "index": "62_3603",
+        "ortholog": "OG9465",
+        "species": "23"
+    },
+    {
+        "id": "Lachancea_waltii@Seq_386",
+        "index": "65_385",
+        "ortholog": "OG9465",
+        "species": "23"
+    },
+    {
+        "id": "Lachancea_fantastica@Seq_3924",
+        "index": "56_3923",
+        "ortholog": "OG9465",
+        "species": "23"
+    },
+    {
+        "id": "Lachancea_lanzarotensis@Seq_76",
+        "index": "59_75",
+        "ortholog": "OG9465",
+        "species": "23"
+    },
+    {
+        "id": "Lachancea_fermentati@Seq_1673",
+        "index": "57_1672",
+        "ortholog": "OG9465",
+        "species": "23"
+    },
+    {
+        "id": "Meyerozyma_guilliermondii@Seq_1835",
+        "index": "91_1834",
+        "ortholog": "OG20685",
+        "species": "6"
+    },
+    {
+        "id": "Candida_carpophila@Seq_1949",
+        "index": "17_1948",
+        "ortholog": "OG20685",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000035662_Meyerozyma_caribbica@Seq_2816",
+        "index": "304_2815",
+        "ortholog": "OG20685",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000041863_Candida_gorgasii@Seq_4868",
+        "index": "340_4867",
+        "ortholog": "OG20685",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000035296_Priceomyces_carsonii@Seq_4673",
+        "index": "284_4672",
+        "ortholog": "OG20685",
+        "species": "6"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_4005",
+        "index": "130_4004",
+        "ortholog": "OG1944",
+        "species": "338"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1511",
+        "index": "138_1510",
+        "ortholog": "OG1944",
+        "species": "338"
+    },
+    {
+        "id": "Candida_apicola@Seq_1541",
+        "index": "13_1540",
+        "ortholog": "OG1944",
+        "species": "338"
+    },
+    {
+        "id": "yHMPu5000034974_Deakozyma_indianensis@Seq_2682",
+        "index": "251_2681",
+        "ortholog": "OG1944",
+        "species": "338"
+    },
+    {
+        "id": "yHMPu5000035244_Candida_incommunis@Seq_4539",
+        "index": "275_4538",
+        "ortholog": "OG1944",
+        "species": "338"
+    },
+    {
+        "id": "Lachancea_dasiensis@Seq_707",
+        "index": "55_706",
+        "ortholog": "OG10116",
+        "species": "16"
+    },
+    {
+        "id": "yHMPu5000034862_Zygotorulaspora_florentina@Seq_3402",
+        "index": "217_3401",
+        "ortholog": "OG10116",
+        "species": "16"
+    },
+    {
+        "id": "Saccharomyces_paradoxus@Seq_3159",
+        "index": "114_3158",
+        "ortholog": "OG10116",
+        "species": "16"
+    },
+    {
+        "id": "Lachancea_fermentati@Seq_1568",
+        "index": "57_1567",
+        "ortholog": "OG10116",
+        "species": "16"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4628",
+        "index": "31_4626",
+        "ortholog": "OG10116",
+        "species": "16"
+    },
+    {
+        "id": "yHMPu5000034675_Blastobotrys_mokoenaii@Seq_1470",
+        "index": "205_1469",
+        "ortholog": "OG13944",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000034667_Blastobotrys_serpentis@Seq_1019",
+        "index": "199_1018",
+        "ortholog": "OG13944",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000035242_Zygoascus_ofunaensis@Seq_2709",
+        "index": "273_2708",
+        "ortholog": "OG13944",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000034670_Blastobotrys_proliferans@Seq_293",
+        "index": "201_292",
+        "ortholog": "OG13944",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000035243_Zygoascus_meyerae@Seq_1197",
+        "index": "274_1196",
+        "ortholog": "OG13944",
+        "species": "10"
+    },
+    {
+        "id": "Saccharomyces_paradoxus@Seq_4057",
+        "index": "114_4056",
+        "ortholog": "OG9311",
+        "species": "26"
+    },
+    {
+        "id": "Candida_apicola@Seq_2042",
+        "index": "13_2041",
+        "ortholog": "OG9311",
+        "species": "26"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_2777",
+        "index": "138_2776",
+        "ortholog": "OG9311",
+        "species": "26"
+    },
+    {
+        "id": "Saccharomyces_uvarum@Seq_4107",
+        "index": "115_4106",
+        "ortholog": "OG9311",
+        "species": "26"
+    },
+    {
+        "id": "yHMPu5000041693_Debaryomyces_nepalensis@Seq_5341",
+        "index": "329_5340",
+        "ortholog": "OG9311",
+        "species": "26"
+    },
+    {
+        "id": "yHMPu5000034758_Lipomyces_japonicus@Seq_5485",
+        "index": "214_5484",
+        "ortholog": "OG20884",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000034749_Lipomyces_mesembrius@Seq_372",
+        "index": "211_371",
+        "ortholog": "OG20884",
+        "species": "6"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_4631",
+        "index": "66_4630",
+        "ortholog": "OG20884",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_4211",
+        "index": "215_4210",
+        "ortholog": "OG20884",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000034761_Lipomyces_lipofer@Seq_2883",
+        "index": "216_2882",
+        "ortholog": "OG20884",
+        "species": "6"
+    },
+    {
+        "id": "Yarrowia_keelungensis@Seq_4565",
+        "index": "143_4564",
+        "ortholog": "OG17223",
+        "species": "7"
+    },
+    {
+        "id": "yHMPu5000035645_Yarrowia_divulgata@Seq_6239",
+        "index": "297_6238",
+        "ortholog": "OG17223",
+        "species": "7"
+    },
+    {
+        "id": "Yarrowia_deformans@Seq_3714",
+        "index": "142_3713",
+        "ortholog": "OG17223",
+        "species": "7"
+    },
+    {
+        "id": "Yarrowia_lipolytica@Seq_3997",
+        "index": "144_3996",
+        "ortholog": "OG17223",
+        "species": "7"
+    },
+    {
+        "id": "yHMPu5000035643_Yarrowia_bubula@Seq_2467",
+        "index": "296_2466",
+        "ortholog": "OG17223",
+        "species": "7"
+    },
+    {
+        "id": "Yarrowia_lipolytica@Seq_2302",
+        "index": "144_2301",
+        "ortholog": "OG10373",
+        "species": "21"
+    },
+    {
+        "id": "Yarrowia_deformans@Seq_5680",
+        "index": "142_5679",
+        "ortholog": "OG10373",
+        "species": "21"
+    },
+    {
+        "id": "yHMPu5000035645_Yarrowia_divulgata@Seq_2818",
+        "index": "297_2817",
+        "ortholog": "OG10373",
+        "species": "21"
+    },
+    {
+        "id": "Yarrowia_keelungensis@Seq_6093",
+        "index": "143_6092",
+        "ortholog": "OG10373",
+        "species": "21"
+    },
+    {
+        "id": "Candida_apicola@Seq_1733",
+        "index": "13_1732",
+        "ortholog": "OG10373",
+        "species": "21"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4423",
+        "index": "31_4421",
+        "ortholog": "OG19220",
+        "species": "4"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3154",
+        "index": "138_3153",
+        "ortholog": "OG19220",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3388",
+        "index": "31_3386",
+        "ortholog": "OG19220",
+        "species": "4"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_2522",
+        "index": "130_2521",
+        "ortholog": "OG19220",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4715",
+        "index": "31_4713",
+        "ortholog": "OG19220",
+        "species": "4"
+    },
+    {
+        "id": "Clavispora_lusitaniae@Seq_1399",
+        "index": "32_1398",
+        "ortholog": "OG8300",
+        "species": "37"
+    },
+    {
+        "id": "yHMPu5000034986_Candida_oregonensis@Seq_909",
+        "index": "254_908",
+        "ortholog": "OG8300",
+        "species": "37"
+    },
+    {
+        "id": "Candida_intermedia@Seq_330",
+        "index": "22_329",
+        "ortholog": "OG8300",
+        "species": "37"
+    },
+    {
+        "id": "Nadsonia_fulvescens_var_elongata@Seq_1814",
+        "index": "93_1813",
+        "ortholog": "OG8300",
+        "species": "37"
+    },
+    {
+        "id": "Candida_infanticola@Seq_3985",
+        "index": "21_3984",
+        "ortholog": "OG8300",
+        "species": "37"
+    },
+    {
+        "id": "yHMPu5000035643_Yarrowia_bubula@Seq_1879",
+        "index": "296_1878",
+        "ortholog": "OG19715",
+        "species": "6"
+    },
+    {
+        "id": "Yarrowia_lipolytica@Seq_305",
+        "index": "144_304",
+        "ortholog": "OG19715",
+        "species": "6"
+    },
+    {
+        "id": "Yarrowia_keelungensis@Seq_6036",
+        "index": "143_6035",
+        "ortholog": "OG19715",
+        "species": "6"
+    },
+    {
+        "id": "Yarrowia_deformans@Seq_5561",
+        "index": "142_5560",
+        "ortholog": "OG19715",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000035645_Yarrowia_divulgata@Seq_5582",
+        "index": "297_5581",
+        "ortholog": "OG19715",
+        "species": "6"
+    },
+    {
+        "id": "Yarrowia_deformans@Seq_3079",
+        "index": "142_3078",
+        "ortholog": "OG12303",
+        "species": "12"
+    },
+    {
+        "id": "Yarrowia_lipolytica@Seq_6002",
+        "index": "144_6001",
+        "ortholog": "OG12303",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000035643_Yarrowia_bubula@Seq_4156",
+        "index": "296_4155",
+        "ortholog": "OG12303",
+        "species": "12"
+    },
+    {
+        "id": "Yarrowia_keelungensis@Seq_4846",
+        "index": "143_4845",
+        "ortholog": "OG12303",
+        "species": "12"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4648",
+        "index": "31_4646",
+        "ortholog": "OG12303",
+        "species": "12"
+    },
+    {
+        "id": "Yarrowia_keelungensis@Seq_1842",
+        "index": "143_1841",
+        "ortholog": "OG20267",
+        "species": "6"
+    },
+    {
+        "id": "Yarrowia_deformans@Seq_3464",
+        "index": "142_3463",
+        "ortholog": "OG20267",
+        "species": "6"
+    },
+    {
+        "id": "Yarrowia_lipolytica@Seq_3196",
+        "index": "144_3195",
+        "ortholog": "OG20267",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000035643_Yarrowia_bubula@Seq_2368",
+        "index": "296_2367",
+        "ortholog": "OG20267",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000035633_Candida_hispaniensis@Seq_4714",
+        "index": "292_4713",
+        "ortholog": "OG20267",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000035651_Torulaspora_microellipsoides@Seq_3726",
+        "index": "299_3725",
+        "ortholog": "OG11392",
+        "species": "13"
+    },
+    {
+        "id": "Saccharomyces_uvarum@Seq_1162",
+        "index": "115_1161",
+        "ortholog": "OG11392",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000034862_Zygotorulaspora_florentina@Seq_1848",
+        "index": "217_1847",
+        "ortholog": "OG11392",
+        "species": "13"
+    },
+    {
+        "id": "Saccharomyces_cerevisiae@YLL060C",
+        "index": "110_291",
+        "ortholog": "OG11392",
+        "species": "13"
+    },
+    {
+        "id": "Saccharomyces_uvarum@Seq_3676",
+        "index": "115_3675",
+        "ortholog": "OG11392",
+        "species": "13"
+    },
+    {
+        "id": "Kazachstania_africana@Seq_3771",
+        "index": "48_3770",
+        "ortholog": "OG12690",
+        "species": "8"
+    },
+    {
+        "id": "Kazachstania_africana@Seq_2528",
+        "index": "48_2527",
+        "ortholog": "OG12690",
+        "species": "8"
+    },
+    {
+        "id": "Kazachstania_africana@Seq_1938",
+        "index": "48_1937",
+        "ortholog": "OG12690",
+        "species": "8"
+    },
+    {
+        "id": "Candida_versatilis@Seq_382",
+        "index": "31_380",
+        "ortholog": "OG12690",
+        "species": "8"
+    },
+    {
+        "id": "Ashbya_aceri@Seq_4129",
+        "index": "7_4128",
+        "ortholog": "OG12690",
+        "species": "8"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_4067",
+        "index": "192_4066",
+        "ortholog": "OG1212",
+        "species": "307"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_2269",
+        "index": "192_2268",
+        "ortholog": "OG1212",
+        "species": "307"
+    },
+    {
+        "id": "Candida_infanticola@Seq_3088",
+        "index": "21_3087",
+        "ortholog": "OG1212",
+        "species": "307"
+    },
+    {
+        "id": "Candida_infanticola@Seq_3813",
+        "index": "21_3812",
+        "ortholog": "OG1212",
+        "species": "307"
+    },
+    {
+        "id": "Komagataella_pastoris@Seq_1413",
+        "index": "52_1412",
+        "ortholog": "OG10716",
+        "species": "12"
+    },
+    {
+        "id": "yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_4186",
+        "index": "200_4185",
+        "ortholog": "OG17015",
+        "species": "7"
+    },
+    {
+        "id": "Arxula_adeninivorans@Seq_4268",
+        "index": "4_4267",
+        "ortholog": "OG17015",
+        "species": "7"
+    },
+    {
+        "id": "yHMPu5000034660_Diddensiella_caesifluorescens@Seq_5105",
+        "index": "196_5104",
+        "ortholog": "OG17015",
+        "species": "7"
+    },
+    {
+        "id": "yHMPu5000034681_Blastobotrys_americana@Seq_755",
+        "index": "206_754",
+        "ortholog": "OG17015",
+        "species": "7"
+    },
+    {
+        "id": "Lachancea_kluyveri@Seq_2737",
+        "index": "58_2736",
+        "ortholog": "OG3924",
+        "species": "216"
+    },
+    {
+        "id": "yHMPu5000035650_Trigonopsis_variabilis@Seq_83",
+        "index": "298_82",
+        "ortholog": "OG3924",
+        "species": "216"
+    },
+    {
+        "id": "Nadsonia_fulvescens_var_elongata@Seq_577",
+        "index": "93_576",
+        "ortholog": "OG3924",
+        "species": "216"
+    },
+    {
+        "id": "yHMPu5000035675_Kregervanrija_fluxuum@Seq_236",
+        "index": "312_235",
+        "ortholog": "OG3924",
+        "species": "216"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_2943",
+        "index": "66_2942",
+        "ortholog": "OG5636",
+        "species": "78"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_5325",
+        "index": "215_5324",
+        "ortholog": "OG5636",
+        "species": "78"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_3126",
+        "index": "215_3125",
+        "ortholog": "OG5636",
+        "species": "78"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_6785",
+        "index": "66_6784",
+        "ortholog": "OG13166",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_5670",
+        "index": "215_5669",
+        "ortholog": "OG13166",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034761_Lipomyces_lipofer@Seq_6785",
+        "index": "216_6784",
+        "ortholog": "OG13166",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034742_Lipomyces_suomiensis@Seq_5913",
+        "index": "209_5912",
+        "ortholog": "OG13166",
+        "species": "9"
+    },
+    {
+        "id": "Candida_orthopsilosis@Seq_2683",
+        "index": "23_2682",
+        "ortholog": "OG24566",
+        "species": "4"
+    },
+    {
+        "id": "Candida_parapsilosis@Seq_112",
+        "index": "24_111",
+        "ortholog": "OG24566",
+        "species": "4"
+    },
+    {
+        "id": "yHMPu5000041678_Debaryomyces_prosopidis@Seq_5915",
+        "index": "328_5914",
+        "ortholog": "OG24566",
+        "species": "4"
+    },
+    {
+        "id": "Candida_parapsilosis@Seq_1271",
+        "index": "24_1270",
+        "ortholog": "OG24566",
+        "species": "4"
+    },
+    {
+        "id": "yHMPu5000034709_Kluyveromyces_aestuarii@Seq_4631",
+        "index": "207_4630",
+        "ortholog": "OG11325",
+        "species": "15"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_4614",
+        "index": "50_4613",
+        "ortholog": "OG11325",
+        "species": "15"
+    },
+    {
+        "id": "Kluyveromyces_marxianus@Seq_3464",
+        "index": "51_3463",
+        "ortholog": "OG11325",
+        "species": "15"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3424",
+        "index": "31_3422",
+        "ortholog": "OG11325",
+        "species": "15"
+    },
+    {
+        "id": "yHMPu5000034654_Aciculoconidium_aculeatum@Seq_4972",
+        "index": "194_4971",
+        "ortholog": "OG14930",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034654_Aciculoconidium_aculeatum@Seq_5586",
+        "index": "194_5585",
+        "ortholog": "OG14930",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034654_Aciculoconidium_aculeatum@Seq_2450",
+        "index": "194_2449",
+        "ortholog": "OG14930",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034654_Aciculoconidium_aculeatum@Seq_2888",
+        "index": "194_2887",
+        "ortholog": "OG14930",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000041693_Debaryomyces_nepalensis@Seq_5391",
+        "index": "329_5390",
+        "ortholog": "OG19201",
+        "species": "6"
+    },
+    {
+        "id": "Debaryomyces_hansenii@Seq_1490",
+        "index": "36_1489",
+        "ortholog": "OG19201",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000041829_Debaryomyces_fabryi@Seq_1551",
+        "index": "335_1550",
+        "ortholog": "OG19201",
+        "species": "6"
+    },
+    {
+        "id": "Lachancea_dasiensis@Seq_1605",
+        "index": "55_1604",
+        "ortholog": "OG19201",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000041678_Debaryomyces_prosopidis@Seq_3481",
+        "index": "328_3480",
+        "ortholog": "OG29788",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000041678_Debaryomyces_prosopidis@Seq_1655",
+        "index": "328_1654",
+        "ortholog": "OG29788",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000041824_Debaryomyces_subglobosus@Seq_2373",
+        "index": "334_2372",
+        "ortholog": "OG29788",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000041693_Debaryomyces_nepalensis@Seq_378",
+        "index": "329_377",
+        "ortholog": "OG29788",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000034605_Spencermartinsiella_europaea@Seq_803",
+        "index": "171_802",
+        "ortholog": "OG24104",
+        "species": "4"
+    },
+    {
+        "id": "yHMPu5000034670_Blastobotrys_proliferans@Seq_6328",
+        "index": "201_6327",
+        "ortholog": "OG24104",
+        "species": "4"
+    },
+    {
+        "id": "yHMPu5000034675_Blastobotrys_mokoenaii@Seq_959",
+        "index": "205_958",
+        "ortholog": "OG24104",
+        "species": "4"
+    },
+    {
+        "id": "yHMPu5000034671_Blastobotrys_peoriensis@Seq_499",
+        "index": "202_498",
+        "ortholog": "OG24104",
+        "species": "4"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_3948",
+        "index": "66_3947",
+        "ortholog": "OG20878",
+        "species": "5"
+    },
+    {
+        "id": "yHMPu5000034754_Lipomyces_arxii@Seq_8244",
+        "index": "212_8243",
+        "ortholog": "OG20878",
+        "species": "5"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_3822",
+        "index": "215_3821",
+        "ortholog": "OG20878",
+        "species": "5"
+    },
+    {
+        "id": "yHMPu5000034749_Lipomyces_mesembrius@Seq_3262",
+        "index": "211_3261",
+        "ortholog": "OG20878",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3179",
+        "index": "31_3177",
+        "ortholog": "OG9999",
+        "species": "20"
+    },
+    {
+        "id": "yHMPu5000035654_Tortispora_ganteri@Seq_670",
+        "index": "301_669",
+        "ortholog": "OG9999",
+        "species": "20"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4781",
+        "index": "31_4779",
+        "ortholog": "OG9999",
+        "species": "20"
+    },
+    {
+        "id": "Tortispora_caseinolytica@Seq_3473",
+        "index": "134_3472",
+        "ortholog": "OG9999",
+        "species": "20"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_2712",
+        "index": "66_2711",
+        "ortholog": "OG11084",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000034749_Lipomyces_mesembrius@Seq_5401",
+        "index": "211_5400",
+        "ortholog": "OG11084",
+        "species": "13"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_5446",
+        "index": "215_5445",
+        "ortholog": "OG11084",
+        "species": "13"
+    },
+    {
+        "id": "Candida_infanticola@Seq_3597",
+        "index": "21_3596",
+        "ortholog": "OG20575",
+        "species": "6"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_2009",
+        "index": "50_2008",
+        "ortholog": "OG20575",
+        "species": "6"
+    },
+    {
+        "id": "Kluyveromyces_marxianus@Seq_3155",
+        "index": "51_3154",
+        "ortholog": "OG20575",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000034667_Blastobotrys_serpentis@Seq_2695",
+        "index": "199_2694",
+        "ortholog": "OG35630",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000034670_Blastobotrys_proliferans@Seq_5264",
+        "index": "201_5263",
+        "ortholog": "OG35630",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000034675_Blastobotrys_mokoenaii@Seq_6138",
+        "index": "205_6137",
+        "ortholog": "OG35630",
+        "species": "3"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_335",
+        "index": "50_334",
+        "ortholog": "OG5126",
+        "species": "170"
+    },
+    {
+        "id": "yHMPu5000034710_Kluyveromyces_dobzhanskii@Seq_4752",
+        "index": "208_4751",
+        "ortholog": "OG5126",
+        "species": "170"
+    },
+    {
+        "id": "Kluyveromyces_marxianus@Seq_4768",
+        "index": "51_4767",
+        "ortholog": "OG5126",
+        "species": "170"
+    },
+    {
+        "id": "yHMPu5000034667_Blastobotrys_serpentis@Seq_2765",
+        "index": "199_2764",
+        "ortholog": "OG4920",
+        "species": "181"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5315",
+        "index": "31_5313",
+        "ortholog": "OG4920",
+        "species": "181"
+    },
+    {
+        "id": "Arxula_adeninivorans@Seq_3987",
+        "index": "4_3986",
+        "ortholog": "OG4920",
+        "species": "181"
+    },
+    {
+        "id": "yHMPu5000034607_Saccharomycopsis_capsularis@Seq_6631",
+        "index": "173_6630",
+        "ortholog": "OG26536",
+        "species": "4"
+    },
+    {
+        "id": "yHMPu5000035243_Zygoascus_meyerae@Seq_4768",
+        "index": "274_4767",
+        "ortholog": "OG26536",
+        "species": "4"
+    },
+    {
+        "id": "Saccharomycopsis_malanga@Seq_2378",
+        "index": "116_2377",
+        "ortholog": "OG26536",
+        "species": "4"
+    },
+    {
+        "id": "yHMPu5000026274_Komagataella_populi@Seq_2507",
+        "index": "167_2506",
+        "ortholog": "OG5673",
+        "species": "97"
+    },
+    {
+        "id": "Komagataella_pastoris@Seq_37",
+        "index": "52_36",
+        "ortholog": "OG5673",
+        "species": "97"
+    },
+    {
+        "id": "yHMPu5000034939_Komagataella_pseudopastoris@Seq_4508",
+        "index": "242_4507",
+        "ortholog": "OG5673",
+        "species": "97"
+    },
+    {
+        "id": "yHMPu5000034887_Ogataea_trehaloabstinens@Seq_208",
+        "index": "228_207",
+        "ortholog": "OG24550",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034887_Ogataea_trehaloabstinens@Seq_715",
+        "index": "228_714",
+        "ortholog": "OG24550",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034887_Ogataea_trehaloabstinens@Seq_652",
+        "index": "228_651",
+        "ortholog": "OG24550",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000035268_Wickerhamomyces_hampshirensis@Seq_289",
+        "index": "278_288",
+        "ortholog": "OG15300",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000035302_Candida_fragi@Seq_1524",
+        "index": "287_1523",
+        "ortholog": "OG15300",
+        "species": "9"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_3933",
+        "index": "50_3932",
+        "ortholog": "OG15300",
+        "species": "9"
+    },
+    {
+        "id": "yHMPu5000034605_Spencermartinsiella_europaea@Seq_5105",
+        "index": "171_5104",
+        "ortholog": "OG34666",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034605_Spencermartinsiella_europaea@Seq_1624",
+        "index": "171_1623",
+        "ortholog": "OG34666",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000035242_Zygoascus_ofunaensis@Seq_1873",
+        "index": "273_1872",
+        "ortholog": "OG34666",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2065",
+        "index": "31_2063",
+        "ortholog": "OG30338",
+        "species": "3"
+    },
+    {
+        "id": "Sugiyamaella_lignohabitans@Seq_1161",
+        "index": "131_1160",
+        "ortholog": "OG30338",
+        "species": "3"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1799",
+        "index": "138_1798",
+        "ortholog": "OG30338",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1516",
+        "index": "31_1514",
+        "ortholog": "OG9607",
+        "species": "19"
+    },
+    {
+        "id": "Candida_versatilis@Seq_302",
+        "index": "31_300",
+        "ortholog": "OG9607",
+        "species": "19"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3253",
+        "index": "31_3251",
+        "ortholog": "OG9607",
+        "species": "19"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5008",
+        "index": "31_5006",
+        "ortholog": "OG23078",
+        "species": "5"
+    },
+    {
+        "id": "Lachancea_kluyveri@Seq_520",
+        "index": "58_519",
+        "ortholog": "OG21543",
+        "species": "1"
+    },
+    {
+        "id": "Lachancea_kluyveri@Seq_4795",
+        "index": "58_4794",
+        "ortholog": "OG21543",
+        "species": "1"
+    },
+    {
+        "id": "Lachancea_kluyveri@Seq_3421",
+        "index": "58_3420",
+        "ortholog": "OG21543",
+        "species": "1"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_517",
+        "index": "138_516",
+        "ortholog": "OG32780",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4625",
+        "index": "31_4623",
+        "ortholog": "OG32780",
+        "species": "3"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_4067",
+        "index": "130_4066",
+        "ortholog": "OG32780",
+        "species": "3"
+    },
+    {
+        "id": "Lachancea_lanzarotensis@Seq_2758",
+        "index": "59_2757",
+        "ortholog": "OG30654",
+        "species": "3"
+    },
+    {
+        "id": "Lachancea_fantastica@Seq_4524",
+        "index": "56_4523",
+        "ortholog": "OG30654",
+        "species": "3"
+    },
+    {
+        "id": "Lachancea_meyersii@Seq_4458",
+        "index": "60_4457",
+        "ortholog": "OG30654",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_1497",
+        "index": "215_1496",
+        "ortholog": "OG36097",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000034754_Lipomyces_arxii@Seq_5006",
+        "index": "212_5005",
+        "ortholog": "OG36097",
+        "species": "3"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_3216",
+        "index": "66_3215",
+        "ortholog": "OG36097",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000034742_Lipomyces_suomiensis@Seq_4391",
+        "index": "209_4390",
+        "ortholog": "OG5631",
+        "species": "80"
+    },
+    {
+        "id": "yHMPu5000034742_Lipomyces_suomiensis@Seq_1000",
+        "index": "209_999",
+        "ortholog": "OG5631",
+        "species": "80"
+    },
+    {
+        "id": "yHMPu5000034742_Lipomyces_suomiensis@Seq_5243",
+        "index": "209_5242",
+        "ortholog": "OG5631",
+        "species": "80"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1399",
+        "index": "138_1398",
+        "ortholog": "OG5566",
+        "species": "69"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3197",
+        "index": "31_3195",
+        "ortholog": "OG5566",
+        "species": "69"
+    },
+    {
+        "id": "Candida_apicola@Seq_3128",
+        "index": "13_3127",
+        "ortholog": "OG5566",
+        "species": "69"
+    },
+    {
+        "id": "yHMPu5000035031_Candida_kruisii@Seq_158",
+        "index": "262_157",
+        "ortholog": "OG29158",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000035031_Candida_kruisii@Seq_758",
+        "index": "262_757",
+        "ortholog": "OG29158",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000035033_Candida_cretensis@Seq_1112",
+        "index": "264_1111",
+        "ortholog": "OG29158",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_759",
+        "index": "31_757",
+        "ortholog": "OG10958",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4178",
+        "index": "31_4176",
+        "ortholog": "OG10958",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1366",
+        "index": "31_1364",
+        "ortholog": "OG10958",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3467",
+        "index": "31_3465",
+        "ortholog": "OG9852",
+        "species": "18"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5451",
+        "index": "31_5449",
+        "ortholog": "OG9852",
+        "species": "18"
+    },
+    {
+        "id": "yHMPu5000034865_Zygosaccharomyces_kombuchaensis@Seq_2365",
+        "index": "218_2364",
+        "ortholog": "OG9969",
+        "species": "21"
+    },
+    {
+        "id": "yHMPu5000035651_Torulaspora_microellipsoides@Seq_4156",
+        "index": "299_4155",
+        "ortholog": "OG9969",
+        "species": "21"
+    },
+    {
+        "id": "Candida_versatilis@Seq_60",
+        "index": "31_58",
+        "ortholog": "OG9969",
+        "species": "21"
+    },
+    {
+        "id": "yHMPu5000035643_Yarrowia_bubula@Seq_1404",
+        "index": "296_1403",
+        "ortholog": "OG33573",
+        "species": "3"
+    },
+    {
+        "id": "Yarrowia_lipolytica@Seq_1344",
+        "index": "144_1343",
+        "ortholog": "OG33573",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000035645_Yarrowia_divulgata@Seq_3343",
+        "index": "297_3342",
+        "ortholog": "OG33573",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4688",
+        "index": "31_4686",
+        "ortholog": "OG9936",
+        "species": "21"
+    },
+    {
+        "id": "Geotrichum_candidum@Seq_5404",
+        "index": "43_5403",
+        "ortholog": "OG9936",
+        "species": "21"
+    },
+    {
+        "id": "Candida_infanticola@Seq_2880",
+        "index": "21_2879",
+        "ortholog": "OG9936",
+        "species": "21"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4",
+        "index": "31_3",
+        "ortholog": "OG7771",
+        "species": "37"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3471",
+        "index": "138_3470",
+        "ortholog": "OG7771",
+        "species": "37"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2074",
+        "index": "31_2072",
+        "ortholog": "OG7771",
+        "species": "37"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2362",
+        "index": "31_2360",
+        "ortholog": "OG7307",
+        "species": "48"
+    },
+    {
+        "id": "Candida_apicola@Seq_2827",
+        "index": "13_2826",
+        "ortholog": "OG7307",
+        "species": "48"
+    },
+    {
+        "id": "yHMPu5000034614_Saturnispora_silvae@Seq_290",
+        "index": "178_289",
+        "ortholog": "OG7307",
+        "species": "48"
+    },
+    {
+        "id": "yHMPu5000034605_Spencermartinsiella_europaea@Seq_2351",
+        "index": "171_2350",
+        "ortholog": "OG28182",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000035665_Middelhovenomyces_tepae@Seq_3532",
+        "index": "305_3531",
+        "ortholog": "OG28182",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000034660_Diddensiella_caesifluorescens@Seq_5270",
+        "index": "196_5269",
+        "ortholog": "OG28182",
+        "species": "3"
+    },
+    {
+        "id": "Sugiyamaella_lignohabitans@Seq_4182",
+        "index": "131_4181",
+        "ortholog": "OG9782",
+        "species": "19"
+    },
+    {
+        "id": "Lachancea_kluyveri@Seq_398",
+        "index": "58_397",
+        "ortholog": "OG21543",
+        "species": "1"
+    },
+    {
+        "id": "Lachancea_kluyveri@Seq_1080",
+        "index": "58_1079",
+        "ortholog": "OG21543",
+        "species": "1"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_4056",
+        "index": "138_4055",
+        "ortholog": "OG11152",
+        "species": "14"
+    },
+    {
+        "id": "Candida_apicola@Seq_1927",
+        "index": "13_1926",
+        "ortholog": "OG6167",
+        "species": "56"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5040",
+        "index": "31_5038",
+        "ortholog": "OG6167",
+        "species": "56"
+    },
+    {
+        "id": "Hanseniaspora_valbyensis@Seq_3880",
+        "index": "45_3879",
+        "ortholog": "OG5514",
+        "species": "116"
+    },
+    {
+        "id": "Candida_sorboxylosa@Seq_2309",
+        "index": "26_2305",
+        "ortholog": "OG5514",
+        "species": "116"
+    },
+    {
+        "id": "Candida_apicola@Seq_1895",
+        "index": "13_1894",
+        "ortholog": "OG45954",
+        "species": "1"
+    },
+    {
+        "id": "Candida_apicola@Seq_369",
+        "index": "13_368",
+        "ortholog": "OG45954",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2910",
+        "index": "31_2908",
+        "ortholog": "OG4799",
+        "species": "191"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_738",
+        "index": "138_737",
+        "ortholog": "OG4799",
+        "species": "191"
+    },
+    {
+        "id": "yHMPu5000034671_Blastobotrys_peoriensis@Seq_2963",
+        "index": "202_2962",
+        "ortholog": "OG52023",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034660_Diddensiella_caesifluorescens@Seq_4755",
+        "index": "196_4754",
+        "ortholog": "OG52023",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034623_Pichia_norvegensis@Seq_3304",
+        "index": "181_3303",
+        "ortholog": "OG11154",
+        "species": "14"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5301",
+        "index": "31_5299",
+        "ortholog": "OG11154",
+        "species": "14"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_2161",
+        "index": "138_2160",
+        "ortholog": "OG1168",
+        "species": "334"
+    },
+    {
+        "id": "yHMPu5000034635_Nadsonia_fulvescens@Seq_2247",
+        "index": "188_2246",
+        "ortholog": "OG5438",
+        "species": "85"
+    },
+    {
+        "id": "Saccharomyces_cerevisiae@YNR058W",
+        "index": "110_3017",
+        "ortholog": "OG5438",
+        "species": "85"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1171",
+        "index": "138_1170",
+        "ortholog": "OG33238",
+        "species": "3"
+    },
+    {
+        "id": "Candida_infanticola@Seq_3045",
+        "index": "21_3044",
+        "ortholog": "OG4976",
+        "species": "181"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_624",
+        "index": "138_623",
+        "ortholog": "OG4976",
+        "species": "181"
+    },
+    {
+        "id": "Nakaseomyces_castellii@Seq_700",
+        "index": "96_699",
+        "ortholog": "OG13778",
+        "species": "8"
+    },
+    {
+        "id": "Nakaseomyces_castellii@Seq_3308",
+        "index": "96_3307",
+        "ortholog": "OG13778",
+        "species": "8"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1797",
+        "index": "31_1795",
+        "ortholog": "OG53887",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3518",
+        "index": "31_3516",
+        "ortholog": "OG53887",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_2828",
+        "index": "192_2827",
+        "ortholog": "OG35247",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_4654",
+        "index": "192_4653",
+        "ortholog": "OG35247",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3292",
+        "index": "31_3290",
+        "ortholog": "OG32200",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3980",
+        "index": "31_3978",
+        "ortholog": "OG32200",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1705",
+        "index": "31_1703",
+        "ortholog": "OG38653",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034611_Saturnispora_mendoncae@Seq_4230",
+        "index": "175_4229",
+        "ortholog": "OG38653",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000035244_Candida_incommunis@Seq_3845",
+        "index": "275_3844",
+        "ortholog": "OG5576",
+        "species": "105"
+    },
+    {
+        "id": "yHMPu5000034974_Deakozyma_indianensis@Seq_1273",
+        "index": "251_1272",
+        "ortholog": "OG5576",
+        "species": "105"
+    },
+    {
+        "id": "Saccharomyces_mikatae@Seq_3273",
+        "index": "113_3272",
+        "ortholog": "OG41604",
+        "species": "2"
+    },
+    {
+        "id": "Saccharomyces_cerevisiae@YDR540C",
+        "index": "110_4232",
+        "ortholog": "OG41604",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000035037_Candida_montana@Seq_5043",
+        "index": "265_5042",
+        "ortholog": "OG24797",
+        "species": "5"
+    },
+    {
+        "id": "yHMPu5000035673_Candida_orba@Seq_4554",
+        "index": "310_4553",
+        "ortholog": "OG24797",
+        "species": "5"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3226",
+        "index": "138_3225",
+        "ortholog": "OG16444",
+        "species": "7"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3666",
+        "index": "31_3664",
+        "ortholog": "OG16444",
+        "species": "7"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1589",
+        "index": "138_1588",
+        "ortholog": "OG7636",
+        "species": "44"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3167",
+        "index": "138_3166",
+        "ortholog": "OG15035",
+        "species": "8"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1023",
+        "index": "31_1021",
+        "ortholog": "OG15035",
+        "species": "8"
+    },
+    {
+        "id": "yHMPu5000034610_Saturnispora_hagleri@Seq_2554",
+        "index": "174_2553",
+        "ortholog": "OG5783",
+        "species": "78"
+    },
+    {
+        "id": "yHMPu5000034613_Saturnispora_serradocipensis@Seq_2450",
+        "index": "177_2449",
+        "ortholog": "OG5783",
+        "species": "78"
+    },
+    {
+        "id": "yHMPu5000041693_Debaryomyces_nepalensis@Seq_3742",
+        "index": "329_3741",
+        "ortholog": "OG18013",
+        "species": "6"
+    },
+    {
+        "id": "yHMPu5000035031_Candida_kruisii@Seq_2014",
+        "index": "262_2013",
+        "ortholog": "OG18013",
+        "species": "6"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4826",
+        "index": "31_4824",
+        "ortholog": "OG1430",
+        "species": "253"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2706",
+        "index": "31_2704",
+        "ortholog": "OG1430",
+        "species": "253"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1953",
+        "index": "31_1951",
+        "ortholog": "OG5631",
+        "species": "80"
+    },
+    {
+        "id": "Nadsonia_fulvescens_var_elongata@Seq_5196",
+        "index": "93_5195",
+        "ortholog": "OG5631",
+        "species": "80"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5152",
+        "index": "31_5150",
+        "ortholog": "OG1060",
+        "species": "340"
+    },
+    {
+        "id": "Candida_versatilis@Seq_860",
+        "index": "31_858",
+        "ortholog": "OG1060",
+        "species": "340"
+    },
+    {
+        "id": "yHMPu5000035044_Barnettozyma_californica@Seq_508",
+        "index": "268_507",
+        "ortholog": "OG8891",
+        "species": "28"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3542",
+        "index": "138_3541",
+        "ortholog": "OG8891",
+        "species": "28"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4654",
+        "index": "31_4652",
+        "ortholog": "OG26253",
+        "species": "4"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_7331",
+        "index": "66_7330",
+        "ortholog": "OG26253",
+        "species": "4"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1519",
+        "index": "138_1518",
+        "ortholog": "OG3422",
+        "species": "297"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2570",
+        "index": "31_2568",
+        "ortholog": "OG3422",
+        "species": "297"
+    },
+    {
+        "id": "Lachancea_fermentati@Seq_2195",
+        "index": "57_2194",
+        "ortholog": "OG13429",
+        "species": "8"
+    },
+    {
+        "id": "yHMPu5000035651_Torulaspora_microellipsoides@Seq_213",
+        "index": "299_212",
+        "ortholog": "OG13429",
+        "species": "8"
+    },
+    {
+        "id": "Lachancea_quebecensis@Seq_3862",
+        "index": "63_3861",
+        "ortholog": "OG61380",
+        "species": "2"
+    },
+    {
+        "id": "Lachancea_thermotolerans@Seq_460",
+        "index": "64_459",
+        "ortholog": "OG61380",
+        "species": "2"
+    },
+    {
+        "id": "Lachancea_dasiensis@Seq_3125",
+        "index": "55_3124",
+        "ortholog": "OG18013",
+        "species": "6"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_60",
+        "index": "138_59",
+        "ortholog": "OG18013",
+        "species": "6"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4757",
+        "index": "31_4755",
+        "ortholog": "OG30495",
+        "species": "2"
+    },
+    {
+        "id": "Meyerozyma_guilliermondii@Seq_3821",
+        "index": "91_3820",
+        "ortholog": "OG16495",
+        "species": "8"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_295",
+        "index": "138_294",
+        "ortholog": "OG16495",
+        "species": "8"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_1143",
+        "index": "192_1142",
+        "ortholog": "OG2919",
+        "species": "298"
+    },
+    {
+        "id": "yHMPu5000035633_Candida_hispaniensis@Seq_1671",
+        "index": "292_1670",
+        "ortholog": "OG2919",
+        "species": "298"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2648",
+        "index": "31_2646",
+        "ortholog": "OG59665",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_128",
+        "index": "31_126",
+        "ortholog": "OG59665",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2029",
+        "index": "31_2027",
+        "ortholog": "OG10331",
+        "species": "16"
+    },
+    {
+        "id": "Candida_infanticola@Seq_2656",
+        "index": "21_2655",
+        "ortholog": "OG10092",
+        "species": "19"
+    },
+    {
+        "id": "Candida_parapsilosis@Seq_1026",
+        "index": "24_1025",
+        "ortholog": "OG10092",
+        "species": "19"
+    },
+    {
+        "id": "Candida_versatilis@Seq_864",
+        "index": "31_862",
+        "ortholog": "OG5398",
+        "species": "116"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_3743",
+        "index": "50_3742",
+        "ortholog": "OG5398",
+        "species": "116"
+    },
+    {
+        "id": "Candida_versatilis@Seq_715",
+        "index": "31_713",
+        "ortholog": "OG38818",
+        "species": "2"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3595",
+        "index": "138_3594",
+        "ortholog": "OG38818",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_3123",
+        "index": "192_3122",
+        "ortholog": "OG6088",
+        "species": "58"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_2125",
+        "index": "192_2124",
+        "ortholog": "OG6088",
+        "species": "58"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1394",
+        "index": "31_1392",
+        "ortholog": "OG8015",
+        "species": "37"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3495",
+        "index": "138_3494",
+        "ortholog": "OG8015",
+        "species": "37"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_2578",
+        "index": "130_2577",
+        "ortholog": "OG12177",
+        "species": "9"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5297",
+        "index": "31_5295",
+        "ortholog": "OG12177",
+        "species": "9"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4905",
+        "index": "31_4903",
+        "ortholog": "OG29773",
+        "species": "1"
+    },
+    {
+        "id": "Cyberlindnera_fabianii_JCM3601@Seq_3638",
+        "index": "34_3637",
+        "ortholog": "OG60513",
+        "species": "1"
+    },
+    {
+        "id": "Cyberlindnera_fabianii_JCM3601@Seq_365",
+        "index": "34_364",
+        "ortholog": "OG60513",
+        "species": "1"
+    },
+    {
+        "id": "Lachancea_fermentati@Seq_941",
+        "index": "57_940",
+        "ortholog": "OG37802",
+        "species": "3"
+    },
+    {
+        "id": "Lachancea_thermotolerans@Seq_3214",
+        "index": "64_3213",
+        "ortholog": "OG37802",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4538",
+        "index": "31_4536",
+        "ortholog": "OG14059",
+        "species": "10"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1722",
+        "index": "138_1721",
+        "ortholog": "OG14059",
+        "species": "10"
+    },
+    {
+        "id": "yHMPu5000035650_Trigonopsis_variabilis@Seq_3533",
+        "index": "298_3532",
+        "ortholog": "OG8269",
+        "species": "36"
+    },
+    {
+        "id": "yHMPu5000035282_Trigonopsis_vinaria@Seq_122",
+        "index": "282_121",
+        "ortholog": "OG8269",
+        "species": "36"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4041",
+        "index": "31_4039",
+        "ortholog": "OG17693",
+        "species": "2"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_4434",
+        "index": "50_4433",
+        "ortholog": "OG45802",
+        "species": "2"
+    },
+    {
+        "id": "Lachancea_quebecensis@Seq_2881",
+        "index": "63_2880",
+        "ortholog": "OG45802",
+        "species": "2"
+    },
+    {
+        "id": "Candida_apicola@Seq_2137",
+        "index": "13_2136",
+        "ortholog": "OG45958",
+        "species": "1"
+    },
+    {
+        "id": "Candida_apicola@Seq_2657",
+        "index": "13_2656",
+        "ortholog": "OG45958",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1590",
+        "index": "31_1588",
+        "ortholog": "OG7811",
+        "species": "44"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_5604",
+        "index": "192_5603",
+        "ortholog": "OG7811",
+        "species": "44"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_292",
+        "index": "192_291",
+        "ortholog": "OG31720",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_3424",
+        "index": "192_3423",
+        "ortholog": "OG31720",
+        "species": "1"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_7181",
+        "index": "66_7180",
+        "ortholog": "OG53825",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034749_Lipomyces_mesembrius@Seq_5341",
+        "index": "211_5340",
+        "ortholog": "OG53825",
+        "species": "2"
+    },
+    {
+        "id": "Lachancea_cidri@Seq_3817",
+        "index": "54_3816",
+        "ortholog": "OG9892",
+        "species": "23"
+    },
+    {
+        "id": "yHMPu5000034749_Lipomyces_mesembrius@Seq_2988",
+        "index": "211_2987",
+        "ortholog": "OG29016",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000035672_Phaffomyces_thermotolerans@Seq_4050",
+        "index": "309_4049",
+        "ortholog": "OG8027",
+        "species": "41"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2075",
+        "index": "31_2073",
+        "ortholog": "OG86857",
+        "species": "1"
+    },
+    {
+        "id": "Lachancea_meyersii@Seq_3740",
+        "index": "60_3739",
+        "ortholog": "OG18143",
+        "species": "7"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_273",
+        "index": "138_272",
+        "ortholog": "OG5766",
+        "species": "71"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2674",
+        "index": "31_2672",
+        "ortholog": "OG128338",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000035665_Middelhovenomyces_tepae@Seq_1492",
+        "index": "305_1491",
+        "ortholog": "OG9253",
+        "species": "22"
+    },
+    {
+        "id": "Candida_infanticola@Seq_1614",
+        "index": "21_1613",
+        "ortholog": "OG7709",
+        "species": "42"
+    },
+    {
+        "id": "yHMPu5000034681_Blastobotrys_americana@Seq_2707",
+        "index": "206_2706",
+        "ortholog": "OG12630",
+        "species": "12"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4621",
+        "index": "31_4619",
+        "ortholog": "OG11639",
+        "species": "14"
+    },
+    {
+        "id": "Sugiyamaella_lignohabitans@Seq_6150",
+        "index": "131_6149",
+        "ortholog": "OG19717",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_7184",
+        "index": "215_7183",
+        "ortholog": "OG18288",
+        "species": "6"
+    },
+    {
+        "id": "Candida_infanticola@Seq_331",
+        "index": "21_330",
+        "ortholog": "OG8322",
+        "species": "35"
+    },
+    {
+        "id": "Candida_versatilis@Seq_153",
+        "index": "31_151",
+        "ortholog": "OG19717",
+        "species": "3"
+    },
+    {
+        "id": "Lachancea_fermentati@Seq_2337",
+        "index": "57_2336",
+        "ortholog": "OG22811",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_893",
+        "index": "31_891",
+        "ortholog": "OG198512",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2079",
+        "index": "31_2077",
+        "ortholog": "OG1189",
+        "species": "218"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3146",
+        "index": "31_3144",
+        "ortholog": "OG9780",
+        "species": "20"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_31",
+        "index": "138_30",
+        "ortholog": "OG9123",
+        "species": "29"
+    },
+    {
+        "id": "Candida_glabrata@Seq_1834",
+        "index": "19_1833",
+        "ortholog": "OG229525",
+        "species": "1"
+    },
+    {
+        "id": "Lachancea_fermentati@Seq_754",
+        "index": "57_753",
+        "ortholog": "OG37457",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1773",
+        "index": "31_1771",
+        "ortholog": "OG1570",
+        "species": "332"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_4329",
+        "index": "192_4328",
+        "ortholog": "OG111189",
+        "species": "1"
+    },
+    {
+        "id": "Dekkera_bruxellensis@Seq_49",
+        "index": "37_48",
+        "ortholog": "OG11332",
+        "species": "12"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3164",
+        "index": "31_3162",
+        "ortholog": "OG1105",
+        "species": "216"
+    },
+    {
+        "id": "Saccharomyces_mikatae@Seq_4779",
+        "index": "113_4778",
+        "ortholog": "OG224447",
+        "species": "1"
+    },
+    {
+        "id": "Candida_tanzawaensis@Seq_3880",
+        "index": "28_3879",
+        "ortholog": "OG232513",
+        "species": "1"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_26",
+        "index": "50_25",
+        "ortholog": "OG145360",
+        "species": "1"
+    },
+    {
+        "id": "Candida_infanticola@Seq_3305",
+        "index": "21_3304",
+        "ortholog": "OG7756",
+        "species": "42"
+    },
+    {
+        "id": "Nakaseomyces_castellii@Seq_1619",
+        "index": "96_1618",
+        "ortholog": "OG27466",
+        "species": "4"
+    },
+    {
+        "id": "Candida_infanticola@Seq_766",
+        "index": "21_765",
+        "ortholog": "OG1458",
+        "species": "249"
+    },
+    {
+        "id": "Arxula_adeninivorans@Seq_1941",
+        "index": "4_1940",
+        "ortholog": "OG36952",
+        "species": "3"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_3874",
+        "index": "50_3873",
+        "ortholog": "OG35907",
+        "species": "3"
+    },
+    {
+        "id": "Ogataea_parapolymorpha@Seq_320",
+        "index": "104_319",
+        "ortholog": "OG5485",
+        "species": "116"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1111",
+        "index": "31_1109",
+        "ortholog": "OG164213",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5107",
+        "index": "31_5105",
+        "ortholog": "OG6846",
+        "species": "56"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4019",
+        "index": "31_4017",
+        "ortholog": "OG186329",
+        "species": "1"
+    },
+    {
+        "id": "Komagataella_pastoris@Seq_3451",
+        "index": "52_3450",
+        "ortholog": "OG77945",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2166",
+        "index": "31_2164",
+        "ortholog": "OG114421",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3154",
+        "index": "31_3152",
+        "ortholog": "OG16459",
+        "species": "8"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3206",
+        "index": "31_3204",
+        "ortholog": "OG134873",
+        "species": "1"
+    },
+    {
+        "id": "Candida_parapsilosis@Seq_1578",
+        "index": "24_1577",
+        "ortholog": "OG7289",
+        "species": "45"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5138",
+        "index": "31_5136",
+        "ortholog": "OG178224",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000035282_Trigonopsis_vinaria@Seq_3810",
+        "index": "282_3809",
+        "ortholog": "OG58213",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3608",
+        "index": "31_3606",
+        "ortholog": "OG7289",
+        "species": "45"
+    },
+    {
+        "id": "yHMPu5000035665_Middelhovenomyces_tepae@Seq_4451",
+        "index": "305_4450",
+        "ortholog": "OG9668",
+        "species": "20"
+    },
+    {
+        "id": "Candida_infanticola@Seq_669",
+        "index": "21_668",
+        "ortholog": "OG193364",
+        "species": "1"
+    },
+    {
+        "id": "Lachancea_thermotolerans@Seq_3306",
+        "index": "64_3305",
+        "ortholog": "OG15136",
+        "species": "9"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1577",
+        "index": "138_1576",
+        "ortholog": "OG27392",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5207",
+        "index": "31_5205",
+        "ortholog": "OG99359",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034761_Lipomyces_lipofer@Seq_5554",
+        "index": "216_5553",
+        "ortholog": "OG13322",
+        "species": "11"
+    },
+    {
+        "id": "Candida_apicola@Seq_3160",
+        "index": "13_3159",
+        "ortholog": "OG5783",
+        "species": "78"
+    },
+    {
+        "id": "Candida_versatilis@Seq_5268",
+        "index": "31_5266",
+        "ortholog": "OG13051",
+        "species": "11"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_2025",
+        "index": "66_2024",
+        "ortholog": "OG231969",
+        "species": "1"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_4462",
+        "index": "50_4461",
+        "ortholog": "OG15150",
+        "species": "9"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4183",
+        "index": "31_4181",
+        "ortholog": "OG13322",
+        "species": "11"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3",
+        "index": "138_2",
+        "ortholog": "OG71130",
+        "species": "1"
+    },
+    {
+        "id": "Candida_infanticola@Seq_502",
+        "index": "21_501",
+        "ortholog": "OG109287",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000035296_Priceomyces_carsonii@Seq_4106",
+        "index": "284_4105",
+        "ortholog": "OG13322",
+        "species": "11"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2383",
+        "index": "31_2381",
+        "ortholog": "OG177248",
+        "species": "1"
+    },
+    {
+        "id": "Arxula_adeninivorans@Seq_962",
+        "index": "4_961",
+        "ortholog": "OG52824",
+        "species": "2"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_2732",
+        "index": "138_2731",
+        "ortholog": "OG5620",
+        "species": "63"
+    },
+    {
+        "id": "yHMPu5000035037_Candida_montana@Seq_657",
+        "index": "265_656",
+        "ortholog": "OG4715",
+        "species": "184"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_3097",
+        "index": "192_3096",
+        "ortholog": "OG5294",
+        "species": "105"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_515",
+        "index": "50_514",
+        "ortholog": "OG7959",
+        "species": "38"
+    },
+    {
+        "id": "yHMPu5000034667_Blastobotrys_serpentis@Seq_2581",
+        "index": "199_2580",
+        "ortholog": "OG5631",
+        "species": "80"
+    },
+    {
+        "id": "Candida_apicola@Seq_2437",
+        "index": "13_2436",
+        "ortholog": "OG26928",
+        "species": "3"
+    },
+    {
+        "id": "Saccharomyces_mikatae@Seq_2832",
+        "index": "113_2831",
+        "ortholog": "OG41738",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034887_Ogataea_trehaloabstinens@Seq_3927",
+        "index": "228_3926",
+        "ortholog": "OG30393",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1667",
+        "index": "31_1665",
+        "ortholog": "OG11559",
+        "species": "12"
+    },
+    {
+        "id": "Saccharomyces_cerevisiae@YKL107W",
+        "index": "110_1619",
+        "ortholog": "OG5508",
+        "species": "97"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_33",
+        "index": "138_32",
+        "ortholog": "OG170536",
+        "species": "1"
+    },
+    {
+        "id": "Kazachstania_africana@Seq_4223",
+        "index": "48_4222",
+        "ortholog": "OG20481",
+        "species": "6"
+    },
+    {
+        "id": "Kazachstania_africana@Seq_3379",
+        "index": "48_3378",
+        "ortholog": "OG197538",
+        "species": "1"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_1181",
+        "index": "130_1180",
+        "ortholog": "OG11969",
+        "species": "13"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4754",
+        "index": "31_4752",
+        "ortholog": "OG11323",
+        "species": "15"
+    },
+    {
+        "id": "Candida_apicola@Seq_3013",
+        "index": "13_3012",
+        "ortholog": "OG30387",
+        "species": "3"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3689",
+        "index": "138_3688",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1260",
+        "index": "138_1259",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "yHMPu5000034635_Nadsonia_fulvescens@Seq_2818",
+        "index": "188_2817",
+        "ortholog": "OG5631",
+        "species": "80"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1734",
+        "index": "31_1732",
+        "ortholog": "OG6241",
+        "species": "34"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3532",
+        "index": "31_3530",
+        "ortholog": "OG40797",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034597_Candida_stellimalicola@Seq_1659",
+        "index": "169_1658",
+        "ortholog": "OG7800",
+        "species": "25"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_8593",
+        "index": "66_8592",
+        "ortholog": "OG61445",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4159",
+        "index": "31_4157",
+        "ortholog": "OG70011",
+        "species": "1"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1743",
+        "index": "138_1742",
+        "ortholog": "OG33245",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000035650_Trigonopsis_variabilis@Seq_987",
+        "index": "298_986",
+        "ortholog": "OG33337",
+        "species": "3"
+    },
+    {
+        "id": "Ogataea_methanolica@Seq_4202",
+        "index": "103_4201",
+        "ortholog": "OG64736",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_337",
+        "index": "31_335",
+        "ortholog": "OG5322",
+        "species": "93"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3792",
+        "index": "31_3790",
+        "ortholog": "OG111709",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3576",
+        "index": "31_3574",
+        "ortholog": "OG139574",
+        "species": "1"
+    },
+    {
+        "id": "Torulaspora_delbrueckii@Seq_2520",
+        "index": "135_2519",
+        "ortholog": "OG120312",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034749_Lipomyces_mesembrius@Seq_145",
+        "index": "211_144",
+        "ortholog": "OG19137",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_696",
+        "index": "31_694",
+        "ortholog": "OG5620",
+        "species": "63"
+    },
+    {
+        "id": "Millerozyma_acaciae@Seq_4593",
+        "index": "92_4592",
+        "ortholog": "OG16435",
+        "species": "7"
+    },
+    {
+        "id": "yHMPu5000035665_Middelhovenomyces_tepae@Seq_3991",
+        "index": "305_3990",
+        "ortholog": "OG26321",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4487",
+        "index": "31_4485",
+        "ortholog": "OG7826",
+        "species": "35"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1883",
+        "index": "31_1881",
+        "ortholog": "OG22395",
+        "species": "5"
+    },
+    {
+        "id": "yHMPu5000034605_Spencermartinsiella_europaea@Seq_3670",
+        "index": "171_3669",
+        "ortholog": "OG12583",
+        "species": "10"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_1489",
+        "index": "66_1488",
+        "ortholog": "OG159853",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_42",
+        "index": "31_40",
+        "ortholog": "OG10811",
+        "species": "17"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2309",
+        "index": "31_2307",
+        "ortholog": "OG128376",
+        "species": "1"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_166",
+        "index": "130_165",
+        "ortholog": "OG25275",
+        "species": "4"
+    },
+    {
+        "id": "yHMPu5000041713_Debaryomyces_maramus@Seq_356",
+        "index": "330_355",
+        "ortholog": "OG194144",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1988",
+        "index": "31_1986",
+        "ortholog": "OG1022",
+        "species": "343"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1786",
+        "index": "31_1784",
+        "ortholog": "OG21997",
+        "species": "5"
+    },
+    {
+        "id": "Lachancea_fantastica@Seq_2119",
+        "index": "56_2118",
+        "ortholog": "OG13539",
+        "species": "9"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4066",
+        "index": "31_4064",
+        "ortholog": "OG228329",
+        "species": "1"
+    },
+    {
+        "id": "Debaryomyces_hansenii@Seq_2445",
+        "index": "36_2444",
+        "ortholog": "OG217463",
+        "species": "1"
+    },
+    {
+        "id": "Lachancea_nothofagi@Seq_4543",
+        "index": "62_4542",
+        "ortholog": "OG165615",
+        "species": "1"
+    },
+    {
+        "id": "Pichia_membranifaciens@Seq_575",
+        "index": "107_574",
+        "ortholog": "OG11375",
+        "species": "15"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4182",
+        "index": "31_4180",
+        "ortholog": "OG24098",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1229",
+        "index": "31_1227",
+        "ortholog": "OG8015",
+        "species": "37"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2781",
+        "index": "31_2779",
+        "ortholog": "OG15683",
+        "species": "7"
+    },
+    {
+        "id": "yHMPu5000034671_Blastobotrys_peoriensis@Seq_3135",
+        "index": "202_3134",
+        "ortholog": "OG32223",
+        "species": "1"
+    },
+    {
+        "id": "Candida_infanticola@Seq_931",
+        "index": "21_930",
+        "ortholog": "OG15035",
+        "species": "8"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4357",
+        "index": "31_4355",
+        "ortholog": "OG12113",
+        "species": "13"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_2920",
+        "index": "138_2919",
+        "ortholog": "OG214409",
+        "species": "1"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_414",
+        "index": "66_413",
+        "ortholog": "OG21957",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2867",
+        "index": "31_2865",
+        "ortholog": "OG5769",
+        "species": "74"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_6146",
+        "index": "66_6145",
+        "ortholog": "OG14586",
+        "species": "9"
+    },
+    {
+        "id": "Candida_versatilis@Seq_726",
+        "index": "31_724",
+        "ortholog": "OG13879",
+        "species": "10"
+    },
+    {
+        "id": "Lachancea_cidri@Seq_1185",
+        "index": "54_1184",
+        "ortholog": "OG11826",
+        "species": "11"
+    },
+    {
+        "id": "Saccharomyces_cerevisiae@YFR055W",
+        "index": "110_5051",
+        "ortholog": "OG9983",
+        "species": "18"
+    },
+    {
+        "id": "yHMPu5000034635_Nadsonia_fulvescens@Seq_2930",
+        "index": "188_2929",
+        "ortholog": "OG6065",
+        "species": "75"
+    },
+    {
+        "id": "yHMPu5000035335_Candida_blattae@Seq_5439",
+        "index": "290_5438",
+        "ortholog": "OG9892",
+        "species": "23"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_427",
+        "index": "66_426",
+        "ortholog": "OG202895",
+        "species": "1"
+    },
+    {
+        "id": "Komagataella_pastoris@Seq_3056",
+        "index": "52_3055",
+        "ortholog": "OG14120",
+        "species": "7"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1251",
+        "index": "31_1249",
+        "ortholog": "OG223142",
+        "species": "1"
+    },
+    {
+        "id": "Candida_intermedia@Seq_206",
+        "index": "22_205",
+        "ortholog": "OG178558",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_865",
+        "index": "31_863",
+        "ortholog": "OG22273",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2963",
+        "index": "31_2961",
+        "ortholog": "OG107137",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034760_Lipomyces_kononenkoae@Seq_3810",
+        "index": "215_3809",
+        "ortholog": "OG53895",
+        "species": "2"
+    },
+    {
+        "id": "yHMPu5000034670_Blastobotrys_proliferans@Seq_981",
+        "index": "201_980",
+        "ortholog": "OG22691",
+        "species": "4"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1480",
+        "index": "31_1478",
+        "ortholog": "OG23100",
+        "species": "5"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2109",
+        "index": "31_2107",
+        "ortholog": "OG68459",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1492",
+        "index": "31_1490",
+        "ortholog": "OG215767",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3908",
+        "index": "31_3906",
+        "ortholog": "OG11021",
+        "species": "17"
+    },
+    {
+        "id": "Candida_apicola@Seq_2540",
+        "index": "13_2539",
+        "ortholog": "OG5783",
+        "species": "78"
+    },
+    {
+        "id": "Babjeviella_inositovora@Seq_1098",
+        "index": "9_1097",
+        "ortholog": "OG113509",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_3916",
+        "index": "192_3915",
+        "ortholog": "OG11957",
+        "species": "10"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_2766",
+        "index": "130_2765",
+        "ortholog": "OG12494",
+        "species": "12"
+    },
+    {
+        "id": "Candida_apicola@Seq_846",
+        "index": "13_845",
+        "ortholog": "OG217674",
+        "species": "1"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_2481",
+        "index": "192_2480",
+        "ortholog": "OG32190",
+        "species": "1"
+    },
+    {
+        "id": "Lipomyces_starkeyi@Seq_2093",
+        "index": "66_2092",
+        "ortholog": "OG36066",
+        "species": "3"
+    },
+    {
+        "id": "yHMPu5000034613_Saturnispora_serradocipensis@Seq_4839",
+        "index": "177_4838",
+        "ortholog": "OG16446",
+        "species": "8"
+    },
+    {
+        "id": "yHMPu5000034918_Nakazawaea_holstii@Seq_5930",
+        "index": "239_5929",
+        "ortholog": "OG42193",
+        "species": "2"
+    },
+    {
+        "id": "Candida_versatilis@Seq_1404",
+        "index": "31_1402",
+        "ortholog": "OG8291",
+        "species": "25"
+    },
+    {
+        "id": "Eremothecium_coryli@Seq_2897",
+        "index": "38_2896",
+        "ortholog": "OG168296",
+        "species": "1"
+    },
+    {
+        "id": "Candida_apicola@Seq_918",
+        "index": "13_917",
+        "ortholog": "OG9795",
+        "species": "17"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_2896",
+        "index": "138_2895",
+        "ortholog": "OG181004",
+        "species": "1"
+    },
+    {
+        "id": "Komagataella_pastoris@Seq_4148",
+        "index": "52_4147",
+        "ortholog": "OG191700",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3921",
+        "index": "31_3919",
+        "ortholog": "OG7536",
+        "species": "33"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_1020",
+        "index": "130_1019",
+        "ortholog": "OG5465",
+        "species": "80"
+    },
+    {
+        "id": "yHMPu5000035650_Trigonopsis_variabilis@Seq_2773",
+        "index": "298_2772",
+        "ortholog": "OG4124",
+        "species": "258"
+    },
+    {
+        "id": "Lachancea_fermentati@Seq_4300",
+        "index": "57_4299",
+        "ortholog": "OG109743",
+        "species": "1"
+    },
+    {
+        "id": "Saccharomyces_kudriavzevii@Seq_829",
+        "index": "112_828",
+        "ortholog": "OG99618",
+        "species": "1"
+    },
+    {
+        "id": "Candida_infanticola@Seq_1352",
+        "index": "21_1351",
+        "ortholog": "OG29223",
+        "species": "4"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_723",
+        "index": "138_722",
+        "ortholog": "OG14922",
+        "species": "8"
+    },
+    {
+        "id": "Candida_versatilis@Seq_2131",
+        "index": "31_2129",
+        "ortholog": "OG32628",
+        "species": "3"
+    },
+    {
+        "id": "Candida_versatilis@Seq_845",
+        "index": "31_843",
+        "ortholog": "OG171932",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3946",
+        "index": "31_3944",
+        "ortholog": "OG11265",
+        "species": "14"
+    },
+    {
+        "id": "yHMPu5000034754_Lipomyces_arxii@Seq_270",
+        "index": "212_269",
+        "ortholog": "OG17026",
+        "species": "6"
+    },
+    {
+        "id": "Candida_infanticola@Seq_328",
+        "index": "21_327",
+        "ortholog": "OG76769",
+        "species": "1"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_1423",
+        "index": "138_1422",
+        "ortholog": "OG6194",
+        "species": "58"
+    },
+    {
+        "id": "Eremothecium_gossypii@Seq_1065",
+        "index": "40_1064",
+        "ortholog": "OG9257",
+        "species": "12"
+    },
+    {
+        "id": "Candida_apicola@Seq_767",
+        "index": "13_766",
+        "ortholog": "OG150166",
+        "species": "1"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3556",
+        "index": "31_3554",
+        "ortholog": "OG149345",
+        "species": "1"
+    },
+    {
+        "id": "Candida_apicola@Seq_1390",
+        "index": "13_1389",
+        "ortholog": "OG15979",
+        "species": "8"
+    },
+    {
+        "id": "yHMPu5000035650_Trigonopsis_variabilis@Seq_1504",
+        "index": "298_1503",
+        "ortholog": "OG11826",
+        "species": "11"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3595",
+        "index": "31_3593",
+        "ortholog": "OG8167",
+        "species": "27"
+    },
+    {
+        "id": "Candida_versatilis@Seq_4613",
+        "index": "31_4611",
+        "ortholog": "OG206415",
+        "species": "1"
+    },
+    {
+        "id": "Kluyveromyces_lactis@Seq_4471",
+        "index": "50_4470",
+        "ortholog": "OG199855",
+        "species": "1"
+    },
+    {
+        "id": "Lachancea_meyersii@Seq_3299",
+        "index": "60_3298",
+        "ortholog": "OG3596",
+        "species": "304"
+    },
+    {
+        "id": "Starmerella_bombicola_JCM9596@Seq_1658",
+        "index": "130_1657",
+        "ortholog": "OG16459",
+        "species": "8"
+    },
+    {
+        "id": "Wickerhamiella_domercqiae@Seq_3304",
+        "index": "138_3303",
+        "ortholog": "OG4675",
+        "species": "218"
+    },
+    {
+        "id": "yHMPu5000034646_Wickerhamiella_cacticola@Seq_5775",
+        "index": "192_5774",
+        "ortholog": "OG10614",
+        "species": "19"
+    },
+    {
+        "id": "Komagataella_pastoris@Seq_3850",
+        "index": "52_3849",
+        "ortholog": "OG3924",
+        "species": "216"
+    },
+    {
+        "id": "Candida_versatilis@Seq_3517",
+        "index": "31_3515",
+        "ortholog": "OG4960",
+        "species": "191"
+    }
+]
