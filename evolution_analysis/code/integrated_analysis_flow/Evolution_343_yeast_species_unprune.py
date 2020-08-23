@@ -29,6 +29,9 @@ for i in *_code.fasta
 os.system("chmod u+x A4_code_align_all_guidance.sh")
 os.system("./A4_code_align_all_guidance.sh")
 
+# test of guidance
+os.system("perl /home/luhongzhong/Documents/guidance.v2.02/www/Guidance/guidance.pl --seqFile /home/luhongzhong/ortholog_343_unprune/cds_refine_before_prune/OG1006_code.fasta  --msaProgram MAFFT --seqType codon --outDir /home/luhongzhong/ortholog_343_unprune/cds_align_guidance/OG1006_result --genCode 1 --bootstraps 30 --proc_num 4 --seqCutoff 0.6 --colCutoff 0.93")
+
 
 # transfer the aligned cds sequence into a new file
 os.system("mkdir /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_new")
@@ -121,39 +124,6 @@ os.system("./unroot_tree.sh")
 ####################################################
 # evolution analysis based on Hyphy
 ####################################################
-# branch site model using absrel
-with open("absrel.sh", "w") as rsh:
-    rsh.write('''\
-    #!/bin/bash
-    mkdir /home/luhongzhong/ortholog_343_unprune/absrel_result/
-    cd /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_new_tree_unroot_label
-    for i in *_aa_unroot_LABEL.tre
-        do
-            hyphy absrel --alignment /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_new/${i%_aa_unroot_LABEL.tre}_code.fasta --tree /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_new_tree_unroot_label/$i --branches Foreground --output /home/luhongzhong/ortholog_343_unprune/absrel_result/${i%_aa_unroot_LABEL.tre}.ABSREL.json
-        done
-    ''')
-os.system("chmod u+x absrel.sh")
-os.system("./absrel.sh")
-
-
-# branch site model using busted
-with open("busted.sh", "w") as rsh:
-    rsh.write('''\
-    #!/bin/bash
-    mkdir /home/luhongzhong/ortholog_343_unprune/busted_result/
-    cd /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_new_tree_unroot_label
-    for i in *_aa_unroot_LABEL.tre
-        do
-            hyphy busted --alignment /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_new/${i%_aa_unroot_LABEL.tre}_code.fasta --tree /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_new_tree_unroot_label/$i --branches Foreground --srv Yes --output /home/luhongzhong/ortholog_343_unprune/busted_result/${i%_aa_unroot_LABEL.tre}.BUSTED.json
-        done
-    ''')
-os.system("chmod u+x busted.sh")
-os.system("./busted.sh")
-
-
-####################################################
-# evolution analysis based on Hyphy
-####################################################
 # site level dN/dS
 # FUBAR
 with open("fubar.sh", "w") as rsh:
@@ -188,3 +158,4 @@ with open("fel.sh", "w") as rsh:
     ''')
 os.system("chmod u+x fel.sh")
 os.system("./fel.sh")
+
