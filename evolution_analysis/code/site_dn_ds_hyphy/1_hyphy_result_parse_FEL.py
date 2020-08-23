@@ -3,7 +3,7 @@
 # -*- hongzhong Lu -*-
 
 # This script is updated on MAC.
-
+# It is used to parse the site model result using FEL.
 
 
 # The tutorial could be found in https://github.com/sjspielman/phyphy#parsing-hyphy-output-json
@@ -17,54 +17,8 @@ def hyphy_parse(infile, outfile):
     e = myext
     e.extract_csv(outfile)  ## save to fel.csv
 
-
-
-# FUBAR
-myext = phyphy.Extractor("/home/luhongzhong/Documents/evolution_analysis/result/hyphy_result/OG5327_code.phy.FUBAR.json")
-e = myext
-e.extract_csv("/home/luhongzhong/Documents/evolution_analysis/result/hyphy_result/OG5327_FUBAR.csv")  ## save to fel.csv
-# batch process
-os.mkdir("/home/luhongzhong/Documents/cluster_result/fubar/fubar_csv")
-all_OG = os.listdir("/home/luhongzhong/Documents/cluster_result/fubar/fubar_result")
-input = "/home/luhongzhong/Documents/cluster_result/fubar/fubar_result/"
-output = "/home/luhongzhong/Documents/cluster_result/fubar/fubar_csv/"
-for x in all_OG:
-    print(x)
-    infile0 = input + x
-    outfile0 = output + x.replace("_code.fasta.FUBAR.json", ".csv")
-    hyphy_parse(infile0, outfile0)
-
-'''
-# second tasks
-os.mkdir("/home/luhongzhong/ortholog_343/fubar_csv/")
-all_OG = os.listdir("/home/luhongzhong/ortholog_343/fubar_result")
-input = "/home/luhongzhong/ortholog_343/fubar_result/"
-output = "/home/luhongzhong/ortholog_343/fubar_csv/"
-for x in all_OG:
-    print(x)
-    infile0 = input + x
-    outfile0 = output + x.replace("_code.fasta.FUBAR.json", ".csv")
-    hyphy_parse(infile0, outfile0)
-'''
-
-# leisr
-myext = phyphy.Extractor("/home/luhongzhong/Documents/evolution_analysis/result/hyphy_result/OG5327_aa_aligned.fasta.LEISR.json")
-l = myext
-l.extract_csv("/home/luhongzhong/Documents/evolution_analysis/result/hyphy_result/OG5327_LEISR.csv")
-# batch process
-os.mkdir("/home/luhongzhong/Documents/cluster_result/leisr/leisr_csv")
-all_OG = os.listdir("/home/luhongzhong/Documents/cluster_result/leisr/leisr_result")
-input = "/home/luhongzhong/Documents/cluster_result/leisr/leisr_result/"
-output = "/home/luhongzhong/Documents/cluster_result/leisr/leisr_csv/"
-for x in all_OG:
-    print(x)
-    infile0 = input + x
-    outfile0 = output + x.replace("_aa_aligned.fasta.LEISR.json", ".csv")
-    hyphy_parse(infile0, outfile0)
-
-
-
-# FEL for all OGs
+# FEL for all 3400 OGs which has positive selected sites based on FUBAR result, this result is used to test the result from FUBAR using FEL methods.
+# This is test on MAC
 # batch process
 os.system("mkdir /Users/luho/Documents/site_model_FEL/fel_csv")
 all_OG = os.listdir("/Users/luho/Documents/site_model_FEL/fel_result")
@@ -106,14 +60,14 @@ fel_result_df.to_csv("/Users/luho/Documents/site_model_FEL/fel_result_summary.cs
 
 
 
-
-# FEL for 200 OGs which have positive selection in the branch site model analysis using aBSREL
+# Parse the result for the cds aligned by guidance using the pruning OGs
+# This is test on linux
 # batch process
-os.system("mkdir /Users/luho/Documents/site_model_heat/fel_csv")
-all_OG = os.listdir("/Users/luho/Documents/site_model_heat/fel_result")
+os.system("mkdir /home/luhongzhong/ortholog_343/fel_result_guidance_csv")
+all_OG = os.listdir("/home/luhongzhong/ortholog_343/fel_result_guidance/")
 all_OG = [x for x in all_OG if ".DS_Store" not in x]
-input = "/Users/luho/Documents/site_model_heat/fel_result/"
-output = "/Users/luho/Documents/site_model_heat/fel_csv/"
+input = "/home/luhongzhong/ortholog_343/fel_result_guidance/"
+output = "/home/luhongzhong/ortholog_343/fel_result_guidance_csv/"
 for x in all_OG:
     print(x)
     infile0 = input + x
@@ -134,10 +88,8 @@ for x in result_file:
     OG_with_positive_site.append(positive_site_num)
 
 OG_with_positive_site_2 = []
-
 for x in result_file:
     print(x)
-    x = "OG1171.csv"
     csv_file = pd.read_csv(output + x)
     # first choose the row based on the pvalue
     csv_file0 = csv_file[csv_file['p-value'] <= 0.05]
@@ -147,14 +99,6 @@ for x in result_file:
     OG_with_positive_site_2.append(positive_site_num)
 
 fel_result_df = pd.DataFrame({"OG":result_file, "site_pvalue_0.1":OG_with_positive_site, "site_pvalue_0.05":OG_with_positive_site_2 })
-fel_result_df.to_csv("/Users/luho/Documents/site_model_heat/fel_result_summary.csv")
-
-
-os.system("mkdir /Users/luho/Documents/site_model_heat/fel_result_site/")
-os.system("python /Users/luho/Documents/evolution_analysis/code/site_dn_ds_hyphy/4_effects_of_gap_on_positive_sites_num.py -p0 /Users/luho/Documents/site_model_heat/protein_refine/  -s /Users/luho/Documents/site_model_heat/fel_csv/ -o /Users/luho/Documents/site_model_heat/fel_result_site/")
-
-
-
-
-
+fel_result_df_analysis = fel_result_df[fel_result_df["site_pvalue_0.1"] >= 1]
+fel_result_df.to_csv("/home/luhongzhong/ortholog_343/fel_guidance_prune.csv")
 
