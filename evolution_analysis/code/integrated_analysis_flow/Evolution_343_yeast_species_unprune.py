@@ -159,3 +159,116 @@ with open("fel.sh", "w") as rsh:
 os.system("chmod u+x fel.sh")
 os.system("./fel.sh")
 
+
+###################################################################
+# site model analysis especially for protein 3D structures mapping
+###################################################################
+
+# step1 prepare the aligned original cds and protein file. In this step, the filter seq should be removed.
+# note: the followed long code should be changed into a unique function in the followed weeks.
+
+import shutil
+import pandas as pd
+import os
+from Bio import SeqIO
+
+result_file_guidance= "/home/luhongzhong/ortholog_343_unprune/cds_align_guidance/"
+out_file = "/home/luhongzhong/ortholog_343_unprune/cds_align_guidance_unprune/"
+out_file2 = "/home/luhongzhong/ortholog_343_unprune/protein_refine_unprune/"
+os.system("mkdir /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_unprune/")
+os.system("mkdir /home/luhongzhong/ortholog_343_unprune/protein_refine_unprune/")
+
+all_og = os.listdir(result_file_guidance)
+all_og = [x for x in all_og if "_result" in x]
+
+id_need_check = []
+for result0 in all_og:
+    print(result0)
+    # result0 = "OG1006_result" # test
+    target_file0 = os.listdir(result_file_guidance + result0)
+    id_mapping_in= result_file_guidance + result0 + "/" + "Seqs.Codes"
+
+    # check which seq is removed
+    target_title = "MSA.MAFFT.Without_low_SP_Col.With_Names"
+    if target_title in target_file0:
+        old_file = result_file_guidance + result0 + "/" + target_title
+        OG_trim = list(SeqIO.parse(old_file, "fasta"))
+        proteinID = []
+        for record in OG_trim:
+            print(record.id, len(list(record.seq)))
+            proteinID.append(record.id)
+
+        #test
+        #proteinID0 = proteinID[0:5]
+        id_input = pd.read_csv(id_mapping_in, sep="\t", header=None)
+        id_input.columns =["geneID", "seqID"]
+        # filter id based on the filter cds result
+        id_input1 = id_input[id_input["geneID"].isin(proteinID)]
+        if id_input.shape[0] != id_input1.shape[0]:
+            print("there are cds sequences being removed!")
+        id_mapping1 = {v: k for k, v in zip(id_input1.iloc[:, 0].tolist(), id_input1.iloc[:, 1].tolist())}
+
+        # for new cds file
+        og_id = id_input1["geneID"].tolist()
+        cds_unprune = result_file_guidance + result0 + "/" + "MSA.MAFFT.aln.With_Names"
+        cds_output = out_file + "/" + result0.replace("_result", "_code.fasta")
+        cds = list(SeqIO.parse(cds_unprune, "fasta"))
+        cds_new = []
+        for cds0 in cds:
+            print(cds0.id)
+            if cds0.id in og_id:
+                cds_new.append(cds0)
+        SeqIO.write(cds_new, cds_output, "fasta")
+
+        # for new protein file
+        og_id2 = id_input1["seqID"].tolist()
+        pro_unprune = result_file_guidance + result0 + "/" + "MSA.MAFFT.PROT.aln"
+        pro_output = out_file2 + "/" + result0.replace("_result", "_aa_aligned.fasta")
+        pro = list(SeqIO.parse(pro_unprune, "fasta"))
+        pro_new = []
+        for pro0 in pro:
+            print(pro0.id)
+            if pro0.id in og_id2:
+                pro_new.append(pro0)
+        # update the id
+        pro_new2 = []
+        for pp in pro_new:
+            print(pp.id)
+            old_name = pp.id
+            pp.id = id_mapping1[old_name]
+            pro_new2.append(pp)
+        SeqIO.write(pro_new2, pro_output, "fasta")
+
+# extract the og with sce
+og_sce_list = pd.read_excel("/home/luhongzhong/Documents/evolution_analysis/data/sce_gene_summary.xlsx")
+og_sce_list0 = og_sce_list["OrthologID"].tolist()
+
+# built a new file for OGs with sce:
+os.system("mkdir /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_unprune_sce/")
+
+source_file = "/home/luhongzhong/ortholog_343_unprune/cds_align_guidance_unprune/"
+all_og_new  = os.listdir(source_file)
+out_file_sce = "/home/luhongzhong/ortholog_343_unprune/cds_align_guidance_unprune_sce/"
+for i in all_og_new:
+    print(i)
+    s = i.replace("_code.fasta","")
+    if s in og_sce_list0:
+        shutil.copy(source_file + i, out_file_sce)
+
+# fubar
+with open("fubar.sh", "w") as rsh:
+    rsh.write('''\
+    #!/bin/bash
+    mkdir /home/luhongzhong/ortholog_343_unprune/fubar_result_guidance_unprune_sce/
+
+    cd /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_unprune_sce
+    for i in *_code.fasta
+        do
+            mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/FUBAR.bf --alignment /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_unprune_sce/$i --tree /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_new_tree_unroot/${i%_code.fasta}_aa_unroot.tre --output /home/luhongzhong/ortholog_343_unprune/fubar_result_guidance_unprune_sce/${i%_code.fasta}_code.fasta.FUBAR.json
+            rm /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_unprune_sce/${i%_code.fasta}_code.fasta.FUBAR.cache
+            mv /home/luhongzhong/ortholog_343_unprune/cds_align_guidance_unprune_sce/${i%_code.fasta}_code.fasta.FUBAR.json /home/luhongzhong/ortholog_343_unprune/fubar_result_guidance_unprune_sce/
+        done
+
+    ''')
+os.system("chmod u+x fubar.sh")
+os.system("./fubar.sh")
