@@ -6,9 +6,15 @@ library(ape)
 library(treeio)
 library(stringr)
 library(readxl)
-library(dplyr)
+library(dplyr) # 0.8.3 this version must be used. Otherwise the calculation can not be calculated.
 library(tidyr)
 library(ggtree)
+
+
+# be careful about the version of pacakge used in the calculation.
+if(packageVersion('dplyr')!="0.8.3"){
+  print("Please check the version of dplyr!")
+}
 
 
 produceLabelTree <- function(tr_id, tr_dir, out_dir, species_choose, num_species_test = 3, num_species_ref = 3) {
@@ -109,7 +115,7 @@ produceLabelTree <- function(tr_id, tr_dir, out_dir, species_choose, num_species
 
 
     # change the tibble into tree again
-    new_tree <- as.phylo(tr_inf_new)
+    new_tree <- as.phylo(tr_inf_new) # this step has bugs
     # plot(new_tree, show.node.label = TRUE)
     # update the node_label
     # replace the 'NA' in the node as " " for the final tree
@@ -269,20 +275,17 @@ for (i in 1:length(allfile)) {
 }
 
 
-
-# anaerobic
-interest_species1 <- yeasts_anaerobic[yeasts_anaerobic$anaerobic == "Yes", ]
+# crabtree-repeat calculation
+interest_species1 <- yeasts_crabtree[yeasts_crabtree$crabtree_effect == "Yes", ]
 interest_species <- interest_species1$old_species_id
 interest_species <- interest_species[!is.na(interest_species)]
-input <- "/home/luhongzhong/ortholog_343_anaerobic/cds_align_guidance_new_tree_unroot/"
-output <- "/home/luhongzhong/ortholog_343_anaerobic/cds_align_guidance_new_tree_unroot_label/"
+input <-"/home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot/"
+output <- "/home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/"
 dir.create(output)
 allfile <- list.files(input)
 for (i in 1:length(allfile)) {
-   print(i)
-   t <- allfile[i]
-   produceLabelTree(tr_id = t, tr_dir = input, out_dir = output, species_choose = interest_species)
- }
-
-
+  print(i)
+  t <- allfile[i]
+  produceLabelTree(tr_id = t, tr_dir = input, out_dir = output, species_choose = interest_species)
+}
 
