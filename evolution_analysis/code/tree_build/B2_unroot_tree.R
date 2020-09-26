@@ -3,7 +3,7 @@
 # This is used to unroot tree
 # and remove the bootstrap values
 #---------------------------------
-library(ape)
+library(ape) # v5.4-1
 #tree_dir <- "/Users/luho/Documents/pan_genome/protein_test" # test for mac
 tree_dir <- "/home/luhongzhong/protein_all_align_tree"
 
@@ -17,18 +17,18 @@ for (i in allfile){
       s0 <- read.tree(file = treefile, text = NULL, tree.names = NULL, skip = 0,
                       comment.char = "", keep.multi = FALSE)
       plot(s0)
-      
-      # continue the loop even the errors ocuur from the function unroot  
+
+      # continue the loop even the errors ocuur from the function unroot
       # if a tree only contains two tips
       mod2=try(unroot(s0),TRUE)
-      if(isTRUE(class(mod2)=="try-error")) { 
+      if(isTRUE(class(mod2)=="try-error")) {
         tree_need_check <- c(i,tree_need_check)
         s1 <- s0
-        #next 
-        } else { 
+        #next
+        } else {
         s1 <- unroot(s0)
-        } 
-      
+        }
+
       plot(s1)
       s1$node.label <- NULL # Erase the bootstrap values from the phylo object
       plot(s1)

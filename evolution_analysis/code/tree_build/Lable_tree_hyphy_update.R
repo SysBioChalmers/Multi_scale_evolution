@@ -6,9 +6,9 @@ library(ape)
 library(treeio)
 library(stringr)
 library(readxl)
-library(dplyr) # 0.8.3 this version must be used. Otherwise the calculation can not be calculated.
+library(dplyr) # v0.8.3 this version must be used. Otherwise the calculation can not be calculated.
 library(tidyr)
-library(ggtree)
+library(ggtree) # v2.1.1
 
 
 # be careful about the version of pacakge used in the calculation.
