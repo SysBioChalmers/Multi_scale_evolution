@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 
 data_dir = "/Users/luho/Documents/branch_site_crabtree_2nd/cds_align_guidance_new/"
-result_file = "/Users/luho/Documents/branch_site_crabtree_2nd/absrel_result"
+result_file = "/Users/luho/Documents/branch_site_crabtree_2nd/absrel_result/"
 tree_dir ="/Users/luho/Documents/branch_site_crabtree_2nd/cds_align_guidance_new_tree_unroot_label/"
 
 all_file0 = os.listdir(data_dir)
@@ -25,10 +25,24 @@ all_file0 = [x for x in all_file0 if x in tree_file]
 
 
 all_result = os.listdir(result_file)
+
+# need a function to only keep the file with size larger than zero as sometimes no output for some calculation
+zero_file = []
+for i in all_result:
+    #print(i)
+    output_file = result_file + i
+    b = os.path.getsize(output_file)
+    if b == 0:
+        print(i)
+        zero_file.append(i)
+# update the result file
+# remove the file with zero size
+all_result = [x for x in all_result if x not in zero_file]
+
+
+
 all_result = [x.replace(".ABSREL.json","_code.fasta") for x in all_result]
 all_file = list(set(all_file0)-set(all_result))
-
-
 # here we will only choose some key OGs which related to crabtree
 # the OG is choosed based on sce
 OG_interest = pd.read_csv("/Users/luho/Documents/branch_site_crabtree_2nd/enzyme_need_analysis_for_crabtree.csv")
@@ -220,3 +234,6 @@ os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luh
 os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG4316_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG4316_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG4316.ABSREL.json")
 os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG4751_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG4751_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG4751.ABSREL.json")
 os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG4778_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG4778_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG4778.ABSREL.json")
+
+# just for the test
+produceaBSREL_cluster_parallel_lu(OG_list=all_file1, out_sh_file="aBSREL_10-06_01.sh", parallel=5)
