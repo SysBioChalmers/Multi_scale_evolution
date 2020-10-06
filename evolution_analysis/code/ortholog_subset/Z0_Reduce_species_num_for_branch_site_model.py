@@ -503,17 +503,23 @@ for i in og_list:
         pass
 
 
-# anaerobic
+
+
+
+######################################################################################################################
+# just for the repeat calculation to check whether the result is similar
+# trait 2 - heat tolerance
+
 # data-preprocess for each phenotype
 # read the traits classification data
-trait_inf = pd.read_excel("/home/luhongzhong/Documents/evolution_analysis/data/data_tree/genome_summary_332_yeasts_heat_Ethanol_updated_02_20.xlsx", sheet_name="anaerobic")
-trait_inf = trait_inf[(trait_inf["anaerobic"]=="Yes") | (trait_inf["anaerobic"]=="No")]
+trait_inf = pd.read_excel("/home/luhongzhong/Documents/evolution_analysis/data/data_tree/genome_summary_332_yeasts_heat_Ethanol_updated_02_20.xlsx", sheet_name="heat")
+trait_inf = trait_inf[(trait_inf["heat_tolerance"]=="Yes") | (trait_inf["heat_tolerance"]=="No")]
 # further remove one species species
 # trait_inf = trait_inf[trait_inf["old_species_id"]!="yHAB159_Kazachstania_solicola"]
 
 # in this step, we need firstly remove the species not in above table,
 # next we need remove the species with no traits but in the clade with interesting traits
-trait_inf0 = trait_inf[["old_species_id","anaerobic", "Major clade"]]
+trait_inf0 = trait_inf[["old_species_id","heat_tolerance", "Major clade"]]
 trait_inf0.columns = ["species","trait", "clade"]
 
 # firstly choose the species with the interest traits and its clade information
@@ -536,10 +542,10 @@ species_combine2 = trait_none_type1["species"].tolist() + trait_none_type2["spec
 
 
 # prepare the protein seq and cds seq for the choosed species with and without the related traits
-out_dir = "/home/luhongzhong/ortholog_343_anaerobic/protein_align_s2_R/"
-os.system("mkdir /home/luhongzhong/ortholog_343_anaerobic/protein_align_s2_R/")
-out_dir_cds = "/home/luhongzhong/ortholog_343_anaerobic/cds_refine/"
-os.system("mkdir /home/luhongzhong/ortholog_343_anaerobic/cds_refine/")
+out_dir = "/home/luhongzhong/ortholog_343_heat_tolerance_2/protein_align_s2_R/"
+os.system("mkdir /home/luhongzhong/ortholog_343_heat_tolerance_2/protein_align_s2_R/")
+out_dir_cds = "/home/luhongzhong/ortholog_343_heat_tolerance_2/cds_refine/"
+os.system("mkdir /home/luhongzhong/ortholog_343_heat_tolerance_2/cds_refine/")
 og_list = os.listdir(pro_all_dir)
 id_check = []
 for i in og_list:
@@ -577,21 +583,6 @@ for i in og_list:
         SeqIO.write(OG_simple_cds, cds_output, "fasta")
     else:
         pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
