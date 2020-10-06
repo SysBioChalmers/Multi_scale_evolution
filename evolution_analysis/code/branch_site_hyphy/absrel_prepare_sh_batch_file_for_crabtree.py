@@ -210,7 +210,3 @@ for row, out in zip(l,file_name):
 
 
 
-
-
-# test on the linux computer
-#os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_methanol/cds_align_guidance_new/OG2520_code.fasta --tree /home/luhongzhong/ortholog_343_methanol/cds_align_guidance_new_tree_unroot_label/OG2520_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_methanol/absrel_result/OG2520.ABSREL.json")
