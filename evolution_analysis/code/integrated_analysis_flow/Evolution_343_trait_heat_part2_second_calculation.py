@@ -15,14 +15,6 @@ os.chdir("/home/luhongzhong/Documents/evolution_analysis/temporary_code_for_test
 ####################################################
 # codon align
 ####################################################
-# the preprocess step
-# here we need a simple function to filter based on the species number in foreground branch
-# the labelled tree is obtained using the previous method, build the tree using aligned protein
-# here we should think about whether we need to keep such a method
-# maybe we should compare the difference in the gene tree using aligned protein and aligned cds
-# os.system("python /home/luhongzhong/Documents/evolution_analysis/code/code_align/A8_extract_cds_based_labelled_tree_result.py -t /home/luhongzhong/ortholog_343_heat_tolerance_2/unroot_tree_label_heat_tolerance/ -c /home/luhongzhong/ortholog_343_heat_tolerance_2/cds_refine/ -n /home/luhongzhong/ortholog_343_heat_tolerance_2/cds_refine_reduce_based_labelled_tree/")
-
-# option 2
 # extract the OG based on the least species number from test and reference groups
 # here we could run
 # python /home/luhongzhong/Documents/evolution_analysis/code/ortholog_subset/Z1_Extract_OGs_from_two_different_clades_or_traits.py

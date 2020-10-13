@@ -135,6 +135,8 @@ produceLabelTree <- function(tr_id, tr_dir, out_dir, species_choose, num_species
   }
 }
 
+
+
 ############################################################################################################################
 # label tree based on clade information
 
@@ -239,20 +241,35 @@ for (i in 1:length(allfile)) {
 }
 
 
-# heat2
+  # heat-repeat calculation
+  interest_species1 <- yeasts_heat[yeasts_heat$heat_tolerance == "Yes", ]
+  interest_species <- interest_species1$old_species_id
+  interest_species <- interest_species[!is.na(interest_species)]
+  input <- "/home/luhongzhong/ortholog_343_heat_tolerance_2/cds_align_guidance_new_tree_unroot/"
+  output <- "/home/luhongzhong/ortholog_343_heat_tolerance_2/cds_align_guidance_new_tree_unroot_label/"
+  dir.create(output)
+  allfile <- list.files(input)
+  for (i in 1:length(allfile)) {
+    print(i)
+    t <- allfile[i]
+    produceLabelTree(tr_id = t, tr_dir = input, out_dir = output, species_choose = interest_species)
+  }
 
-interest_species1 <- yeasts_heat[yeasts_heat$heat_tolerance == "Yes", ]
-interest_species <- interest_species1$old_species_id
-interest_species <- interest_species[!is.na(interest_species)]
-input <- "/home/luhongzhong/ortholog_select_OG_for_heat/unroot_tree/"
-output <- "/home/luhongzhong/ortholog_select_OG_for_heat/unroot_tree_label/"
-dir.create(output)
-allfile <- list.files(input)
-for (i in 1:length(allfile)) {
-  print(i)
-  t <- allfile[i]
-  produceLabelTree(tr_id = t, tr_dir = input, out_dir = output, species_choose = interest_species)
-}
+
+
+# heat2
+# interest_species1 <- yeasts_heat[yeasts_heat$heat_tolerance == "Yes", ]
+# interest_species <- interest_species1$old_species_id
+# interest_species <- interest_species[!is.na(interest_species)]
+# input <- "/home/luhongzhong/ortholog_select_OG_for_heat/unroot_tree/"
+# output <- "/home/luhongzhong/ortholog_select_OG_for_heat/unroot_tree_label/"
+# dir.create(output)
+# allfile <- list.files(input)
+# for (i in 1:length(allfile)) {
+#  print(i)
+#  t <- allfile[i]
+#  produceLabelTree(tr_id = t, tr_dir = input, out_dir = output, species_choose = interest_species)
+#}
 
 
 
