@@ -12,10 +12,9 @@ import os
 import numpy as np
 import pandas as pd
 
-data_dir = "/Users/luho/Documents/branch_site_heat/cds_align_guidance_new/"
-result_file = "/Users/luho/Documents/branch_site_heat/absrel_result"
-result_file = "/Users/luho/Documents/branch_site_heat/test_result" # just for the test
-tree_dir ="/Users/luho/Documents/branch_site_heat/cds_align_guidance_new_tree_unroot_label/"
+data_dir = "/Users/luho/Documents/branch_site_heat_2nd/cds_align_guidance_new/"
+result_file = "/Users/luho/Documents/branch_site_heat_2nd/absrel_result"
+tree_dir ="/Users/luho/Documents/branch_site_heat_2nd/cds_align_guidance_new_tree_unroot_label/"
 
 all_file0 = os.listdir(data_dir)
 all_file0 = [x for x in all_file0 if "_code" in x]
@@ -33,7 +32,7 @@ all_file = list(set(all_file0)-set(all_result))
 """
 # here we will only choose some key OGs which related to heat
 # the OG is choosed based on sce
-OG_interest = pd.read_csv("/Users/luho/Documents/branch_site_heat/enzyme_need_analysis_for_heat.csv")
+OG_interest = pd.read_csv("/Users/luho/Documents/branch_site_heat_2nd/enzyme_need_analysis_for_heat.csv")
 OG_interest0 = OG_interest["OG"].tolist()
 OG_interest1 = [x+"_code.fasta" for x in OG_interest0 if x is not np.nan]
 # update all_file
@@ -151,10 +150,10 @@ all_file8 = [x for x, y in zip(all_file, seq_num) if y >= 56 and y < 58]
 
 
 print(len(all_file0)) # 220
-print(len(all_file1)) # 692
-print(len(all_file2)) # 570
-print(len(all_file3)) # 910
-print(len(all_file4)) # 2419
+print(len(all_file1)) # 690
+print(len(all_file2)) # 565
+print(len(all_file3)) # 922
+print(len(all_file4)) # 2415
 
 
 # as test i will randomly choose 100 code sequences
@@ -182,16 +181,16 @@ produceaBSREL_cluster_parallel_lu(OG_list=all_file8, out_sh_file="aBSREL_03_24_8
 
 
 # cluster-lu
-#produceaBSREL_cluster_parallel_lu(OG_list=all_file0, out_sh_file="aBSREL_04-10-00.sh")
-#produceaBSREL_cluster_parallel_lu(OG_list=all_file1, out_sh_file="aBSREL_04-10-01.sh")
-#produceaBSREL_cluster_parallel_lu(OG_list=all_file2, out_sh_file="aBSREL_04-15-02.sh")
-produceaBSREL_cluster_parallel_lu(OG_list=all_file3, out_sh_file="aBSREL_04-18-03.sh")
+produceaBSREL_cluster_parallel_lu(OG_list=all_file0, out_sh_file="aBSREL_10-13-00.sh")
+produceaBSREL_cluster_parallel_lu(OG_list=all_file1, out_sh_file="aBSREL_10-13-01.sh")
+produceaBSREL_cluster_parallel_lu(OG_list=all_file2, out_sh_file="aBSREL_10-13-02.sh")
+produceaBSREL_cluster_parallel_lu(OG_list=all_file3, out_sh_file="aBSREL_10-13-03.sh")
 
 
 # split file 4 into
 import numpy
 l = numpy.array_split(numpy.array(all_file4), 9)
-file_name = ["aBSREL_04-18-04_" + str(i) + ".sh" for i in range(9)]
+file_name = ["aBSREL_10-13-04_" + str(i) + ".sh" for i in range(9)]
 for row, out in zip(l,file_name):
     print(row, out)
     s0 = row
