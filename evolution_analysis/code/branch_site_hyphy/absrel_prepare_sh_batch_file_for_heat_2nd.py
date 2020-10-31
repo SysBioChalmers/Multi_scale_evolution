@@ -111,7 +111,7 @@ def produceaBSREL_cluster_parallel_lu(OG_list, out_sh_file, parallel=6):
                  "#SBATCH -A C3SE2020-1-8\n" \
                  "#SBATCH -N 1\n#SBATCH -n 20\n" \
                  "#SBATCH -o out.txt\n" \
-                 "#SBATCH -t 3-00:00:00\n" \
+                 "#SBATCH -t 7-00:00:00\n" \
                  "#SBATCH --mail-user=luho@chalmers.se\n" \
                  "#SBATCH --mail-type=end\n" \
                  "module load GCC/8.3.0\n" \
@@ -149,11 +149,11 @@ all_file7 = [x for x, y in zip(all_file, seq_num) if y >= 54 and y < 56]
 all_file8 = [x for x, y in zip(all_file, seq_num) if y >= 56 and y < 58]
 
 
-print(len(all_file0)) # 220
-print(len(all_file1)) # 690
-print(len(all_file2)) # 565
-print(len(all_file3)) # 922
-print(len(all_file4)) # 2415
+print(len(all_file0)) # 220 0
+print(len(all_file1)) # 690 0
+print(len(all_file2)) # 565 187
+print(len(all_file3)) # 922 660
+print(len(all_file4)) # 2415 718
 
 
 # as test i will randomly choose 100 code sequences
@@ -181,21 +181,36 @@ produceaBSREL_cluster_parallel_lu(OG_list=all_file8, out_sh_file="aBSREL_03_24_8
 
 
 # cluster-lu
-produceaBSREL_cluster_parallel_lu(OG_list=all_file0, out_sh_file="aBSREL_10-13-00.sh")
-produceaBSREL_cluster_parallel_lu(OG_list=all_file1, out_sh_file="aBSREL_10-13-01.sh")
-produceaBSREL_cluster_parallel_lu(OG_list=all_file2, out_sh_file="aBSREL_10-13-02.sh")
-produceaBSREL_cluster_parallel_lu(OG_list=all_file3, out_sh_file="aBSREL_10-13-03.sh")
+#produceaBSREL_cluster_parallel_lu(OG_list=all_file0, out_sh_file="aBSREL_10-13-00.sh")
+#produceaBSREL_cluster_parallel_lu(OG_list=all_file1, out_sh_file="aBSREL_10-13-01.sh")
+produceaBSREL_cluster_parallel_lu(OG_list=all_file2, out_sh_file="aBSREL_10-23-02.sh")
+#produceaBSREL_cluster_parallel_lu(OG_list=all_file3, out_sh_file="aBSREL_10-13-03.sh")
 
 
 # split file 4 into
 import numpy
-l = numpy.array_split(numpy.array(all_file4), 9)
-file_name = ["aBSREL_10-13-04_" + str(i) + ".sh" for i in range(9)]
+
+
+l = numpy.array_split(numpy.array(all_file3), 10)
+file_name = ["aBSREL_10-23-03_" + str(i) + ".sh" for i in range(10)]
 for row, out in zip(l,file_name):
     print(row, out)
     s0 = row
     s1= [x.replace("\n","") for x in s0]
     produceaBSREL_cluster_parallel_lu(OG_list=s1, out_sh_file=out)
+
+
+l = numpy.array_split(numpy.array(all_file4), 10)
+file_name = ["aBSREL_10-23-04_" + str(i) + ".sh" for i in range(10)]
+for row, out in zip(l,file_name):
+    print(row, out)
+    s0 = row
+    s1= [x.replace("\n","") for x in s0]
+    produceaBSREL_cluster_parallel_lu(OG_list=s1, out_sh_file=out)
+
+
+
+
 
 # test on the linux computer
 #os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_methanol/cds_align_guidance_new/OG2520_code.fasta --tree /home/luhongzhong/ortholog_343_methanol/cds_align_guidance_new_tree_unroot_label/OG2520_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_methanol/absrel_result/OG2520.ABSREL.json")
