@@ -4,8 +4,9 @@
 
 # note: the script is updated on MAC
 
-# 03-07
-# produce the sh file on mac for all cds files
+# 2020-10-31
+# updated by Hongzhong
+# In the second calculation, there is one added OGs compared the first time.
 
 from Bio import SeqIO
 import os
@@ -52,12 +53,6 @@ OG_interest1 = [x+"_code.fasta" for x in OG_interest0 if x is not np.nan]
 
 # update all_file
 all_file = list(set(all_file) & set(OG_interest1)) # this is first time calculation only for the interesting OGs from core metabolic pathway and the TFs
-
-
-# now we will calculating the remaining OGs
-# all_file = list(set(all_file0)-set(all_result))
-
-
 
 
 # here we will calculate the seq number from each ortholog group
@@ -213,27 +208,3 @@ for row, out in zip(l,file_name):
     s0 = row
     s1= [x.replace("\n","") for x in s0]
     produceaBSREL_cluster_parallel_lu(OG_list=s1, out_sh_file=out, parallel=5)
-
-
-
-
-
-# test on the linux computer
-# test for the first crabtree calculation
-#os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree/cds_align_guidance_new/OG5595_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree/cds_align_guidance_new_tree_unroot_label/OG5595_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree/absrel_result/OG5595.ABSREL.json")
-
-# test for the second crabtree calculation
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG1875_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG1875_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG1875.ABSREL.json")
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG2007_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG2007_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG2007.ABSREL.json")
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG2367_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG2367_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG2367.ABSREL.json")
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG2714_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG2714_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG2714.ABSREL.json")
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG3251_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG3251_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG3251.ABSREL.json")
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG3395_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG3395_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG3395.ABSREL.json")
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG3585_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG3585_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG3585.ABSREL.json")
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG4219_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG4219_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG4219.ABSREL.json")
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG4316_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG4316_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG4316.ABSREL.json")
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG4751_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG4751_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG4751.ABSREL.json")
-os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new/OG4778_code.fasta --tree /home/luhongzhong/ortholog_343_crabtree_2/cds_align_guidance_new_tree_unroot_label/OG4778_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_crabtree_2/absrel_result/OG4778.ABSREL.json")
-
-# just for the test
-produceaBSREL_cluster_parallel_lu(OG_list=all_file1, out_sh_file="aBSREL_10-06_01.sh", parallel=5)

@@ -14,7 +14,6 @@ import pandas as pd
 
 data_dir = "/Users/luho/Documents/branch_site_heat/cds_align_guidance_new/"
 result_file = "/Users/luho/Documents/branch_site_heat/absrel_result"
-result_file = "/Users/luho/Documents/branch_site_heat/test_result" # just for the test
 tree_dir ="/Users/luho/Documents/branch_site_heat/cds_align_guidance_new_tree_unroot_label/"
 
 all_file0 = os.listdir(data_dir)
