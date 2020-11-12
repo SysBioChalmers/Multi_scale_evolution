@@ -1,6 +1,7 @@
-# Lable tree using an real data
+# This is second step of branch site model result
 # Hongzhong Lu
-# 2020-02-11
+# 2020-11-06
+
 
 library(ape)
 library(treeio)
@@ -10,19 +11,24 @@ library(dplyr)
 library(tidyr)
 library(ggtree)
 
+# Firstly input the branch site model result
+input_result <- "/Users/luho/Documents/branch_site_heat/"
+input_result <- "/Users/luho/Documents/branch_site_heat_2nd/"
+
+
 
 # Visualize tree with branches colored by `Selected` feature
 # Read in annotated tree to ggtree with read.nhx(), where tree is contained in file "absrel_selection.tre"
 
 # one example
-tree <- read.nhx("/Users/luho/Documents/branch_site_heat/absrel_tree/OG1145.tre")
+tree <- read.nhx(paste(input_result, "absrel_tree/OG1145.tre", sep = ""))
 ggtree(tree, aes(color = Selected)) +
   geom_tiplab(size=2) +
   geom_treescale()
 
 
 # one example
-tree <- read.nhx("/Users/luho/Documents/branch_site_heat/absrel_tree/OG3912.tre")
+tree <- read.nhx(paste(input_result,  "absrel_tree/OG3912.tre", sep = ""))
 ggtree(tree, aes(color = Selected)) +
   geom_tiplab(size=2) +
   geom_treescale()
@@ -65,10 +71,10 @@ GetSelectLable <- function(tree_file_dir, select_branches) {
 
 
 # for the batch process
-heat_result_file <- read.csv("/Users/luho/Documents/branch_site_heat/heat_result_all.csv", stringsAsFactors = FALSE)
+heat_result_file <- read.csv(paste(input_result, "heat_result_all.csv", sep = ""), stringsAsFactors = FALSE)
 heat_result_file$branch_select <- str_replace_all(heat_result_file$branch_select, "\\[", "") %>%
   str_replace_all(., "\\]", "") %>% str_replace_all(., "\\'", "")
-tr_dir <- "/Users/luho/Documents/branch_site_heat/absrel_tree_original/"
+tr_dir <- paste(input_result, "absrel_tree_original/", sep = "")
 
 
 select_species <- c()
@@ -94,16 +100,16 @@ for (i in 1:nrow(heat_result_file )){
 
 heat_result_file$species_select <- select_species
 
-write.csv(heat_result_file, "/Users/luho/Documents/branch_site_heat/heat_result_all_update.csv")
+write.csv(heat_result_file, paste(input_result, "heat_result_all_update.csv", sep = ""))
 
 
 
 
 # check whether the selected species come from three clades
-heat_trait <- read.csv("/Users/luho/Documents/branch_site_heat/genome_summary_332_yeasts_heat.csv", stringsAsFactors = FALSE)
+heat_trait <- read.csv(paste(input_result, "genome_summary_332_yeasts_heat.csv", sep = ""), stringsAsFactors = FALSE)
 heat_trait <- heat_trait[heat_trait$heat_tolerance=="Yes", ]
 species_with_trait <- heat_trait[, c("old_species_id", "Major.clade")]
-heat_result_update <- read.csv("/Users/luho/Documents/branch_site_heat/heat_result_all_update.csv", stringsAsFactors = FALSE)
+heat_result_update <- read.csv(paste(input_result, "heat_result_all_update.csv", sep = ""), stringsAsFactors = FALSE)
 
 clade_num_with_heat <- c()
 species_num_with_heat <- c()
@@ -180,7 +186,7 @@ heat_result_update$select_clade_all <- clade_select_sum
 heat_result_update$species_select_ratio <- species_select_ratio
 heat_result_update$clade_select_ratio <- clade_select_sum/clade_num_with_heat
 # output result
-write.csv(heat_result_update, "/Users/luho/Documents/branch_site_heat/heat_result_all_update2.csv")
+write.csv(heat_result_update, paste(input_result, "heat_result_all_update2.csv", sep = ""))
 
 
 
@@ -202,11 +208,11 @@ VisualizeSelectedBranch <- function(tree_file_dir, select_branches) {
   select_branches_split1 <- select_branches_split[!str_detect(select_branches_split, "Node")]
   select_branches_split2 <- select_branches_split[str_detect(select_branches_split, "Node")]
 
+  # sometimes it could be found there is no tip and there are only nodes
   i <- which(all_tip %in% select_branches_split1)
-
-  tiplabels(tr0$tip.label[i], i, adj = 0, bg="coral", cex=0.5)
-
-
+  if(length(i) >=1){
+  tiplabels(tr0$tip.label[i], i, adj = 0, bg="coral", cex=0.4)
+  }
 
 
   # find the node based on label
@@ -216,77 +222,25 @@ VisualizeSelectedBranch <- function(tree_file_dir, select_branches) {
     node0 <-  tr_inf_node$node[i]
     label0 <- tr_inf_node$label[i]
     label0 <- str_replace(label0, "Node", "")
-    nodelabels(label0, node0, frame = "r", bg = "coral", cex=0.6)
+    nodelabels(label0, node0, frame = "r", bg = "coral", cex=0.4)
 
   }
 
 }
 
 
-
-for (i in 1:10){
+# it should be noted if there is no selected branch, then this followed script has no result
+for (i in 1:100) {
   print(i)
-  i <- 1
+  #i <- 11 # errors
+  #i <- 15
   og0 <- heat_result_file$OG[i]
-  tree_file_dir0 <- paste(tr_dir, og0, ".tre",  sep = "")
-  select_branch0 <- heat_result_file$branch_select[i]
-  if (file_test("-f", tree_file_dir0)){
-    all_single_branch <- VisualizeSelectedBranch(tree_file_dir=tree_file_dir0, select_branches=select_branch0)
+  select_inf <- heat_result_file$number_select[i]
+  if (select_inf >= 1) {
+    tree_file_dir0 <- paste(tr_dir, og0, ".tre", sep = "")
+    select_branch0 <- heat_result_file$branch_select[i]
+    if (file_test("-f", tree_file_dir0)) {
+      all_single_branch <- VisualizeSelectedBranch(tree_file_dir = tree_file_dir0, select_branches = select_branch0)
+    }
   }
-
 }
-
-
-
-
-
-
-
-# example
-####################################################################################################
-# more example for the tree visualization
-# color nodes
-tr <- read.tree(text = "((Homo,Pan),Gorilla);")
-plot(tr)
-nodelabels("   ", 4, frame = "r", bg = "yellow", adj = 0)
-
-
-### This can be used to highlight tip labels:
-plot(bird.orders, font = 1)
-i <- c(1, 7, 18)
-tiplabels(bird.orders$tip.label[i], i, adj = 0)
-
-
-### representing two characters at the tips (you could have as many
-### as you want)
-plot(bird.orders, "c", FALSE, font = 1, label.offset = 3,
-     x.lim = 31, no.margin = TRUE)
-
-plot(bird.orders, font = 1, label.offset = 5, no.margin = TRUE)
-tiplabels(pch = 19, col = c("yellow", "red"), adj = 2.5, cex = 2)
-
-
-# more example
-library(ape)
-library(ggtree)
-# Generate Tree and Traits -----------------------------------------------------
-# Number of species
-n_species = 200
-# Generate tree with 10 species
-random_tree = rtree(n_species)
-
-# Generate trait matrix
-trait_df = data.frame(
-  species = random_tree$tip.label,
-  trait1 = rnorm(n_species), # Example of continuous trait
-  # Example of categorical traits
-  trait2 = sample(c("A", "B", "C"), replace = T, size = n_species))
-
-# Plotting tree ----------------------------------------------------------------
-plot_tree = ggtree(random_tree, layout = "fan", right = TRUE, size = 0.1)
-
-# Add trait information into tree
-plot_tree %<+% trait_df + geom_tippoint(aes(color = trait1, alpha = 0.5))
-
-
-
