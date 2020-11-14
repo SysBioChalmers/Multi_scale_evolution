@@ -115,7 +115,7 @@ clade_num_with_heat <- c()
 species_num_with_heat <- c()
 clade_select_sum <- c()
 species_select_ratio <- c()
-
+Select_species <- c()
 
 # so here we will consider both the input tree and select branch file
 for (i in 1:nrow(heat_result_update)) {
@@ -164,12 +164,14 @@ for (i in 1:nrow(heat_result_update)) {
     species_num <- sum(species_with_trait_mapping1$test_all)
     select_clade <- length(species_with_trait_mapping2$Major.clade)
     select_in_species_ratio <- sum(species_with_trait_mapping2$select_all)/sum(species_with_trait_mapping1$test_all)
+    Select_species00 <- sum(species_with_trait_mapping2$select_all)
 
   } else {
     clade_num <- NA
     species_num <- NA
     select_clade <- NA
     select_in_species_ratio <- NA
+    Select_species00 <- NA
 
   }
 
@@ -177,6 +179,7 @@ for (i in 1:nrow(heat_result_update)) {
   species_num_with_heat <- c(species_num_with_heat, species_num)
   clade_select_sum <- c(clade_select_sum, select_clade)
   species_select_ratio <- c(species_select_ratio, select_in_species_ratio)
+  Select_species <- c(Select_species, Select_species00)
 
 }
 
@@ -185,6 +188,7 @@ heat_result_update$species_with_trait <-  species_num_with_heat
 heat_result_update$select_clade_all <- clade_select_sum
 heat_result_update$species_select_ratio <- species_select_ratio
 heat_result_update$clade_select_ratio <- clade_select_sum/clade_num_with_heat
+heat_result_update$Select_species <- Select_species
 # output result
 write.csv(heat_result_update, paste(input_result, "heat_result_all_update2.csv", sep = ""))
 
