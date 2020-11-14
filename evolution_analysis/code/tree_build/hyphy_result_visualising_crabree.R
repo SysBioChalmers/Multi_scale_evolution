@@ -12,8 +12,10 @@ library(tidyr)
 library(ggtree)
 
 # Firstly input the branch site model result
-input_result <- "/Users/luho/Documents/branch_site_heat/"
-input_result <- "/Users/luho/Documents/branch_site_heat_2nd/"
+# input_result <- "/Users/luho/Documents/branch_site_trait/"
+input_result <- "/Users/luho/Documents/branch_site_crabtree_2nd/"
+input_result <- "/Users/luho/Documents/branch_site_crabtree/"
+out_file_name <- "result.csv" # this file is used to store all the result from branch site model for each trait
 
 
 
@@ -34,7 +36,7 @@ ggtree(tree, aes(color = Selected)) +
   geom_treescale()
 
 
-
+## step 1 get all related species belong to the selection
 # visualize the original tree
 GetSelectLable <- function(tree_file_dir, select_branches) {
   tr <- scan(file = tree_file_dir, what = "complex")
@@ -71,19 +73,19 @@ GetSelectLable <- function(tree_file_dir, select_branches) {
 
 
 # for the batch process
-heat_result_file <- read.csv(paste(input_result, "heat_result_all.csv", sep = ""), stringsAsFactors = FALSE)
-heat_result_file$branch_select <- str_replace_all(heat_result_file$branch_select, "\\[", "") %>%
+result_file <- read.csv(paste(input_result, out_file_name, sep = ""), stringsAsFactors = FALSE)
+result_file$branch_select <- str_replace_all(result_file$branch_select, "\\[", "") %>%
   str_replace_all(., "\\]", "") %>% str_replace_all(., "\\'", "")
 tr_dir <- paste(input_result, "absrel_tree_original/", sep = "")
 
 
 select_species <- c()
-for (i in 1:nrow(heat_result_file )){
+for (i in 1:nrow(result_file )){
   print(i)
   #i <- 1707
-  og0 <- heat_result_file$OG[i]
+  og0 <- result_file$OG[i]
   tree_file_dir0 <- paste(tr_dir, og0, ".tre",  sep = "")
-  select_branch0 <- heat_result_file$branch_select[i]
+  select_branch0 <- result_file$branch_select[i]
   if (file_test("-f", tree_file_dir0)){
     all_single_branch <- GetSelectLable(tree_file_dir=tree_file_dir0, select_branches=select_branch0)
     if(length(all_single_branch)){
@@ -98,34 +100,39 @@ for (i in 1:nrow(heat_result_file )){
   select_species <- c(select_species, all_single_branch1)
 }
 
-heat_result_file$species_select <- select_species
+result_file$species_select <- select_species
 
-write.csv(heat_result_file, paste(input_result, "heat_result_all_update.csv", sep = ""))
-
-
+write.csv(result_file, paste(input_result, "result_all_update.csv", sep = ""))
 
 
+
+## step 2
 # check whether the selected species come from three clades
-heat_trait <- read.csv(paste(input_result, "genome_summary_332_yeasts_heat.csv", sep = ""), stringsAsFactors = FALSE)
-heat_trait <- heat_trait[heat_trait$heat_tolerance=="Yes", ]
-species_with_trait <- heat_trait[, c("old_species_id", "Major.clade")]
-heat_result_update <- read.csv(paste(input_result, "heat_result_all_update.csv", sep = ""), stringsAsFactors = FALSE)
 
-clade_num_with_heat <- c()
-species_num_with_heat <- c()
+# this information is specific for each trait and should be prepared solely
+trait <- read.csv(paste(input_result, "genome_summary_332_yeasts_crabtree.csv", sep = ""), stringsAsFactors = FALSE)
+trait <- trait[trait$crabtree_effect=="Yes", ]
+species_with_trait <- trait[, c("old_species_id", "Major.clade")]
+result_update <- read.csv(paste(input_result, "result_all_update.csv", sep = ""), stringsAsFactors = FALSE)
+
+
+
+# combine the clade information with the result
+clade_num_with_trait <- c()
+species_num_with_trait <- c()
 clade_select_sum <- c()
 species_select_ratio <- c()
 Select_species <- c()
 
 # so here we will consider both the input tree and select branch file
-for (i in 1:nrow(heat_result_update)) {
+for (i in 1:nrow(result_update)) {
   print(i)
-  og0 <- heat_result_update$OG[i]
+  og0 <- result_update$OG[i]
   tree_file_dir0 <- paste(tr_dir, og0, ".tre", sep = "")
 
   if (file_test("-f", tree_file_dir0)) {
     # get species id
-    select_species0 <- heat_result_update$species_select[i]
+    select_species0 <- result_update$species_select[i]
     select_species1 <- unlist(str_split(select_species0, ","))
     select_species2 <- str_split(select_species1, "_Seq_")
     select_species3 <- c()
@@ -175,22 +182,22 @@ for (i in 1:nrow(heat_result_update)) {
 
   }
 
-  clade_num_with_heat <- c(clade_num_with_heat, clade_num)
-  species_num_with_heat <- c(species_num_with_heat, species_num)
+  clade_num_with_trait <- c(clade_num_with_trait, clade_num)
+  species_num_with_trait <- c(species_num_with_trait, species_num)
   clade_select_sum <- c(clade_select_sum, select_clade)
   species_select_ratio <- c(species_select_ratio, select_in_species_ratio)
   Select_species <- c(Select_species, Select_species00)
 
 }
 
-heat_result_update$clade_with_trait <-  clade_num_with_heat
-heat_result_update$species_with_trait <-  species_num_with_heat
-heat_result_update$select_clade_all <- clade_select_sum
-heat_result_update$species_select_ratio <- species_select_ratio
-heat_result_update$clade_select_ratio <- clade_select_sum/clade_num_with_heat
-heat_result_update$Select_species <- Select_species
+result_update$clade_with_trait <-  clade_num_with_trait
+result_update$species_with_trait <-  species_num_with_trait
+result_update$select_clade_all <- clade_select_sum
+result_update$species_select_ratio <- species_select_ratio
+result_update$clade_select_ratio <- clade_select_sum/clade_num_with_trait
+result_update$Select_species <- Select_species
 # output result
-write.csv(heat_result_update, paste(input_result, "heat_result_all_update2.csv", sep = ""))
+write.csv(result_update, paste(input_result, "result_all_update2.csv", sep = ""))
 
 
 
@@ -237,12 +244,12 @@ VisualizeSelectedBranch <- function(tree_file_dir, select_branches) {
 for (i in 1:100) {
   print(i)
   #i <- 11 # errors
-  #i <- 15
-  og0 <- heat_result_file$OG[i]
-  select_inf <- heat_result_file$number_select[i]
+  #i <- 91
+  og0 <- result_file$OG[i]
+  select_inf <- result_file$number_select[i]
   if (select_inf >= 1) {
     tree_file_dir0 <- paste(tr_dir, og0, ".tre", sep = "")
-    select_branch0 <- heat_result_file$branch_select[i]
+    select_branch0 <- result_file$branch_select[i]
     if (file_test("-f", tree_file_dir0)) {
       all_single_branch <- VisualizeSelectedBranch(tree_file_dir = tree_file_dir0, select_branches = select_branch0)
     }
