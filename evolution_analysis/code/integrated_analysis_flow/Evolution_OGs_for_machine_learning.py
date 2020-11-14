@@ -1,5 +1,11 @@
-# this script is used to build the whole pipeline to calculate the dN/dS based on paml for OGs with sce.
-# however, in some OGs, the paralogs existed.
+# This script is used to build the whole pipeline to calculate the gene dN/dS and protein conservation score for the selected OGs from the part of speciss
+# with experimental data
+
+# In the cds preparation, we firstly have OGs we extracted from the standard pipeline-that is each cluster should have more than 6 species
+# while in the new extraction, it could be found that in many OGs, only one species is contained. Thus for this condition, the dN/dS and conservation score calculation is not correct.
+
+
+
 import os
 import pandas as pd
 os.chdir("/home/luhongzhong/Documents/evolution_analysis/code/")
@@ -15,6 +21,7 @@ os.chdir("/home/luhongzhong/Documents/evolution_analysis/temporary_code_for_test
 # all the analysis results were put in
 os.system(" mkdir /home/luhongzhong/ortholog_ML_unprune/")
 os.system(" mkdir /home/luhongzhong/ortholog_ML_unprune/cds_extract/")
+
 
 #####################################################
 # data-preprocess 1
@@ -432,3 +439,4 @@ cmd = "python" + " " + \
                   "step2_parse_jds_result_general.py -p0 /home/luhongzhong/ortholog_ML_unprune/protein_align/ -s /home/luhongzhong/ortholog_ML_unprune/protein_sce_conservation_score/ -o /home/luhongzhong/ortholog_ML_unprune/result_jsd/"
 os.system("mkdir /home/luhongzhong/ortholog_ML_unprune/result_jsd")
 os.system(cmd)
+

@@ -2,10 +2,10 @@
 # -*- python 3 -*-
 # -*- hongzhong Lu -*-
 
-# note: the script is updated on MAC
 
-# 03-07
-# produce the sh file on mac for all cds files
+# 2020-10-31
+# updated by Hongzhong
+
 
 from Bio import SeqIO
 import os
@@ -38,11 +38,6 @@ OG_interest1 = [x+"_code.fasta" for x in OG_interest0 if x is not np.nan]
 
 # update all_file
 all_file = list(set(all_file) & set(OG_interest1)) # this is first time calculation only for the interesting OGs from core metabolic pathway and the TFs
-
-# now we will calculating the remaining OGs
-all_file = list(set(all_file0)-set(all_result))
-
-
 
 
 # here we will calculate the seq number from each ortholog group
@@ -155,10 +150,10 @@ all_file7 = [x for x, y in zip(all_file, seq_num) if y >= 54 and y < 56]
 all_file8 = [x for x, y in zip(all_file, seq_num) if y >= 56 and y < 58]
 
 
-print(len(all_file0)) #16   0     0
-print(len(all_file1)) #205  10    10  10 # can't be calculated!
-print(len(all_file2)) #394  207   52  20 # can't be calculated!
-print(len(all_file3)) #2446 1927  1472 846
+print(len(all_file0))
+print(len(all_file1))
+print(len(all_file2))
+print(len(all_file3))
 
 
 
@@ -212,5 +207,35 @@ for row, out in zip(l,file_name):
 
 
 
-# test on the linux computer
-#os.system(" mpirun -np 4 HYPHYMPI LIBPATH=/home/luhongzhong/hyphy/res/ /home/luhongzhong/hyphy/res/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf --alignment /home/luhongzhong/ortholog_343_methanol/cds_align_guidance_new/OG2520_code.fasta --tree /home/luhongzhong/ortholog_343_methanol/cds_align_guidance_new_tree_unroot_label/OG2520_aa_unroot_LABEL.tre --branches Foreground --output /home/luhongzhong/ortholog_343_methanol/absrel_result/OG2520.ABSREL.json")
+
+## other small tasks
+## calculate the OG with zero files for these none core genes from last calculation
+## this result can be complementary with core genes positive selection analysis
+data_dir = "/Users/luho/Documents/branch_site_crabtree/cds_align_guidance_new/"
+result_file = "/Users/luho/Documents/branch_site_crabtree/absrel_result_other_none_core_genes/"
+tree_dir ="/Users/luho/Documents/branch_site_crabtree/cds_align_guidance_new_tree_unroot_label/"
+
+all_file0 = os.listdir(data_dir)
+all_file0 = [x for x in all_file0 if "_code" in x]
+tree_file = os.listdir(tree_dir)
+tree_file = [x.replace("_aa_unroot_LABEL.tre","_code.fasta") for x in tree_file]
+# remove code fast file without tree file
+all_file0 = [x for x in all_file0 if x in tree_file]
+
+
+all_result = os.listdir(result_file)
+
+# need a function to only keep the file with size larger than zero as sometimes no output for some calculation
+zero_file = []
+for i in all_result:
+    #print(i)
+    output_file = result_file + i
+    b = os.path.getsize(output_file)
+    if b == 0:
+        print(i)
+        zero_file.append(i)
+
+OG_zero_size = [x.replace(".ABSREL.json","") for x in zero_file]
+# then we need re-produce the sh file for these OGs
+test_file = [x+"_code.fasta" for x in OG_zero_size]
+produceaBSREL_cluster_parallel_lu(OG_list=test_file, out_sh_file="aBSREL_10_31.sh", parallel=5)

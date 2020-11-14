@@ -159,15 +159,24 @@ def connect_site_data_with_seq(fasta_file, outfile, sce_as_ref=False):
         refseq0 = list(refseq)
         df_site_new['refsite'] = refseq0
         df_site_new_no_gap = df_site_new[df_site_new["refsite"] !="-"]
+        # put the reference gene id in the dataframe
+        df_site_new_no_gap["reference_geneID"] = OG_original[index_general[0]].id
+
+
     else:
         df_site_new['refsite'] = [None]*df_site_new.shape[0]
         df_site_new_no_gap = df_site_new[df_site_new["refsite"] != "-"]
+        df_site_new_no_gap["reference_geneID"] = "no sce gene as reference"
+
 
     # rearrange the column order
     geneID_test = [x for x in geneID if x.split("@")[0] in species_heat_tolerance]
     geneID_ref = [x for x in geneID if x.split("@")[0] in species_heat_no_tolerance]
     new_column = geneID_test + geneID_ref
     new_column.append('refsite')
+    new_column.append('reference_geneID') # add the reference gene id
+
+
     df_site_new_no_gap = df_site_new_no_gap[new_column]
     df_site_test = df_site_new_no_gap[geneID_test]
     df_site_ref = df_site_new_no_gap[geneID_ref]
@@ -234,10 +243,11 @@ def main():
     source = args.p0
     out_dir = args.o
 
-    # test code
-    # source = '/Users/luho/Documents/branch_site_heat/protein_align/'
-    # out_dir = '/Users/luho/Documents/branch_site_heat/unique_mutation_of_selected_gene/'
+    # test code, use the followed two files, the whole pipeline can be run
+    #source = '/Users/luho/Documents/branch_site_heat/protein_align/'
+    #out_dir = '/Users/luho/Documents/branch_site_heat/unique_mutation_of_selected_gene/'
 
+    # firstly calculate the site information between the the test species and reference species.
     all_ID = os.listdir(source)
     for i in all_ID:
         print(i)
@@ -252,9 +262,12 @@ def main():
     all_target_OG = os.listdir(out_dir)
     unique_mutation_sum = []
     site_all = []
+    ref_sce_gene = []
     for ss in all_target_OG:
         print(ss)
-        #ss = "OG2701.csv"
+
+        #ss = "OG1546.csv"
+
         og_inf = pd.read_csv(out_dir + ss)
         # if with sce as the reference, first give the coordinate, then return the the related unique mutation information
         og_inf["coordinate"] = list(range(1, og_inf.shape[0]+1)) # give the coordinates
@@ -271,9 +284,21 @@ def main():
 
         unique_mutation_sum.append(og_inf1.shape[0])
         site_all.append(site_summary)
+        ref_sce_gene.append(og_inf["reference_geneID"][0])
+        # summarize the detailed information
+        column0 = ['refsite','reference_geneID', 'site_test', 'conserved_test', 'site_ref', 'conserved_ref', 'unique_mutation', 'coordinate']
+        og_inf2 = og_inf1[column0]
+        ss1 = ss.replace(".csv", "")
+        og_inf2["OG"] = ss1
+        outfile = '/Users/luho/Documents/branch_site_heat/unique_mutation_analysis/' + ss
+        og_inf2['reference_geneID'] = og_inf2['reference_geneID'].str.replace("Saccharomyces_cerevisiae@","")
+        og_inf2.to_csv(outfile, index=False)
 
-    unique_site_df = pd.DataFrame({"OG":all_target_OG, "num":unique_mutation_sum, "site_inf":site_all})
-    unique_site_df.to_csv('/Users/luho/Documents/branch_site_heat/unique_mutation_analaysis_result.csv')
+    unique_site_df = pd.DataFrame({"OG":all_target_OG, "num":unique_mutation_sum, "site_inf":site_all, "reference_geneID":ref_sce_gene})
+    unique_site_df["OG"] = unique_site_df["OG"].str.replace(".csv", "")
+    unique_site_df["reference_geneID"] = unique_site_df["reference_geneID"].str.replace("Saccharomyces_cerevisiae@", "")
+
+    unique_site_df.to_csv('/Users/luho/Documents/branch_site_heat/unique_mutation_analysis/unique_mutation_analysis_result.csv', index=False)
 
 if __name__ == "__main__":
     main()
@@ -283,6 +308,4 @@ if __name__ == "__main__":
 # for all OGs
 # os.system("mkdir /Users/luho/Documents/branch_site_heat/unique_mutation_of_selected_gene/")
 # os.system("python /Users/luho/Documents/evolution_analysis/code/convergent_analysis/1_common_residue_site_analysis.py -p0 /Users/luho/Documents/branch_site_heat/protein_align/   -o /Users/luho/Documents/branch_site_heat/unique_mutation_of_selected_gene/")
-
-
 
