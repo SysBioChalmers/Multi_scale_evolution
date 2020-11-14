@@ -227,10 +227,145 @@ result_df.to_csv("/Users/luho/Documents/branch_site_heat/heat_result_all.csv")
 
 
 # merge it with the sce gene annotation
-OG_interest = pd.read_csv("/Users/luho/Documents/branch_site_heat/enzyme_need_analysis_for_heat.csv")
+OG_interest = pd.read_csv("/Users/luho/Documents/branch_site_heat/enzyme_need_analysis_for_heat.csv") # Specially, this is enzyme from Yeast8
 OG_interest["number_select"] = singleMapping(result_df["number_select"],result_df["OG"],OG_interest["OG"])
 OG_interest["branch_select"] = singleMapping(result_df["branch_select"],result_df["OG"],OG_interest["OG"])
 OG_interest.to_csv("/Users/luho/Documents/branch_site_heat/enzyme_need_analysis_for_heat_with_result.csv")
+
+## for the further process and visulization, please check
+# tree_build/hyphy_result_visualising.R
+
+
+
+
+## new idea: change the above process into a function to everything easy
+# the input the file is the directory which store ---absrel_result
+
+input_OG_sce_relation = pd.read_csv("/Users/luho/Documents/evolution_analysis/data/sce_gene_summary_update.csv")
+def postProcess_branch_site_absrel(result_dir="/Users/luho/Documents/branch_site_heat_2nd/", OG_sce_mapping=input_OG_sce_relation, out_file_name="result.csv"):
+
+    input = result_dir + "absrel_result/"
+    output = result_dir + "absrel_csv/"
+    output_tree = result_dir + "absrel_tree/"
+    output_tree_original = result_dir + "absrel_tree_original/"
+
+    new_file1 = "mkdir " + output
+    new_file2 = "mkdir " + output_tree
+    new_file3 = "mkdir " + output_tree_original
+
+    os.system(new_file1)
+    os.system(new_file2)
+    os.system(new_file3)
+
+    all_OG = os.listdir(input)
+    all_OG = [x for x in all_OG if "DS_Store" not in x]
+
+    # it can be found some times there are files with zero size
+    branches_selected = []
+    branches_number_selected = []
+    og_need_check = []
+    for x in all_OG:
+        print(x)
+        # test
+        infile0 = input + x
+        outfile0 = output + x.replace(".ABSREL.json", ".csv")
+        if os.stat(infile0).st_size > 0:
+            # more test
+            e = phyphy.Extractor(infile0)
+            e.reveal_branch_attributes()
+            s0 = e.branch_attributes
+            s1 = s0[0]
+            # then we can change the dict into a dataframe
+            s2 = pd.DataFrame.from_dict(s1, orient='index')
+            # remove the node or branches not being tested
+
+            s2.to_csv(outfile0)
+            s2_selected = s2[s2["Corrected P-value"] <= 0.05]
+            branch0 = list(s2_selected.index)
+            num_branch = len(branch0)
+
+        else:
+            og_need_check.append(x)
+            branch0 = []
+            num_branch = 0
+        branches_selected.append(branch0)
+        branches_number_selected.append(num_branch)
+
+    # output the tree file with p value to visualize the result using ggtree
+    og_need_check = []
+    for x in all_OG:
+        print(x)
+        infile0 = input + x
+        outfile0 = output + x.replace(".ABSREL.json", ".csv")
+        outfile1 = output_tree + x.replace(".ABSREL.json", ".tre")
+        outfile2 = output_tree_original + x.replace(".ABSREL.json", ".tre")
+        if os.stat(infile0).st_size > 0:
+            # more test
+            e = phyphy.Extractor(infile0)
+
+            # output the input tree for the hyphy analysis
+            original_tree = e.input_tree[0]
+            out1 = open(outfile2, "w")
+            out1.writelines(original_tree)
+            out1.close()
+
+            # output tree with selection information
+            e.reveal_branch_attributes()
+            s0 = e.branch_attributes
+            s1 = s0[0]
+            # further update s1 and change the None in the "Corrected P-value" into 1
+            for key in s1.keys():
+                print(key)
+                result0 = s1[key]
+                if result0["Corrected P-value"] is None:
+                    result0["Corrected P-value"] = 1
+                    s1[key] = result0
+            # update branch_attributes
+            e.branch_attributes[0] = s1
+            # extract the tree
+            tree = e.extract_absrel_tree(update_branch_lengths="Full adaptive model")
+            out0 = open(outfile1, "w")
+            out0.writelines(tree)
+            out0.close()
+
+        else:
+            og_need_check.append(x)
+
+    # result initial summary
+    all_OG = [x.replace(".ABSREL.json", "") for x in all_OG]
+    result_df = pd.DataFrame({"OG": all_OG,
+                              "branch_select": branches_selected,
+                              "number_select": branches_number_selected})
+
+    # find the sce gene id based on the OG id
+    OG_sce_mapping0 = OG_sce_mapping # input the id mapping between the sce gene and OG id for the easy following analysis
+    result_df["sce"] = singleMapping(OG_sce_mapping0["sce"], OG_sce_mapping0["OG"], result_df["OG"])
+    result_df.to_csv(result_dir + out_file_name)
+
+    # merge it with the sce gene annotation
+    # but this followed four row's script is of on usage in the current pipine
+    # OG_interest = pd.read_csv(result_dir +"enzyme_need_analysis_for_heat.csv") # Specially, this is enzyme from Yeast8
+    # OG_interest["number_select"] = singleMapping(result_df["number_select"], result_df["OG"], OG_interest["OG"])
+    # OG_interest["branch_select"] = singleMapping(result_df["branch_select"], result_df["OG"], OG_interest["OG"])
+    # OG_interest.to_csv(result_dir + "enzyme_need_analysis_for_heat_with_result.csv")
+
+# test this function
+postProcess_branch_site_absrel(result_dir="/Users/luho/Documents/branch_site_heat_2nd/", OG_sce_mapping=input_OG_sce_relation, out_file_name="heat_result_all.csv")
+## next for the further process and visulization, please check
+# tree_build/hyphy_result_visualising_heat.R
+
+
+postProcess_branch_site_absrel(result_dir="/Users/luho/Documents/branch_site_crabtree_2nd/", OG_sce_mapping=input_OG_sce_relation)
+## next for the further process and visulization, please check
+# tree_build/hyphy_result_visualising_crabtree.R
+
+postProcess_branch_site_absrel(result_dir="/Users/luho/Documents/branch_site_crabtree/", OG_sce_mapping=input_OG_sce_relation)
+## next for the further process and visulization, please check
+# tree_build/hyphy_result_visualising_crabtree.R
+
+
+
+
 
 
 

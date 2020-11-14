@@ -346,7 +346,7 @@ os.system("mkdir /home/luhongzhong/ortholog_343/result_paml_parse")
 os.system("python /home/luhongzhong/Documents/evolution_analysis/code/gene_dn_ds_paml/result_parse_yn00_update.py -i /home/luhongzhong/ortholog_343/result_paml/ -o /home/luhongzhong/ortholog_343/result_paml_parse/ -m median")
 
 
-# site level dN_dS using paml
+# site level dN_dS using PAML
 with open("site_model.sh", "w") as rsh:
     rsh.write('''\
     #!/bin/bash
@@ -366,6 +366,42 @@ with open("site_model.sh", "w") as rsh:
     ''')
 os.system("chmod u+x site_model.sh")
 os.system("./site_model.sh")
+
+
+
+#####################################################
+# conservation analysis
+#####################################################
+# conservation score calculation
+# here should we use the initial protein alignment result to calculate the conservation  [protein_align]???
+# or we need use the trimmed alignment to do the calculation  [protein_align_s2_R]??? That is to remove unreliable residue sites.
+# or we need use the pruned alignment to do the calculation  [protein_refine]??? That is to remove too many paralogs.
+# Compare the conservation scores from these three strategies to determine which one is more reasonable!!!
+
+
+with open("conservation_score.sh", "w") as rsh:
+    rsh.write('''\
+#!/usr/bin/env bash
+mkdir /home/luhongzhong/ortholog_343/protein_sce_conservation_score
+cd /home/luhongzhong/ortholog_343/protein_refine/
+
+for i in *_aa_aligned.fasta
+    do
+        cd /home/luhongzhong/Documents/evolution_analysis/code/protein_conservation
+        python2 score_conservation.py  -g 0.3 -o /home/luhongzhong/ortholog_343/protein_sce_conservation_score/${i%_aa_aligned.fasta}_conservation_score_jsd /home/luhongzhong/ortholog_343/protein_refine/$i
+    done
+    ''')
+os.system("chmod u+x conservation_score.sh")
+os.system("./conservation_score.sh")
+
+# parse the conservation score
+code_dir0 = "/home/luhongzhong/Documents/evolution_analysis/code/protein_conservation/"
+cmd = "python" + " " + \
+                  code_dir0 + \
+                  "step2_parse_jds_result_general.py -p0 /home/luhongzhong/ortholog_343/protein_refine/ -s /home/luhongzhong/ortholog_343/protein_sce_conservation_score/ -o /home/luhongzhong/ortholog_343/result_jsd/"
+os.system("mkdir /home/luhongzhong/ortholog_343/result_jsd")
+os.system(cmd)
+
 
 
 ####################################################

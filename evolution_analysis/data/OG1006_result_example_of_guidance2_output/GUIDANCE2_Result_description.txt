@@ -1,0 +1,24 @@
+MSA.MAFFT.Guidance_res_pair_res.html——MSA Colored according to the confidence score
+
+MSA.MAFFT.aln.With_Names——MSA file for cds
+
+MSA.MAFFT.PROT.aln —— MSA file for protein
+
+MSA.MAFFT.Guidance2_res_pair_seq.scr_with_Names ——GUIDANCE sequence scores
+
+MSA.MAFFT.Guidance2_res_pair_res.scr——GUIDANCE residue scores
+
+MSA.MAFFT.Guidance2_res_pair_col.scr——GUIDANCE column scores
+
+MSA.MAFFT.Guidance2_res_pair.scr——GUIDANCE residue pair scores     Note: too big size.
+
+
+Seqs.Orig_DNA.fas.FIXED.Removed_Seq.With_Names——list of removed sequences
+
+Seqs.Orig_DNA.fas.FIXED.Without_low_SP_Seq.With_Names——The input sequences after the removal of unreliable sequences (with confidence score below 0.6)
+
+Seqs.Orig.fas.FIXED.MSA.MAFFT.Removed_Col——see list of removed columns
+
+Seqs.Codes—— ID mapping
+
+MSA.MAFFT.Without_low_SP_Col.With_Names——The MSA after the removal of unreliable columns (below 0.93) 

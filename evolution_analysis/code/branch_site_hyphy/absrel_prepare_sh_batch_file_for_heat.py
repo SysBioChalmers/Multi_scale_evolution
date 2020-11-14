@@ -149,11 +149,11 @@ all_file7 = [x for x, y in zip(all_file, seq_num) if y >= 54 and y < 56]
 all_file8 = [x for x, y in zip(all_file, seq_num) if y >= 56 and y < 58]
 
 
-print(len(all_file0)) # 220 0
-print(len(all_file1)) # 683 0
-print(len(all_file2)) # 548 2 0
-print(len(all_file3)) # 839 312 85
-print(len(all_file4)) # 1961 1133 741
+print(len(all_file0)) # 220
+print(len(all_file1)) # 692
+print(len(all_file2)) # 570
+print(len(all_file3)) # 910
+print(len(all_file4)) # 2419
 
 
 # as test i will randomly choose 100 code sequences
