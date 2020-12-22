@@ -1,0 +1,12 @@
+<659>: Lipomycetaceae
+<637>: Trigonopsidaceae
+<575>: Dipodascaceae/Trichomonascaceae
+<558>: Alloascoideaceae
+<555>: Sporopachydermia
+<323>: CUG-Ser2
+<487>: Phaffomycetaceae
+<331>: Saccharomycodaceae
+<443>: Saccharomycetaceae
+<189>: CUG-Ala
+<185>: CUG-Ser1
+<209>: Pichiaceae
