@@ -241,6 +241,8 @@ if __name__== "__main__":
 
 # Results :
 
+# LINNAEUS_FILTER = ["species","genus","family","order","class","subphylum","phylum","kingdom","superkingdom"]
+
 # 559292
 # Saccharomyces cerevisiae S288C
 # ['NP_012706.1', 'Saccharomyces cerevisiae S288C', 'Saccharomyces cerevisiae', 'Saccharomyces', 'Saccharomycetaceae', 'Saccharomycetales', 'Saccharomycetes', 'Saccharomycotina', 'Ascomycota', 'Fungi', 'Eukaryota']
