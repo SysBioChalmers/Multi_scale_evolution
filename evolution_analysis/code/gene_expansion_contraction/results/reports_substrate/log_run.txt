@@ -1,0 +1,34 @@
+-----------------------------------------------------------
+Family information: substrate_filtered_input.txt
+Log: reports_substrate/log_run.txt
+The number of families is 174
+Root Family size : 1 ~ 30
+Family size : 0 ~ 72
+P-value: 0.01
+Num of Threads: 4
+Num of Random: 1000
+Empirical Prior Estimation Result: (27 iterations)
+Poisson lambda: 0.472747 & Score: 24697.212424
+Lambda : 0.00200651251679 & Score: -inf
+.Lambda : 0.00210683814263 & Score: -inf
+.Lambda : 0.00190618689095 & Score: -inf
+.Lambda : 0.00195634970387 & Score: -inf
+.Lambda : 0.00205667532971 & Score: -inf
+.Lambda : 0.00203159392325 & Score: -inf
+.Lambda : 0.00198143111033 & Score: -inf
+.Lambda : 0.00199397181356 & Score: -inf
+.Lambda : 0.00201905322002 & Score: -inf
+.Lambda : 0.00201278286841 & Score: -inf
+.Lambda : 0.00200024216518 & Score: -inf
+.Lambda : 0.00200337734098 & Score: -inf
+.Lambda : 0.00200964769260 & Score: -inf
+.Lambda : 0.00200808010469 & Score: -inf
+.Lambda : 0.00200494492889 & Score: -inf
+.Lambda : 0.00200572872284 & Score: -inf
+.
+Lambda Search Result: 7
+Lambda : 0.00200651251679 & Score: inf
+DONE: Lambda Search or setting, for command:
+lambda -s 
+Running Viterbi algorithm....
+Report Done

@@ -1,0 +1,167 @@
+#!/bin/bash
+# Usage: bash generate_all_trees.sh
+
+
+echo 'Begin to run!!!'
+
+Rscript midpoint_tree.R yHMPu5000035244_Candida_incommunis@Seq_2666
+perl create_iTOL_config.pl ../fasta/yHMPu5000035244_Candida_incommunis@Seq_2666/yHMPu5000035244_Candida_incommunis@Seq_2666_midpoint.tree
+
+Rscript midpoint_tree.R Starmerella_bombicola_JCM9596@Seq_4683
+perl create_iTOL_config.pl ../fasta/Starmerella_bombicola_JCM9596@Seq_4683/Starmerella_bombicola_JCM9596@Seq_4683_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034674_Blastobotrys_muscicola@Seq_5599
+perl create_iTOL_config.pl ../fasta/yHMPu5000034674_Blastobotrys_muscicola@Seq_5599/yHMPu5000034674_Blastobotrys_muscicola@Seq_5599_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034670_Blastobotrys_proliferans@Seq_7045
+perl create_iTOL_config.pl ../fasta/yHMPu5000034670_Blastobotrys_proliferans@Seq_7045/yHMPu5000034670_Blastobotrys_proliferans@Seq_7045_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034673_Blastobotrys_nivea@Seq_6135
+perl create_iTOL_config.pl ../fasta/yHMPu5000034673_Blastobotrys_nivea@Seq_6135/yHMPu5000034673_Blastobotrys_nivea@Seq_6135_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034681_Blastobotrys_americana@Seq_154
+perl create_iTOL_config.pl ../fasta/yHMPu5000034681_Blastobotrys_americana@Seq_154/yHMPu5000034681_Blastobotrys_americana@Seq_154_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035691_Candida_salmanticensis@Seq_2861
+perl create_iTOL_config.pl ../fasta/yHMPu5000035691_Candida_salmanticensis@Seq_2861/yHMPu5000035691_Candida_salmanticensis@Seq_2861_midpoint.tree
+
+Rscript midpoint_tree.R Arxula_adeninivorans@Seq_4081
+perl create_iTOL_config.pl ../fasta/Arxula_adeninivorans@Seq_4081/Arxula_adeninivorans@Seq_4081_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035665_Middelhovenomyces_tepae@Seq_1803
+perl create_iTOL_config.pl ../fasta/yHMPu5000035665_Middelhovenomyces_tepae@Seq_1803/yHMPu5000035665_Middelhovenomyces_tepae@Seq_1803_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034883_Peterozyma_xylosa@Seq_3122
+perl create_iTOL_config.pl ../fasta/yHMPu5000034883_Peterozyma_xylosa@Seq_3122/yHMPu5000034883_Peterozyma_xylosa@Seq_3122_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034760_Lipomyces_kononenkoae@Seq_3116
+perl create_iTOL_config.pl ../fasta/yHMPu5000034760_Lipomyces_kononenkoae@Seq_3116/yHMPu5000034760_Lipomyces_kononenkoae@Seq_3116_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034761_Lipomyces_lipofer@Seq_3594
+perl create_iTOL_config.pl ../fasta/yHMPu5000034761_Lipomyces_lipofer@Seq_3594/yHMPu5000034761_Lipomyces_lipofer@Seq_3594_midpoint.tree
+
+Rscript midpoint_tree.R Wickerhamia_fluorescens@Seq_3843
+perl create_iTOL_config.pl ../fasta/Wickerhamia_fluorescens@Seq_3843/Wickerhamia_fluorescens@Seq_3843_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035296_Priceomyces_carsonii@Seq_4027
+perl create_iTOL_config.pl ../fasta/yHMPu5000035296_Priceomyces_carsonii@Seq_4027/yHMPu5000035296_Priceomyces_carsonii@Seq_4027_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034675_Blastobotrys_mokoenaii@Seq_4841
+perl create_iTOL_config.pl ../fasta/yHMPu5000034675_Blastobotrys_mokoenaii@Seq_4841/yHMPu5000034675_Blastobotrys_mokoenaii@Seq_4841_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034758_Lipomyces_japonicus@Seq_1171
+perl create_iTOL_config.pl ../fasta/yHMPu5000034758_Lipomyces_japonicus@Seq_1171/yHMPu5000034758_Lipomyces_japonicus@Seq_1171_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035633_Candida_hispaniensis@Seq_2087
+perl create_iTOL_config.pl ../fasta/yHMPu5000035633_Candida_hispaniensis@Seq_2087/yHMPu5000035633_Candida_hispaniensis@Seq_2087_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035665_Middelhovenomyces_tepae@Seq_3286
+perl create_iTOL_config.pl ../fasta/yHMPu5000035665_Middelhovenomyces_tepae@Seq_3286/yHMPu5000035665_Middelhovenomyces_tepae@Seq_3286_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035643_Yarrowia_bubula@Seq_4893
+perl create_iTOL_config.pl ../fasta/yHMPu5000035643_Yarrowia_bubula@Seq_4893/yHMPu5000035643_Yarrowia_bubula@Seq_4893_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034757_Lipomyces_doorenjongii@Seq_1657
+perl create_iTOL_config.pl ../fasta/yHMPu5000034757_Lipomyces_doorenjongii@Seq_1657/yHMPu5000034757_Lipomyces_doorenjongii@Seq_1657_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035650_Trigonopsis_variabilis@Seq_3535
+perl create_iTOL_config.pl ../fasta/yHMPu5000035650_Trigonopsis_variabilis@Seq_3535/yHMPu5000035650_Trigonopsis_variabilis@Seq_3535_midpoint.tree
+
+Rscript midpoint_tree.R Lipomyces_starkeyi@Seq_7476
+perl create_iTOL_config.pl ../fasta/Lipomyces_starkeyi@Seq_7476/Lipomyces_starkeyi@Seq_7476_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034884_Peterozyma_toletana@Seq_5078
+perl create_iTOL_config.pl ../fasta/yHMPu5000034884_Peterozyma_toletana@Seq_5078/yHMPu5000034884_Peterozyma_toletana@Seq_5078_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034749_Lipomyces_mesembrius@Seq_2284
+perl create_iTOL_config.pl ../fasta/yHMPu5000034749_Lipomyces_mesembrius@Seq_2284/yHMPu5000034749_Lipomyces_mesembrius@Seq_2284_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035691_Candida_salmanticensis@Seq_4107
+perl create_iTOL_config.pl ../fasta/yHMPu5000035691_Candida_salmanticensis@Seq_4107/yHMPu5000035691_Candida_salmanticensis@Seq_4107_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034754_Lipomyces_arxii@Seq_1471
+perl create_iTOL_config.pl ../fasta/yHMPu5000034754_Lipomyces_arxii@Seq_1471/yHMPu5000034754_Lipomyces_arxii@Seq_1471_midpoint.tree
+
+Rscript midpoint_tree.R Lipomyces_starkeyi@Seq_4367
+perl create_iTOL_config.pl ../fasta/Lipomyces_starkeyi@Seq_4367/Lipomyces_starkeyi@Seq_4367_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034742_Lipomyces_suomiensis@Seq_483
+perl create_iTOL_config.pl ../fasta/yHMPu5000034742_Lipomyces_suomiensis@Seq_483/yHMPu5000034742_Lipomyces_suomiensis@Seq_483_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_4673
+perl create_iTOL_config.pl ../fasta/yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_4673/yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_4673_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034671_Blastobotrys_peoriensis@Seq_933
+perl create_iTOL_config.pl ../fasta/yHMPu5000034671_Blastobotrys_peoriensis@Seq_933/yHMPu5000034671_Blastobotrys_peoriensis@Seq_933_midpoint.tree
+
+Rscript midpoint_tree.R Candida_apicola@Seq_3009
+perl create_iTOL_config.pl ../fasta/Candida_apicola@Seq_3009/Candida_apicola@Seq_3009_midpoint.tree
+
+Rscript midpoint_tree.R Candida_versatilis@Seq_5239
+perl create_iTOL_config.pl ../fasta/Candida_versatilis@Seq_5239/Candida_versatilis@Seq_5239_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034754_Lipomyces_arxii@Seq_2009
+perl create_iTOL_config.pl ../fasta/yHMPu5000034754_Lipomyces_arxii@Seq_2009/yHMPu5000034754_Lipomyces_arxii@Seq_2009_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_3737
+perl create_iTOL_config.pl ../fasta/yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_3737/yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_3737_midpoint.tree
+
+Rscript midpoint_tree.R Lipomyces_starkeyi@Seq_4001
+perl create_iTOL_config.pl ../fasta/Lipomyces_starkeyi@Seq_4001/Lipomyces_starkeyi@Seq_4001_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034660_Diddensiella_caesifluorescens@Seq_2578
+perl create_iTOL_config.pl ../fasta/yHMPu5000034660_Diddensiella_caesifluorescens@Seq_2578/yHMPu5000034660_Diddensiella_caesifluorescens@Seq_2578_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034760_Lipomyces_kononenkoae@Seq_805
+perl create_iTOL_config.pl ../fasta/yHMPu5000034760_Lipomyces_kononenkoae@Seq_805/yHMPu5000034760_Lipomyces_kononenkoae@Seq_805_midpoint.tree
+
+Rscript midpoint_tree.R Arxula_adeninivorans@Seq_5024
+perl create_iTOL_config.pl ../fasta/Arxula_adeninivorans@Seq_5024/Arxula_adeninivorans@Seq_5024_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034761_Lipomyces_lipofer@Seq_5367
+perl create_iTOL_config.pl ../fasta/yHMPu5000034761_Lipomyces_lipofer@Seq_5367/yHMPu5000034761_Lipomyces_lipofer@Seq_5367_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_2667
+perl create_iTOL_config.pl ../fasta/yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_2667/yHMPu5000034669_Blastobotrys_raffinofermentans@Seq_2667_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034757_Lipomyces_doorenjongii@Seq_3833
+perl create_iTOL_config.pl ../fasta/yHMPu5000034757_Lipomyces_doorenjongii@Seq_3833/yHMPu5000034757_Lipomyces_doorenjongii@Seq_3833_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035244_Candida_incommunis@Seq_1213
+perl create_iTOL_config.pl ../fasta/yHMPu5000035244_Candida_incommunis@Seq_1213/yHMPu5000035244_Candida_incommunis@Seq_1213_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035244_Candida_incommunis@Seq_1832
+perl create_iTOL_config.pl ../fasta/yHMPu5000035244_Candida_incommunis@Seq_1832/yHMPu5000035244_Candida_incommunis@Seq_1832_midpoint.tree
+
+Rscript midpoint_tree.R Lipomyces_starkeyi@Seq_6936
+perl create_iTOL_config.pl ../fasta/Lipomyces_starkeyi@Seq_6936/Lipomyces_starkeyi@Seq_6936_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034671_Blastobotrys_peoriensis@Seq_3773
+perl create_iTOL_config.pl ../fasta/yHMPu5000034671_Blastobotrys_peoriensis@Seq_3773/yHMPu5000034671_Blastobotrys_peoriensis@Seq_3773_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035282_Trigonopsis_vinaria@Seq_119
+perl create_iTOL_config.pl ../fasta/yHMPu5000035282_Trigonopsis_vinaria@Seq_119/yHMPu5000035282_Trigonopsis_vinaria@Seq_119_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034605_Spencermartinsiella_europaea@Seq_5272
+perl create_iTOL_config.pl ../fasta/yHMPu5000034605_Spencermartinsiella_europaea@Seq_5272/yHMPu5000034605_Spencermartinsiella_europaea@Seq_5272_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034761_Lipomyces_lipofer@Seq_6863
+perl create_iTOL_config.pl ../fasta/yHMPu5000034761_Lipomyces_lipofer@Seq_6863/yHMPu5000034761_Lipomyces_lipofer@Seq_6863_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035031_Candida_kruisii@Seq_2455
+perl create_iTOL_config.pl ../fasta/yHMPu5000035031_Candida_kruisii@Seq_2455/yHMPu5000035031_Candida_kruisii@Seq_2455_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034675_Blastobotrys_mokoenaii@Seq_4386
+perl create_iTOL_config.pl ../fasta/yHMPu5000034675_Blastobotrys_mokoenaii@Seq_4386/yHMPu5000034675_Blastobotrys_mokoenaii@Seq_4386_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000035243_Zygoascus_meyerae@Seq_1
+perl create_iTOL_config.pl ../fasta/yHMPu5000035243_Zygoascus_meyerae@Seq_1/yHMPu5000035243_Zygoascus_meyerae@Seq_1_midpoint.tree
+
+Rscript midpoint_tree.R yHMPu5000034760_Lipomyces_kononenkoae@Seq_6502
+perl create_iTOL_config.pl ../fasta/yHMPu5000034760_Lipomyces_kononenkoae@Seq_6502/yHMPu5000034760_Lipomyces_kononenkoae@Seq_6502_midpoint.tree
+
+Rscript midpoint_tree.R Lipomyces_starkeyi@Seq_128
+perl create_iTOL_config.pl ../fasta/Lipomyces_starkeyi@Seq_128/Lipomyces_starkeyi@Seq_128_midpoint.tree
+
+echo 'Yep, finish!!!'
+

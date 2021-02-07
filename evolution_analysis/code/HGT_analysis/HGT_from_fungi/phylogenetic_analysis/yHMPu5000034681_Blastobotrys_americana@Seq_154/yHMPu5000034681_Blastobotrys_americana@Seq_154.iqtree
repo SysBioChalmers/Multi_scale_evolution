@@ -1,0 +1,1395 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: ../fasta/yHMPu5000034681_Blastobotrys_americana@Seq_154/yHMPu5000034681_Blastobotrys_americana@Seq_154_aln_trimmed.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 91737
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 301 sequences with 160 amino-acid sites
+Number of constant sites: 13 (= 8.125% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 13 (= 8.125% of all sites)
+Number of parsimony informative sites: 138
+Number of distinct site patterns: 159
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+G4
+
+List of models sorted by BIC scores: 
+
+Model             LogL          AIC      w-AIC      AICc     w-AICc       BIC      w-BIC
+LG+G4           -20226.6673  41653.3346 + 1.0000 762853.3346 + 1.0000  43498.4389 + 1.0000
+LG+F+G4         -20324.0462  41886.0924 - 0.0000 809446.0924 - 0.0000  43789.6250 - 0.0000
+WAG+G4          -20421.7910  42043.5820 - 0.0000 763243.5820 - 0.0000  43888.6863 - 0.0000
+rtREV+G4        -20456.5200  42113.0400 - 0.0000 763313.0400 - 0.0000  43958.1443 - 0.0000
+JTTDCMut+G4     -20496.8288  42193.6576 - 0.0000 763393.6576 - 0.0000  44038.7619 - 0.0000
+JTT+G4          -20526.3805  42252.7610 - 0.0000 763452.7610 - 0.0000  44097.8653 - 0.0000
+WAG+F+G4        -20482.0773  42202.1546 - 0.0000 809762.1546 - 0.0000  44105.6872 - 0.0000
+rtREV+F+G4      -20483.0553  42204.1107 - 0.0000 809764.1107 - 0.0000  44107.6433 - 0.0000
+cpREV+G4        -20550.6799  42301.3597 - 0.0000 763501.3597 - 0.0000  44146.4640 - 0.0000
+VT+G4           -20561.6706  42323.3411 - 0.0000 763523.3411 - 0.0000  44168.4454 - 0.0000
+cpREV+F+G4      -20558.7474  42355.4948 - 0.0000 809915.4948 - 0.0000  44259.0274 - 0.0000
+JTTDCMut+F+G4   -20573.6391  42385.2782 - 0.0000 809945.2782 - 0.0000  44288.8108 - 0.0000
+VT+F+G4         -20577.4188  42392.8376 - 0.0000 809952.8376 - 0.0000  44296.3702 - 0.0000
+JTT+F+G4        -20584.3124  42406.6248 - 0.0000 809966.6248 - 0.0000  44310.1574 - 0.0000
+Blosum62+G4     -20646.2410  42492.4820 - 0.0000 763692.4820 - 0.0000  44337.5863 - 0.0000
+mtInv+F+G4      -20605.1408  42448.2816 - 0.0000 810008.2816 - 0.0000  44351.8142 - 0.0000
+Dayhoff+G4      -20692.1778  42584.3557 - 0.0000 763784.3557 - 0.0000  44429.4600 - 0.0000
+DCMut+G4        -20712.8134  42625.6269 - 0.0000 763825.6269 - 0.0000  44470.7311 - 0.0000
+PMB+G4          -20718.8315  42637.6629 - 0.0000 763837.6629 - 0.0000  44482.7672 - 0.0000
+mtZOA+F+G4      -20675.4428  42588.8856 - 0.0000 810148.8856 - 0.0000  44492.4182 - 0.0000
+Blosum62+F+G4   -20717.8922  42673.7843 - 0.0000 810233.7843 - 0.0000  44577.3169 - 0.0000
+mtMet+F+G4      -20748.4316  42734.8631 - 0.0000 810294.8631 - 0.0000  44638.3957 - 0.0000
+Dayhoff+F+G4    -20758.3002  42754.6005 - 0.0000 810314.6005 - 0.0000  44658.1331 - 0.0000
+DCMut+F+G4      -20762.5083  42763.0166 - 0.0000 810323.0166 - 0.0000  44666.5492 - 0.0000
+PMB+F+G4        -20762.9826  42763.9652 - 0.0000 810323.9652 - 0.0000  44667.4978 - 0.0000
+mtZOA+G4        -20824.1291  42848.2581 - 0.0000 764048.2581 - 0.0000  44693.3624 - 0.0000
+mtREV+F+G4      -20797.8027  42833.6053 - 0.0000 810393.6053 - 0.0000  44737.1379 - 0.0000
+FLU+F+G4        -20901.9992  43041.9983 - 0.0000 810601.9983 - 0.0000  44945.5309 - 0.0000
+FLU+G4          -20998.0753  43196.1505 - 0.0000 764396.1505 - 0.0000  45041.2548 - 0.0000
+HIVb+F+G4       -21047.7841  43333.5682 - 0.0000 810893.5682 - 0.0000  45237.1008 - 0.0000
+mtART+F+G4      -21054.8767  43347.7533 - 0.0000 810907.7533 - 0.0000  45251.2859 - 0.0000
+HIVb+G4         -21110.6385  43421.2770 - 0.0000 764621.2770 - 0.0000  45266.3813 - 0.0000
+mtMet+G4        -21143.3454  43486.6909 - 0.0000 764686.6909 - 0.0000  45331.7951 - 0.0000
+mtInv+G4        -21155.0513  43510.1025 - 0.0000 764710.1025 - 0.0000  45355.2068 - 0.0000
+mtVer+F+G4      -21106.8396  43451.6792 - 0.0000 811011.6792 - 0.0000  45355.2118 - 0.0000
+mtREV+G4        -21351.2399  43902.4798 - 0.0000 765102.4798 - 0.0000  45747.5841 - 0.0000
+mtART+G4        -21450.2025  44100.4051 - 0.0000 765300.4051 - 0.0000  45945.5093 - 0.0000
+mtVer+G4        -21485.0146  44170.0292 - 0.0000 765370.0292 - 0.0000  46015.1335 - 0.0000
+mtMAM+F+G4      -21494.3003  44226.6006 - 0.0000 811786.6006 - 0.0000  46130.1332 - 0.0000
+mtMAM+G4        -21988.8692  45177.7384 - 0.0000 766377.7384 - 0.0000  47022.8427 - 0.0000
+HIVw+F+G4       -21954.0681  45146.1362 - 0.0000 812706.1362 - 0.0000  47049.6688 - 0.0000
+HIVw+G4         -22139.9827  45479.9654 - 0.0000 766679.9654 - 0.0000  47325.0697 - 0.0000
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.7055
+
+ Category  Relative_rate  Proportion
+  1         0.0754         0.2500
+  2         0.3661         0.2500
+  3         0.9269         0.2500
+  4         2.6316         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -19885.2723 (s.e. 1271.9429)
+Unconstrained log-likelihood (without tree): -810.6415
+Number of free parameters (#branches + #model parameters): 600
+Akaike information criterion (AIC) score: 40970.5445
+Corrected Akaike information criterion (AICc) score: 762170.5445
+Bayesian information criterion (BIC) score: 42815.6488
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 600
+Sample size (n, alignment length): 160
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 48.7047
+Sum of internal branch lengths: 19.5303 (40.0993% of tree length)
+
+WARNING: 25 near-zero internal branches (<0.0063) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'XP_018737180.1-Sugiyamaella_lignohabitans_Saccharomycotina' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----XP_018737180.1-Sugiyamaella_lignohabitans_Saccharomycotina
+|
+|  +---------KAA8916722.1-Trichomonascus_ciferrii_Saccharomycotina
++--| (100)
+|  +---QUERY_yHMPu5000034681_Blastobotrys_americana_Seq_154
+|
+|                     +**KAF5103339.1-Geotrichum_candidum_Saccharomycotina
+|                  +--| (100)
+|                  |  +**KAF5121213.1-Geotrichum_candidum_Saccharomycotina
+|               +--| (100)
+|               |  +**KAF5114449.1-Geotrichum_candidum_Saccharomycotina
+|            +--| (100)
+|            |  +--KAF5094807.1-Geotrichum_candidum_Saccharomycotina
+|     +------| (100)
+|     |      +--KAF5092728.1-Galactomyces_reessii_Saccharomycotina
+|  +--| (98)
+|  |  |                +--ODQ69345.1-Lipomyces_starkeyi_Saccharomycotina
+|  |  |         +------| (100)
+|  |  |         |      |  +--ODQ69163.1-Lipomyces_starkeyi_Saccharomycotina
+|  |  |         |      +--| (90)
+|  |  |         |         +--ODQ69151.1-Lipomyces_starkeyi_Saccharomycotina
+|  |  +---------| (100)
+|  |            |                         +--PAV23724.1-Pyrrhoderma_noxium_Basidiomycota
+|  |            |                      +--| (93)
+|  |            |                      |  |           +--XP_007264057.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                      |  |        +--| (99)
+|  |            |                      |  |        |  +--XP_007264055.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                      |  |     +--| (100)
+|  |            |                      |  |     |  +--OCB84313.1-Sanghuangporus_baumii_Basidiomycota
+|  |            |                      |  |  +--| (95)
+|  |            |                      |  |  |  |     +--KIJ44360.1-Sphaerobolus_stellatus_Basidiomycota
+|  |            |                      |  |  |  +-----| (100)
+|  |            |                      |  |  |        +--KIJ45694.1-Sphaerobolus_stellatus_Basidiomycota
+|  |            |                      |  +--| (64)
+|  |            |                      |     +------THH06769.1-Phellinidium_pouzarii_Basidiomycota
+|  |            |                   +--| (65)
+|  |            |                   |  |  +---KLO18552.1-Schizopora_paradoxa_Basidiomycota
+|  |            |                   |  +--| (75)
+|  |            |                   |     |           +------PAV19290.1-Pyrrhoderma_noxium_Basidiomycota
+|  |            |                   |     |        +--| (99)
+|  |            |                   |     |        |  +----XP_007262562.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |     +--| (78)
+|  |            |                   |     |     |  |       +-----XP_007270137.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |     |  |  +----| (100)
+|  |            |                   |     |     |  |  |    +------------XP_007267979.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |     |  +--| (89)
+|  |            |                   |     |     |     |  +---THH01940.1-Phellinidium_pouzarii_Basidiomycota
+|  |            |                   |     |     |     +--| (98)
+|  |            |                   |     |     |        |   +---------------PAV17996.1-Pyrrhoderma_noxium_Basidiomycota
+|  |            |                   |     |     |        +---| (100)
+|  |            |                   |     |     |            |  +----XP_007261744.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |     |            +--| (100)
+|  |            |                   |     |     |               +------OCB86976.1-Sanghuangporus_baumii_Basidiomycota
+|  |            |                   |     |  +--| (76)
+|  |            |                   |     |  |  |     +--PAV18342.1-Pyrrhoderma_noxium_Basidiomycota
+|  |            |                   |     |  |  |  +--| (93)
+|  |            |                   |     |  |  |  |  |  +-------XP_007270129.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |  |  |  |  +--| (95)
+|  |            |                   |     |  |  |  |     +--XP_007270128.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |  |  +--| (93)
+|  |            |                   |     |  |     |  +--XP_007270135.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |  |     +--| (98)
+|  |            |                   |     |  |        +---THH09768.1-Phellinidium_pouzarii_Basidiomycota
+|  |            |                   |     +--| (94)
+|  |            |                   |        |  +-----XP_007270136.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |        +--| (83)
+|  |            |                   |           +--OCB88220.1-Sanghuangporus_baumii_Basidiomycota
+|  |            |                +--| (86)
+|  |            |                |  +--TDL27434.1-Rickenella_mellea_Basidiomycota
+|  |            |             +**| (52)
+|  |            |             |  |        +--KZP24726.1-Fibularhizoctonia_sp._CBS_109695_Basidiomycota
+|  |            |             |  |     +--| (92)
+|  |            |             |  |     |  |  +--KIM80872.1-Piloderma_croceum_Basidiomycota
+|  |            |             |  |     |  +--| (100)
+|  |            |             |  |     |     +--KIM81263.1-Piloderma_croceum_Basidiomycota
+|  |            |             |  |  +--| (75)
+|  |            |             |  |  |  |                          +--KIJ69492.1-Hydnomerulius_pinastri_Basidiomycota
+|  |            |             |  |  |  |                       +--| (99)
+|  |            |             |  |  |  |                       |  +--KIJ69493.1-Hydnomerulius_pinastri_Basidiomycota
+|  |            |             |  |  |  |                    +--| (92)
+|  |            |             |  |  |  |                    |  |  +-------XP_007774791.1-Coniophora_puteana_Basidiomycota
+|  |            |             |  |  |  |                    |  +--| (100)
+|  |            |             |  |  |  |                    |     +------XP_007774834.1-Coniophora_puteana_Basidiomycota
+|  |            |             |  |  |  |                 +--| (40)
+|  |            |             |  |  |  |                 |  +-----XP_007764800.1-Coniophora_puteana_Basidiomycota
+|  |            |             |  |  |  |              +--| (45)
+|  |            |             |  |  |  |              |  +--XP_007321317.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |  |  |  |           +--| (65)
+|  |            |             |  |  |  |           |  |              +--KIO13269.1-Pisolithus_tinctorius_Basidiomycota
+|  |            |             |  |  |  |           |  |           +--| (100)
+|  |            |             |  |  |  |           |  |           |  +--KIO10494.1-Pisolithus_tinctorius_Basidiomycota
+|  |            |             |  |  |  |           |  |        +--| (100)
+|  |            |             |  |  |  |           |  |        |  +--KIK31312.1-Pisolithus_microcarpus_Basidiomycota
+|  |            |             |  |  |  |           |  |     +**| (56)
+|  |            |             |  |  |  |           |  |     |  +--KIM59415.1-Scleroderma_citrinum_Basidiomycota
+|  |            |             |  |  |  |           |  |  +--| (78)
+|  |            |             |  |  |  |           |  |  |  |           +--OAX36864.1-Rhizopogon_vinicolor_Basidiomycota
+|  |            |             |  |  |  |           |  |  |  |        +**| (43)
+|  |            |             |  |  |  |           |  |  |  |        |  +------OAX36860.1-Rhizopogon_vinicolor_Basidiomycota
+|  |            |             |  |  |  |           |  |  |  |     +--| (100)
+|  |            |             |  |  |  |           |  |  |  |     |  +--OJA21627.1-Rhizopogon_vesiculosus_Basidiomycota
+|  |            |             |  |  |  |           |  |  |  |  +--| (100)
+|  |            |             |  |  |  |           |  |  |  |  |  |  +--KIK45873.1-Suillus_luteus_Basidiomycota
+|  |            |             |  |  |  |           |  |  |  |  |  +--| (100)
+|  |            |             |  |  |  |           |  |  |  |  |     +**KAF3872225.1-Suillus_brevipes_Basidiomycota
+|  |            |             |  |  |  |           |  |  |  +--| (79)
+|  |            |             |  |  |  |           |  |  |     |     +**KIJ17340.1-Paxillus_involutus_Basidiomycota
+|  |            |             |  |  |  |           |  |  |     |  +--| (100)
+|  |            |             |  |  |  |           |  |  |     |  |  +--KIK91431.1-Paxillus_rubicundulus_Basidiomycota
+|  |            |             |  |  |  |           |  |  |     +--| (100)
+|  |            |             |  |  |  |           |  |  |        +--KIJ69495.1-Hydnomerulius_pinastri_Basidiomycota
+|  |            |             |  |  |  |           |  +--| (66)
+|  |            |             |  |  |  |           |     |  +--KIM53189.1-Scleroderma_citrinum_Basidiomycota
+|  |            |             |  |  |  |           |     +--| (60)
+|  |            |             |  |  |  |           |        |           +---KIO03876.1-Pisolithus_tinctorius_Basidiomycota
+|  |            |             |  |  |  |           |        |        +--| (67)
+|  |            |             |  |  |  |           |        |        |  |  +--KIK28099.1-Pisolithus_microcarpus_Basidiomycota
+|  |            |             |  |  |  |           |        |        |  +--| (72)
+|  |            |             |  |  |  |           |        |        |     |  +--KIK28096.1-Pisolithus_microcarpus_Basidiomycota
+|  |            |             |  |  |  |           |        |        |     +--| (99)
+|  |            |             |  |  |  |           |        |        |        +---KIK28093.1-Pisolithus_microcarpus_Basidiomycota
+|  |            |             |  |  |  |           |        |     +--| (97)
+|  |            |             |  |  |  |           |        |     |  +--KIO03875.1-Pisolithus_tinctorius_Basidiomycota
+|  |            |             |  |  |  |           |        |  +--| (100)
+|  |            |             |  |  |  |           |        |  |  +--KIO03880.1-Pisolithus_tinctorius_Basidiomycota
+|  |            |             |  |  |  |           |        +--| (67)
+|  |            |             |  |  |  |           |           |        +-----RDB23970.1-Hypsizygus_marmoreus_Basidiomycota
+|  |            |             |  |  |  |           |           |     +--| (43)
+|  |            |             |  |  |  |           |           |     |  |           +--KIK45871.1-Suillus_luteus_Basidiomycota
+|  |            |             |  |  |  |           |           |     |  |  +--------| (100)
+|  |            |             |  |  |  |           |           |     |  |  |        +--KAF3872223.1-Suillus_brevipes_Basidiomycota
+|  |            |             |  |  |  |           |           |     |  +--| (99)
+|  |            |             |  |  |  |           |           |     |     +-----------OSD02538.1-Trametes_coccinea_Basidiomycota
+|  |            |             |  |  |  |           |           |  +--| (73)
+|  |            |             |  |  |  |           |           |  |  |  +-------KNZ75558.1-Termitomyces_sp._J132_Basidiomycota
+|  |            |             |  |  |  |           |           |  |  +--| (41)
+|  |            |             |  |  |  |           |           |  |     |             +--TFK92498.1-Polyporus_arcularius_Basidiomycota
+|  |            |             |  |  |  |           |           |  |     |         +---| (100)
+|  |            |             |  |  |  |           |           |  |     |         |   +--RDX51795.1-Polyporus_brumalis_Basidiomycota
+|  |            |             |  |  |  |           |           |  |     |      +--| (70)
+|  |            |             |  |  |  |           |           |  |     |      |  |  +**RPD74112.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |  |           |           |  |     |      |  +--| (100)
+|  |            |             |  |  |  |           |           |  |     |      |     +**RPD54921.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |  |           |           |  |     |   +--| (54)
+|  |            |             |  |  |  |           |           |  |     |   |  |          +**TFK83651.1-Polyporus_arcularius_Basidiomycota
+|  |            |             |  |  |  |           |           |  |     |   |  |       +--| (100)
+|  |            |             |  |  |  |           |           |  |     |   |  |       |  +--RDX45333.1-Polyporus_brumalis_Basidiomycota
+|  |            |             |  |  |  |           |           |  |     |   |  |    +--| (100)
+|  |            |             |  |  |  |           |           |  |     |   |  |    |  +--RDX45334.1-Polyporus_brumalis_Basidiomycota
+|  |            |             |  |  |  |           |           |  |     |   |  +----| (100)
+|  |            |             |  |  |  |           |           |  |     |   |       +----RPD53466.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |  |           |           |  |     +---| (99)
+|  |            |             |  |  |  |           |           |  |         +---------PIL26866.1-Ganoderma_sinense_Basidiomycota
+|  |            |             |  |  |  |           |           +--| (91)
+|  |            |             |  |  |  |           |              +-----KIM58385.1-Scleroderma_citrinum_Basidiomycota
+|  |            |             |  |  |  |        +--| (49)
+|  |            |             |  |  |  |        |  |        +--TFK55268.1-Heliocybe_sulcata_Basidiomycota
+|  |            |             |  |  |  |        |  |     +--| (95)
+|  |            |             |  |  |  |        |  |     |  |  +--XP_007863631.1-Gloeophyllum_trabeum_Basidiomycota
+|  |            |             |  |  |  |        |  |     |  +**| (44)
+|  |            |             |  |  |  |        |  |     |     +--KZT28576.1-Neolentinus_lepideus_Basidiomycota
+|  |            |             |  |  |  |        |  |  +--| (99)
+|  |            |             |  |  |  |        |  |  |  |  +---XP_007865523.1-Gloeophyllum_trabeum_Basidiomycota
+|  |            |             |  |  |  |        |  |  |  +--| (99)
+|  |            |             |  |  |  |        |  |  |     +--TFK55269.1-Heliocybe_sulcata_Basidiomycota
+|  |            |             |  |  |  |        |  +--| (82)
+|  |            |             |  |  |  |        |     |        +--TFK53876.1-Heliocybe_sulcata_Basidiomycota
+|  |            |             |  |  |  |        |     |  +-----| (100)
+|  |            |             |  |  |  |        |     |  |     +--XP_007864705.1-Gloeophyllum_trabeum_Basidiomycota
+|  |            |             |  |  |  |        |     +--| (76)
+|  |            |             |  |  |  |        |        |  +--KDQ59468.1-Jaapia_argillacea_Basidiomycota
+|  |            |             |  |  |  |        |        +--| (99)
+|  |            |             |  |  |  |        |           +--KDQ59483.1-Jaapia_argillacea_Basidiomycota
+|  |            |             |  |  |  |     +**| (14)
+|  |            |             |  |  |  |     |  |           +--KAF5357806.1-Leucoagaricus_leucothites_Basidiomycota
+|  |            |             |  |  |  |     |  |        +--| (73)
+|  |            |             |  |  |  |     |  |        |  |  +**KXN82523.1-Leucoagaricus_sp._SymC.cos_Basidiomycota
+|  |            |             |  |  |  |     |  |        |  +--| (71)
+|  |            |             |  |  |  |     |  |        |     |           +**EGO01602.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |  |  |  |     |  |        |     +-----------| (100)
+|  |            |             |  |  |  |     |  |        |                 +**XP_007315350.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |  |  |  |     |  |     +--| (71)
+|  |            |             |  |  |  |     |  |     |  |  +**XP_007326627.1-Agaricus_bisporus_Basidiomycota
+|  |            |             |  |  |  |     |  |     |  +--| (100)
+|  |            |             |  |  |  |     |  |     |     +**XP_006458451.1-Agaricus_bisporus_Basidiomycota
+|  |            |             |  |  |  |     |  |  +--| (69)
+|  |            |             |  |  |  |     |  |  |  |                       +--RPD65889.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |                    +--| (93)
+|  |            |             |  |  |  |     |  |  |  |                    |  |  +**TFK90965.1-Polyporus_arcularius_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |                    |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |                    |     +--RDX48391.1-Polyporus_brumalis_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |                 +**| (12)
+|  |            |             |  |  |  |     |  |  |  |                 |  +--PIL23778.1-Ganoderma_sinense_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |              +--| (66)
+|  |            |             |  |  |  |     |  |  |  |              |  |  +**XP_007360886.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |              |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |              |     +**TBU32230.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |           +--| (23)
+|  |            |             |  |  |  |     |  |  |  |           |  |  +--KZT11503.1-Laetiporus_sulphureus_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |           |  +**| (15)
+|  |            |             |  |  |  |     |  |  |  |           |     +--OBZ72127.1-Grifola_frondosa_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |        +--| (39)
+|  |            |             |  |  |  |     |  |  |  |        |  |     +------TFL06915.1-Pterula_gracilis_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |        |  |  +--| (97)
+|  |            |             |  |  |  |     |  |  |  |        |  |  |  +--XP_024341743.1-Postia_placenta_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |        |  +--| (47)
+|  |            |             |  |  |  |     |  |  |  |        |     |     +--PCH38363.1-Wolfiporia_cocos_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |        |     |  +--| (99)
+|  |            |             |  |  |  |     |  |  |  |        |     |  |  +--KZT11504.1-Laetiporus_sulphureus_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |        |     +--| (99)
+|  |            |             |  |  |  |     |  |  |  |        |        |  +--EPT05870.1-Fomitopsis_pinicola_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |        |        +--| (100)
+|  |            |             |  |  |  |     |  |  |  |        |           +--KZT65464.1-Daedalea_quercina_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |     +--| (39)
+|  |            |             |  |  |  |     |  |  |  |     |  |        +--OSD02841.1-Trametes_coccinea_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |     |  |     +--| (99)
+|  |            |             |  |  |  |     |  |  |  |     |  |     |  |  +--XP_008036862.1-Trametes_versicolor_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |     |  |     |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |     |  |     |     +**OJT14130.1-Trametes_pubescens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |     |  |  +--| (77)
+|  |            |             |  |  |  |     |  |  |  |     |  |  |  +--XP_027613384.1-Sparassis_crispa_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |     |  +--| (46)
+|  |            |             |  |  |  |     |  |  |  |     |     |  +--EMD38638.1-Gelatoporia_subvermispora_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |     |     +--| (99)
+|  |            |             |  |  |  |     |  |  |  |     |        +--OCH95333.1-Obba_rivulosa_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  +**| (10)
+|  |            |             |  |  |  |     |  |  |  |  |  |              +----PCH39619.1-Wolfiporia_cocos_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  |           +**| (59)
+|  |            |             |  |  |  |     |  |  |  |  |  |           |  +---XP_024335938.1-Postia_placenta_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  |        +--| (69)
+|  |            |             |  |  |  |     |  |  |  |  |  |        |  |     +--EPS93657.1-Fomitopsis_pinicola_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  |        |  |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |  |        |  |  |  |  +--TFY52286.1-Fomitopsis_rosea_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  |        |  |  |  +--| (97)
+|  |            |             |  |  |  |     |  |  |  |  |  |        |  |  |     +--KZT65885.1-Daedalea_quercina_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  |        |  +--| (87)
+|  |            |             |  |  |  |     |  |  |  |  |  |        |     +----XP_012179200.1-Fibroporia_radiculosa_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  |     +--| (98)
+|  |            |             |  |  |  |     |  |  |  |  |  |     |  |  +--KZT06102.1-Laetiporus_sulphureus_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  |     |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |  |     |     +--KZT06103.1-Laetiporus_sulphureus_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  |  +--| (95)
+|  |            |             |  |  |  |     |  |  |  |  |  |  |  |     +--PSR74832.1-Phlebia_centrifuga_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  |  |  |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |  |  |  |  |  +**THG94996.1-Phlebia_centrifuga_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  |  |  +--| (99)
+|  |            |             |  |  |  |     |  |  |  |  |  |  |     +----------XP_007399313.1-Phanerochaete_carnosa_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |  +--| (73)
+|  |            |             |  |  |  |     |  |  |  |  |     |                    +**XP_007369133.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |                 +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |     |                 |  +--TBU47941.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |              +--| (80)
+|  |            |             |  |  |  |     |  |  |  |  |     |              |  |     +**TBU57159.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |              |  |  +**| (67)
+|  |            |             |  |  |  |     |  |  |  |  |     |              |  |  |  +**XP_007369132.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |              |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |     |              |     +--TBU47939.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |           +--| (81)
+|  |            |             |  |  |  |     |  |  |  |  |     |           |  +**TBU57160.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |        +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |     |        |  |  +**TBU47940.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |        |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |     |        |     +**TBU28313.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |     +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |     |     |  +--PIL26858.1-Ganoderma_sinense_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |     |  |  |     +--RPD53474.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |  |  |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |     |  |  |  |  +--RPD55646.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |  |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |     |  |     |  +--RDX45337.1-Polyporus_brumalis_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     |  |     +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |     |  |        +--TFK80677.1-Polyporus_arcularius_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |     +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |        |        +--CDO76674.1-Trametes_cinnabarina_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |        |     +--| (99)
+|  |            |             |  |  |  |     |  |  |  |  |        |     |  +--OSD02536.1-Trametes_coccinea_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |        |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |        |  |  +--OSD02535.1-Trametes_coccinea_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |        +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |           |  +--XP_008045528.1-Trametes_versicolor_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  |  |           +--| (100)
+|  |            |             |  |  |  |     |  |  |  |  |              +**OJT04811.1-Trametes_pubescens_Basidiomycota
+|  |            |             |  |  |  |     |  |  |  +--| (84)
+|  |            |             |  |  |  |     |  |  |     |           +--KIP06008.1-Phlebiopsis_gigantea_Basidiomycota
+|  |            |             |  |  |  |     |  |  |     |        +--| (96)
+|  |            |             |  |  |  |     |  |  |     |        |  +--PSR88889.1-Phlebia_centrifuga_Basidiomycota
+|  |            |             |  |  |  |     |  |  |     |     +--| (95)
+|  |            |             |  |  |  |     |  |  |     |     |  |  +--XP_007397138.1-Phanerochaete_carnosa_Basidiomycota
+|  |            |             |  |  |  |     |  |  |     |     |  +--| (100)
+|  |            |             |  |  |  |     |  |  |     |     |     +--XP_007396047.1-Phanerochaete_carnosa_Basidiomycota
+|  |            |             |  |  |  |     |  |  |     |  +--| (90)
+|  |            |             |  |  |  |     |  |  |     |  |  +---TCD60417.1-Steccherinum_ochraceum_Basidiomycota
+|  |            |             |  |  |  |     |  |  |     +--| (33)
+|  |            |             |  |  |  |     |  |  |        |  +--EPT05883.1-Fomitopsis_pinicola_Basidiomycota
+|  |            |             |  |  |  |     |  |  |        +--| (100)
+|  |            |             |  |  |  |     |  |  |           +--KZT65452.1-Daedalea_quercina_Basidiomycota
+|  |            |             |  |  |  |     |  +--| (57)
+|  |            |             |  |  |  |     |     +-------KIY67565.1-Cylindrobasidium_torrendii_Basidiomycota
+|  |            |             |  |  |  |  +--| (29)
+|  |            |             |  |  |  |  |  |     +**SJL00179.1-Armillaria_ostoyae_Basidiomycota
+|  |            |             |  |  |  |  |  |  +--| (100)
+|  |            |             |  |  |  |  |  |  |  +--PBK77925.1-Armillaria_solidipes_Basidiomycota
+|  |            |             |  |  |  |  |  +--| (100)
+|  |            |             |  |  |  |  |     +--PBK96630.1-Armillaria_gallica_Basidiomycota
+|  |            |             |  |  |  +--| (46)
+|  |            |             |  |  |     |                 +**KTB28014.1-Moniliophthora_roreri_Basidiomycota
+|  |            |             |  |  |     |           +-----| (100)
+|  |            |             |  |  |     |           |     +**ESK93914.1-Moniliophthora_roreri_Basidiomycota
+|  |            |             |  |  |     |        +--| (39)
+|  |            |             |  |  |     |        |  |   +--THU84418.1-Dendrothele_bispora_Basidiomycota
+|  |            |             |  |  |     |        |  +---| (100)
+|  |            |             |  |  |     |        |      +--KAF5353000.1-Tetrapyrgos_nigripes_Basidiomycota
+|  |            |             |  |  |     |     +--| (73)
+|  |            |             |  |  |     |     |  |        +--KIK56124.1-Gymnopus_luxurians_Basidiomycota
+|  |            |             |  |  |     |     |  |     +--| (100)
+|  |            |             |  |  |     |     |  |     |  +--KAF5381931.1-Gymnopus_confluens_Basidiomycota
+|  |            |             |  |  |     |     |  |  +--| (99)
+|  |            |             |  |  |     |     |  |  |  +---GAW01597.1-Lentinula_edodes_Basidiomycota
+|  |            |             |  |  |     |     |  +--| (100)
+|  |            |             |  |  |     |     |     +--KAE9406065.1-Gymnopus_androsaceus_Basidiomycota
+|  |            |             |  |  |     |  +--| (61)
+|  |            |             |  |  |     |  |  |  +--ESK93915.1-Moniliophthora_roreri_Basidiomycota
+|  |            |             |  |  |     |  |  +--| (46)
+|  |            |             |  |  |     |  |     |  +------KAF4611121.1-Agrocybe_pediades_Basidiomycota
+|  |            |             |  |  |     |  |     +--| (62)
+|  |            |             |  |  |     |  |        +---KNZ75406.1-Termitomyces_sp._J132_Basidiomycota
+|  |            |             |  |  |     +--| (44)
+|  |            |             |  |  |        |                          +--PPQ64677.1-Gymnopilus_dilepis_Basidiomycota
+|  |            |             |  |  |        |                       +--| (91)
+|  |            |             |  |  |        |                       |  +--CAA7267653.1-Agrocybe_aegerita_Basidiomycota
+|  |            |             |  |  |        |                    +**| (81)
+|  |            |             |  |  |        |                    |  |  +--KAF5330651.1-Psilocybe_cf._subviscida_Basidiomycota
+|  |            |             |  |  |        |                    |  +--| (90)
+|  |            |             |  |  |        |                    |     +--KJA27446.1-Hypholoma_sublateritium_Basidiomycota
+|  |            |             |  |  |        |                 +--| (53)
+|  |            |             |  |  |        |                 |  +--KDR73465.1-Galerina_marginata_Basidiomycota
+|  |            |             |  |  |        |              +--| (53)
+|  |            |             |  |  |        |              |  |     +--PPQ89087.1-Psilocybe_cyanescens_Basidiomycota
+|  |            |             |  |  |        |              |  |  +--| (92)
+|  |            |             |  |  |        |              |  |  |  +--KAF4615122.1-Agrocybe_pediades_Basidiomycota
+|  |            |             |  |  |        |              |  +--| (63)
+|  |            |             |  |  |        |              |     +--PPQ68963.1-Panaeolus_cyanescens_Basidiomycota
+|  |            |             |  |  |        |           +--| (98)
+|  |            |             |  |  |        |           |  +--KIM48868.1-Hebeloma_cylindrosporum_Basidiomycota
+|  |            |             |  |  |        |        +--| (37)
+|  |            |             |  |  |        |        |  +--KAF5386754.1-Tricholomella_constricta_Basidiomycota
+|  |            |             |  |  |        |     +--| (88)
+|  |            |             |  |  |        |     |  |     +**XP_001878217.1-Laccaria_bicolor_Basidiomycota
+|  |            |             |  |  |        |     |  |  +--| (100)
+|  |            |             |  |  |        |     |  |  |  +--KIK06471.1-Laccaria_amethystina_Basidiomycota
+|  |            |             |  |  |        |     |  +--| (27)
+|  |            |             |  |  |        |     |     |  +--TFK72532.1-Pluteus_cervinus_Basidiomycota
+|  |            |             |  |  |        |     |     +--| (73)
+|  |            |             |  |  |        |     |        |  +--RDB23971.1-Hypsizygus_marmoreus_Basidiomycota
+|  |            |             |  |  |        |     |        +--| (100)
+|  |            |             |  |  |        |     |           +--RDB24149.1-Hypsizygus_marmoreus_Basidiomycota
+|  |            |             |  |  |        |  +--| (86)
+|  |            |             |  |  |        |  |  +--TFK42915.1-Crucibulum_laeve_Basidiomycota
+|  |            |             |  |  |        +--| (95)
+|  |            |             |  |  |           |        +--XP_001833641.2-Coprinopsis_cinerea_Basidiomycota
+|  |            |             |  |  |           |     +**| (59)
+|  |            |             |  |  |           |     |  |  +-----KII88734.1-Plicaturopsis_crispa_Basidiomycota
+|  |            |             |  |  |           |     |  +--| (96)
+|  |            |             |  |  |           |     |     |  +--TFK26442.1-Coprinopsis_marcescibilis_Basidiomycota
+|  |            |             |  |  |           |     |     +--| (100)
+|  |            |             |  |  |           |     |        +--TEB36290.1-Coprinellus_micaceus_Basidiomycota
+|  |            |             |  |  |           |  +--| (95)
+|  |            |             |  |  |           |  |  |  +**KAF5324448.1-Coprinellus_angulatus_Basidiomycota
+|  |            |             |  |  |           |  |  +--| (100)
+|  |            |             |  |  |           |  |     +**KAF6764817.1-Coprinellus_angulatus_Basidiomycota
+|  |            |             |  |  |           +--| (88)
+|  |            |             |  |  |              +----PFH52360.1-Amanita_thiersii_Basidiomycota
+|  |            |             |  +--| (90)
+|  |            |             |     |        +--KAA1467687.1-Dentipellis_sp._KUC8613_Basidiomycota
+|  |            |             |     |     +--| (100)
+|  |            |             |     |     |  +--TFY72273.1-Dentipellis_fragilis_Basidiomycota
+|  |            |             |     |  +--| (77)
+|  |            |             |     |  |  |                        +**ESK84115.1-Moniliophthora_roreri_Basidiomycota
+|  |            |             |     |  |  |                    +---| (100)
+|  |            |             |     |  |  |                    |   +**KTB28320.1-Moniliophthora_roreri_Basidiomycota
+|  |            |             |     |  |  |                 +--| (94)
+|  |            |             |     |  |  |                 |  |  +---TFK61365.1-Pluteus_cervinus_Basidiomycota
+|  |            |             |     |  |  |                 |  +**| (71)
+|  |            |             |     |  |  |                 |     +----PFH48952.1-Amanita_thiersii_Basidiomycota
+|  |            |             |     |  |  |              +--| (79)
+|  |            |             |     |  |  |              |  +--KNZ81699.1-Termitomyces_sp._J132_Basidiomycota
+|  |            |             |     |  |  |           +**| (52)
+|  |            |             |     |  |  |           |  |  +------CAA7268284.1-Agrocybe_aegerita_Basidiomycota
+|  |            |             |     |  |  |           |  +--| (82)
+|  |            |             |     |  |  |           |     |      +--TFK37960.1-Crucibulum_laeve_Basidiomycota
+|  |            |             |     |  |  |           |     +------| (100)
+|  |            |             |     |  |  |           |            +---TFK37961.1-Crucibulum_laeve_Basidiomycota
+|  |            |             |     |  |  |        +--| (77)
+|  |            |             |     |  |  |        |  |  +--RDB30790.1-Hypsizygus_marmoreus_Basidiomycota
+|  |            |             |     |  |  |        |  +--| (94)
+|  |            |             |     |  |  |        |     +--KAF5375710.1-Tricholomella_constricta_Basidiomycota
+|  |            |             |     |  |  |     +--| (76)
+|  |            |             |     |  |  |     |  |                    +**KAF7426402.1-Pleurotus_ostreatus_Basidiomycota
+|  |            |             |     |  |  |     |  |                 +--| (99)
+|  |            |             |     |  |  |     |  |                 |  +--KDQ32121.1-Pleurotus_ostreatus_Basidiomycota
+|  |            |             |     |  |  |     |  |              +--| (100)
+|  |            |             |     |  |  |     |  |              |  |  +**KAF4586650.1-Pleurotus_pulmonarius_Basidiomycota
+|  |            |             |     |  |  |     |  |              |  +--| (100)
+|  |            |             |     |  |  |     |  |              |     +**KAF4564502.1-Pleurotus_pulmonarius_Basidiomycota
+|  |            |             |     |  |  |     |  |           +--| (100)
+|  |            |             |     |  |  |     |  |           |  +--KAF7426422.1-Pleurotus_ostreatus_Basidiomycota
+|  |            |             |     |  |  |     |  |        +--| (91)
+|  |            |             |     |  |  |     |  |        |  |      +-----TEB20509.1-Coprinellus_micaceus_Basidiomycota
+|  |            |             |     |  |  |     |  |        |  +------| (100)
+|  |            |             |     |  |  |     |  |        |         |  +**KAF5314740.1-Coprinellus_angulatus_Basidiomycota
+|  |            |             |     |  |  |     |  |        |         +--| (100)
+|  |            |             |     |  |  |     |  |        |            +--KAF6748104.1-Coprinellus_angulatus_Basidiomycota
+|  |            |             |     |  |  |     |  |     +--| (94)
+|  |            |             |     |  |  |     |  |     |  |     +--PPQ93328.1-Psilocybe_cyanescens_Basidiomycota
+|  |            |             |     |  |  |     |  |     |  |  +--| (91)
+|  |            |             |     |  |  |     |  |     |  |  |  +--KDR80465.1-Galerina_marginata_Basidiomycota
+|  |            |             |     |  |  |     |  |     |  +--| (100)
+|  |            |             |     |  |  |     |  |     |     |           +----KJA21412.1-Hypholoma_sublateritium_Basidiomycota
+|  |            |             |     |  |  |     |  |     |     |        +--| (100)
+|  |            |             |     |  |  |     |  |     |     |        |  |       +--KAF5323238.1-Psilocybe_cf._subviscida_Basidiomycota
+|  |            |             |     |  |  |     |  |     |     |        |  +-------| (100)
+|  |            |             |     |  |  |     |  |     |     |        |          +--KAF5323241.1-Psilocybe_cf._subviscida_Basidiomycota
+|  |            |             |     |  |  |     |  |     |     |     +--| (91)
+|  |            |             |     |  |  |     |  |     |     |     |  +----PPR01118.1-Gymnopilus_dilepis_Basidiomycota
+|  |            |             |     |  |  |     |  |     |     |  +--| (88)
+|  |            |             |     |  |  |     |  |     |     |  |  +--------KIM37184.1-Hebeloma_cylindrosporum_Basidiomycota
+|  |            |             |     |  |  |     |  |     |     +--| (85)
+|  |            |             |     |  |  |     |  |     |        +---KAF4618279.1-Agrocybe_pediades_Basidiomycota
+|  |            |             |     |  |  |     |  |  +--| (82)
+|  |            |             |     |  |  |     |  |  |  |     +--KXN83052.1-Leucoagaricus_sp._SymC.cos_Basidiomycota
+|  |            |             |     |  |  |     |  |  |  |  +--| (100)
+|  |            |             |     |  |  |     |  |  |  |  |  +--KAF5356917.1-Leucoagaricus_leucothites_Basidiomycota
+|  |            |             |     |  |  |     |  |  |  +--| (98)
+|  |            |             |     |  |  |     |  |  |     |  +**XP_006463201.1-Agaricus_bisporus_Basidiomycota
+|  |            |             |     |  |  |     |  |  |     +--| (100)
+|  |            |             |     |  |  |     |  |  |        +--XP_007332591.1-Agaricus_bisporus_Basidiomycota
+|  |            |             |     |  |  |     |  +--| (80)
+|  |            |             |     |  |  |     |     +---TFK37959.1-Crucibulum_laeve_Basidiomycota
+|  |            |             |     |  |  |  +--| (100)
+|  |            |             |     |  |  |  |  |        +--XP_007313762.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |     |  |  |  |  |     +--| (100)
+|  |            |             |     |  |  |  |  |     |  +------XP_007313758.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |     |  |  |  |  |  +--| (14)
+|  |            |             |     |  |  |  |  |  |  |             +**KAF7334725.1-Mycena_venus_Basidiomycota
+|  |            |             |     |  |  |  |  |  |  |     +-------| (100)
+|  |            |             |     |  |  |  |  |  |  |     |       +--KAF7333881.1-Mycena_venus_Basidiomycota
+|  |            |             |     |  |  |  |  |  |  |  +--| (34)
+|  |            |             |     |  |  |  |  |  |  |  |  +--KAF7342342.1-Mycena_venus_Basidiomycota
+|  |            |             |     |  |  |  |  |  |  +--| (91)
+|  |            |             |     |  |  |  |  |  |     +------KAF7326077.1-Mycena_kentingensis_Basidiomycota
+|  |            |             |     |  |  |  |  +--| (18)
+|  |            |             |     |  |  |  |     |        +--GAT43291.1-Mycena_chlorophos_Basidiomycota
+|  |            |             |     |  |  |  |     |     +--| (100)
+|  |            |             |     |  |  |  |     |     |  +**KAF7319365.1-Mycena_chlorophos_Basidiomycota
+|  |            |             |     |  |  |  |     |  +--| (100)
+|  |            |             |     |  |  |  |     |  |  +--KAF7316051.1-Mycena_indigotica_Basidiomycota
+|  |            |             |     |  |  |  |     +--| (70)
+|  |            |             |     |  |  |  |        +-------KAF7360136.1-Mycena_venus_Basidiomycota
+|  |            |             |     |  |  +--| (87)
+|  |            |             |     |  |     +-----XP_007322832.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |     +--| (82)
+|  |            |             |        |     +--KAA1471247.1-Dentipellis_sp._KUC8613_Basidiomycota
+|  |            |             |        |  +--| (94)
+|  |            |             |        |  |  +------XP_007309997.1-Stereum_hirsutum_Basidiomycota
+|  |            |             |        +--| (84)
+|  |            |             |           |        +---XP_007299868.1-Stereum_hirsutum_Basidiomycota
+|  |            |             |           |     +--| (100)
+|  |            |             |           |     |  +--XP_007301411.1-Stereum_hirsutum_Basidiomycota
+|  |            |             |           |  +--| (95)
+|  |            |             |           |  |  +--THH08573.1-Bondarzewia_mesenterica_Basidiomycota
+|  |            |             |           +--| (79)
+|  |            |             |              |          +--VDC05365.1-Peniophora_sp._CBMAI_1063_Basidiomycota
+|  |            |             |              |       +--| (100)
+|  |            |             |              |       |  +--KZV65818.1-Peniophora_sp._CONT_Basidiomycota
+|  |            |             |              |  +----| (100)
+|  |            |             |              |  |    +--KZV65823.1-Peniophora_sp._CONT_Basidiomycota
+|  |            |             |              +--| (99)
+|  |            |             |                 +--XP_009542393.1-Heterobasidion_irregulare_Basidiomycota
+|  |            |          +--| (68)
+|  |            |          |  |    +**KZT33982.1-Sistotremastrum_suecicum_Basidiomycota
+|  |            |          |  +----| (100)
+|  |            |          |       +--KZS89878.1-Sistotremastrum_niveocremeum_Basidiomycota
+|  |            |       +--| (97)
+|  |            |       |  |                 +--CUA73965.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |              +--| (37)
+|  |            |       |  |              |  |        +--ELU41943.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |              |  |     +--| (100)
+|  |            |       |  |              |  |     |  +--CEL57992.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |              |  |  +--| (44)
+|  |            |       |  |              |  |  |  |   +**CUA73235.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |              |  |  |  +---| (100)
+|  |            |       |  |              |  |  |      +--CUA71516.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |              |  +--| (68)
+|  |            |       |  |              |     +--KDN37903.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |           +--| (42)
+|  |            |       |  |           |  +**KEP55843.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |        +--| (99)
+|  |            |       |  |        |  +**EUC65247.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |     +--| (87)
+|  |            |       |  |     |  +--KAB5592217.1-Ceratobasidium_theobromae_Basidiomycota
+|  |            |       |  |  +--| (71)
+|  |            |       |  |  |  +--KDQ14653.1-Botryobasidium_botryosum_Basidiomycota
+|  |            |       |  +--| (85)
+|  |            |       |     |     +--KAB5591707.1-Ceratobasidium_theobromae_Basidiomycota
+|  |            |       |     +-----| (99)
+|  |            |       |           +-----------CUA71197.1-Rhizoctonia_solani_Basidiomycota
+|  |            |    +--| (99)
+|  |            |    |  |  +------------CDZ97754.1-Phaffia_rhodozyma_Basidiomycota
+|  |            |    |  +--| (99)
+|  |            |    |     |                               +--XP_007878520.1-Anthracocystis_flocculosa_Basidiomycota
+|  |            |    |     |                            +--| (14)
+|  |            |    |     |                            |  +**PWZ00857.1-Testicularia_cyperi_Basidiomycota
+|  |            |    |     |                         +--| (12)
+|  |            |    |     |                         |  +**XP_012187531.1-Pseudozyma_hubeiensis_Basidiomycota
+|  |            |    |     |                      +--| (13)
+|  |            |    |     |                      |  |     +--XP_011387380.1-Ustilago_maydis_Basidiomycota
+|  |            |    |     |                      |  |  +**| (6)
+|  |            |    |     |                      |  |  |  |              +**SPO43801.1-Moesziomyces_antarcticus_Basidiomycota
+|  |            |    |     |                      |  |  |  |           +**| (17)
+|  |            |    |     |                      |  |  |  |           |  +**XP_016295197.1-Kalmanozyma_brasiliensis_Basidiomycota
+|  |            |    |     |                      |  |  |  |        +**| (11)
+|  |            |    |     |                      |  |  |  |        |  +**ETS61282.1-Moesziomyces_aphidis_Basidiomycota
+|  |            |    |     |                      |  |  |  |     +**| (26)
+|  |            |    |     |                      |  |  |  |     |  +**GAC72933.1-Moesziomyces_antarcticus_Basidiomycota
+|  |            |    |     |                      |  |  |  |  +--| (96)
+|  |            |    |     |                      |  |  |  |  |  |     +**XP_014658580.1-Moesziomyces_antarcticus_Basidiomycota
+|  |            |    |     |                      |  |  |  |  |  |  +**| (16)
+|  |            |    |     |                      |  |  |  |  |  |  |  +**CCF54966.1-Ustilago_hordei_Basidiomycota
+|  |            |    |     |                      |  |  |  |  |  +**| (26)
+|  |            |    |     |                      |  |  |  |  |     +**SAM75022.1-Ustilago_bromivora_Basidiomycota
+|  |            |    |     |                      |  |  |  +--| (58)
+|  |            |    |     |                      |  |  |     +**CDI51779.1-Melanopsichium_pennsylvanicum_Basidiomycota
+|  |            |    |     |                      |  +**| (23)
+|  |            |    |     |                      |     |  +**SPO22875.1-Ustilago_trichophora_Basidiomycota
+|  |            |    |     |                      |     +**| (94)
+|  |            |    |     |                      |        |  +**SPO25041.1-Ustilago_trichophora_Basidiomycota
+|  |            |    |     |                      |        +**| (65)
+|  |            |    |     |                      |           +**CBQ70244.1-Sporisorium_reilianum_Basidiomycota
+|  |            |    |     |                   +**| (12)
+|  |            |    |     |                   |  +**CDR88257.1-Sporisorium_scitamineum_Basidiomycota
+|  |            |    |     |                +--| (99)
+|  |            |    |     |                |  +--XP_029737259.1-Sporisorium_graminicola_Basidiomycota
+|  |            |    |     |             +--| (76)
+|  |            |    |     |             |  +--PWN47149.1-Violaceomyces_palustris_Basidiomycota
+|  |            |    |     |          +--| (76)
+|  |            |    |     |          |  |           +--XP_025350244.1-Pseudomicrostroma_glucosiphilum_Basidiomycota
+|  |            |    |     |          |  |        +--| (96)
+|  |            |    |     |          |  |        |  +--XP_025364802.1-Jaminaea_rosea_Basidiomycota
+|  |            |    |     |          |  |     +--| (96)
+|  |            |    |     |          |  |     |  |  +--XP_025597454.1-Tilletiopsis_washingtonensis_Basidiomycota
+|  |            |    |     |          |  |     |  +--| (100)
+|  |            |    |     |          |  |     |     +--XP_025368439.1-Ceraceosorus_guamensis_Basidiomycota
+|  |            |    |     |          |  |  +--| (62)
+|  |            |    |     |          |  |  |  +--XP_025358105.1-Meira_miltonrushii_Basidiomycota
+|  |            |    |     |          |  +--| (95)
+|  |            |    |     |          |     +--XP_025374703.1-Acaromyces_ingoldii_Basidiomycota
+|  |            |    |     |       +--| (98)
+|  |            |    |     |       |  |    +---PKI85313.1-Malassezia_vespertilionis_Basidiomycota
+|  |            |    |     |       |  +----| (100)
+|  |            |    |     |       |       |        +**AYO44093.1-Malassezia_restricta_Basidiomycota
+|  |            |    |     |       |       |     +--| (100)
+|  |            |    |     |       |       |     |  +--XP_027486193.1-Malassezia_restricta_Basidiomycota
+|  |            |    |     |       |       |  +--| (100)
+|  |            |    |     |       |       |  |  +--XP_001728750.1-Malassezia_globosa_Basidiomycota
+|  |            |    |     |       |       +--| (100)
+|  |            |    |     |       |          |  +--XP_017990589.1-Malassezia_pachydermatis_Basidiomycota
+|  |            |    |     |       |          +--| (99)
+|  |            |    |     |       |             +--XP_018741713.1-Malassezia_sympodialis_Basidiomycota
+|  |            |    |     |  +----| (100)
+|  |            |    |     |  |    +----------XP_013242052.1-Tilletiaria_anomala_Basidiomycota
+|  |            |    |     +--| (96)
+|  |            |    |        |                  +--TIA88507.1-Wallemia_hederae_Basidiomycota
+|  |            |    |        +------------------| (100)
+|  |            |    |                           |  +**TIC28224.1-Wallemia_mellicola_Basidiomycota
+|  |            |    |                           +--| (100)
+|  |            |    |                              +**XP_006957474.1-Wallemia_mellicola_Basidiomycota
+|  |            +----| (100)
+|  |                 |  +------XP_007405489.1-Melampsora_larici-populina_Basidiomycota
+|  |                 +--| (92)
+|  |                    |             +**PLW10552.1-Puccinia_coronata_Basidiomycota
+|  |                    |          +--| (100)
+|  |                    |          |  |  +**PLW43991.1-Puccinia_coronata_Basidiomycota
+|  |                    |          |  +**| (26)
+|  |                    |          |     +**PLW23367.1-Puccinia_coronata_Basidiomycota
+|  |                    |       +--| (92)
+|  |                    |       |  |     +**KNF03889.1-Puccinia_striiformis_Basidiomycota
+|  |                    |       |  |  +--| (100)
+|  |                    |       |  |  |  +--POW14800.1-Puccinia_striiformis_Basidiomycota
+|  |                    |       |  +--| (99)
+|  |                    |       |     +--OAV90883.1-Puccinia_triticina_Basidiomycota
+|  |                    +-------| (100)
+|  |                            |  +--KAA1080112.1-Puccinia_graminis_Basidiomycota
+|  |                            +--| (100)
+|  |                               |  +**XP_003325305.2-Puccinia_graminis_Basidiomycota
+|  |                               +--| (100)
+|  |                                  +**KAA1081664.1-Puccinia_graminis_Basidiomycota
++--| (100)
+   |       +**XP_504870.1-Yarrowia_lipolytica_Saccharomycotina
+   +-------| (100)
+           +--RDW35049.1-Yarrowia_lipolytica_Saccharomycotina
+
+Tree in newick format:
+
+(XP_018737180.1-Sugiyamaella_lignohabitans_Saccharomycotina:0.2735852241,(KAA8916722.1-Trichomonascus_ciferrii_Saccharomycotina:0.4172902903,QUERY_yHMPu5000034681_Blastobotrys_americana_Seq_154:0.1927967497)100:0.0374910506,((((((KAF5103339.1-Geotrichum_candidum_Saccharomycotina:0.0000010000,KAF5121213.1-Geotrichum_candidum_Saccharomycotina:0.0000010000)100:0.0103523118,KAF5114449.1-Geotrichum_candidum_Saccharomycotina:0.0000022316)100:0.0848954840,KAF5094807.1-Geotrichum_candidum_Saccharomycotina:0.0249581401)100:0.0861044376,KAF5092728.1-Galactomyces_reessii_Saccharomycotina:0.0851203983)100:0.3141145057,((ODQ69345.1-Lipomyces_starkeyi_Saccharomycotina:0.0211637237,(ODQ69163.1-Lipomyces_starkeyi_Saccharomycotina:0.0212674327,ODQ69151.1-Lipomyces_starkeyi_Saccharomycotina:0.1518597433)90:0.0117503125)100:0.2794894272,((((((((PAV23724.1-Pyrrhoderma_noxium_Basidiomycota:0.1272113331,((((XP_007264057.1-Fomitiporia_mediterranea_Basidiomycota:0.0417358723,XP_007264055.1-Fomitiporia_mediterranea_Basidiomycota:0.0801423677)99:0.0174335584,OCB84313.1-Sanghuangporus_baumii_Basidiomycota:0.0524700408)100:0.0472704274,(KIJ44360.1-Sphaerobolus_stellatus_Basidiomycota:0.0432483986,KIJ45694.1-Sphaerobolus_stellatus_Basidiomycota:0.0109203978)100:0.2447069771)95:0.0153883757,THH06769.1-Phellinidium_pouzarii_Basidiomycota:0.2985413614)64:0.0166227125)93:0.0130593265,(KLO18552.1-Schizopora_paradoxa_Basidiomycota:0.1938479470,((((PAV19290.1-Pyrrhoderma_noxium_Basidiomycota:0.2761429943,XP_007262562.1-Fomitiporia_mediterranea_Basidiomycota:0.2024199443)99:0.0861342754,((XP_007270137.1-Fomitiporia_mediterranea_Basidiomycota:0.2527207926,XP_007267979.1-Fomitiporia_mediterranea_Basidiomycota:0.5416392254)100:0.2261305602,(THH01940.1-Phellinidium_pouzarii_Basidiomycota:0.1791277670,(PAV17996.1-Pyrrhoderma_noxium_Basidiomycota:0.6543634759,(XP_007261744.1-Fomitiporia_mediterranea_Basidiomycota:0.2343467336,OCB86976.1-Sanghuangporus_baumii_Basidiomycota:0.2957294463)100:0.0689361400)100:0.1733697242)98:0.0727156265)89:0.0564909561)78:0.0281214794,((PAV18342.1-Pyrrhoderma_noxium_Basidiomycota:0.0299131951,(XP_007270129.1-Fomitiporia_mediterranea_Basidiomycota:0.3497222483,XP_007270128.1-Fomitiporia_mediterranea_Basidiomycota:0.0863946696)95:0.1152390768)93:0.0401266479,(XP_007270135.1-Fomitiporia_mediterranea_Basidiomycota:0.0698714110,THH09768.1-Phellinidium_pouzarii_Basidiomycota:0.1638831458)98:0.0448745168)93:0.0341827683)76:0.0466434468,(XP_007270136.1-Fomitiporia_mediterranea_Basidiomycota:0.2500704323,OCB88220.1-Sanghuangporus_baumii_Basidiomycota:0.0575249121)83:0.0369498161)94:0.0524438039)75:0.0352136917)65:0.0246762197,TDL27434.1-Rickenella_mellea_Basidiomycota:0.1564813821)86:0.0327179752,(((KZP24726.1-Fibularhizoctonia_sp._CBS_109695_Basidiomycota:0.1205172717,(KIM80872.1-Piloderma_croceum_Basidiomycota:0.0453358161,KIM81263.1-Piloderma_croceum_Basidiomycota:0.0955212188)100:0.0985794026)92:0.0455276439,(((((((((KIJ69492.1-Hydnomerulius_pinastri_Basidiomycota:0.1517350695,KIJ69493.1-Hydnomerulius_pinastri_Basidiomycota:0.1330812042)99:0.0517252803,(XP_007774791.1-Coniophora_puteana_Basidiomycota:0.3330426498,XP_007774834.1-Coniophora_puteana_Basidiomycota:0.3070660735)100:0.1333988392)92:0.0372916473,XP_007764800.1-Coniophora_puteana_Basidiomycota:0.2369122881)40:0.0095438803,XP_007321317.1-Serpula_lacrymans_Basidiomycota:0.1061133591)45:0.0142684484,(((((KIO13269.1-Pisolithus_tinctorius_Basidiomycota:0.0113214409,KIO10494.1-Pisolithus_tinctorius_Basidiomycota:0.1460092982)100:0.0224463213,KIK31312.1-Pisolithus_microcarpus_Basidiomycota:0.0228596894)100:0.0708575666,KIM59415.1-Scleroderma_citrinum_Basidiomycota:0.0255706090)56:0.0000029763,((((OAX36864.1-Rhizopogon_vinicolor_Basidiomycota:0.0112308470,OAX36860.1-Rhizopogon_vinicolor_Basidiomycota:0.3119799117)43:0.0000022978,OJA21627.1-Rhizopogon_vesiculosus_Basidiomycota:0.1244212866)100:0.0149261004,(KIK45873.1-Suillus_luteus_Basidiomycota:0.0223807215,KAF3872225.1-Suillus_brevipes_Basidiomycota:0.0000026426)100:0.0649847915)100:0.0847707636,((KIJ17340.1-Paxillus_involutus_Basidiomycota:0.0000022226,KIK91431.1-Paxillus_rubicundulus_Basidiomycota:0.0439272600)100:0.0728380137,KIJ69495.1-Hydnomerulius_pinastri_Basidiomycota:0.0589594961)100:0.0677535360)79:0.0422766761)78:0.0277222547,(KIM53189.1-Scleroderma_citrinum_Basidiomycota:0.0787166783,((((KIO03876.1-Pisolithus_tinctorius_Basidiomycota:0.1814072517,(KIK28099.1-Pisolithus_microcarpus_Basidiomycota:0.0676252837,(KIK28096.1-Pisolithus_microcarpus_Basidiomycota:0.0910801790,KIK28093.1-Pisolithus_microcarpus_Basidiomycota:0.1825784221)99:0.0386236994)72:0.0277429430)67:0.0113481405,KIO03875.1-Pisolithus_tinctorius_Basidiomycota:0.0913431607)97:0.0443828251,KIO03880.1-Pisolithus_tinctorius_Basidiomycota:0.1032397262)100:0.1043812954,(((RDB23970.1-Hypsizygus_marmoreus_Basidiomycota:0.2686515489,((KIK45871.1-Suillus_luteus_Basidiomycota:0.0176090818,KAF3872223.1-Suillus_brevipes_Basidiomycota:0.0505990467)100:0.3743463911,OSD02538.1-Trametes_coccinea_Basidiomycota:0.4968253510)99:0.1521696023)43:0.0550550139,(KNZ75558.1-Termitomyces_sp._J132_Basidiomycota:0.3441295002,((((TFK92498.1-Polyporus_arcularius_Basidiomycota:0.0528010690,RDX51795.1-Polyporus_brumalis_Basidiomycota:0.0444682717)100:0.1939862897,(RPD74112.1-Lentinus_tigrinus_Basidiomycota:0.0000025387,RPD54921.1-Lentinus_tigrinus_Basidiomycota:0.0000010000)100:0.1075852167)70:0.0672025597,(((TFK83651.1-Polyporus_arcularius_Basidiomycota:0.0000025951,RDX45333.1-Polyporus_brumalis_Basidiomycota:0.0331694756)100:0.1500358401,RDX45334.1-Polyporus_brumalis_Basidiomycota:0.0692444055)100:0.1498409694,RPD53466.1-Lentinus_tigrinus_Basidiomycota:0.2081991397)100:0.2193444521)54:0.0763681588,PIL26866.1-Ganoderma_sinense_Basidiomycota:0.4102995688)99:0.1610001897)41:0.0523663567)73:0.1068115526,KIM58385.1-Scleroderma_citrinum_Basidiomycota:0.2399952319)91:0.0203592602)67:0.0782728902)60:0.0355233192)66:0.0756581130)65:0.0319341130,(((TFK55268.1-Heliocybe_sulcata_Basidiomycota:0.0218300710,(XP_007863631.1-Gloeophyllum_trabeum_Basidiomycota:0.0666879578,KZT28576.1-Neolentinus_lepideus_Basidiomycota:0.0219135448)44:0.0000024203)95:0.0264461952,(XP_007865523.1-Gloeophyllum_trabeum_Basidiomycota:0.1755785343,TFK55269.1-Heliocybe_sulcata_Basidiomycota:0.0529787163)99:0.0561448363)99:0.0549396310,((TFK53876.1-Heliocybe_sulcata_Basidiomycota:0.0509129458,XP_007864705.1-Gloeophyllum_trabeum_Basidiomycota:0.0506442019)100:0.2412756161,(KDQ59468.1-Jaapia_argillacea_Basidiomycota:0.0089001512,KDQ59483.1-Jaapia_argillacea_Basidiomycota:0.1298355064)99:0.1023843652)76:0.0069792212)82:0.0247277034)49:0.0269144878,((((KAF5357806.1-Leucoagaricus_leucothites_Basidiomycota:0.0330727511,(KXN82523.1-Leucoagaricus_sp._SymC.cos_Basidiomycota:0.0000022604,(EGO01602.1-Serpula_lacrymans_Basidiomycota:0.0000027269,XP_007315350.1-Serpula_lacrymans_Basidiomycota:0.0000026968)100:0.4942322043)71:0.0341015559)73:0.0619323467,(XP_007326627.1-Agaricus_bisporus_Basidiomycota:0.0000025792,XP_006458451.1-Agaricus_bisporus_Basidiomycota:0.0000024928)100:0.0739957526)71:0.0804674084,((((((((RPD65889.1-Lentinus_tigrinus_Basidiomycota:0.0219368498,(TFK90965.1-Polyporus_arcularius_Basidiomycota:0.0000022622,RDX48391.1-Polyporus_brumalis_Basidiomycota:0.0110516879)100:0.0223226172)93:0.0228551099,PIL23778.1-Ganoderma_sinense_Basidiomycota:0.0809841320)12:0.0000027494,(XP_007360886.1-Dichomitus_squalens_Basidiomycota:0.0000023361,TBU32230.1-Dichomitus_squalens_Basidiomycota:0.0000010000)100:0.0692546739)66:0.0334281950,(KZT11503.1-Laetiporus_sulphureus_Basidiomycota:0.1129466140,OBZ72127.1-Grifola_frondosa_Basidiomycota:0.0337632774)15:0.0000027260)23:0.0211469703,((TFL06915.1-Pterula_gracilis_Basidiomycota:0.3062559357,XP_024341743.1-Postia_placenta_Basidiomycota:0.0722577390)97:0.0447627138,((PCH38363.1-Wolfiporia_cocos_Basidiomycota:0.0732997017,KZT11504.1-Laetiporus_sulphureus_Basidiomycota:0.1299993807)99:0.0268906523,(EPT05870.1-Fomitopsis_pinicola_Basidiomycota:0.1313066930,KZT65464.1-Daedalea_quercina_Basidiomycota:0.0612194431)100:0.1368381375)99:0.0316548053)47:0.0344816003)39:0.0113309688,(((OSD02841.1-Trametes_coccinea_Basidiomycota:0.0533675017,(XP_008036862.1-Trametes_versicolor_Basidiomycota:0.0326361407,OJT14130.1-Trametes_pubescens_Basidiomycota:0.0000027813)100:0.0250748648)99:0.0448978845,XP_027613384.1-Sparassis_crispa_Basidiomycota:0.0799153320)77:0.0226539384,(EMD38638.1-Gelatoporia_subvermispora_Basidiomycota:0.0322988313,OCH95333.1-Obba_rivulosa_Basidiomycota:0.0452457753)99:0.0465421508)46:0.0209468896)39:0.0117218423,(((((PCH39619.1-Wolfiporia_cocos_Basidiomycota:0.2024138915,XP_024335938.1-Postia_placenta_Basidiomycota:0.1602188540)59:0.0058348395,((EPS93657.1-Fomitopsis_pinicola_Basidiomycota:0.0115343281,(TFY52286.1-Fomitopsis_rosea_Basidiomycota:0.0354016087,KZT65885.1-Daedalea_quercina_Basidiomycota:0.0571847528)97:0.0200507778)100:0.0588549497,XP_012179200.1-Fibroporia_radiculosa_Basidiomycota:0.1980265637)87:0.0111050740)69:0.0116679108,(KZT06102.1-Laetiporus_sulphureus_Basidiomycota:0.0075778368,KZT06103.1-Laetiporus_sulphureus_Basidiomycota:0.1174549272)100:0.0999038584)98:0.0622963594,((PSR74832.1-Phlebia_centrifuga_Basidiomycota:0.0107372264,THG94996.1-Phlebia_centrifuga_Basidiomycota:0.0000021955)100:0.0920981524,XP_007399313.1-Phanerochaete_carnosa_Basidiomycota:0.4559225909)99:0.0260802690)95:0.0567288775,(((((((XP_007369133.1-Dichomitus_squalens_Basidiomycota:0.0000023282,TBU47941.1-Dichomitus_squalens_Basidiomycota:0.0323571903)100:0.0635726223,((TBU57159.1-Dichomitus_squalens_Basidiomycota:0.0000027328,XP_007369132.1-Dichomitus_squalens_Basidiomycota:0.0000029936)67:0.0000021549,TBU47939.1-Dichomitus_squalens_Basidiomycota:0.0108999766)100:0.1387568428)80:0.0161768142,TBU57160.1-Dichomitus_squalens_Basidiomycota:0.0000028404)81:0.0236265058,(TBU47940.1-Dichomitus_squalens_Basidiomycota:0.0000021081,TBU28313.1-Dichomitus_squalens_Basidiomycota:0.0000020689)100:0.0467455772)100:0.0707902801,PIL26858.1-Ganoderma_sinense_Basidiomycota:0.1102161469)100:0.0781310812,((RPD53474.1-Lentinus_tigrinus_Basidiomycota:0.0329826560,RPD55646.1-Lentinus_tigrinus_Basidiomycota:0.0110895514)100:0.0128244232,(RDX45337.1-Polyporus_brumalis_Basidiomycota:0.0107331953,TFK80677.1-Polyporus_arcularius_Basidiomycota:0.0328771882)100:0.0333304822)100:0.0811707802)100:0.0903756168,(((CDO76674.1-Trametes_cinnabarina_Basidiomycota:0.0218852012,OSD02536.1-Trametes_coccinea_Basidiomycota:0.1046529434)99:0.0324359363,OSD02535.1-Trametes_coccinea_Basidiomycota:0.0246012393)100:0.0631865057,(XP_008045528.1-Trametes_versicolor_Basidiomycota:0.0109794925,OJT04811.1-Trametes_pubescens_Basidiomycota:0.0000021428)100:0.0876040232)100:0.0723281390)100:0.1254706353)73:0.0316566808)10:0.0000020154,((((KIP06008.1-Phlebiopsis_gigantea_Basidiomycota:0.0260034873,PSR88889.1-Phlebia_centrifuga_Basidiomycota:0.1529844485)96:0.0302249830,(XP_007397138.1-Phanerochaete_carnosa_Basidiomycota:0.0787615714,XP_007396047.1-Phanerochaete_carnosa_Basidiomycota:0.0815572176)100:0.0252183858)95:0.0400588909,TCD60417.1-Steccherinum_ochraceum_Basidiomycota:0.1713213402)90:0.0356467084,(EPT05883.1-Fomitopsis_pinicola_Basidiomycota:0.0459337339,KZT65452.1-Daedalea_quercina_Basidiomycota:0.0197190083)100:0.0621941081)33:0.0178802977)84:0.0139515741)69:0.0341803617,KIY67565.1-Cylindrobasidium_torrendii_Basidiomycota:0.3323368913)57:0.0433698036)14:0.0000021820,((SJL00179.1-Armillaria_ostoyae_Basidiomycota:0.0000029401,PBK77925.1-Armillaria_solidipes_Basidiomycota:0.0113897998)100:0.0256235578,PBK96630.1-Armillaria_gallica_Basidiomycota:0.0085273985)100:0.1556749532)29:0.0339192028,(((((KTB28014.1-Moniliophthora_roreri_Basidiomycota:0.0000021271,ESK93914.1-Moniliophthora_roreri_Basidiomycota:0.0000022359)100:0.2497782930,(THU84418.1-Dendrothele_bispora_Basidiomycota:0.0456730538,KAF5353000.1-Tetrapyrgos_nigripes_Basidiomycota:0.0902848428)100:0.1658021840)39:0.0384072873,(((KIK56124.1-Gymnopus_luxurians_Basidiomycota:0.0800849988,KAF5381931.1-Gymnopus_confluens_Basidiomycota:0.0307614161)100:0.0514661717,GAW01597.1-Lentinula_edodes_Basidiomycota:0.1813589757)99:0.0509717863,KAE9406065.1-Gymnopus_androsaceus_Basidiomycota:0.0763255929)100:0.1358957260)73:0.0373523544,(ESK93915.1-Moniliophthora_roreri_Basidiomycota:0.1347107296,(KAF4611121.1-Agrocybe_pediades_Basidiomycota:0.3114184178,KNZ75406.1-Termitomyces_sp._J132_Basidiomycota:0.1623607939)62:0.0280523207)46:0.0173099837)61:0.0479740787,(((((((((PPQ64677.1-Gymnopilus_dilepis_Basidiomycota:0.0723566451,CAA7267653.1-Agrocybe_aegerita_Basidiomycota:0.0567458942)91:0.0327680243,(KAF5330651.1-Psilocybe_cf._subviscida_Basidiomycota:0.1135107831,KJA27446.1-Hypholoma_sublateritium_Basidiomycota:0.0338344024)90:0.0371587241)81:0.0012251591,KDR73465.1-Galerina_marginata_Basidiomycota:0.0326951035)53:0.0342254362,((PPQ89087.1-Psilocybe_cyanescens_Basidiomycota:0.0609790071,KAF4615122.1-Agrocybe_pediades_Basidiomycota:0.0305310276)92:0.0230134880,PPQ68963.1-Panaeolus_cyanescens_Basidiomycota:0.0700883289)63:0.0295653010)53:0.0086976749,KIM48868.1-Hebeloma_cylindrosporum_Basidiomycota:0.0366774389)98:0.0557494538,KAF5386754.1-Tricholomella_constricta_Basidiomycota:0.0947193351)37:0.0290489232,((XP_001878217.1-Laccaria_bicolor_Basidiomycota:0.0000022197,KIK06471.1-Laccaria_amethystina_Basidiomycota:0.0428370127)100:0.0831252894,(TFK72532.1-Pluteus_cervinus_Basidiomycota:0.1030787699,(RDB23971.1-Hypsizygus_marmoreus_Basidiomycota:0.0513677107,RDB24149.1-Hypsizygus_marmoreus_Basidiomycota:0.0532332829)100:0.1497021798)73:0.0144816805)27:0.0121824572)88:0.0456389239,TFK42915.1-Crucibulum_laeve_Basidiomycota:0.0375394596)86:0.0152452033,(((XP_001833641.2-Coprinopsis_cinerea_Basidiomycota:0.1153653175,(KII88734.1-Plicaturopsis_crispa_Basidiomycota:0.2505938660,(TFK26442.1-Coprinopsis_marcescibilis_Basidiomycota:0.0385263370,TEB36290.1-Coprinellus_micaceus_Basidiomycota:0.1471269516)100:0.0144458230)96:0.0564416736)59:0.0000020502,(KAF5324448.1-Coprinellus_angulatus_Basidiomycota:0.0000022459,KAF6764817.1-Coprinellus_angulatus_Basidiomycota:0.0000020555)100:0.0741267849)95:0.0598983835,PFH52360.1-Amanita_thiersii_Basidiomycota:0.2035012096)88:0.0173654950)95:0.0535874036)44:0.0161375777)46:0.0417366564)75:0.0407765926,(((KAA1467687.1-Dentipellis_sp._KUC8613_Basidiomycota:0.0101225580,TFY72273.1-Dentipellis_fragilis_Basidiomycota:0.0466311167)100:0.1040961176,((((((((ESK84115.1-Moniliophthora_roreri_Basidiomycota:0.0000026772,KTB28320.1-Moniliophthora_roreri_Basidiomycota:0.0000021819)100:0.1794350727,(TFK61365.1-Pluteus_cervinus_Basidiomycota:0.1770156597,PFH48952.1-Amanita_thiersii_Basidiomycota:0.2013573368)71:0.0062390955)94:0.0868940431,KNZ81699.1-Termitomyces_sp._J132_Basidiomycota:0.1003652984)79:0.0263251230,(CAA7268284.1-Agrocybe_aegerita_Basidiomycota:0.2845250555,(TFK37960.1-Crucibulum_laeve_Basidiomycota:0.0515005697,TFK37961.1-Crucibulum_laeve_Basidiomycota:0.1785261154)100:0.3026209226)82:0.1074034534)52:0.0000021505,(RDB30790.1-Hypsizygus_marmoreus_Basidiomycota:0.1260362754,KAF5375710.1-Tricholomella_constricta_Basidiomycota:0.0702702108)94:0.0476210314)77:0.0231955348,(((((((KAF7426402.1-Pleurotus_ostreatus_Basidiomycota:0.0000023266,KDQ32121.1-Pleurotus_ostreatus_Basidiomycota:0.0213721647)99:0.0127693950,(KAF4586650.1-Pleurotus_pulmonarius_Basidiomycota:0.0000020658,KAF4564502.1-Pleurotus_pulmonarius_Basidiomycota:0.0000010000)100:0.0308804859)100:0.0593911520,KAF7426422.1-Pleurotus_ostreatus_Basidiomycota:0.1342539686)100:0.0962016489,(TEB20509.1-Coprinellus_micaceus_Basidiomycota:0.2726000116,(KAF5314740.1-Coprinellus_angulatus_Basidiomycota:0.0000023365,KAF6748104.1-Coprinellus_angulatus_Basidiomycota:0.0108301658)100:0.1450576399)100:0.3035009671)91:0.0756475875,((PPQ93328.1-Psilocybe_cyanescens_Basidiomycota:0.1509887388,KDR80465.1-Galerina_marginata_Basidiomycota:0.0862232505)91:0.0398296763,((((KJA21412.1-Hypholoma_sublateritium_Basidiomycota:0.2067412837,(KAF5323238.1-Psilocybe_cf._subviscida_Basidiomycota:0.0296977478,KAF5323241.1-Psilocybe_cf._subviscida_Basidiomycota:0.0282396056)100:0.3315620453)100:0.0820923248,PPR01118.1-Gymnopilus_dilepis_Basidiomycota:0.2351369644)91:0.0532388636,KIM37184.1-Hebeloma_cylindrosporum_Basidiomycota:0.3784150235)88:0.0670976918,KAF4618279.1-Agrocybe_pediades_Basidiomycota:0.1702214572)85:0.0436511246)100:0.1498137933)94:0.0725282427,((KXN83052.1-Leucoagaricus_sp._SymC.cos_Basidiomycota:0.0120998794,KAF5356917.1-Leucoagaricus_leucothites_Basidiomycota:0.0560164330)100:0.0656803933,(XP_006463201.1-Agaricus_bisporus_Basidiomycota:0.0000028328,XP_007332591.1-Agaricus_bisporus_Basidiomycota:0.0114183649)100:0.1217461343)98:0.0341939653)82:0.0251180486,TFK37959.1-Crucibulum_laeve_Basidiomycota:0.1784863842)80:0.0218850315)76:0.0432217987,(((XP_007313762.1-Serpula_lacrymans_Basidiomycota:0.1154394957,XP_007313758.1-Serpula_lacrymans_Basidiomycota:0.3080643213)100:0.1295907120,(((KAF7334725.1-Mycena_venus_Basidiomycota:0.0000020930,KAF7333881.1-Mycena_venus_Basidiomycota:0.0109770558)100:0.3184120314,KAF7342342.1-Mycena_venus_Basidiomycota:0.1532487209)34:0.0587374118,KAF7326077.1-Mycena_kentingensis_Basidiomycota:0.3039266092)91:0.0833126036)14:0.0218990247,(((GAT43291.1-Mycena_chlorophos_Basidiomycota:0.0111019126,KAF7319365.1-Mycena_chlorophos_Basidiomycota:0.0000029618)100:0.1160212713,KAF7316051.1-Mycena_indigotica_Basidiomycota:0.0961238074)100:0.1267442302,KAF7360136.1-Mycena_venus_Basidiomycota:0.3385842720)70:0.0353476753)18:0.0496592429)100:0.0773689567,XP_007322832.1-Serpula_lacrymans_Basidiomycota:0.2685062448)87:0.0764072847)77:0.0439304267,((KAA1471247.1-Dentipellis_sp._KUC8613_Basidiomycota:0.0340151436,XP_007309997.1-Stereum_hirsutum_Basidiomycota:0.3018987592)94:0.0267257317,(((XP_007299868.1-Stereum_hirsutum_Basidiomycota:0.1645657625,XP_007301411.1-Stereum_hirsutum_Basidiomycota:0.0750717302)100:0.0800327006,THH08573.1-Bondarzewia_mesenterica_Basidiomycota:0.1493505724)95:0.0379779220,(((VDC05365.1-Peniophora_sp._CBMAI_1063_Basidiomycota:0.0595480686,KZV65818.1-Peniophora_sp._CONT_Basidiomycota:0.0217763701)100:0.0331187035,KZV65823.1-Peniophora_sp._CONT_Basidiomycota:0.0900116801)100:0.2151924482,XP_009542393.1-Heterobasidion_irregulare_Basidiomycota:0.0581813906)99:0.0396793464)79:0.0181888892)84:0.0333323490)82:0.0192936634)90:0.0669696468)52:0.0000021148,(KZT33982.1-Sistotremastrum_suecicum_Basidiomycota:0.0029390493,KZS89878.1-Sistotremastrum_niveocremeum_Basidiomycota:0.0180883948)100:0.2356025799)68:0.0393729410,((((((CUA73965.1-Rhizoctonia_solani_Basidiomycota:0.0298988246,(((ELU41943.1-Rhizoctonia_solani_Basidiomycota:0.0216599802,CEL57992.1-Rhizoctonia_solani_Basidiomycota:0.0108260175)100:0.0228284710,(CUA73235.1-Rhizoctonia_solani_Basidiomycota:0.0000020756,CUA71516.1-Rhizoctonia_solani_Basidiomycota:0.0324973010)100:0.1962802814)44:0.0214762981,KDN37903.1-Rhizoctonia_solani_Basidiomycota:0.0114390456)68:0.0274301554)37:0.0101532161,KEP55843.1-Rhizoctonia_solani_Basidiomycota:0.0000023238)42:0.0110564113,EUC65247.1-Rhizoctonia_solani_Basidiomycota:0.0000020987)99:0.0659844055,KAB5592217.1-Ceratobasidium_theobromae_Basidiomycota:0.0679821993)87:0.0218022672,KDQ14653.1-Botryobasidium_botryosum_Basidiomycota:0.1077455435)71:0.0171624561,(KAB5591707.1-Ceratobasidium_theobromae_Basidiomycota:0.0871127804,CUA71197.1-Rhizoctonia_solani_Basidiomycota:0.4857207611)99:0.2747971259)85:0.0476153423)97:0.0675379298,(CDZ97754.1-Phaffia_rhodozyma_Basidiomycota:0.5270817417,((((((((((XP_007878520.1-Anthracocystis_flocculosa_Basidiomycota:0.0213124174,PWZ00857.1-Testicularia_cyperi_Basidiomycota:0.0000022396)14:0.0104089497,XP_012187531.1-Pseudozyma_hubeiensis_Basidiomycota:0.0000022530)12:0.0103930331,((XP_011387380.1-Ustilago_maydis_Basidiomycota:0.0103930532,(((((SPO43801.1-Moesziomyces_antarcticus_Basidiomycota:0.0000010000,XP_016295197.1-Kalmanozyma_brasiliensis_Basidiomycota:0.0000010000)17:0.0000021099,ETS61282.1-Moesziomyces_aphidis_Basidiomycota:0.0000010000)11:0.0000021368,GAC72933.1-Moesziomyces_antarcticus_Basidiomycota:0.0000010000)26:0.0000021039,((XP_014658580.1-Moesziomyces_antarcticus_Basidiomycota:0.0000010000,CCF54966.1-Ustilago_hordei_Basidiomycota:0.0000010000)16:0.0000010000,SAM75022.1-Ustilago_bromivora_Basidiomycota:0.0000010000)26:0.0000025307)96:0.0103844975,CDI51779.1-Melanopsichium_pennsylvanicum_Basidiomycota:0.0000021034)58:0.0103815544)6:0.0000022141,(SPO22875.1-Ustilago_trichophora_Basidiomycota:0.0000025307,(SPO25041.1-Ustilago_trichophora_Basidiomycota:0.0000010000,CBQ70244.1-Sporisorium_reilianum_Basidiomycota:0.0000010000)65:0.0000022589)94:0.0000029245)23:0.0000021079)13:0.0103809382,CDR88257.1-Sporisorium_scitamineum_Basidiomycota:0.0000022515)12:0.0000022645,XP_029737259.1-Sporisorium_graminicola_Basidiomycota:0.0103686538)99:0.0837925238,PWN47149.1-Violaceomyces_palustris_Basidiomycota:0.0266999819)76:0.0297652732,((((XP_025350244.1-Pseudomicrostroma_glucosiphilum_Basidiomycota:0.1018838270,XP_025364802.1-Jaminaea_rosea_Basidiomycota:0.0475620761)96:0.0935852278,(XP_025597454.1-Tilletiopsis_washingtonensis_Basidiomycota:0.0160743797,XP_025368439.1-Ceraceosorus_guamensis_Basidiomycota:0.0165314987)100:0.0483877025)96:0.0363892291,XP_025358105.1-Meira_miltonrushii_Basidiomycota:0.0776520025)62:0.0153420363,XP_025374703.1-Acaromyces_ingoldii_Basidiomycota:0.0390363659)95:0.1031322217)76:0.0537301815,(PKI85313.1-Malassezia_vespertilionis_Basidiomycota:0.1838572700,(((AYO44093.1-Malassezia_restricta_Basidiomycota:0.0014895898,XP_027486193.1-Malassezia_restricta_Basidiomycota:0.0312616416)100:0.0862176959,XP_001728750.1-Malassezia_globosa_Basidiomycota:0.0843335434)100:0.1091001619,(XP_017990589.1-Malassezia_pachydermatis_Basidiomycota:0.1541027616,XP_018741713.1-Malassezia_sympodialis_Basidiomycota:0.1448295530)99:0.0325301809)100:0.1534964099)100:0.2340532329)98:0.1123423688,XP_013242052.1-Tilletiaria_anomala_Basidiomycota:0.4648726871)100:0.2112260265,(TIA88507.1-Wallemia_hederae_Basidiomycota:0.1467890204,(TIC28224.1-Wallemia_mellicola_Basidiomycota:0.0000010000,XP_006957474.1-Wallemia_mellicola_Basidiomycota:0.0000022107)100:0.0815943132)100:0.7506475848)96:0.0623278347)99:0.0643142805)99:0.0516441899,(XP_007405489.1-Melampsora_larici-populina_Basidiomycota:0.2899594944,(((PLW10552.1-Puccinia_coronata_Basidiomycota:0.0000010000,(PLW43991.1-Puccinia_coronata_Basidiomycota:0.0000010000,PLW23367.1-Puccinia_coronata_Basidiomycota:0.0000010000)26:0.0000029726)100:0.0651981595,((KNF03889.1-Puccinia_striiformis_Basidiomycota:0.0000024285,POW14800.1-Puccinia_striiformis_Basidiomycota:0.1230220467)100:0.0722785990,OAV90883.1-Puccinia_triticina_Basidiomycota:0.0511129186)99:0.0228642004)92:0.0317798457,(KAA1080112.1-Puccinia_graminis_Basidiomycota:0.0103072018,(XP_003325305.2-Puccinia_graminis_Basidiomycota:0.0000010000,KAA1081664.1-Puccinia_graminis_Basidiomycota:0.0000010000)100:0.0102971698)100:0.0418813460)100:0.3299931408)92:0.0835152170)100:0.2205483774)100:0.4148443083)98:0.0647168387,(XP_504870.1-Yarrowia_lipolytica_Saccharomycotina:0.0000020723,RDW35049.1-Yarrowia_lipolytica_Saccharomycotina:0.0106159634)100:0.3205370678)100:0.1057483781);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -19889.480360
+Robinson-Foulds distance between ML tree and consensus tree: 54
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----XP_018737180.1-Sugiyamaella_lignohabitans_Saccharomycotina
+|
+|  +---------KAA8916722.1-Trichomonascus_ciferrii_Saccharomycotina
++--| (100)
+|  +---QUERY_yHMPu5000034681_Blastobotrys_americana_Seq_154
+|
+|                     +--KAF5103339.1-Geotrichum_candidum_Saccharomycotina
+|                  +--| (100)
+|                  |  +--KAF5121213.1-Geotrichum_candidum_Saccharomycotina
+|               +--| (100)
+|               |  +--KAF5114449.1-Geotrichum_candidum_Saccharomycotina
+|            +--| (100)
+|            |  +--KAF5094807.1-Geotrichum_candidum_Saccharomycotina
+|     +------| (100)
+|     |      +--KAF5092728.1-Galactomyces_reessii_Saccharomycotina
+|  +--| (98)
+|  |  |               +--ODQ69345.1-Lipomyces_starkeyi_Saccharomycotina
+|  |  |         +-----| (100)
+|  |  |         |     |  +--ODQ69163.1-Lipomyces_starkeyi_Saccharomycotina
+|  |  |         |     +--| (90)
+|  |  |         |        +--ODQ69151.1-Lipomyces_starkeyi_Saccharomycotina
+|  |  +---------| (100)
+|  |            |                         +--PAV23724.1-Pyrrhoderma_noxium_Basidiomycota
+|  |            |                      +--| (93)
+|  |            |                      |  |           +--XP_007264057.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                      |  |        +--| (99)
+|  |            |                      |  |        |  +--XP_007264055.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                      |  |     +--| (100)
+|  |            |                      |  |     |  +--OCB84313.1-Sanghuangporus_baumii_Basidiomycota
+|  |            |                      |  |  +--| (95)
+|  |            |                      |  |  |  |     +--KIJ44360.1-Sphaerobolus_stellatus_Basidiomycota
+|  |            |                      |  |  |  +-----| (100)
+|  |            |                      |  |  |        +--KIJ45694.1-Sphaerobolus_stellatus_Basidiomycota
+|  |            |                      |  +--| (64)
+|  |            |                      |     +------THH06769.1-Phellinidium_pouzarii_Basidiomycota
+|  |            |                   +--| (65)
+|  |            |                   |  |  +---KLO18552.1-Schizopora_paradoxa_Basidiomycota
+|  |            |                   |  +--| (75)
+|  |            |                   |     |           +-----PAV19290.1-Pyrrhoderma_noxium_Basidiomycota
+|  |            |                   |     |        +--| (99)
+|  |            |                   |     |        |  +----XP_007262562.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |     +--| (78)
+|  |            |                   |     |     |  |       +-----XP_007270137.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |     |  |  +----| (100)
+|  |            |                   |     |     |  |  |    +------------XP_007267979.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |     |  +--| (89)
+|  |            |                   |     |     |     |  +---THH01940.1-Phellinidium_pouzarii_Basidiomycota
+|  |            |                   |     |     |     +--| (98)
+|  |            |                   |     |     |        |   +---------------PAV17996.1-Pyrrhoderma_noxium_Basidiomycota
+|  |            |                   |     |     |        +---| (100)
+|  |            |                   |     |     |            |  +----XP_007261744.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |     |            +--| (100)
+|  |            |                   |     |     |               +------OCB86976.1-Sanghuangporus_baumii_Basidiomycota
+|  |            |                   |     |  +--| (76)
+|  |            |                   |     |  |  |     +--PAV18342.1-Pyrrhoderma_noxium_Basidiomycota
+|  |            |                   |     |  |  |  +--| (93)
+|  |            |                   |     |  |  |  |  |  +-------XP_007270129.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |  |  |  |  +--| (95)
+|  |            |                   |     |  |  |  |     +--XP_007270128.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |  |  +--| (93)
+|  |            |                   |     |  |     |  +--XP_007270135.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |     |  |     +--| (98)
+|  |            |                   |     |  |        +---THH09768.1-Phellinidium_pouzarii_Basidiomycota
+|  |            |                   |     +--| (94)
+|  |            |                   |        |  +-----XP_007270136.1-Fomitiporia_mediterranea_Basidiomycota
+|  |            |                   |        +--| (83)
+|  |            |                   |           +--OCB88220.1-Sanghuangporus_baumii_Basidiomycota
+|  |            |                +--| (86)
+|  |            |                |  +--TDL27434.1-Rickenella_mellea_Basidiomycota
+|  |            |             +--| (52)
+|  |            |             |  |        +--KZP24726.1-Fibularhizoctonia_sp._CBS_109695_Basidiomycota
+|  |            |             |  |     +--| (92)
+|  |            |             |  |     |  |  +--KIM80872.1-Piloderma_croceum_Basidiomycota
+|  |            |             |  |     |  +--| (100)
+|  |            |             |  |     |     +--KIM81263.1-Piloderma_croceum_Basidiomycota
+|  |            |             |  |  +--| (75)
+|  |            |             |  |  |  |                          +--KIJ69492.1-Hydnomerulius_pinastri_Basidiomycota
+|  |            |             |  |  |  |                       +--| (99)
+|  |            |             |  |  |  |                       |  +--KIJ69493.1-Hydnomerulius_pinastri_Basidiomycota
+|  |            |             |  |  |  |                    +--| (92)
+|  |            |             |  |  |  |                    |  |  +-------XP_007774791.1-Coniophora_puteana_Basidiomycota
+|  |            |             |  |  |  |                    |  +--| (100)
+|  |            |             |  |  |  |                    |     +------XP_007774834.1-Coniophora_puteana_Basidiomycota
+|  |            |             |  |  |  |                 +--| (40)
+|  |            |             |  |  |  |                 |  +----XP_007764800.1-Coniophora_puteana_Basidiomycota
+|  |            |             |  |  |  |              +--| (45)
+|  |            |             |  |  |  |              |  +--XP_007321317.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |  |  |  |           +--| (65)
+|  |            |             |  |  |  |           |  |              +--KIO13269.1-Pisolithus_tinctorius_Basidiomycota
+|  |            |             |  |  |  |           |  |           +--| (100)
+|  |            |             |  |  |  |           |  |           |  +--KIO10494.1-Pisolithus_tinctorius_Basidiomycota
+|  |            |             |  |  |  |           |  |        +--| (100)
+|  |            |             |  |  |  |           |  |        |  +--KIK31312.1-Pisolithus_microcarpus_Basidiomycota
+|  |            |             |  |  |  |           |  |     +--| (56)
+|  |            |             |  |  |  |           |  |     |  +--KIM59415.1-Scleroderma_citrinum_Basidiomycota
+|  |            |             |  |  |  |           |  |  +--| (78)
+|  |            |             |  |  |  |           |  |  |  |           +--OAX36864.1-Rhizopogon_vinicolor_Basidiomycota
+|  |            |             |  |  |  |           |  |  |  |        +--| (57)
+|  |            |             |  |  |  |           |  |  |  |        |  +--OJA21627.1-Rhizopogon_vesiculosus_Basidiomycota
+|  |            |             |  |  |  |           |  |  |  |     +--| (100)
+|  |            |             |  |  |  |           |  |  |  |     |  +------OAX36860.1-Rhizopogon_vinicolor_Basidiomycota
+|  |            |             |  |  |  |           |  |  |  |  +--| (100)
+|  |            |             |  |  |  |           |  |  |  |  |  |  +--KIK45873.1-Suillus_luteus_Basidiomycota
+|  |            |             |  |  |  |           |  |  |  |  |  +--| (100)
+|  |            |             |  |  |  |           |  |  |  |  |     +--KAF3872225.1-Suillus_brevipes_Basidiomycota
+|  |            |             |  |  |  |           |  |  |  +--| (79)
+|  |            |             |  |  |  |           |  |  |     |     +--KIJ17340.1-Paxillus_involutus_Basidiomycota
+|  |            |             |  |  |  |           |  |  |     |  +--| (100)
+|  |            |             |  |  |  |           |  |  |     |  |  +--KIK91431.1-Paxillus_rubicundulus_Basidiomycota
+|  |            |             |  |  |  |           |  |  |     +--| (100)
+|  |            |             |  |  |  |           |  |  |        +--KIJ69495.1-Hydnomerulius_pinastri_Basidiomycota
+|  |            |             |  |  |  |           |  +--| (66)
+|  |            |             |  |  |  |           |     |  +--KIM53189.1-Scleroderma_citrinum_Basidiomycota
+|  |            |             |  |  |  |           |     +--| (60)
+|  |            |             |  |  |  |           |        |           +---KIO03876.1-Pisolithus_tinctorius_Basidiomycota
+|  |            |             |  |  |  |           |        |        +--| (67)
+|  |            |             |  |  |  |           |        |        |  |  +--KIK28099.1-Pisolithus_microcarpus_Basidiomycota
+|  |            |             |  |  |  |           |        |        |  +--| (72)
+|  |            |             |  |  |  |           |        |        |     |  +--KIK28096.1-Pisolithus_microcarpus_Basidiomycota
+|  |            |             |  |  |  |           |        |        |     +--| (99)
+|  |            |             |  |  |  |           |        |        |        +---KIK28093.1-Pisolithus_microcarpus_Basidiomycota
+|  |            |             |  |  |  |           |        |     +--| (97)
+|  |            |             |  |  |  |           |        |     |  +--KIO03875.1-Pisolithus_tinctorius_Basidiomycota
+|  |            |             |  |  |  |           |        |  +--| (100)
+|  |            |             |  |  |  |           |        |  |  +--KIO03880.1-Pisolithus_tinctorius_Basidiomycota
+|  |            |             |  |  |  |           |        +--| (67)
+|  |            |             |  |  |  |           |           |        +------RDB23970.1-Hypsizygus_marmoreus_Basidiomycota
+|  |            |             |  |  |  |           |           |     +--| (41)
+|  |            |             |  |  |  |           |           |     |  |               +--KIK45871.1-Suillus_luteus_Basidiomycota
+|  |            |             |  |  |  |           |           |     |  |      +--------| (100)
+|  |            |             |  |  |  |           |           |     |  |      |        +--KAF3872223.1-Suillus_brevipes_Basidiomycota
+|  |            |             |  |  |  |           |           |     |  |  +---| (99)
+|  |            |             |  |  |  |           |           |     |  |  |   +-----------OSD02538.1-Trametes_coccinea_Basidiomycota
+|  |            |             |  |  |  |           |           |     |  +--| (44)
+|  |            |             |  |  |  |           |           |     |     |             +--TFK92498.1-Polyporus_arcularius_Basidiomycota
+|  |            |             |  |  |  |           |           |     |     |         +---| (100)
+|  |            |             |  |  |  |           |           |     |     |         |   +--RDX51795.1-Polyporus_brumalis_Basidiomycota
+|  |            |             |  |  |  |           |           |     |     |      +--| (70)
+|  |            |             |  |  |  |           |           |     |     |      |  |  +--RPD74112.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |  |           |           |     |     |      |  +--| (100)
+|  |            |             |  |  |  |           |           |     |     |      |     +--RPD54921.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |  |           |           |     |     |   +--| (54)
+|  |            |             |  |  |  |           |           |     |     |   |  |          +--TFK83651.1-Polyporus_arcularius_Basidiomycota
+|  |            |             |  |  |  |           |           |     |     |   |  |       +--| (100)
+|  |            |             |  |  |  |           |           |     |     |   |  |       |  +--RDX45333.1-Polyporus_brumalis_Basidiomycota
+|  |            |             |  |  |  |           |           |     |     |   |  |    +--| (100)
+|  |            |             |  |  |  |           |           |     |     |   |  |    |  +--RDX45334.1-Polyporus_brumalis_Basidiomycota
+|  |            |             |  |  |  |           |           |     |     |   |  +----| (100)
+|  |            |             |  |  |  |           |           |     |     |   |       +----RPD53466.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |  |           |           |     |     +---| (99)
+|  |            |             |  |  |  |           |           |     |         +---------PIL26866.1-Ganoderma_sinense_Basidiomycota
+|  |            |             |  |  |  |           |           |  +--| (73)
+|  |            |             |  |  |  |           |           |  |  +--------KNZ75558.1-Termitomyces_sp._J132_Basidiomycota
+|  |            |             |  |  |  |           |           +--| (91)
+|  |            |             |  |  |  |           |              +----KIM58385.1-Scleroderma_citrinum_Basidiomycota
+|  |            |             |  |  |  |        +--| (49)
+|  |            |             |  |  |  |        |  |           +--TFK55268.1-Heliocybe_sulcata_Basidiomycota
+|  |            |             |  |  |  |        |  |        +--| (44)
+|  |            |             |  |  |  |        |  |        |  +--KZT28576.1-Neolentinus_lepideus_Basidiomycota
+|  |            |             |  |  |  |        |  |     +--| (95)
+|  |            |             |  |  |  |        |  |     |  +--XP_007863631.1-Gloeophyllum_trabeum_Basidiomycota
+|  |            |             |  |  |  |        |  |  +--| (99)
+|  |            |             |  |  |  |        |  |  |  |  +---XP_007865523.1-Gloeophyllum_trabeum_Basidiomycota
+|  |            |             |  |  |  |        |  |  |  +--| (99)
+|  |            |             |  |  |  |        |  |  |     +--TFK55269.1-Heliocybe_sulcata_Basidiomycota
+|  |            |             |  |  |  |        |  +--| (82)
+|  |            |             |  |  |  |        |     |       +--TFK53876.1-Heliocybe_sulcata_Basidiomycota
+|  |            |             |  |  |  |        |     |  +----| (100)
+|  |            |             |  |  |  |        |     |  |    +--XP_007864705.1-Gloeophyllum_trabeum_Basidiomycota
+|  |            |             |  |  |  |        |     +--| (76)
+|  |            |             |  |  |  |        |        |  +--KDQ59468.1-Jaapia_argillacea_Basidiomycota
+|  |            |             |  |  |  |        |        +--| (99)
+|  |            |             |  |  |  |        |           +--KDQ59483.1-Jaapia_argillacea_Basidiomycota
+|  |            |             |  |  |  |     +--| (34)
+|  |            |             |  |  |  |     |  |     +--SJL00179.1-Armillaria_ostoyae_Basidiomycota
+|  |            |             |  |  |  |     |  |  +--| (100)
+|  |            |             |  |  |  |     |  |  |  +--PBK77925.1-Armillaria_solidipes_Basidiomycota
+|  |            |             |  |  |  |     |  +--| (100)
+|  |            |             |  |  |  |     |     +--PBK96630.1-Armillaria_gallica_Basidiomycota
+|  |            |             |  |  |  |  +--| (35)
+|  |            |             |  |  |  |  |  |                 +--KTB28014.1-Moniliophthora_roreri_Basidiomycota
+|  |            |             |  |  |  |  |  |           +-----| (100)
+|  |            |             |  |  |  |  |  |           |     +--ESK93914.1-Moniliophthora_roreri_Basidiomycota
+|  |            |             |  |  |  |  |  |        +--| (39)
+|  |            |             |  |  |  |  |  |        |  |   +--THU84418.1-Dendrothele_bispora_Basidiomycota
+|  |            |             |  |  |  |  |  |        |  +---| (100)
+|  |            |             |  |  |  |  |  |        |      +--KAF5353000.1-Tetrapyrgos_nigripes_Basidiomycota
+|  |            |             |  |  |  |  |  |     +--| (73)
+|  |            |             |  |  |  |  |  |     |  |        +--KIK56124.1-Gymnopus_luxurians_Basidiomycota
+|  |            |             |  |  |  |  |  |     |  |     +--| (100)
+|  |            |             |  |  |  |  |  |     |  |     |  +--KAF5381931.1-Gymnopus_confluens_Basidiomycota
+|  |            |             |  |  |  |  |  |     |  |  +--| (99)
+|  |            |             |  |  |  |  |  |     |  |  |  +---GAW01597.1-Lentinula_edodes_Basidiomycota
+|  |            |             |  |  |  |  |  |     |  +--| (100)
+|  |            |             |  |  |  |  |  |     |     +--KAE9406065.1-Gymnopus_androsaceus_Basidiomycota
+|  |            |             |  |  |  |  |  |  +--| (61)
+|  |            |             |  |  |  |  |  |  |  |  +--ESK93915.1-Moniliophthora_roreri_Basidiomycota
+|  |            |             |  |  |  |  |  |  |  +--| (46)
+|  |            |             |  |  |  |  |  |  |     |  +------KAF4611121.1-Agrocybe_pediades_Basidiomycota
+|  |            |             |  |  |  |  |  |  |     +--| (62)
+|  |            |             |  |  |  |  |  |  |        +---KNZ75406.1-Termitomyces_sp._J132_Basidiomycota
+|  |            |             |  |  |  |  |  +--| (44)
+|  |            |             |  |  |  |  |     |                             +--PPQ64677.1-Gymnopilus_dilepis_Basidiomycota
+|  |            |             |  |  |  |  |     |                          +--| (91)
+|  |            |             |  |  |  |  |     |                          |  +--CAA7267653.1-Agrocybe_aegerita_Basidiomycota
+|  |            |             |  |  |  |  |     |                       +--| (81)
+|  |            |             |  |  |  |  |     |                       |  |  +--KAF5330651.1-Psilocybe_cf._subviscida_Basidiomycota
+|  |            |             |  |  |  |  |     |                       |  +--| (90)
+|  |            |             |  |  |  |  |     |                       |     +--KJA27446.1-Hypholoma_sublateritium_Basidiomycota
+|  |            |             |  |  |  |  |     |                    +--| (53)
+|  |            |             |  |  |  |  |     |                    |  +--KDR73465.1-Galerina_marginata_Basidiomycota
+|  |            |             |  |  |  |  |     |                 +--| (53)
+|  |            |             |  |  |  |  |     |                 |  |     +--PPQ89087.1-Psilocybe_cyanescens_Basidiomycota
+|  |            |             |  |  |  |  |     |                 |  |  +--| (92)
+|  |            |             |  |  |  |  |     |                 |  |  |  +--KAF4615122.1-Agrocybe_pediades_Basidiomycota
+|  |            |             |  |  |  |  |     |                 |  +--| (63)
+|  |            |             |  |  |  |  |     |                 |     +--PPQ68963.1-Panaeolus_cyanescens_Basidiomycota
+|  |            |             |  |  |  |  |     |              +--| (98)
+|  |            |             |  |  |  |  |     |              |  +--KIM48868.1-Hebeloma_cylindrosporum_Basidiomycota
+|  |            |             |  |  |  |  |     |           +--| (56)
+|  |            |             |  |  |  |  |     |           |  |  +--XP_001878217.1-Laccaria_bicolor_Basidiomycota
+|  |            |             |  |  |  |  |     |           |  +--| (100)
+|  |            |             |  |  |  |  |     |           |     +--KIK06471.1-Laccaria_amethystina_Basidiomycota
+|  |            |             |  |  |  |  |     |        +--| (34)
+|  |            |             |  |  |  |  |     |        |  |  +--TFK72532.1-Pluteus_cervinus_Basidiomycota
+|  |            |             |  |  |  |  |     |        |  +--| (73)
+|  |            |             |  |  |  |  |     |        |     |  +--RDB23971.1-Hypsizygus_marmoreus_Basidiomycota
+|  |            |             |  |  |  |  |     |        |     +--| (100)
+|  |            |             |  |  |  |  |     |        |        +--RDB24149.1-Hypsizygus_marmoreus_Basidiomycota
+|  |            |             |  |  |  |  |     |     +--| (88)
+|  |            |             |  |  |  |  |     |     |  +--KAF5386754.1-Tricholomella_constricta_Basidiomycota
+|  |            |             |  |  |  |  |     |  +--| (86)
+|  |            |             |  |  |  |  |     |  |  +--TFK42915.1-Crucibulum_laeve_Basidiomycota
+|  |            |             |  |  |  |  |     +--| (95)
+|  |            |             |  |  |  |  |        |        +--XP_001833641.2-Coprinopsis_cinerea_Basidiomycota
+|  |            |             |  |  |  |  |        |     +--| (59)
+|  |            |             |  |  |  |  |        |     |  |  +-----KII88734.1-Plicaturopsis_crispa_Basidiomycota
+|  |            |             |  |  |  |  |        |     |  +--| (96)
+|  |            |             |  |  |  |  |        |     |     |  +--TFK26442.1-Coprinopsis_marcescibilis_Basidiomycota
+|  |            |             |  |  |  |  |        |     |     +--| (100)
+|  |            |             |  |  |  |  |        |     |        +--TEB36290.1-Coprinellus_micaceus_Basidiomycota
+|  |            |             |  |  |  |  |        |  +--| (95)
+|  |            |             |  |  |  |  |        |  |  |  +--KAF5324448.1-Coprinellus_angulatus_Basidiomycota
+|  |            |             |  |  |  |  |        |  |  +--| (100)
+|  |            |             |  |  |  |  |        |  |     +--KAF6764817.1-Coprinellus_angulatus_Basidiomycota
+|  |            |             |  |  |  |  |        +--| (88)
+|  |            |             |  |  |  |  |           +----PFH52360.1-Amanita_thiersii_Basidiomycota
+|  |            |             |  |  |  +--| (46)
+|  |            |             |  |  |     |           +--KAF5357806.1-Leucoagaricus_leucothites_Basidiomycota
+|  |            |             |  |  |     |        +--| (73)
+|  |            |             |  |  |     |        |  |  +--KXN82523.1-Leucoagaricus_sp._SymC.cos_Basidiomycota
+|  |            |             |  |  |     |        |  +--| (71)
+|  |            |             |  |  |     |        |     |           +--EGO01602.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |  |  |     |        |     +-----------| (100)
+|  |            |             |  |  |     |        |                 +--XP_007315350.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |  |  |     |     +--| (71)
+|  |            |             |  |  |     |     |  |  +--XP_007326627.1-Agaricus_bisporus_Basidiomycota
+|  |            |             |  |  |     |     |  +--| (100)
+|  |            |             |  |  |     |     |     +--XP_006458451.1-Agaricus_bisporus_Basidiomycota
+|  |            |             |  |  |     |  +--| (69)
+|  |            |             |  |  |     |  |  |                    +--RPD65889.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |     |  |  |                 +--| (93)
+|  |            |             |  |  |     |  |  |                 |  |  +--TFK90965.1-Polyporus_arcularius_Basidiomycota
+|  |            |             |  |  |     |  |  |                 |  +--| (100)
+|  |            |             |  |  |     |  |  |                 |     +--RDX48391.1-Polyporus_brumalis_Basidiomycota
+|  |            |             |  |  |     |  |  |              +--| (49)
+|  |            |             |  |  |     |  |  |              |  |  +--XP_007360886.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |     |  |  |              |  +--| (100)
+|  |            |             |  |  |     |  |  |              |     +--TBU32230.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |     |  |  |           +--| (66)
+|  |            |             |  |  |     |  |  |           |  +--PIL23778.1-Ganoderma_sinense_Basidiomycota
+|  |            |             |  |  |     |  |  |        +--| (39)
+|  |            |             |  |  |     |  |  |        |  |           +------TFL06915.1-Pterula_gracilis_Basidiomycota
+|  |            |             |  |  |     |  |  |        |  |        +--| (97)
+|  |            |             |  |  |     |  |  |        |  |        |  +--XP_024341743.1-Postia_placenta_Basidiomycota
+|  |            |             |  |  |     |  |  |        |  |     +--| (47)
+|  |            |             |  |  |     |  |  |        |  |     |  |     +--PCH38363.1-Wolfiporia_cocos_Basidiomycota
+|  |            |             |  |  |     |  |  |        |  |     |  |  +--| (99)
+|  |            |             |  |  |     |  |  |        |  |     |  |  |  +--KZT11504.1-Laetiporus_sulphureus_Basidiomycota
+|  |            |             |  |  |     |  |  |        |  |     |  +--| (99)
+|  |            |             |  |  |     |  |  |        |  |     |     |  +--EPT05870.1-Fomitopsis_pinicola_Basidiomycota
+|  |            |             |  |  |     |  |  |        |  |     |     +--| (100)
+|  |            |             |  |  |     |  |  |        |  |     |        +--KZT65464.1-Daedalea_quercina_Basidiomycota
+|  |            |             |  |  |     |  |  |        |  |  +--| (63)
+|  |            |             |  |  |     |  |  |        |  |  |  +--KZT11503.1-Laetiporus_sulphureus_Basidiomycota
+|  |            |             |  |  |     |  |  |        |  +--| (56)
+|  |            |             |  |  |     |  |  |        |     +--OBZ72127.1-Grifola_frondosa_Basidiomycota
+|  |            |             |  |  |     |  |  |     +--| (39)
+|  |            |             |  |  |     |  |  |     |  |        +--OSD02841.1-Trametes_coccinea_Basidiomycota
+|  |            |             |  |  |     |  |  |     |  |     +--| (99)
+|  |            |             |  |  |     |  |  |     |  |     |  |  +--XP_008036862.1-Trametes_versicolor_Basidiomycota
+|  |            |             |  |  |     |  |  |     |  |     |  +--| (100)
+|  |            |             |  |  |     |  |  |     |  |     |     +--OJT14130.1-Trametes_pubescens_Basidiomycota
+|  |            |             |  |  |     |  |  |     |  |  +--| (77)
+|  |            |             |  |  |     |  |  |     |  |  |  +--XP_027613384.1-Sparassis_crispa_Basidiomycota
+|  |            |             |  |  |     |  |  |     |  +--| (46)
+|  |            |             |  |  |     |  |  |     |     |  +--EMD38638.1-Gelatoporia_subvermispora_Basidiomycota
+|  |            |             |  |  |     |  |  |     |     +--| (99)
+|  |            |             |  |  |     |  |  |     |        +--OCH95333.1-Obba_rivulosa_Basidiomycota
+|  |            |             |  |  |     |  |  |  +--| (34)
+|  |            |             |  |  |     |  |  |  |  |           +--KIP06008.1-Phlebiopsis_gigantea_Basidiomycota
+|  |            |             |  |  |     |  |  |  |  |        +--| (96)
+|  |            |             |  |  |     |  |  |  |  |        |  +--PSR88889.1-Phlebia_centrifuga_Basidiomycota
+|  |            |             |  |  |     |  |  |  |  |     +--| (95)
+|  |            |             |  |  |     |  |  |  |  |     |  |  +--XP_007397138.1-Phanerochaete_carnosa_Basidiomycota
+|  |            |             |  |  |     |  |  |  |  |     |  +--| (100)
+|  |            |             |  |  |     |  |  |  |  |     |     +--XP_007396047.1-Phanerochaete_carnosa_Basidiomycota
+|  |            |             |  |  |     |  |  |  |  |  +--| (90)
+|  |            |             |  |  |     |  |  |  |  |  |  +---TCD60417.1-Steccherinum_ochraceum_Basidiomycota
+|  |            |             |  |  |     |  |  |  |  +--| (33)
+|  |            |             |  |  |     |  |  |  |     |  +--EPT05883.1-Fomitopsis_pinicola_Basidiomycota
+|  |            |             |  |  |     |  |  |  |     +--| (100)
+|  |            |             |  |  |     |  |  |  |        +--KZT65452.1-Daedalea_quercina_Basidiomycota
+|  |            |             |  |  |     |  |  +--| (84)
+|  |            |             |  |  |     |  |     |              +----PCH39619.1-Wolfiporia_cocos_Basidiomycota
+|  |            |             |  |  |     |  |     |           +--| (59)
+|  |            |             |  |  |     |  |     |           |  +--XP_024335938.1-Postia_placenta_Basidiomycota
+|  |            |             |  |  |     |  |     |        +--| (69)
+|  |            |             |  |  |     |  |     |        |  |     +--EPS93657.1-Fomitopsis_pinicola_Basidiomycota
+|  |            |             |  |  |     |  |     |        |  |  +--| (100)
+|  |            |             |  |  |     |  |     |        |  |  |  |  +--TFY52286.1-Fomitopsis_rosea_Basidiomycota
+|  |            |             |  |  |     |  |     |        |  |  |  +--| (97)
+|  |            |             |  |  |     |  |     |        |  |  |     +--KZT65885.1-Daedalea_quercina_Basidiomycota
+|  |            |             |  |  |     |  |     |        |  +--| (87)
+|  |            |             |  |  |     |  |     |        |     +---XP_012179200.1-Fibroporia_radiculosa_Basidiomycota
+|  |            |             |  |  |     |  |     |     +--| (98)
+|  |            |             |  |  |     |  |     |     |  |  +--KZT06102.1-Laetiporus_sulphureus_Basidiomycota
+|  |            |             |  |  |     |  |     |     |  +--| (100)
+|  |            |             |  |  |     |  |     |     |     +--KZT06103.1-Laetiporus_sulphureus_Basidiomycota
+|  |            |             |  |  |     |  |     |  +--| (95)
+|  |            |             |  |  |     |  |     |  |  |     +--PSR74832.1-Phlebia_centrifuga_Basidiomycota
+|  |            |             |  |  |     |  |     |  |  |  +--| (100)
+|  |            |             |  |  |     |  |     |  |  |  |  +--THG94996.1-Phlebia_centrifuga_Basidiomycota
+|  |            |             |  |  |     |  |     |  |  +--| (99)
+|  |            |             |  |  |     |  |     |  |     +----------XP_007399313.1-Phanerochaete_carnosa_Basidiomycota
+|  |            |             |  |  |     |  |     +--| (73)
+|  |            |             |  |  |     |  |        |                    +--XP_007369133.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |     |  |        |                 +--| (100)
+|  |            |             |  |  |     |  |        |                 |  +--TBU47941.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |     |  |        |              +--| (80)
+|  |            |             |  |  |     |  |        |              |  |     +--TBU57159.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |     |  |        |              |  |  +--| (67)
+|  |            |             |  |  |     |  |        |              |  |  |  +--XP_007369132.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |     |  |        |              |  +--| (100)
+|  |            |             |  |  |     |  |        |              |     +--TBU47939.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |     |  |        |           +--| (81)
+|  |            |             |  |  |     |  |        |           |  +--TBU57160.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |     |  |        |        +--| (100)
+|  |            |             |  |  |     |  |        |        |  |  +--TBU47940.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |     |  |        |        |  +--| (100)
+|  |            |             |  |  |     |  |        |        |     +--TBU28313.1-Dichomitus_squalens_Basidiomycota
+|  |            |             |  |  |     |  |        |     +--| (100)
+|  |            |             |  |  |     |  |        |     |  +--PIL26858.1-Ganoderma_sinense_Basidiomycota
+|  |            |             |  |  |     |  |        |  +--| (100)
+|  |            |             |  |  |     |  |        |  |  |     +--RPD53474.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |     |  |        |  |  |  +--| (100)
+|  |            |             |  |  |     |  |        |  |  |  |  +--RPD55646.1-Lentinus_tigrinus_Basidiomycota
+|  |            |             |  |  |     |  |        |  |  +--| (100)
+|  |            |             |  |  |     |  |        |  |     |  +--RDX45337.1-Polyporus_brumalis_Basidiomycota
+|  |            |             |  |  |     |  |        |  |     +--| (100)
+|  |            |             |  |  |     |  |        |  |        +--TFK80677.1-Polyporus_arcularius_Basidiomycota
+|  |            |             |  |  |     |  |        +--| (100)
+|  |            |             |  |  |     |  |           |        +--CDO76674.1-Trametes_cinnabarina_Basidiomycota
+|  |            |             |  |  |     |  |           |     +--| (99)
+|  |            |             |  |  |     |  |           |     |  +--OSD02536.1-Trametes_coccinea_Basidiomycota
+|  |            |             |  |  |     |  |           |  +--| (100)
+|  |            |             |  |  |     |  |           |  |  +--OSD02535.1-Trametes_coccinea_Basidiomycota
+|  |            |             |  |  |     |  |           +--| (100)
+|  |            |             |  |  |     |  |              |  +--XP_008045528.1-Trametes_versicolor_Basidiomycota
+|  |            |             |  |  |     |  |              +--| (100)
+|  |            |             |  |  |     |  |                 +--OJT04811.1-Trametes_pubescens_Basidiomycota
+|  |            |             |  |  |     +--| (57)
+|  |            |             |  |  |        +------KIY67565.1-Cylindrobasidium_torrendii_Basidiomycota
+|  |            |             |  +--| (90)
+|  |            |             |     |        +--KAA1467687.1-Dentipellis_sp._KUC8613_Basidiomycota
+|  |            |             |     |     +--| (100)
+|  |            |             |     |     |  +--TFY72273.1-Dentipellis_fragilis_Basidiomycota
+|  |            |             |     |  +--| (77)
+|  |            |             |     |  |  |                           +--ESK84115.1-Moniliophthora_roreri_Basidiomycota
+|  |            |             |     |  |  |                       +---| (100)
+|  |            |             |     |  |  |                       |   +--KTB28320.1-Moniliophthora_roreri_Basidiomycota
+|  |            |             |     |  |  |                    +--| (94)
+|  |            |             |     |  |  |                    |  |  +---TFK61365.1-Pluteus_cervinus_Basidiomycota
+|  |            |             |     |  |  |                    |  +--| (71)
+|  |            |             |     |  |  |                    |     +---PFH48952.1-Amanita_thiersii_Basidiomycota
+|  |            |             |     |  |  |                 +--| (79)
+|  |            |             |     |  |  |                 |  +--KNZ81699.1-Termitomyces_sp._J132_Basidiomycota
+|  |            |             |     |  |  |              +--| (52)
+|  |            |             |     |  |  |              |  |  +------CAA7268284.1-Agrocybe_aegerita_Basidiomycota
+|  |            |             |     |  |  |              |  +--| (82)
+|  |            |             |     |  |  |              |     |      +--TFK37960.1-Crucibulum_laeve_Basidiomycota
+|  |            |             |     |  |  |              |     +------| (100)
+|  |            |             |     |  |  |              |            +---TFK37961.1-Crucibulum_laeve_Basidiomycota
+|  |            |             |     |  |  |           +--| (77)
+|  |            |             |     |  |  |           |  |  +--RDB30790.1-Hypsizygus_marmoreus_Basidiomycota
+|  |            |             |     |  |  |           |  +--| (94)
+|  |            |             |     |  |  |           |     +--KAF5375710.1-Tricholomella_constricta_Basidiomycota
+|  |            |             |     |  |  |        +--| (76)
+|  |            |             |     |  |  |        |  |                    +--KAF7426402.1-Pleurotus_ostreatus_Basidiomycota
+|  |            |             |     |  |  |        |  |                 +--| (99)
+|  |            |             |     |  |  |        |  |                 |  +--KDQ32121.1-Pleurotus_ostreatus_Basidiomycota
+|  |            |             |     |  |  |        |  |              +--| (100)
+|  |            |             |     |  |  |        |  |              |  |  +--KAF4586650.1-Pleurotus_pulmonarius_Basidiomycota
+|  |            |             |     |  |  |        |  |              |  +--| (100)
+|  |            |             |     |  |  |        |  |              |     +--KAF4564502.1-Pleurotus_pulmonarius_Basidiomycota
+|  |            |             |     |  |  |        |  |           +--| (100)
+|  |            |             |     |  |  |        |  |           |  +--KAF7426422.1-Pleurotus_ostreatus_Basidiomycota
+|  |            |             |     |  |  |        |  |        +--| (91)
+|  |            |             |     |  |  |        |  |        |  |      +-----TEB20509.1-Coprinellus_micaceus_Basidiomycota
+|  |            |             |     |  |  |        |  |        |  +------| (100)
+|  |            |             |     |  |  |        |  |        |         |  +--KAF5314740.1-Coprinellus_angulatus_Basidiomycota
+|  |            |             |     |  |  |        |  |        |         +--| (100)
+|  |            |             |     |  |  |        |  |        |            +--KAF6748104.1-Coprinellus_angulatus_Basidiomycota
+|  |            |             |     |  |  |        |  |     +--| (94)
+|  |            |             |     |  |  |        |  |     |  |     +--PPQ93328.1-Psilocybe_cyanescens_Basidiomycota
+|  |            |             |     |  |  |        |  |     |  |  +--| (91)
+|  |            |             |     |  |  |        |  |     |  |  |  +--KDR80465.1-Galerina_marginata_Basidiomycota
+|  |            |             |     |  |  |        |  |     |  +--| (100)
+|  |            |             |     |  |  |        |  |     |     |           +----KJA21412.1-Hypholoma_sublateritium_Basidiomycota
+|  |            |             |     |  |  |        |  |     |     |        +--| (100)
+|  |            |             |     |  |  |        |  |     |     |        |  |       +--KAF5323238.1-Psilocybe_cf._subviscida_Basidiomycota
+|  |            |             |     |  |  |        |  |     |     |        |  +-------| (100)
+|  |            |             |     |  |  |        |  |     |     |        |          +--KAF5323241.1-Psilocybe_cf._subviscida_Basidiomycota
+|  |            |             |     |  |  |        |  |     |     |     +--| (91)
+|  |            |             |     |  |  |        |  |     |     |     |  +----PPR01118.1-Gymnopilus_dilepis_Basidiomycota
+|  |            |             |     |  |  |        |  |     |     |  +--| (88)
+|  |            |             |     |  |  |        |  |     |     |  |  +--------KIM37184.1-Hebeloma_cylindrosporum_Basidiomycota
+|  |            |             |     |  |  |        |  |     |     +--| (85)
+|  |            |             |     |  |  |        |  |     |        +---KAF4618279.1-Agrocybe_pediades_Basidiomycota
+|  |            |             |     |  |  |        |  |  +--| (82)
+|  |            |             |     |  |  |        |  |  |  |     +--KXN83052.1-Leucoagaricus_sp._SymC.cos_Basidiomycota
+|  |            |             |     |  |  |        |  |  |  |  +--| (100)
+|  |            |             |     |  |  |        |  |  |  |  |  +--KAF5356917.1-Leucoagaricus_leucothites_Basidiomycota
+|  |            |             |     |  |  |        |  |  |  +--| (98)
+|  |            |             |     |  |  |        |  |  |     |  +--XP_006463201.1-Agaricus_bisporus_Basidiomycota
+|  |            |             |     |  |  |        |  |  |     +--| (100)
+|  |            |             |     |  |  |        |  |  |        +--XP_007332591.1-Agaricus_bisporus_Basidiomycota
+|  |            |             |     |  |  |        |  +--| (80)
+|  |            |             |     |  |  |        |     +---TFK37959.1-Crucibulum_laeve_Basidiomycota
+|  |            |             |     |  |  |     +--| (79)
+|  |            |             |     |  |  |     |  |           +--GAT43291.1-Mycena_chlorophos_Basidiomycota
+|  |            |             |     |  |  |     |  |        +--| (100)
+|  |            |             |     |  |  |     |  |        |  +--KAF7319365.1-Mycena_chlorophos_Basidiomycota
+|  |            |             |     |  |  |     |  |     +--| (100)
+|  |            |             |     |  |  |     |  |     |  +--KAF7316051.1-Mycena_indigotica_Basidiomycota
+|  |            |             |     |  |  |     |  |  +--| (70)
+|  |            |             |     |  |  |     |  |  |  +-------KAF7360136.1-Mycena_venus_Basidiomycota
+|  |            |             |     |  |  |     |  +--| (55)
+|  |            |             |     |  |  |     |     |          +--KAF7334725.1-Mycena_venus_Basidiomycota
+|  |            |             |     |  |  |     |     |  +-------| (100)
+|  |            |             |     |  |  |     |     |  |       +--KAF7333881.1-Mycena_venus_Basidiomycota
+|  |            |             |     |  |  |     |     +--| (91)
+|  |            |             |     |  |  |     |        |  +--KAF7342342.1-Mycena_venus_Basidiomycota
+|  |            |             |     |  |  |     |        +--| (63)
+|  |            |             |     |  |  |     |           +------KAF7326077.1-Mycena_kentingensis_Basidiomycota
+|  |            |             |     |  |  |  +--| (100)
+|  |            |             |     |  |  |  |  |  +--XP_007313762.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |     |  |  |  |  +--| (100)
+|  |            |             |     |  |  |  |     +-------XP_007313758.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |     |  |  +--| (87)
+|  |            |             |     |  |     +----XP_007322832.1-Serpula_lacrymans_Basidiomycota
+|  |            |             |     +--| (82)
+|  |            |             |        |     +--KAA1471247.1-Dentipellis_sp._KUC8613_Basidiomycota
+|  |            |             |        |  +--| (94)
+|  |            |             |        |  |  +------XP_007309997.1-Stereum_hirsutum_Basidiomycota
+|  |            |             |        +--| (84)
+|  |            |             |           |        +---XP_007299868.1-Stereum_hirsutum_Basidiomycota
+|  |            |             |           |     +--| (100)
+|  |            |             |           |     |  +--XP_007301411.1-Stereum_hirsutum_Basidiomycota
+|  |            |             |           |  +--| (95)
+|  |            |             |           |  |  +--THH08573.1-Bondarzewia_mesenterica_Basidiomycota
+|  |            |             |           +--| (79)
+|  |            |             |              |          +--VDC05365.1-Peniophora_sp._CBMAI_1063_Basidiomycota
+|  |            |             |              |       +--| (100)
+|  |            |             |              |       |  +--KZV65818.1-Peniophora_sp._CONT_Basidiomycota
+|  |            |             |              |  +----| (100)
+|  |            |             |              |  |    +--KZV65823.1-Peniophora_sp._CONT_Basidiomycota
+|  |            |             |              +--| (99)
+|  |            |             |                 +--XP_009542393.1-Heterobasidion_irregulare_Basidiomycota
+|  |            |          +--| (68)
+|  |            |          |  |    +--KZT33982.1-Sistotremastrum_suecicum_Basidiomycota
+|  |            |          |  +----| (100)
+|  |            |          |       +--KZS89878.1-Sistotremastrum_niveocremeum_Basidiomycota
+|  |            |       +--| (97)
+|  |            |       |  |                 +--CUA73965.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |              +--| (45)
+|  |            |       |  |              |  +--KEP55843.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |           +--| (42)
+|  |            |       |  |           |  |        +--ELU41943.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |           |  |     +--| (100)
+|  |            |       |  |           |  |     |  +--CEL57992.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |           |  |  +--| (55)
+|  |            |       |  |           |  |  |  +--KDN37903.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |           |  +--| (68)
+|  |            |       |  |           |     |   +--CUA73235.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |           |     +---| (100)
+|  |            |       |  |           |         +--CUA71516.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |        +--| (99)
+|  |            |       |  |        |  +--EUC65247.1-Rhizoctonia_solani_Basidiomycota
+|  |            |       |  |     +--| (87)
+|  |            |       |  |     |  +--KAB5592217.1-Ceratobasidium_theobromae_Basidiomycota
+|  |            |       |  |  +--| (71)
+|  |            |       |  |  |  +--KDQ14653.1-Botryobasidium_botryosum_Basidiomycota
+|  |            |       |  +--| (85)
+|  |            |       |     |     +--KAB5591707.1-Ceratobasidium_theobromae_Basidiomycota
+|  |            |       |     +-----| (99)
+|  |            |       |           +-----------CUA71197.1-Rhizoctonia_solani_Basidiomycota
+|  |            |    +--| (99)
+|  |            |    |  |  +------------CDZ97754.1-Phaffia_rhodozyma_Basidiomycota
+|  |            |    |  +--| (99)
+|  |            |    |     |                   +--XP_007878520.1-Anthracocystis_flocculosa_Basidiomycota
+|  |            |    |     |                +--| (99)
+|  |            |    |     |                |  |  +--PWZ00857.1-Testicularia_cyperi_Basidiomycota
+|  |            |    |     |                |  +--| (83)
+|  |            |    |     |                |     |  +--XP_012187531.1-Pseudozyma_hubeiensis_Basidiomycota
+|  |            |    |     |                |     +--| (75)
+|  |            |    |     |                |        |        +--XP_011387380.1-Ustilago_maydis_Basidiomycota
+|  |            |    |     |                |        |     +--| (34)
+|  |            |    |     |                |        |     |  |  +--SPO22875.1-Ustilago_trichophora_Basidiomycota
+|  |            |    |     |                |        |     |  +--| (94)
+|  |            |    |     |                |        |     |     |  +--SPO25041.1-Ustilago_trichophora_Basidiomycota
+|  |            |    |     |                |        |     |     +--| (65)
+|  |            |    |     |                |        |     |        +--CBQ70244.1-Sporisorium_reilianum_Basidiomycota
+|  |            |    |     |                |        |  +--| (24)
+|  |            |    |     |                |        |  |  |  +--CDR88257.1-Sporisorium_scitamineum_Basidiomycota
+|  |            |    |     |                |        |  |  +--| (59)
+|  |            |    |     |                |        |  |     +--XP_029737259.1-Sporisorium_graminicola_Basidiomycota
+|  |            |    |     |                |        +--| (40)
+|  |            |    |     |                |           |        +--SPO43801.1-Moesziomyces_antarcticus_Basidiomycota
+|  |            |    |     |                |           |     +--| (26)
+|  |            |    |     |                |           |     |  |     +--ETS61282.1-Moesziomyces_aphidis_Basidiomycota
+|  |            |    |     |                |           |     |  |  +--| (21)
+|  |            |    |     |                |           |     |  |  |  +--XP_016295197.1-Kalmanozyma_brasiliensis_Basidiomycota
+|  |            |    |     |                |           |     |  +--| (21)
+|  |            |    |     |                |           |     |     +--GAC72933.1-Moesziomyces_antarcticus_Basidiomycota
+|  |            |    |     |                |           |  +--| (96)
+|  |            |    |     |                |           |  |  |  +--XP_014658580.1-Moesziomyces_antarcticus_Basidiomycota
+|  |            |    |     |                |           |  |  +--| (26)
+|  |            |    |     |                |           |  |     |  +--CCF54966.1-Ustilago_hordei_Basidiomycota
+|  |            |    |     |                |           |  |     +--| (17)
+|  |            |    |     |                |           |  |        +--SAM75022.1-Ustilago_bromivora_Basidiomycota
+|  |            |    |     |                |           +--| (58)
+|  |            |    |     |                |              +--CDI51779.1-Melanopsichium_pennsylvanicum_Basidiomycota
+|  |            |    |     |             +--| (76)
+|  |            |    |     |             |  +--PWN47149.1-Violaceomyces_palustris_Basidiomycota
+|  |            |    |     |          +--| (76)
+|  |            |    |     |          |  |           +--XP_025350244.1-Pseudomicrostroma_glucosiphilum_Basidiomycota
+|  |            |    |     |          |  |        +--| (96)
+|  |            |    |     |          |  |        |  +--XP_025364802.1-Jaminaea_rosea_Basidiomycota
+|  |            |    |     |          |  |     +--| (96)
+|  |            |    |     |          |  |     |  |  +--XP_025597454.1-Tilletiopsis_washingtonensis_Basidiomycota
+|  |            |    |     |          |  |     |  +--| (100)
+|  |            |    |     |          |  |     |     +--XP_025368439.1-Ceraceosorus_guamensis_Basidiomycota
+|  |            |    |     |          |  |  +--| (62)
+|  |            |    |     |          |  |  |  +--XP_025358105.1-Meira_miltonrushii_Basidiomycota
+|  |            |    |     |          |  +--| (95)
+|  |            |    |     |          |     +--XP_025374703.1-Acaromyces_ingoldii_Basidiomycota
+|  |            |    |     |       +--| (98)
+|  |            |    |     |       |  |    +---PKI85313.1-Malassezia_vespertilionis_Basidiomycota
+|  |            |    |     |       |  +----| (100)
+|  |            |    |     |       |       |        +--AYO44093.1-Malassezia_restricta_Basidiomycota
+|  |            |    |     |       |       |     +--| (100)
+|  |            |    |     |       |       |     |  +--XP_027486193.1-Malassezia_restricta_Basidiomycota
+|  |            |    |     |       |       |  +--| (100)
+|  |            |    |     |       |       |  |  +--XP_001728750.1-Malassezia_globosa_Basidiomycota
+|  |            |    |     |       |       +--| (100)
+|  |            |    |     |       |          |  +--XP_017990589.1-Malassezia_pachydermatis_Basidiomycota
+|  |            |    |     |       |          +--| (99)
+|  |            |    |     |       |             +--XP_018741713.1-Malassezia_sympodialis_Basidiomycota
+|  |            |    |     |  +----| (100)
+|  |            |    |     |  |    +----------XP_013242052.1-Tilletiaria_anomala_Basidiomycota
+|  |            |    |     +--| (96)
+|  |            |    |        |                 +--TIA88507.1-Wallemia_hederae_Basidiomycota
+|  |            |    |        +-----------------| (100)
+|  |            |    |                          |  +--TIC28224.1-Wallemia_mellicola_Basidiomycota
+|  |            |    |                          +--| (100)
+|  |            |    |                             +--XP_006957474.1-Wallemia_mellicola_Basidiomycota
+|  |            +----| (100)
+|  |                 |  +------XP_007405489.1-Melampsora_larici-populina_Basidiomycota
+|  |                 +--| (92)
+|  |                    |                +--PLW10552.1-Puccinia_coronata_Basidiomycota
+|  |                    |             +--| (41)
+|  |                    |             |  +--PLW23367.1-Puccinia_coronata_Basidiomycota
+|  |                    |          +--| (100)
+|  |                    |          |  +--PLW43991.1-Puccinia_coronata_Basidiomycota
+|  |                    |       +--| (92)
+|  |                    |       |  |     +--KNF03889.1-Puccinia_striiformis_Basidiomycota
+|  |                    |       |  |  +--| (100)
+|  |                    |       |  |  |  +--POW14800.1-Puccinia_striiformis_Basidiomycota
+|  |                    |       |  +--| (99)
+|  |                    |       |     +--OAV90883.1-Puccinia_triticina_Basidiomycota
+|  |                    +-------| (100)
+|  |                            |  +--KAA1080112.1-Puccinia_graminis_Basidiomycota
+|  |                            +--| (100)
+|  |                               |  +--XP_003325305.2-Puccinia_graminis_Basidiomycota
+|  |                               +--| (100)
+|  |                                  +--KAA1081664.1-Puccinia_graminis_Basidiomycota
++--| (100)
+   |      +--XP_504870.1-Yarrowia_lipolytica_Saccharomycotina
+   +------| (100)
+          +--RDW35049.1-Yarrowia_lipolytica_Saccharomycotina
+
+
+Consensus tree in newick format: 
+
+(XP_018737180.1-Sugiyamaella_lignohabitans_Saccharomycotina:0.2742380676,(KAA8916722.1-Trichomonascus_ciferrii_Saccharomycotina:0.4188881174,QUERY_yHMPu5000034681_Blastobotrys_americana_Seq_154:0.1937090759)100:0.0375837887,((((((KAF5103339.1-Geotrichum_candidum_Saccharomycotina:0.0000025307,KAF5121213.1-Geotrichum_candidum_Saccharomycotina:0.0000025307)100:0.0103906610,KAF5114449.1-Geotrichum_candidum_Saccharomycotina:0.0000025307)100:0.0852626794,KAF5094807.1-Geotrichum_candidum_Saccharomycotina:0.0249527747)100:0.0867251207,KAF5092728.1-Galactomyces_reessii_Saccharomycotina:0.0851635028)100:0.3155223756,((ODQ69345.1-Lipomyces_starkeyi_Saccharomycotina:0.0212508905,(ODQ69163.1-Lipomyces_starkeyi_Saccharomycotina:0.0213565555,ODQ69151.1-Lipomyces_starkeyi_Saccharomycotina:0.1525216323)90:0.0118057811)100:0.2814806687,((((((((PAV23724.1-Pyrrhoderma_noxium_Basidiomycota:0.1280966886,((((XP_007264057.1-Fomitiporia_mediterranea_Basidiomycota:0.0419920492,XP_007264055.1-Fomitiporia_mediterranea_Basidiomycota:0.0804493199)99:0.0178120365,OCB84313.1-Sanghuangporus_baumii_Basidiomycota:0.0522819013)100:0.0474719133,(KIJ44360.1-Sphaerobolus_stellatus_Basidiomycota:0.0434253558,KIJ45694.1-Sphaerobolus_stellatus_Basidiomycota:0.0109572094)100:0.2454135009)95:0.0154771308,THH06769.1-Phellinidium_pouzarii_Basidiomycota:0.2996747888)64:0.0167071780)93:0.0131455095,(KLO18552.1-Schizopora_paradoxa_Basidiomycota:0.1944013502,((((PAV19290.1-Pyrrhoderma_noxium_Basidiomycota:0.2773041460,XP_007262562.1-Fomitiporia_mediterranea_Basidiomycota:0.2033826135)99:0.0864075757,((XP_007270137.1-Fomitiporia_mediterranea_Basidiomycota:0.2535714907,XP_007267979.1-Fomitiporia_mediterranea_Basidiomycota:0.5445721194)100:0.2272725076,(THH01940.1-Phellinidium_pouzarii_Basidiomycota:0.1799727735,(PAV17996.1-Pyrrhoderma_noxium_Basidiomycota:0.6578360090,(XP_007261744.1-Fomitiporia_mediterranea_Basidiomycota:0.2355767442,OCB86976.1-Sanghuangporus_baumii_Basidiomycota:0.2968524728)100:0.0689511017)100:0.1743737249)98:0.0730526153)89:0.0566974141)78:0.0282460643,((PAV18342.1-Pyrrhoderma_noxium_Basidiomycota:0.0300219108,(XP_007270129.1-Fomitiporia_mediterranea_Basidiomycota:0.3516673418,XP_007270128.1-Fomitiporia_mediterranea_Basidiomycota:0.0868566081)95:0.1158560318)93:0.0403447569,(XP_007270135.1-Fomitiporia_mediterranea_Basidiomycota:0.0701527146,THH09768.1-Phellinidium_pouzarii_Basidiomycota:0.1646600463)98:0.0450004859)93:0.0345284284)76:0.0466410524,(XP_007270136.1-Fomitiporia_mediterranea_Basidiomycota:0.2509173008,OCB88220.1-Sanghuangporus_baumii_Basidiomycota:0.0578152185)83:0.0371555742)94:0.0529646247)75:0.0353099227)65:0.0247876155,TDL27434.1-Rickenella_mellea_Basidiomycota:0.1564466670)86:0.0301299043,(((KZP24726.1-Fibularhizoctonia_sp._CBS_109695_Basidiomycota:0.1322858062,(KIM80872.1-Piloderma_croceum_Basidiomycota:0.0456615425,KIM81263.1-Piloderma_croceum_Basidiomycota:0.0959778013)100:0.0858352765)92:0.0501461304,(((((((((KIJ69492.1-Hydnomerulius_pinastri_Basidiomycota:0.1524094321,KIJ69493.1-Hydnomerulius_pinastri_Basidiomycota:0.1334894817)99:0.0517826981,(XP_007774791.1-Coniophora_puteana_Basidiomycota:0.3347417850,XP_007774834.1-Coniophora_puteana_Basidiomycota:0.3085763788)100:0.1341131773)92:0.0373720201,XP_007764800.1-Coniophora_puteana_Basidiomycota:0.2379822159)40:0.0095309582,XP_007321317.1-Serpula_lacrymans_Basidiomycota:0.1060454560)45:0.0139474486,(((((KIO13269.1-Pisolithus_tinctorius_Basidiomycota:0.0113698308,KIO10494.1-Pisolithus_tinctorius_Basidiomycota:0.1466828127)100:0.0225416445,KIK31312.1-Pisolithus_microcarpus_Basidiomycota:0.0229589352)100:0.0711731816,KIM59415.1-Scleroderma_citrinum_Basidiomycota:0.0256954949)56:0.0000025307,((((OAX36864.1-Rhizopogon_vinicolor_Basidiomycota:0.0112788113,OJA21627.1-Rhizopogon_vesiculosus_Basidiomycota:0.1248464254)57:0.0000025307,OAX36860.1-Rhizopogon_vinicolor_Basidiomycota:0.3137160759)100:0.0149910267,(KIK45873.1-Suillus_luteus_Basidiomycota:0.0224752804,KAF3872225.1-Suillus_brevipes_Basidiomycota:0.0000025307)100:0.0652654770)100:0.0851479218,((KIJ17340.1-Paxillus_involutus_Basidiomycota:0.0000025307,KIK91431.1-Paxillus_rubicundulus_Basidiomycota:0.0441112638)100:0.0731326262,KIJ69495.1-Hydnomerulius_pinastri_Basidiomycota:0.0592476171)100:0.0680367798)79:0.0424532003)78:0.0275794076,(KIM53189.1-Scleroderma_citrinum_Basidiomycota:0.0785283974,((((KIO03876.1-Pisolithus_tinctorius_Basidiomycota:0.1822139930,(KIK28099.1-Pisolithus_microcarpus_Basidiomycota:0.0678762879,(KIK28096.1-Pisolithus_microcarpus_Basidiomycota:0.0915042584,KIK28093.1-Pisolithus_microcarpus_Basidiomycota:0.1833545808)99:0.0388148599)72:0.0278729303)67:0.0113981585,KIO03875.1-Pisolithus_tinctorius_Basidiomycota:0.0917602310)97:0.0441620027,KIO03880.1-Pisolithus_tinctorius_Basidiomycota:0.1040880578)100:0.1046758596,(((RDB23970.1-Hypsizygus_marmoreus_Basidiomycota:0.2927907294,(((KIK45871.1-Suillus_luteus_Basidiomycota:0.0158486174,KAF3872223.1-Suillus_brevipes_Basidiomycota:0.0526421160)100:0.3838082810,OSD02538.1-Trametes_coccinea_Basidiomycota:0.4914235434)99:0.1627653449,((((TFK92498.1-Polyporus_arcularius_Basidiomycota:0.0476446595,RDX51795.1-Polyporus_brumalis_Basidiomycota:0.0502216292)100:0.2004578132,(RPD74112.1-Lentinus_tigrinus_Basidiomycota:0.0000025307,RPD54921.1-Lentinus_tigrinus_Basidiomycota:0.0000025307)100:0.1046803114)70:0.0706909187,(((TFK83651.1-Polyporus_arcularius_Basidiomycota:0.0000021558,RDX45333.1-Polyporus_brumalis_Basidiomycota:0.0333194707)100:0.1503730815,RDX45334.1-Polyporus_brumalis_Basidiomycota:0.0698823060)100:0.1523266302,RPD53466.1-Lentinus_tigrinus_Basidiomycota:0.2083886545)100:0.2077121648)54:0.0714756296,PIL26866.1-Ganoderma_sinense_Basidiomycota:0.4321711896)99:0.1999794117)44:0.0000028095)41:0.0443314384,KNZ75558.1-Termitomyces_sp._J132_Basidiomycota:0.3808309139)73:0.1052042914,KIM58385.1-Scleroderma_citrinum_Basidiomycota:0.2327697612)91:0.0289228978)67:0.0791319572)60:0.0362325557)66:0.0768384347)65:0.0318218704,((((TFK55268.1-Heliocybe_sulcata_Basidiomycota:0.0219158135,KZT28576.1-Neolentinus_lepideus_Basidiomycota:0.0220100433)44:0.0000025307,XP_007863631.1-Gloeophyllum_trabeum_Basidiomycota:0.0669617038)95:0.0265555939,(XP_007865523.1-Gloeophyllum_trabeum_Basidiomycota:0.1763306548,TFK55269.1-Heliocybe_sulcata_Basidiomycota:0.0531946081)99:0.0563581136)99:0.0555281209,((TFK53876.1-Heliocybe_sulcata_Basidiomycota:0.0511209822,XP_007864705.1-Gloeophyllum_trabeum_Basidiomycota:0.0508580295)100:0.2425805783,(KDQ59468.1-Jaapia_argillacea_Basidiomycota:0.0089712327,KDQ59483.1-Jaapia_argillacea_Basidiomycota:0.1303142850)99:0.1021652502)76:0.0072118704)82:0.0240857930)49:0.0260034405,((SJL00179.1-Armillaria_ostoyae_Basidiomycota:0.0000025307,PBK77925.1-Armillaria_solidipes_Basidiomycota:0.0114375385)100:0.0263194469,PBK96630.1-Armillaria_gallica_Basidiomycota:0.0079793288)100:0.1593173087)34:0.0111722386,(((((KTB28014.1-Moniliophthora_roreri_Basidiomycota:0.0000025307,ESK93914.1-Moniliophthora_roreri_Basidiomycota:0.0000025307)100:0.2520391585,(THU84418.1-Dendrothele_bispora_Basidiomycota:0.0464774968,KAF5353000.1-Tetrapyrgos_nigripes_Basidiomycota:0.0899302121)100:0.1658219106)39:0.0402223496,(((KIK56124.1-Gymnopus_luxurians_Basidiomycota:0.0805579520,KAF5381931.1-Gymnopus_confluens_Basidiomycota:0.0307609437)100:0.0510612862,GAW01597.1-Lentinula_edodes_Basidiomycota:0.1835932710)99:0.0526243517,KAE9406065.1-Gymnopus_androsaceus_Basidiomycota:0.0742184802)100:0.1347514456)73:0.0301308899,(ESK93915.1-Moniliophthora_roreri_Basidiomycota:0.1405633187,(KAF4611121.1-Agrocybe_pediades_Basidiomycota:0.3030525449,KNZ75406.1-Termitomyces_sp._J132_Basidiomycota:0.1711924627)62:0.0283229628)46:0.0178259195)61:0.0465182969,((((((((((PPQ64677.1-Gymnopilus_dilepis_Basidiomycota:0.0726199161,CAA7267653.1-Agrocybe_aegerita_Basidiomycota:0.0570737306)91:0.0328047246,(KAF5330651.1-Psilocybe_cf._subviscida_Basidiomycota:0.1137514325,KJA27446.1-Hypholoma_sublateritium_Basidiomycota:0.0342051964)90:0.0371950301)81:0.0017900362,KDR73465.1-Galerina_marginata_Basidiomycota:0.0325077558)53:0.0346714713,((PPQ89087.1-Psilocybe_cyanescens_Basidiomycota:0.0613207149,KAF4615122.1-Agrocybe_pediades_Basidiomycota:0.0305439304)92:0.0231686600,PPQ68963.1-Panaeolus_cyanescens_Basidiomycota:0.0702054521)63:0.0291060379)53:0.0117543335,KIM48868.1-Hebeloma_cylindrosporum_Basidiomycota:0.0347633736)98:0.0515689538,(XP_001878217.1-Laccaria_bicolor_Basidiomycota:0.0000025307,KIK06471.1-Laccaria_amethystina_Basidiomycota:0.0430046928)100:0.0745807988)56:0.0331979694,(TFK72532.1-Pluteus_cervinus_Basidiomycota:0.1025126147,(RDB23971.1-Hypsizygus_marmoreus_Basidiomycota:0.0501837119,RDB24149.1-Hypsizygus_marmoreus_Basidiomycota:0.0545323806)100:0.1517422125)73:0.0176453528)34:0.0235721840,KAF5386754.1-Tricholomella_constricta_Basidiomycota:0.1143006715)88:0.0368346975,TFK42915.1-Crucibulum_laeve_Basidiomycota:0.0374146202)86:0.0194690685,(((XP_001833641.2-Coprinopsis_cinerea_Basidiomycota:0.1124747422,(KII88734.1-Plicaturopsis_crispa_Basidiomycota:0.2513605678,(TFK26442.1-Coprinopsis_marcescibilis_Basidiomycota:0.0389812117,TEB36290.1-Coprinellus_micaceus_Basidiomycota:0.1475720460)100:0.0146126977)96:0.0562616871)59:0.0000029080,(KAF5324448.1-Coprinellus_angulatus_Basidiomycota:0.0000025307,KAF6764817.1-Coprinellus_angulatus_Basidiomycota:0.0000025307)100:0.0784374211)95:0.0602566533,PFH52360.1-Amanita_thiersii_Basidiomycota:0.2050635522)88:0.0158050258)95:0.0631381393)44:0.0260412939)35:0.0303805339,((((KAF5357806.1-Leucoagaricus_leucothites_Basidiomycota:0.0332989637,(KXN82523.1-Leucoagaricus_sp._SymC.cos_Basidiomycota:0.0000025307,(EGO01602.1-Serpula_lacrymans_Basidiomycota:0.0000025307,XP_007315350.1-Serpula_lacrymans_Basidiomycota:0.0000025307)100:0.4968319235)71:0.0340019921)73:0.0582389122,(XP_007326627.1-Agaricus_bisporus_Basidiomycota:0.0000025307,XP_006458451.1-Agaricus_bisporus_Basidiomycota:0.0000025307)100:0.0784385849)71:0.0792551451,(((((((RPD65889.1-Lentinus_tigrinus_Basidiomycota:0.0212226351,(TFK90965.1-Polyporus_arcularius_Basidiomycota:0.0000025307,RDX48391.1-Polyporus_brumalis_Basidiomycota:0.0111019700)100:0.0232577507)93:0.0230760511,(XP_007360886.1-Dichomitus_squalens_Basidiomycota:0.0000025307,TBU32230.1-Dichomitus_squalens_Basidiomycota:0.0000025307)100:0.0698722242)49:0.0072118536,PIL23778.1-Ganoderma_sinense_Basidiomycota:0.0749473379)66:0.0344501776,((((TFL06915.1-Pterula_gracilis_Basidiomycota:0.3077584453,XP_024341743.1-Postia_placenta_Basidiomycota:0.0684020140)97:0.0396698536,((PCH38363.1-Wolfiporia_cocos_Basidiomycota:0.0711268458,KZT11504.1-Laetiporus_sulphureus_Basidiomycota:0.1392490046)99:0.0315940223,(EPT05870.1-Fomitopsis_pinicola_Basidiomycota:0.1323422655,KZT65464.1-Daedalea_quercina_Basidiomycota:0.0601472905)100:0.1430583354)99:0.0309818694)47:0.0239834688,KZT11503.1-Laetiporus_sulphureus_Basidiomycota:0.0963647274)63:0.0258576746,OBZ72127.1-Grifola_frondosa_Basidiomycota:0.0346477929)56:0.0000021558)39:0.0243014289,(((OSD02841.1-Trametes_coccinea_Basidiomycota:0.0536064409,(XP_008036862.1-Trametes_versicolor_Basidiomycota:0.0327820171,OJT14130.1-Trametes_pubescens_Basidiomycota:0.0000025307)100:0.0251885273)99:0.0449600250,XP_027613384.1-Sparassis_crispa_Basidiomycota:0.0803153241)77:0.0226637765,(EMD38638.1-Gelatoporia_subvermispora_Basidiomycota:0.0324795932,OCH95333.1-Obba_rivulosa_Basidiomycota:0.0454079289)99:0.0468544359)46:0.0210135907)39:0.0114149311,((((KIP06008.1-Phlebiopsis_gigantea_Basidiomycota:0.0261348155,PSR88889.1-Phlebia_centrifuga_Basidiomycota:0.1537257971)96:0.0303759432,(XP_007397138.1-Phanerochaete_carnosa_Basidiomycota:0.0790554827,XP_007396047.1-Phanerochaete_carnosa_Basidiomycota:0.0818542876)100:0.0253635845)95:0.0402199077,TCD60417.1-Steccherinum_ochraceum_Basidiomycota:0.1719831482)90:0.0351648227,(EPT05883.1-Fomitopsis_pinicola_Basidiomycota:0.0461467335,KZT65452.1-Daedalea_quercina_Basidiomycota:0.0198036796)100:0.0632029208)33:0.0178070421)34:0.0000027568,(((((PCH39619.1-Wolfiporia_cocos_Basidiomycota:0.2032305105,XP_024335938.1-Postia_placenta_Basidiomycota:0.1609388420)59:0.0058123365,((EPS93657.1-Fomitopsis_pinicola_Basidiomycota:0.0115834746,(TFY52286.1-Fomitopsis_rosea_Basidiomycota:0.0355716267,KZT65885.1-Daedalea_quercina_Basidiomycota:0.0575016601)97:0.0201340298)100:0.0591241267,XP_012179200.1-Fibroporia_radiculosa_Basidiomycota:0.1988810019)87:0.0111249245)69:0.0116964581,(KZT06102.1-Laetiporus_sulphureus_Basidiomycota:0.0075747036,KZT06103.1-Laetiporus_sulphureus_Basidiomycota:0.1179518487)100:0.1003235542)98:0.0625247626,((PSR74832.1-Phlebia_centrifuga_Basidiomycota:0.0107843359,THG94996.1-Phlebia_centrifuga_Basidiomycota:0.0000025307)100:0.0924433039,XP_007399313.1-Phanerochaete_carnosa_Basidiomycota:0.4580543714)99:0.0264545008)95:0.0570927816,(((((((XP_007369133.1-Dichomitus_squalens_Basidiomycota:0.0000025307,TBU47941.1-Dichomitus_squalens_Basidiomycota:0.0324878077)100:0.0638460507,((TBU57159.1-Dichomitus_squalens_Basidiomycota:0.0000025307,XP_007369132.1-Dichomitus_squalens_Basidiomycota:0.0000025307)67:0.0000025307,TBU47939.1-Dichomitus_squalens_Basidiomycota:0.0109425316)100:0.1393226872)80:0.0162380774,TBU57160.1-Dichomitus_squalens_Basidiomycota:0.0000025307)81:0.0237147742,(TBU47940.1-Dichomitus_squalens_Basidiomycota:0.0000025307,TBU28313.1-Dichomitus_squalens_Basidiomycota:0.0000025307)100:0.0469463081)100:0.0710824422,PIL26858.1-Ganoderma_sinense_Basidiomycota:0.1106554651)100:0.0782272042,((RPD53474.1-Lentinus_tigrinus_Basidiomycota:0.0331271270,RPD55646.1-Lentinus_tigrinus_Basidiomycota:0.0111378672)100:0.0128016481,(RDX45337.1-Polyporus_brumalis_Basidiomycota:0.0107778316,TFK80677.1-Polyporus_arcularius_Basidiomycota:0.0329963131)100:0.0335679026)100:0.0816887257)100:0.0904313919,(((CDO76674.1-Trametes_cinnabarina_Basidiomycota:0.0219666642,OSD02536.1-Trametes_coccinea_Basidiomycota:0.1050815666)99:0.0325634724,OSD02535.1-Trametes_coccinea_Basidiomycota:0.0246940980)100:0.0634239928,(XP_008045528.1-Trametes_versicolor_Basidiomycota:0.0110278361,OJT04811.1-Trametes_pubescens_Basidiomycota:0.0000025307)100:0.0879913475)100:0.0730744095)100:0.1258208985)73:0.0314887797)84:0.0169347821)69:0.0469672263,KIY67565.1-Cylindrobasidium_torrendii_Basidiomycota:0.3175278120)57:0.0147890725)46:0.0479765970)75:0.0330892116,(((KAA1467687.1-Dentipellis_sp._KUC8613_Basidiomycota:0.0014545956,TFY72273.1-Dentipellis_fragilis_Basidiomycota:0.0556527138)100:0.1191558391,(((((((((ESK84115.1-Moniliophthora_roreri_Basidiomycota:0.0000025307,KTB28320.1-Moniliophthora_roreri_Basidiomycota:0.0000025307)100:0.1815579977,(TFK61365.1-Pluteus_cervinus_Basidiomycota:0.1775415495,PFH48952.1-Amanita_thiersii_Basidiomycota:0.2016331996)71:0.0057471595)94:0.0878478891,KNZ81699.1-Termitomyces_sp._J132_Basidiomycota:0.1013386458)79:0.0267437613,(CAA7268284.1-Agrocybe_aegerita_Basidiomycota:0.2848063172,(TFK37960.1-Crucibulum_laeve_Basidiomycota:0.0522246299,TFK37961.1-Crucibulum_laeve_Basidiomycota:0.1789308127)100:0.3052184951)82:0.1077741895)52:0.0000021676,(RDB30790.1-Hypsizygus_marmoreus_Basidiomycota:0.1276978113,KAF5375710.1-Tricholomella_constricta_Basidiomycota:0.0691467102)94:0.0464266308)77:0.0211122807,(((((((KAF7426402.1-Pleurotus_ostreatus_Basidiomycota:0.0000025307,KDQ32121.1-Pleurotus_ostreatus_Basidiomycota:0.0214750874)99:0.0121368922,(KAF4586650.1-Pleurotus_pulmonarius_Basidiomycota:0.0000025307,KAF4564502.1-Pleurotus_pulmonarius_Basidiomycota:0.0000025307)100:0.0317264968)100:0.0595977342,KAF7426422.1-Pleurotus_ostreatus_Basidiomycota:0.1350202662)100:0.0950532852,(TEB20509.1-Coprinellus_micaceus_Basidiomycota:0.2727698347,(KAF5314740.1-Coprinellus_angulatus_Basidiomycota:0.0000025307,KAF6748104.1-Coprinellus_angulatus_Basidiomycota:0.0108733002)100:0.1467377952)100:0.3055761397)91:0.0763779673,((PPQ93328.1-Psilocybe_cyanescens_Basidiomycota:0.1512752564,KDR80465.1-Galerina_marginata_Basidiomycota:0.0870788687)91:0.0406753606,((((KJA21412.1-Hypholoma_sublateritium_Basidiomycota:0.2080210314,(KAF5323238.1-Psilocybe_cf._subviscida_Basidiomycota:0.0299658330,KAF5323241.1-Psilocybe_cf._subviscida_Basidiomycota:0.0282213934)100:0.3328478333)100:0.0827310876,PPR01118.1-Gymnopilus_dilepis_Basidiomycota:0.2356910355)91:0.0538919578,KIM37184.1-Hebeloma_cylindrosporum_Basidiomycota:0.3798933489)88:0.0673766811,KAF4618279.1-Agrocybe_pediades_Basidiomycota:0.1703718679)85:0.0435946286)100:0.1507171493)94:0.0729621805,((KXN83052.1-Leucoagaricus_sp._SymC.cos_Basidiomycota:0.0121730187,KAF5356917.1-Leucoagaricus_leucothites_Basidiomycota:0.0562862708)100:0.0675765703,(XP_006463201.1-Agaricus_bisporus_Basidiomycota:0.0000025307,XP_007332591.1-Agaricus_bisporus_Basidiomycota:0.0114650046)100:0.1201685630)98:0.0344048162)82:0.0246938399,TFK37959.1-Crucibulum_laeve_Basidiomycota:0.1797933546)80:0.0225962723)76:0.0428072740,((((GAT43291.1-Mycena_chlorophos_Basidiomycota:0.0111465688,KAF7319365.1-Mycena_chlorophos_Basidiomycota:0.0000026152)100:0.1184529800,KAF7316051.1-Mycena_indigotica_Basidiomycota:0.0953652272)100:0.1353700852,KAF7360136.1-Mycena_venus_Basidiomycota:0.3327658005)70:0.0346986969,((KAF7334725.1-Mycena_venus_Basidiomycota:0.0000025359,KAF7333881.1-Mycena_venus_Basidiomycota:0.0110226726)100:0.3534096651,(KAF7342342.1-Mycena_venus_Basidiomycota:0.1421424927,KAF7326077.1-Mycena_kentingensis_Basidiomycota:0.3216019098)63:0.0580640970)91:0.0573141698)55:0.0489495191)79:0.0960805868,(XP_007313762.1-Serpula_lacrymans_Basidiomycota:0.0893779987,XP_007313758.1-Serpula_lacrymans_Basidiomycota:0.3289117376)100:0.1102264079)100:0.0471283532,XP_007322832.1-Serpula_lacrymans_Basidiomycota:0.2378838505)87:0.0909798863)77:0.0432763200,((KAA1471247.1-Dentipellis_sp._KUC8613_Basidiomycota:0.0378521029,XP_007309997.1-Stereum_hirsutum_Basidiomycota:0.2994202297)94:0.0259977126,(((XP_007299868.1-Stereum_hirsutum_Basidiomycota:0.1663451131,XP_007301411.1-Stereum_hirsutum_Basidiomycota:0.0743300409)100:0.0808530837,THH08573.1-Bondarzewia_mesenterica_Basidiomycota:0.1489856444)95:0.0356977889,(((VDC05365.1-Peniophora_sp._CBMAI_1063_Basidiomycota:0.0598537291,KZV65818.1-Peniophora_sp._CONT_Basidiomycota:0.0219061276)100:0.0332811345,KZV65823.1-Peniophora_sp._CONT_Basidiomycota:0.0904951243)100:0.2163437470,XP_009542393.1-Heterobasidion_irregulare_Basidiomycota:0.0580687741)99:0.0437285663)79:0.0179998130)84:0.0157691192)82:0.0153983407)90:0.0885236425)52:0.0000023263,(KZT33982.1-Sistotremastrum_suecicum_Basidiomycota:0.0029077466,KZS89878.1-Sistotremastrum_niveocremeum_Basidiomycota:0.0182195822)100:0.2354021956)68:0.0458329080,((((((CUA73965.1-Rhizoctonia_solani_Basidiomycota:0.0350214536,KEP55843.1-Rhizoctonia_solani_Basidiomycota:0.0000025307)45:0.0111060091,(((ELU41943.1-Rhizoctonia_solani_Basidiomycota:0.0217563958,CEL57992.1-Rhizoctonia_solani_Basidiomycota:0.0108195129)100:0.0329550078,KDN37903.1-Rhizoctonia_solani_Basidiomycota:0.0222441992)55:0.0084730083,(CUA73235.1-Rhizoctonia_solani_Basidiomycota:0.0000025307,CUA71516.1-Rhizoctonia_solani_Basidiomycota:0.0326380112)100:0.1860976455)68:0.0253153701)42:0.0000025307,EUC65247.1-Rhizoctonia_solani_Basidiomycota:0.0000025307)99:0.0659869102,KAB5592217.1-Ceratobasidium_theobromae_Basidiomycota:0.0686518959)87:0.0220561788,KDQ14653.1-Botryobasidium_botryosum_Basidiomycota:0.1084938066)71:0.0171861345,(KAB5591707.1-Ceratobasidium_theobromae_Basidiomycota:0.0871835454,CUA71197.1-Rhizoctonia_solani_Basidiomycota:0.4884764649)99:0.2763736507)85:0.0476514109)97:0.0680444104,(CDZ97754.1-Phaffia_rhodozyma_Basidiomycota:0.5299964655,((((((XP_007878520.1-Anthracocystis_flocculosa_Basidiomycota:0.0070005372,(PWZ00857.1-Testicularia_cyperi_Basidiomycota:0.0000025307,(XP_012187531.1-Pseudozyma_hubeiensis_Basidiomycota:0.0000025307,(((XP_011387380.1-Ustilago_maydis_Basidiomycota:0.0104358615,(SPO22875.1-Ustilago_trichophora_Basidiomycota:0.0000025307,(SPO25041.1-Ustilago_trichophora_Basidiomycota:0.0000025307,CBQ70244.1-Sporisorium_reilianum_Basidiomycota:0.0000025307)65:0.0000025307)94:0.0000025307)34:0.0104358571,(CDR88257.1-Sporisorium_scitamineum_Basidiomycota:0.0104113853,XP_029737259.1-Sporisorium_graminicola_Basidiomycota:0.0000021042)59:0.0104297020)24:0.0000023323,(((SPO43801.1-Moesziomyces_antarcticus_Basidiomycota:0.0000025307,((ETS61282.1-Moesziomyces_aphidis_Basidiomycota:0.0000025307,XP_016295197.1-Kalmanozyma_brasiliensis_Basidiomycota:0.0000025307)21:0.0000025307,GAC72933.1-Moesziomyces_antarcticus_Basidiomycota:0.0000025307)21:0.0000025307)26:0.0000025307,(XP_014658580.1-Moesziomyces_antarcticus_Basidiomycota:0.0000025307,(CCF54966.1-Ustilago_hordei_Basidiomycota:0.0000025307,SAM75022.1-Ustilago_bromivora_Basidiomycota:0.0000025307)17:0.0000025307)26:0.0000025307)96:0.0000025307,CDI51779.1-Melanopsichium_pennsylvanicum_Basidiomycota:0.0104277877)58:0.0104303027)40:0.0000025307)75:0.0104518696)83:0.0143552469)99:0.0899795684,PWN47149.1-Violaceomyces_palustris_Basidiomycota:0.0179334697)76:0.0383328500,((((XP_025350244.1-Pseudomicrostroma_glucosiphilum_Basidiomycota:0.1023118268,XP_025364802.1-Jaminaea_rosea_Basidiomycota:0.0477135810)96:0.0943410485,(XP_025597454.1-Tilletiopsis_washingtonensis_Basidiomycota:0.0162806962,XP_025368439.1-Ceraceosorus_guamensis_Basidiomycota:0.0164463215)100:0.0483503684)96:0.0362699970,XP_025358105.1-Meira_miltonrushii_Basidiomycota:0.0780719163)62:0.0123467298,XP_025374703.1-Acaromyces_ingoldii_Basidiomycota:0.0424497259)95:0.1027271945)76:0.0514726412,(PKI85313.1-Malassezia_vespertilionis_Basidiomycota:0.1851006773,(((AYO44093.1-Malassezia_restricta_Basidiomycota:0.0014819600,XP_027486193.1-Malassezia_restricta_Basidiomycota:0.0314179734)100:0.0867163650,XP_001728750.1-Malassezia_globosa_Basidiomycota:0.0845398878)100:0.1100664630,(XP_017990589.1-Malassezia_pachydermatis_Basidiomycota:0.1549915645,XP_018741713.1-Malassezia_sympodialis_Basidiomycota:0.1450612465)99:0.0320529710)100:0.1539123398)100:0.2345927803)98:0.1129424424,XP_013242052.1-Tilletiaria_anomala_Basidiomycota:0.4676759062)100:0.2128600774,(TIA88507.1-Wallemia_hederae_Basidiomycota:0.1466305315,(TIC28224.1-Wallemia_mellicola_Basidiomycota:0.0000025307,XP_006957474.1-Wallemia_mellicola_Basidiomycota:0.0000025307)100:0.0825982533)100:0.7539787404)96:0.0630181567)99:0.0647259569)99:0.0518545562,(XP_007405489.1-Melampsora_larici-populina_Basidiomycota:0.2909080438,((((PLW10552.1-Puccinia_coronata_Basidiomycota:0.0000025307,PLW23367.1-Puccinia_coronata_Basidiomycota:0.0000025307)41:0.0000025307,PLW43991.1-Puccinia_coronata_Basidiomycota:0.0000025307)100:0.0655212191,((KNF03889.1-Puccinia_striiformis_Basidiomycota:0.0000025307,POW14800.1-Puccinia_striiformis_Basidiomycota:0.1235607231)100:0.0726639272,OAV90883.1-Puccinia_triticina_Basidiomycota:0.0513533666)99:0.0229831915)92:0.0319385642,(KAA1080112.1-Puccinia_graminis_Basidiomycota:0.0103558310,(XP_003325305.2-Puccinia_graminis_Basidiomycota:0.0000025307,KAA1081664.1-Puccinia_graminis_Basidiomycota:0.0000025307)100:0.0103458773)100:0.0420702834)100:0.3317051952)92:0.0838771151)100:0.2217155452)100:0.4165553391)98:0.0648230909,(XP_504870.1-Yarrowia_lipolytica_Saccharomycotina:0.0000025307,RDW35049.1-Yarrowia_lipolytica_Saccharomycotina:0.0106601664)100:0.3219802875)100:0.1061114646);
+
+TIME STAMP
+----------
+
+Date and time: Mon Oct 12 14:50:39 2020
+Total CPU time used: 7657.267081 seconds (2h:7m:37s)
+Total wall-clock time used: 5320.08325 seconds (1h:28m:40s)
+

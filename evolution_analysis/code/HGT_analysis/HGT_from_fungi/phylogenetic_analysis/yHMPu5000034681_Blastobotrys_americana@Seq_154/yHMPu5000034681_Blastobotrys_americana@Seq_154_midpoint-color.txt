@@ -1,0 +1,379 @@
+DATASET_COLORSTRIP
+#In colored strip datasets, each ID is associated to a color box/strip and can have an optional label. Color can be specified in hexadecimal, RGB or RGBA notation. When using RGB or RGBA notation, you cannot use COMMA as the dataset separator
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+
+#SEPARATOR TAB
+#SEPARATOR COMMA
+SEPARATOR SPACE
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL Taxonomy
+
+#dataset color (can be changed later)
+COLOR #000000
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#If COLOR_BRANCHES is set to 1, branches of the tree will be colored according to the colors of the strips above the leaves.
+#When all children of a node have the same color, it will be colored the same, ie. the color will propagate inwards towards the root.
+COLOR_BRANCHES 1
+
+#each dataset can have a legend, which is defined below
+#for each row in the legend, there should be one shape, color and label
+#shape should be a number between 1 and 5:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+
+LEGEND_TITLE Taxonomy
+LEGEND_SHAPES 1 1 1 1
+LEGEND_COLORS #e31a1c #2D33E7 #28b1aa #969696
+LEGEND_LABELS Saccharomycotina Fungi Bacteria Other 
+# LEGEND_SHAPES 1 1 1 1 1 1 1 1 1 1 1 1
+# LEGEND_COLORS #e31a1c #fb9a99 #ff7f00 #2D33E7 #b15928 #6a3d9a #cab2d6 #1f78b4 #a6cee3 #33a02c #ffff99 #969696 
+# LEGEND_LABELS Leotiomycetes Sordariomycetes Eurotiomycetes Dothideomycetes other_Pezizomycotina other_Ascomycota other_Fungi other_Opisthokonta other_Eukaryota Bacteria Archaea Viruses 
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#width of the colored strip
+STRIP_WIDTH 35
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN 5
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around the color strip 
+#BORDER_WIDTH 2
+
+#border color; used when BORDER_WIDTH is above 0
+#BORDER_COLOR #969696
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL 1
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+
+#=================================================================#
+#       Actual data follows after the DATA keyword                #
+#=================================================================#
+DATA
+
+#Examples:
+#assign a red colored strip to leaf 9606, with label 'Human' (label is displayed in the mouseover popups)
+#9606 #ff0000 Human
+
+#assign a green, semi-transparent (alpha 0.5) strip to an internal node, without any label. If 'Show internal values' is set to 'No', this will only be displayed if the node is collapsed. 
+#9606|5664 rgba(0,255,0,0.5)
+TBU57159.1-Dichomitus_squalens_Basidiomycota #2D33E7 Fungi
+XP_007369132.1-Dichomitus_squalens_Basidiomycota #2D33E7 Fungi
+TBU47939.1-Dichomitus_squalens_Basidiomycota #2D33E7 Fungi
+XP_007369133.1-Dichomitus_squalens_Basidiomycota #2D33E7 Fungi
+TBU47941.1-Dichomitus_squalens_Basidiomycota #2D33E7 Fungi
+TBU57160.1-Dichomitus_squalens_Basidiomycota #2D33E7 Fungi
+TBU47940.1-Dichomitus_squalens_Basidiomycota #2D33E7 Fungi
+TBU28313.1-Dichomitus_squalens_Basidiomycota #2D33E7 Fungi
+PIL26858.1-Ganoderma_sinense_Basidiomycota #2D33E7 Fungi
+RPD53474.1-Lentinus_tigrinus_Basidiomycota #2D33E7 Fungi
+RPD55646.1-Lentinus_tigrinus_Basidiomycota #2D33E7 Fungi
+RDX45337.1-Polyporus_brumalis_Basidiomycota #2D33E7 Fungi
+TFK80677.1-Polyporus_arcularius_Basidiomycota #2D33E7 Fungi
+CDO76674.1-Trametes_cinnabarina_Basidiomycota #2D33E7 Fungi
+OSD02536.1-Trametes_coccinea_Basidiomycota #2D33E7 Fungi
+OSD02535.1-Trametes_coccinea_Basidiomycota #2D33E7 Fungi
+XP_008045528.1-Trametes_versicolor_Basidiomycota #2D33E7 Fungi
+OJT04811.1-Trametes_pubescens_Basidiomycota #2D33E7 Fungi
+TFY52286.1-Fomitopsis_rosea_Basidiomycota #2D33E7 Fungi
+KZT65885.1-Daedalea_quercina_Basidiomycota #2D33E7 Fungi
+EPS93657.1-Fomitopsis_pinicola_Basidiomycota #2D33E7 Fungi
+XP_012179200.1-Fibroporia_radiculosa_Basidiomycota #2D33E7 Fungi
+PCH39619.1-Wolfiporia_cocos_Basidiomycota #2D33E7 Fungi
+XP_024335938.1-Postia_placenta_Basidiomycota #2D33E7 Fungi
+KZT06102.1-Laetiporus_sulphureus_Basidiomycota #2D33E7 Fungi
+KZT06103.1-Laetiporus_sulphureus_Basidiomycota #2D33E7 Fungi
+PSR74832.1-Phlebia_centrifuga_Basidiomycota #2D33E7 Fungi
+THG94996.1-Phlebia_centrifuga_Basidiomycota #2D33E7 Fungi
+XP_007399313.1-Phanerochaete_carnosa_Basidiomycota #2D33E7 Fungi
+TFK90965.1-Polyporus_arcularius_Basidiomycota #2D33E7 Fungi
+RDX48391.1-Polyporus_brumalis_Basidiomycota #2D33E7 Fungi
+RPD65889.1-Lentinus_tigrinus_Basidiomycota #2D33E7 Fungi
+PIL23778.1-Ganoderma_sinense_Basidiomycota #2D33E7 Fungi
+XP_007360886.1-Dichomitus_squalens_Basidiomycota #2D33E7 Fungi
+TBU32230.1-Dichomitus_squalens_Basidiomycota #2D33E7 Fungi
+KZT11503.1-Laetiporus_sulphureus_Basidiomycota #2D33E7 Fungi
+OBZ72127.1-Grifola_frondosa_Basidiomycota #2D33E7 Fungi
+PCH38363.1-Wolfiporia_cocos_Basidiomycota #2D33E7 Fungi
+KZT11504.1-Laetiporus_sulphureus_Basidiomycota #2D33E7 Fungi
+EPT05870.1-Fomitopsis_pinicola_Basidiomycota #2D33E7 Fungi
+KZT65464.1-Daedalea_quercina_Basidiomycota #2D33E7 Fungi
+TFL06915.1-Pterula_gracilis_Basidiomycota #2D33E7 Fungi
+XP_024341743.1-Postia_placenta_Basidiomycota #2D33E7 Fungi
+XP_008036862.1-Trametes_versicolor_Basidiomycota #2D33E7 Fungi
+OJT14130.1-Trametes_pubescens_Basidiomycota #2D33E7 Fungi
+OSD02841.1-Trametes_coccinea_Basidiomycota #2D33E7 Fungi
+XP_027613384.1-Sparassis_crispa_Basidiomycota #2D33E7 Fungi
+EMD38638.1-Gelatoporia_subvermispora_Basidiomycota #2D33E7 Fungi
+OCH95333.1-Obba_rivulosa_Basidiomycota #2D33E7 Fungi
+KIP06008.1-Phlebiopsis_gigantea_Basidiomycota #2D33E7 Fungi
+PSR88889.1-Phlebia_centrifuga_Basidiomycota #2D33E7 Fungi
+XP_007397138.1-Phanerochaete_carnosa_Basidiomycota #2D33E7 Fungi
+XP_007396047.1-Phanerochaete_carnosa_Basidiomycota #2D33E7 Fungi
+TCD60417.1-Steccherinum_ochraceum_Basidiomycota #2D33E7 Fungi
+EPT05883.1-Fomitopsis_pinicola_Basidiomycota #2D33E7 Fungi
+KZT65452.1-Daedalea_quercina_Basidiomycota #2D33E7 Fungi
+EGO01602.1-Serpula_lacrymans_Basidiomycota #2D33E7 Fungi
+XP_007315350.1-Serpula_lacrymans_Basidiomycota #2D33E7 Fungi
+KXN82523.1-Leucoagaricus_sp._SymC.cos_Basidiomycota #2D33E7 Fungi
+KAF5357806.1-Leucoagaricus_leucothites_Basidiomycota #2D33E7 Fungi
+XP_007326627.1-Agaricus_bisporus_Basidiomycota #2D33E7 Fungi
+XP_006458451.1-Agaricus_bisporus_Basidiomycota #2D33E7 Fungi
+KIY67565.1-Cylindrobasidium_torrendii_Basidiomycota #2D33E7 Fungi
+TFK83651.1-Polyporus_arcularius_Basidiomycota #2D33E7 Fungi
+RDX45333.1-Polyporus_brumalis_Basidiomycota #2D33E7 Fungi
+RDX45334.1-Polyporus_brumalis_Basidiomycota #2D33E7 Fungi
+RPD53466.1-Lentinus_tigrinus_Basidiomycota #2D33E7 Fungi
+TFK92498.1-Polyporus_arcularius_Basidiomycota #2D33E7 Fungi
+RDX51795.1-Polyporus_brumalis_Basidiomycota #2D33E7 Fungi
+RPD74112.1-Lentinus_tigrinus_Basidiomycota #2D33E7 Fungi
+RPD54921.1-Lentinus_tigrinus_Basidiomycota #2D33E7 Fungi
+PIL26866.1-Ganoderma_sinense_Basidiomycota #2D33E7 Fungi
+KNZ75558.1-Termitomyces_sp._J132_Basidiomycota #2D33E7 Fungi
+KIK45871.1-Suillus_luteus_Basidiomycota #2D33E7 Fungi
+KAF3872223.1-Suillus_brevipes_Basidiomycota #2D33E7 Fungi
+OSD02538.1-Trametes_coccinea_Basidiomycota #2D33E7 Fungi
+RDB23970.1-Hypsizygus_marmoreus_Basidiomycota #2D33E7 Fungi
+KIM58385.1-Scleroderma_citrinum_Basidiomycota #2D33E7 Fungi
+KIK28096.1-Pisolithus_microcarpus_Basidiomycota #2D33E7 Fungi
+KIK28093.1-Pisolithus_microcarpus_Basidiomycota #2D33E7 Fungi
+KIK28099.1-Pisolithus_microcarpus_Basidiomycota #2D33E7 Fungi
+KIO03876.1-Pisolithus_tinctorius_Basidiomycota #2D33E7 Fungi
+KIO03875.1-Pisolithus_tinctorius_Basidiomycota #2D33E7 Fungi
+KIO03880.1-Pisolithus_tinctorius_Basidiomycota #2D33E7 Fungi
+KIM53189.1-Scleroderma_citrinum_Basidiomycota #2D33E7 Fungi
+OAX36864.1-Rhizopogon_vinicolor_Basidiomycota #2D33E7 Fungi
+OAX36860.1-Rhizopogon_vinicolor_Basidiomycota #2D33E7 Fungi
+OJA21627.1-Rhizopogon_vesiculosus_Basidiomycota #2D33E7 Fungi
+KIK45873.1-Suillus_luteus_Basidiomycota #2D33E7 Fungi
+KAF3872225.1-Suillus_brevipes_Basidiomycota #2D33E7 Fungi
+KIJ17340.1-Paxillus_involutus_Basidiomycota #2D33E7 Fungi
+KIK91431.1-Paxillus_rubicundulus_Basidiomycota #2D33E7 Fungi
+KIJ69495.1-Hydnomerulius_pinastri_Basidiomycota #2D33E7 Fungi
+KIO13269.1-Pisolithus_tinctorius_Basidiomycota #2D33E7 Fungi
+KIO10494.1-Pisolithus_tinctorius_Basidiomycota #2D33E7 Fungi
+KIK31312.1-Pisolithus_microcarpus_Basidiomycota #2D33E7 Fungi
+KIM59415.1-Scleroderma_citrinum_Basidiomycota #2D33E7 Fungi
+KIJ69492.1-Hydnomerulius_pinastri_Basidiomycota #2D33E7 Fungi
+KIJ69493.1-Hydnomerulius_pinastri_Basidiomycota #2D33E7 Fungi
+XP_007774791.1-Coniophora_puteana_Basidiomycota #2D33E7 Fungi
+XP_007774834.1-Coniophora_puteana_Basidiomycota #2D33E7 Fungi
+XP_007764800.1-Coniophora_puteana_Basidiomycota #2D33E7 Fungi
+XP_007321317.1-Serpula_lacrymans_Basidiomycota #2D33E7 Fungi
+XP_007863631.1-Gloeophyllum_trabeum_Basidiomycota #2D33E7 Fungi
+KZT28576.1-Neolentinus_lepideus_Basidiomycota #2D33E7 Fungi
+TFK55268.1-Heliocybe_sulcata_Basidiomycota #2D33E7 Fungi
+XP_007865523.1-Gloeophyllum_trabeum_Basidiomycota #2D33E7 Fungi
+TFK55269.1-Heliocybe_sulcata_Basidiomycota #2D33E7 Fungi
+TFK53876.1-Heliocybe_sulcata_Basidiomycota #2D33E7 Fungi
+XP_007864705.1-Gloeophyllum_trabeum_Basidiomycota #2D33E7 Fungi
+KDQ59468.1-Jaapia_argillacea_Basidiomycota #2D33E7 Fungi
+KDQ59483.1-Jaapia_argillacea_Basidiomycota #2D33E7 Fungi
+SJL00179.1-Armillaria_ostoyae_Basidiomycota #2D33E7 Fungi
+PBK77925.1-Armillaria_solidipes_Basidiomycota #2D33E7 Fungi
+PBK96630.1-Armillaria_gallica_Basidiomycota #2D33E7 Fungi
+PPQ64677.1-Gymnopilus_dilepis_Basidiomycota #2D33E7 Fungi
+CAA7267653.1-Agrocybe_aegerita_Basidiomycota #2D33E7 Fungi
+KAF5330651.1-Psilocybe_cf._subviscida_Basidiomycota #2D33E7 Fungi
+KJA27446.1-Hypholoma_sublateritium_Basidiomycota #2D33E7 Fungi
+KDR73465.1-Galerina_marginata_Basidiomycota #2D33E7 Fungi
+PPQ89087.1-Psilocybe_cyanescens_Basidiomycota #2D33E7 Fungi
+KAF4615122.1-Agrocybe_pediades_Basidiomycota #2D33E7 Fungi
+PPQ68963.1-Panaeolus_cyanescens_Basidiomycota #2D33E7 Fungi
+KIM48868.1-Hebeloma_cylindrosporum_Basidiomycota #2D33E7 Fungi
+KAF5386754.1-Tricholomella_constricta_Basidiomycota #2D33E7 Fungi
+RDB23971.1-Hypsizygus_marmoreus_Basidiomycota #2D33E7 Fungi
+RDB24149.1-Hypsizygus_marmoreus_Basidiomycota #2D33E7 Fungi
+TFK72532.1-Pluteus_cervinus_Basidiomycota #2D33E7 Fungi
+XP_001878217.1-Laccaria_bicolor_Basidiomycota #2D33E7 Fungi
+KIK06471.1-Laccaria_amethystina_Basidiomycota #2D33E7 Fungi
+TFK42915.1-Crucibulum_laeve_Basidiomycota #2D33E7 Fungi
+TFK26442.1-Coprinopsis_marcescibilis_Basidiomycota #2D33E7 Fungi
+TEB36290.1-Coprinellus_micaceus_Basidiomycota #2D33E7 Fungi
+KII88734.1-Plicaturopsis_crispa_Basidiomycota #2D33E7 Fungi
+XP_001833641.2-Coprinopsis_cinerea_Basidiomycota #2D33E7 Fungi
+KAF5324448.1-Coprinellus_angulatus_Basidiomycota #2D33E7 Fungi
+KAF6764817.1-Coprinellus_angulatus_Basidiomycota #2D33E7 Fungi
+PFH52360.1-Amanita_thiersii_Basidiomycota #2D33E7 Fungi
+KTB28014.1-Moniliophthora_roreri_Basidiomycota #2D33E7 Fungi
+ESK93914.1-Moniliophthora_roreri_Basidiomycota #2D33E7 Fungi
+THU84418.1-Dendrothele_bispora_Basidiomycota #2D33E7 Fungi
+KAF5353000.1-Tetrapyrgos_nigripes_Basidiomycota #2D33E7 Fungi
+KIK56124.1-Gymnopus_luxurians_Basidiomycota #2D33E7 Fungi
+KAF5381931.1-Gymnopus_confluens_Basidiomycota #2D33E7 Fungi
+GAW01597.1-Lentinula_edodes_Basidiomycota #2D33E7 Fungi
+KAE9406065.1-Gymnopus_androsaceus_Basidiomycota #2D33E7 Fungi
+KAF4611121.1-Agrocybe_pediades_Basidiomycota #2D33E7 Fungi
+KNZ75406.1-Termitomyces_sp._J132_Basidiomycota #2D33E7 Fungi
+ESK93915.1-Moniliophthora_roreri_Basidiomycota #2D33E7 Fungi
+KIM80872.1-Piloderma_croceum_Basidiomycota #2D33E7 Fungi
+KIM81263.1-Piloderma_croceum_Basidiomycota #2D33E7 Fungi
+KZP24726.1-Fibularhizoctonia_sp._CBS_109695_Basidiomycota #2D33E7 Fungi
+KAF7426402.1-Pleurotus_ostreatus_Basidiomycota #2D33E7 Fungi
+KDQ32121.1-Pleurotus_ostreatus_Basidiomycota #2D33E7 Fungi
+KAF4586650.1-Pleurotus_pulmonarius_Basidiomycota #2D33E7 Fungi
+KAF4564502.1-Pleurotus_pulmonarius_Basidiomycota #2D33E7 Fungi
+KAF7426422.1-Pleurotus_ostreatus_Basidiomycota #2D33E7 Fungi
+KAF5314740.1-Coprinellus_angulatus_Basidiomycota #2D33E7 Fungi
+KAF6748104.1-Coprinellus_angulatus_Basidiomycota #2D33E7 Fungi
+TEB20509.1-Coprinellus_micaceus_Basidiomycota #2D33E7 Fungi
+KAF5323238.1-Psilocybe_cf._subviscida_Basidiomycota #2D33E7 Fungi
+KAF5323241.1-Psilocybe_cf._subviscida_Basidiomycota #2D33E7 Fungi
+KJA21412.1-Hypholoma_sublateritium_Basidiomycota #2D33E7 Fungi
+PPR01118.1-Gymnopilus_dilepis_Basidiomycota #2D33E7 Fungi
+KIM37184.1-Hebeloma_cylindrosporum_Basidiomycota #2D33E7 Fungi
+KAF4618279.1-Agrocybe_pediades_Basidiomycota #2D33E7 Fungi
+PPQ93328.1-Psilocybe_cyanescens_Basidiomycota #2D33E7 Fungi
+KDR80465.1-Galerina_marginata_Basidiomycota #2D33E7 Fungi
+KXN83052.1-Leucoagaricus_sp._SymC.cos_Basidiomycota #2D33E7 Fungi
+KAF5356917.1-Leucoagaricus_leucothites_Basidiomycota #2D33E7 Fungi
+XP_006463201.1-Agaricus_bisporus_Basidiomycota #2D33E7 Fungi
+XP_007332591.1-Agaricus_bisporus_Basidiomycota #2D33E7 Fungi
+TFK37959.1-Crucibulum_laeve_Basidiomycota #2D33E7 Fungi
+ESK84115.1-Moniliophthora_roreri_Basidiomycota #2D33E7 Fungi
+KTB28320.1-Moniliophthora_roreri_Basidiomycota #2D33E7 Fungi
+TFK61365.1-Pluteus_cervinus_Basidiomycota #2D33E7 Fungi
+PFH48952.1-Amanita_thiersii_Basidiomycota #2D33E7 Fungi
+KNZ81699.1-Termitomyces_sp._J132_Basidiomycota #2D33E7 Fungi
+TFK37960.1-Crucibulum_laeve_Basidiomycota #2D33E7 Fungi
+TFK37961.1-Crucibulum_laeve_Basidiomycota #2D33E7 Fungi
+CAA7268284.1-Agrocybe_aegerita_Basidiomycota #2D33E7 Fungi
+RDB30790.1-Hypsizygus_marmoreus_Basidiomycota #2D33E7 Fungi
+KAF5375710.1-Tricholomella_constricta_Basidiomycota #2D33E7 Fungi
+KAF7334725.1-Mycena_venus_Basidiomycota #2D33E7 Fungi
+KAF7333881.1-Mycena_venus_Basidiomycota #2D33E7 Fungi
+KAF7342342.1-Mycena_venus_Basidiomycota #2D33E7 Fungi
+KAF7326077.1-Mycena_kentingensis_Basidiomycota #2D33E7 Fungi
+XP_007313762.1-Serpula_lacrymans_Basidiomycota #2D33E7 Fungi
+XP_007313758.1-Serpula_lacrymans_Basidiomycota #2D33E7 Fungi
+GAT43291.1-Mycena_chlorophos_Basidiomycota #2D33E7 Fungi
+KAF7319365.1-Mycena_chlorophos_Basidiomycota #2D33E7 Fungi
+KAF7316051.1-Mycena_indigotica_Basidiomycota #2D33E7 Fungi
+KAF7360136.1-Mycena_venus_Basidiomycota #2D33E7 Fungi
+XP_007322832.1-Serpula_lacrymans_Basidiomycota #2D33E7 Fungi
+KAA1467687.1-Dentipellis_sp._KUC8613_Basidiomycota #2D33E7 Fungi
+TFY72273.1-Dentipellis_fragilis_Basidiomycota #2D33E7 Fungi
+VDC05365.1-Peniophora_sp._CBMAI_1063_Basidiomycota #2D33E7 Fungi
+KZV65818.1-Peniophora_sp._CONT_Basidiomycota #2D33E7 Fungi
+KZV65823.1-Peniophora_sp._CONT_Basidiomycota #2D33E7 Fungi
+XP_009542393.1-Heterobasidion_irregulare_Basidiomycota #2D33E7 Fungi
+XP_007299868.1-Stereum_hirsutum_Basidiomycota #2D33E7 Fungi
+XP_007301411.1-Stereum_hirsutum_Basidiomycota #2D33E7 Fungi
+THH08573.1-Bondarzewia_mesenterica_Basidiomycota #2D33E7 Fungi
+KAA1471247.1-Dentipellis_sp._KUC8613_Basidiomycota #2D33E7 Fungi
+XP_007309997.1-Stereum_hirsutum_Basidiomycota #2D33E7 Fungi
+XP_007261744.1-Fomitiporia_mediterranea_Basidiomycota #2D33E7 Fungi
+OCB86976.1-Sanghuangporus_baumii_Basidiomycota #2D33E7 Fungi
+PAV17996.1-Pyrrhoderma_noxium_Basidiomycota #2D33E7 Fungi
+THH01940.1-Phellinidium_pouzarii_Basidiomycota #2D33E7 Fungi
+XP_007270137.1-Fomitiporia_mediterranea_Basidiomycota #2D33E7 Fungi
+XP_007267979.1-Fomitiporia_mediterranea_Basidiomycota #2D33E7 Fungi
+PAV19290.1-Pyrrhoderma_noxium_Basidiomycota #2D33E7 Fungi
+XP_007262562.1-Fomitiporia_mediterranea_Basidiomycota #2D33E7 Fungi
+XP_007270129.1-Fomitiporia_mediterranea_Basidiomycota #2D33E7 Fungi
+XP_007270128.1-Fomitiporia_mediterranea_Basidiomycota #2D33E7 Fungi
+PAV18342.1-Pyrrhoderma_noxium_Basidiomycota #2D33E7 Fungi
+XP_007270135.1-Fomitiporia_mediterranea_Basidiomycota #2D33E7 Fungi
+THH09768.1-Phellinidium_pouzarii_Basidiomycota #2D33E7 Fungi
+XP_007270136.1-Fomitiporia_mediterranea_Basidiomycota #2D33E7 Fungi
+OCB88220.1-Sanghuangporus_baumii_Basidiomycota #2D33E7 Fungi
+KLO18552.1-Schizopora_paradoxa_Basidiomycota #2D33E7 Fungi
+XP_007264057.1-Fomitiporia_mediterranea_Basidiomycota #2D33E7 Fungi
+XP_007264055.1-Fomitiporia_mediterranea_Basidiomycota #2D33E7 Fungi
+OCB84313.1-Sanghuangporus_baumii_Basidiomycota #2D33E7 Fungi
+KIJ44360.1-Sphaerobolus_stellatus_Basidiomycota #2D33E7 Fungi
+KIJ45694.1-Sphaerobolus_stellatus_Basidiomycota #2D33E7 Fungi
+THH06769.1-Phellinidium_pouzarii_Basidiomycota #2D33E7 Fungi
+PAV23724.1-Pyrrhoderma_noxium_Basidiomycota #2D33E7 Fungi
+TDL27434.1-Rickenella_mellea_Basidiomycota #2D33E7 Fungi
+KZT33982.1-Sistotremastrum_suecicum_Basidiomycota #2D33E7 Fungi
+KZS89878.1-Sistotremastrum_niveocremeum_Basidiomycota #2D33E7 Fungi
+SPO43801.1-Moesziomyces_antarcticus_Basidiomycota #2D33E7 Fungi
+XP_016295197.1-Kalmanozyma_brasiliensis_Basidiomycota #2D33E7 Fungi
+ETS61282.1-Moesziomyces_aphidis_Basidiomycota #2D33E7 Fungi
+GAC72933.1-Moesziomyces_antarcticus_Basidiomycota #2D33E7 Fungi
+XP_014658580.1-Moesziomyces_antarcticus_Basidiomycota #2D33E7 Fungi
+CCF54966.1-Ustilago_hordei_Basidiomycota #2D33E7 Fungi
+SAM75022.1-Ustilago_bromivora_Basidiomycota #2D33E7 Fungi
+CDI51779.1-Melanopsichium_pennsylvanicum_Basidiomycota #2D33E7 Fungi
+XP_011387380.1-Ustilago_maydis_Basidiomycota #2D33E7 Fungi
+SPO25041.1-Ustilago_trichophora_Basidiomycota #2D33E7 Fungi
+CBQ70244.1-Sporisorium_reilianum_Basidiomycota #2D33E7 Fungi
+SPO22875.1-Ustilago_trichophora_Basidiomycota #2D33E7 Fungi
+XP_007878520.1-Anthracocystis_flocculosa_Basidiomycota #2D33E7 Fungi
+PWZ00857.1-Testicularia_cyperi_Basidiomycota #2D33E7 Fungi
+XP_012187531.1-Pseudozyma_hubeiensis_Basidiomycota #2D33E7 Fungi
+CDR88257.1-Sporisorium_scitamineum_Basidiomycota #2D33E7 Fungi
+XP_029737259.1-Sporisorium_graminicola_Basidiomycota #2D33E7 Fungi
+PWN47149.1-Violaceomyces_palustris_Basidiomycota #2D33E7 Fungi
+XP_025350244.1-Pseudomicrostroma_glucosiphilum_Basidiomycota #2D33E7 Fungi
+XP_025364802.1-Jaminaea_rosea_Basidiomycota #2D33E7 Fungi
+XP_025597454.1-Tilletiopsis_washingtonensis_Basidiomycota #2D33E7 Fungi
+XP_025368439.1-Ceraceosorus_guamensis_Basidiomycota #2D33E7 Fungi
+XP_025358105.1-Meira_miltonrushii_Basidiomycota #2D33E7 Fungi
+XP_025374703.1-Acaromyces_ingoldii_Basidiomycota #2D33E7 Fungi
+AYO44093.1-Malassezia_restricta_Basidiomycota #2D33E7 Fungi
+XP_027486193.1-Malassezia_restricta_Basidiomycota #2D33E7 Fungi
+XP_001728750.1-Malassezia_globosa_Basidiomycota #2D33E7 Fungi
+XP_017990589.1-Malassezia_pachydermatis_Basidiomycota #2D33E7 Fungi
+XP_018741713.1-Malassezia_sympodialis_Basidiomycota #2D33E7 Fungi
+PKI85313.1-Malassezia_vespertilionis_Basidiomycota #2D33E7 Fungi
+XP_013242052.1-Tilletiaria_anomala_Basidiomycota #2D33E7 Fungi
+TIC28224.1-Wallemia_mellicola_Basidiomycota #2D33E7 Fungi
+XP_006957474.1-Wallemia_mellicola_Basidiomycota #2D33E7 Fungi
+TIA88507.1-Wallemia_hederae_Basidiomycota #2D33E7 Fungi
+CDZ97754.1-Phaffia_rhodozyma_Basidiomycota #2D33E7 Fungi
+KAA8916722.1-Trichomonascus_ciferrii_Saccharomycotina #e31a1c Saccharomycotina
+QUERY_yHMPu5000034681_Blastobotrys_americana_Seq_154 #e31a1c Saccharomycotina
+XP_018737180.1-Sugiyamaella_lignohabitans_Saccharomycotina #e31a1c Saccharomycotina
+XP_504870.1-Yarrowia_lipolytica_Saccharomycotina #e31a1c Saccharomycotina
+RDW35049.1-Yarrowia_lipolytica_Saccharomycotina #e31a1c Saccharomycotina
+KAF5103339.1-Geotrichum_candidum_Saccharomycotina #e31a1c Saccharomycotina
+KAF5121213.1-Geotrichum_candidum_Saccharomycotina #e31a1c Saccharomycotina
+KAF5114449.1-Geotrichum_candidum_Saccharomycotina #e31a1c Saccharomycotina
+KAF5094807.1-Geotrichum_candidum_Saccharomycotina #e31a1c Saccharomycotina
+KAF5092728.1-Galactomyces_reessii_Saccharomycotina #e31a1c Saccharomycotina
+ODQ69163.1-Lipomyces_starkeyi_Saccharomycotina #e31a1c Saccharomycotina
+ODQ69151.1-Lipomyces_starkeyi_Saccharomycotina #e31a1c Saccharomycotina
+ODQ69345.1-Lipomyces_starkeyi_Saccharomycotina #e31a1c Saccharomycotina
+PLW43991.1-Puccinia_coronata_Basidiomycota #2D33E7 Fungi
+PLW23367.1-Puccinia_coronata_Basidiomycota #2D33E7 Fungi
+PLW10552.1-Puccinia_coronata_Basidiomycota #2D33E7 Fungi
+KNF03889.1-Puccinia_striiformis_Basidiomycota #2D33E7 Fungi
+POW14800.1-Puccinia_striiformis_Basidiomycota #2D33E7 Fungi
+OAV90883.1-Puccinia_triticina_Basidiomycota #2D33E7 Fungi
+XP_003325305.2-Puccinia_graminis_Basidiomycota #2D33E7 Fungi
+KAA1081664.1-Puccinia_graminis_Basidiomycota #2D33E7 Fungi
+KAA1080112.1-Puccinia_graminis_Basidiomycota #2D33E7 Fungi
+XP_007405489.1-Melampsora_larici-populina_Basidiomycota #2D33E7 Fungi
+ELU41943.1-Rhizoctonia_solani_Basidiomycota #2D33E7 Fungi
+CEL57992.1-Rhizoctonia_solani_Basidiomycota #2D33E7 Fungi
+CUA73235.1-Rhizoctonia_solani_Basidiomycota #2D33E7 Fungi
+CUA71516.1-Rhizoctonia_solani_Basidiomycota #2D33E7 Fungi
+KDN37903.1-Rhizoctonia_solani_Basidiomycota #2D33E7 Fungi
+CUA73965.1-Rhizoctonia_solani_Basidiomycota #2D33E7 Fungi
+KEP55843.1-Rhizoctonia_solani_Basidiomycota #2D33E7 Fungi
+EUC65247.1-Rhizoctonia_solani_Basidiomycota #2D33E7 Fungi
+KAB5592217.1-Ceratobasidium_theobromae_Basidiomycota #2D33E7 Fungi
+KDQ14653.1-Botryobasidium_botryosum_Basidiomycota #2D33E7 Fungi
+KAB5591707.1-Ceratobasidium_theobromae_Basidiomycota #2D33E7 Fungi
+CUA71197.1-Rhizoctonia_solani_Basidiomycota #2D33E7 Fungi
