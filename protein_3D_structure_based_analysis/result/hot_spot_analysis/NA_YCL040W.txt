@@ -1,0 +1,2 @@
+"cluster"	"closeness"	"pvalue"	"gene"	"seq_3D_origin"	"structure"	"seq_3D"	"strain_type"
+"T@@8;S@@8"	4	1	"YCL040W"	"1-500"	NA	"1-500"	NA

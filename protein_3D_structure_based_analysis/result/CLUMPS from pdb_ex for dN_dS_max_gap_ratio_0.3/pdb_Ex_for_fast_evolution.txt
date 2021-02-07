@@ -1,0 +1,1379 @@
+locus	pdbid	qstart2	qend2	sstart2	send2	strain_type	p_value
+YPR110C	6eu3@C@0	1	335	1	335	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR145C	6fai@E@1	1	260	2	261	dN_dS_max_gap_ratio_0.3	0.5547
+YIL065C	3uux@A@2	1	127	3	129	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER151C	2qiy@C@3	1	25	206	230	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER151C	2qiy@D@4	1	25	206	230	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR441C	6fai@B@5	1	214	20	233	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR287C-A	6eml@g@6	1	60	2	61	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL156W	6fai@b@7	1	81	2	82	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL189C	5ll6@e@8	1	97	2	98	dN_dS_max_gap_ratio_0.3	NA
+YGR027C	6eml@K@9	1	64	42	105	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL190C	6fai@W@10	1	129	2	130	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL121C	6fai@T@11	1	143	2	144	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR450W	6fai@S@12	1	135	2	136	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML024W	6fai@R@13	1	125	2	126	dN_dS_max_gap_ratio_0.3	NA
+YER106W	5ktb@C@14	1	42	222	263	dN_dS_max_gap_ratio_0.3	NA
+YMR143W	6eml@F@15	1	141	3	143	dN_dS_max_gap_ratio_0.3	0.9157
+YOR369C	6fai@M@16	1	125	18	142	dN_dS_max_gap_ratio_0.3	0.5256
+YHR118C	5v8f@F@18	1	15	413	427	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR118C	5udb@F@19	1	15	413	427	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR195W	5c0x@B@20	1	244	1	244	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR294W	5a53@A@21	1	65	9	73	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR294W	5a53@B@22	1	22	85	106	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR280W	5vzj@A@23	1	302	3	304	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR427W	3jck@F@24	1	388	6	393	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR108W	5wvk-R-bundle1@R@25	1	400	23	422	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL097C	5mpd@Q@26	1	434	1	434	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR388W	6fai@d@27	1	37	20	56	dN_dS_max_gap_ratio_0.3	0.1581
+YPR024W	2mv3@A@28	2	81	97	176	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL147W	5mpd@P@29	1	440	1	440	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER021W	5mpd@S@30	1	475	18	492	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR027C	5wvk-Z-bundle2@Z@31	1	577	49	625	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR421C	5mpd@X@32	1	127	7	133	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR052W	5wvk-T-bundle1@T@33	1	272	1	272	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR095C	1xtz@A@34	1	240	19	258	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR088W	6c0f@I@35	1	288	8	295	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL101C	3lvv@A@36	1	672	2	673	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNR003C	6eu1@P@37	1	151	165	315	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR404C	4by7@G@38	1	171	1	171	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL140C	5vvs@A@39	1	1455	8	1462	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR187W	4c2m@F@40	1	100	55	154	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR187W	4c2m@U@41	1	100	55	154	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR154C	1twf@E@42	1	215	1	215	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR340C	4c2m@4@43	1	54	263	316	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL148W	5w5y@N@44	1	158	23	180	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR234W	1qhk@A@45	1	47	5	51	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL076C	6c0f@F@46	1	242	3	244	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML073C	3jbs@A@47	1	175	2	176	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR012W	2ww9@H@48	1	269	1	269	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCL031C	2mby@A@49	5	46	256	297	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR325C	5h4p-k-bundle2@k@50	1	77	2	78	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR185W	5h4p-j-bundle2@j@51	1	87	2	88	dN_dS_max_gap_ratio_0.3	NA
+YDL191W	5h4p-h-bundle2@h@52	1	119	2	120	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL027C	3skq@A@53	1	227	182	408	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL092W	5apo-e-bundle2@e@54	1	129	2	130	dN_dS_max_gap_ratio_0.3	NA
+YOL127W	3jct-X-bundle1@X@55	1	141	2	142	dN_dS_max_gap_ratio_0.3	0.8047
+YGL031C	4v8t-W-bundle1@W@56	1	135	1	135	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR167C	6fai@c@57	1	63	5	67	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR061W	3jct-U-bundle1@U@58	1	106	9	114	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR242C	5h4p-S-bundle2@S@59	1	172	1	172	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR084C-A	5t62-e-bundle2@e@60	1	188	2	189	dN_dS_max_gap_ratio_0.3	NA
+YOL120C	5h4p-Q-bundle1@Q@61	1	185	2	186	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL006W	3jct-M-bundle1@M@62	1	137	2	138	dN_dS_max_gap_ratio_0.3	0.773
+YLR075W	5gak-s-bundle2@s@63	1	220	2	221	dN_dS_max_gap_ratio_0.3	0.8415
+YPL007C	2j04@A@64	1	587	2	588	dN_dS_max_gap_ratio_0.3	NA
+YMR194W	5h4p-i-bundle2@i@65	1	99	2	100	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR260C	5my3@A@66	1	200	467	666	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR004W	4mj7@A@67	1	157	3	159	dN_dS_max_gap_ratio_0.3	NA
+YJL026W	1jk0@A@68	1	334	26	359	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR244W	1fy7@A@69	1	273	162	434	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL153C	5t2f@B@70	115	244	28	157	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL153C	2ygv@E@71	1	19	803	821	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR258C	4q0z@A@72	1	103	2	104	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR201C	5a3d@B@73	1	115	188	302	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR046C	3qwa@B@74	1	332	3	334	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR026C	1mqs@B@75	6	26	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL189W	5h4p-l-bundle2@l@76	1	50	2	51	dN_dS_max_gap_ratio_0.3	NA
+YJL166W	3cx5@H@77	1	93	2	94	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL166W	3cx5@S@78	1	93	2	94	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR191W	3cx5@B@79	1	352	17	368	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR191W	3cx5@M@80	1	352	17	368	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML106W	2ps1@A@81	1	224	3	226	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML106W	2ps1@B@82	1	224	3	226	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR276W	3m63@B@83	1	72	3	74	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR276W	4un2@B@84	2	43	328	369	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL015W	1zme@C@85	1	70	31	100	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL015W	1zme@D@86	1	70	31	100	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR114W	2a28@A@87	3	54	582	633	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR114W	2a28@B@88	3	54	582	633	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR114W	2a28@C@89	3	54	582	633	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR114W	2a28@D@90	3	54	582	633	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR008C	2guz@A@91	2	71	99	168	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR008C	2guz@C@92	2	71	99	168	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR008C	2guz@E@93	2	71	99	168	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR008C	2guz@G@94	2	71	99	168	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR008C	2guz@I@95	2	71	99	168	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR008C	2guz@K@96	2	71	99	168	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR008C	2guz@M@97	2	71	99	168	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR008C	2guz@O@98	2	71	99	168	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL240C	2cge@A@99	1	405	273	677	dN_dS_max_gap_ratio_0.3	0.0394
+YPL240C	2cge@B@100	1	405	273	677	dN_dS_max_gap_ratio_0.3	0.0383
+YPL240C	2cge@D@101	1	405	273	677	dN_dS_max_gap_ratio_0.3	0.0373
+YPL240C	1ah8@B@102	1	218	2	219	dN_dS_max_gap_ratio_0.3	NA
+YGL014W	3bwt@A@103	1	333	554	886	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL143W	5h4p-f-bundle2@f@104	1	106	2	107	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR032C	5mp4@A@105	1	197	2	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR032C	5mp4@B@106	1	197	2	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR032C	5mp4@C@107	1	197	2	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR032C	5mp4@D@108	1	197	2	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR032C	5mp4@E@109	1	197	2	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR032C	5mp4@F@110	1	197	2	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR032C	5mp4@G@111	1	197	2	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR032C	5mp4@H@112	1	197	2	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR005W	4wfq@A@113	1	192	119	310	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL007C	4o06@A@114	11	102	129	220	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR232W	1wg0@A@115	1	228	1	228	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL041W	1ryp@1@116	1	222	20	241	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL041W	1ryp@M@117	1	222	20	241	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR050C	1ryp@2@118	1	233	34	266	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR050C	1ryp@N@119	1	233	34	266	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR103W	5cz4@K@120	1	212	76	287	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR103W	5cz4@Y@121	1	212	76	287	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER012W	1ryp@K@122	1	198	1	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER012W	1ryp@Y@123	1	198	1	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER094C	1ryp@J@124	1	204	2	205	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER094C	1ryp@X@125	1	204	2	205	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR157C	4r17@H@126	1	226	30	255	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR157C	4r17@V@127	1	226	30	255	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL013C	2i3t@D@128	2	43	354	395	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL038W	5wvi-D-bundle1@D@129	1	242	3	244	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL038W	5wvi-n-bundle1@n@130	1	242	3	244	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML092C	1ryp@B@131	1	250	1	250	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML092C	1ryp@P@132	1	250	1	250	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR060C	3x38@A@133	1	78	180	257	dN_dS_max_gap_ratio_0.3	NA
+YOR060C	3x38@B@134	1	78	180	257	dN_dS_max_gap_ratio_0.3	NA
+YOR060C	3x38@C@135	1	78	180	257	dN_dS_max_gap_ratio_0.3	NA
+YDL007W	5mp9@I@136	1	385	53	437	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR259C	5mp9@L@137	1	388	49	436	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR178W	5gap@H@138	1	357	109	465	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL021W	3gtj@C@139	1	271	2	272	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR091W	5gap@F@140	1	415	43	457	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL036C	2bay@F@141	2	58	1	57	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR122C	1ypr@A@142	1	125	2	126	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR122C	1ypr@B@143	1	125	2	126	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIR008C	4mm2@A@144	1	396	8	403	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL079W	3i5q@A@145	1	248	1255	1502	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL079W	3i5q@B@146	1	248	1255	1502	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR073C	1d1p@B@147	1	157	5	161	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL016W	3md1@A@148	1	80	161	240	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL154W	2ged@A@149	1	35	210	244	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR025W	6eu0@M@150	1	197	71	267	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR008C	3rn4@A@151	1	205	27	231	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL143C	1ejb@A@152	1	168	2	169	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL143C	1ejb@B@153	1	168	2	169	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL143C	1ejb@C@154	1	168	2	169	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL143C	1ejb@D@155	1	168	2	169	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL143C	1ejb@E@156	1	168	2	169	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML069W	3f5r@A@157	3	112	2	111	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL043W	1pqv@S@158	1	174	136	309	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL043W	1y1v@S@159	1	174	136	309	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL096W	1x3z@A@160	1	320	8	327	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL220W	4v7f-A-bundle1@A@161	1	217	1	217	dN_dS_max_gap_ratio_0.3	0.1178
+YDL075W	5h4p-d-bundle2@d@162	1	109	4	112	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL152C	1qhf@A@163	1	240	2	241	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL152C	1qhf@B@164	1	240	2	241	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL001W	3jcp-3-bundle1@3@165	1	205	11	215	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL001W	3jcp-h-bundle1@h@166	1	205	11	215	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR482C	5gmk@J@167	1	27	2	28	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR045C	6eu1@I@168	1	44	1	44	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR381W	5sup@G@169	1	17	208	224	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR381W	5sup@H@170	1	17	208	224	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR154W	1zx6@A@171	1	56	57	112	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL267W	2ju0@B@172	1	52	121	172	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL079C	5jys@A@173	1	141	159	299	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL031C	2pmi@A@174	1	284	19	302	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL071W-A	4d4o@A@175	339	414	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL171C	5v4v@A@176	1	397	2	398	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL171C	5v4v@B@177	1	397	2	398	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR080W	1edz@A@178	1	317	3	319	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR205C	3o8o@B@179	1	763	195	957	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR205C	3o8o@D@180	1	763	195	957	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR205C	3o8o@H@181	1	763	195	957	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR016C	2mkc@B@182	3	23	22	42	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR016C	2my3@B@183	3	23	22	42	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR539W	4zac@A@184	1	503	1	503	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR539W	4zac@B@185	1	503	1	503	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR539W	4zac@D@186	1	503	1	503	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL243W	5ahv@F@187	1	268	5	272	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR123W	6fai@F@188	1	206	20	225	dN_dS_max_gap_ratio_0.3	0.8332
+YER069W	4ab7@B@189	1	436	67	502	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER069W	4ab7@C@190	1	436	67	502	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER069W	4ab7@F@191	1	436	67	502	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER069W	4ab7@G@192	1	436	67	502	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL051W	6aly@A@193	1	92	277	368	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL051W	2k0n@A@194	1	85	6	90	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL220W	5y4b@A@195	1	85	36	120	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR120C	2jqq@A@196	1	154	109	262	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR085C	4v8t-J-bundle1@J@197	1	169	6	174	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL004C	3acp@A@198	1	417	1	417	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL055W	2y9p@B@199	1	124	57	180	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR211C	5kc1@F@200	1	61	157	217	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR211C	5kc1@C@201	1	33	119	151	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR216W	5a7u@A@202	1	27	130	156	dN_dS_max_gap_ratio_0.3	NA
+YIR034C	2qrl@A@203	1	371	3	373	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL184C	3jam@h@204	1	25	1	25	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR035C	1ci0@A@205	1	205	24	228	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL037C	3blx@I@206	1	333	28	360	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR162C	2lcs@A@207	3	65	110	172	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR088C	1plq@A@208	1	258	1	258	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL134W	4krd@B@209	1	190	243	432	dN_dS_max_gap_ratio_0.3	NA
+YKL028W	5oqj@W@210	1	191	4	194	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR095W-A	4wxa@A@211	1	82	7	88	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR095W-A	4wxa@B@212	1	82	7	88	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR183C	3cx5@I@213	1	57	2	58	dN_dS_max_gap_ratio_0.3	NA
+YGR183C	3cx5@T@214	1	57	2	58	dN_dS_max_gap_ratio_0.3	NA
+YGR106C	6c6l@N@215	1	52	212	263	dN_dS_max_gap_ratio_0.3	NA
+YMR213W	5gmk@c@216	331	436	482	587	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHL033C	5h4p-G-bundle1@G@217	1	233	24	256	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL239W	1gcb@A@218	1	452	2	453	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL011C	1ryp@A@219	1	243	10	252	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL011C	1ryp@O@220	1	243	10	252	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR002W	3c66@B@221	1	529	3	531	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR261C	5mpd@U@222	1	298	1	298	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR191C	5oki@D@223	1	131	2	132	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR191C	5oki@H@224	1	131	2	132	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR075W-A	4xpm@B@225	1	67	8	74	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR289W	4k6n@A@226	1	352	23	374	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL044C	3by4@A@227	1	172	92	263	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL044C	4kdi@D@228	3	75	1	73	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL226C-A	6ezn@E@229	1	85	2	86	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL232W	6ezn@D@230	1	34	1	34	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR103C	6ezn@B@231	1	110	21	130	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR051W	5glg@A@232	2	471	32	501	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL002C	6c26@B@233	1	397	24	420	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR143W-A	3i4m@L@234	1	47	24	70	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR074W	5uz5@L@235	1	119	1	119	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL106C	3c7n@A@236	1	649	1	649	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR195W	5xjg@B@237	1	30	292	321	dN_dS_max_gap_ratio_0.3	NA
+YHR195W	5xjg@D@238	1	30	292	321	dN_dS_max_gap_ratio_0.3	NA
+YHR195W	5h2c@B@239	1	16	139	154	dN_dS_max_gap_ratio_0.3	NA
+YER006W	6elz-s-bundle2@s@240	1	36	1	36	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR264W	6eml@L@241	1	62	5	66	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR194C	1nh2@B@242	1	46	3	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR194C	5fyw@U@243	47	92	241	286	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL115C	3tkn@B@244	1	28	1431	1458	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL115C	3tkn@E@245	1	28	1431	1458	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL115C	3tkn@H@246	1	28	1431	1458	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL092W	3iko@B@247	7	434	731	1158	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR201C	2qb7@A@248	1	393	5	397	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR193C	2hzs@J@249	1	18	193	210	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL082C	6c0f@8@250	1	98	296	393	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER148W	1ytb@A@251	1	180	61	240	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER148W	1ytb@B@252	1	180	61	240	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL019C	3htk@C@253	1	254	5	258	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR098C	4c31@C@254	1	15	326	340	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR104C	2hzs@H@255	1	88	2	89	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER068W	5aie@A@256	2	54	30	82	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER068W	5ajd@B@257	1	50	420	469	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR093W	4b8c@B@258	1	233	759	991	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR093W	4b8c@G@259	1	233	759	991	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR093W	4b8c@H@260	1	233	759	991	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR093W	4b8c@I@261	1	233	759	991	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR432W	2osr@A@262	1	87	194	280	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR432W	2jvo@A@263	1	77	121	197	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR072W-A	3u28@B@264	1	48	1	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL093W	4v7f-o-bundle1@o@265	1	347	1	347	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL093W	6c0f@W@266	1	98	373	470	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR022W	5gan@8@267	1	64	4	67	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR195C	1iic@A@268	1	422	34	455	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR195C	1iic@B@269	1	422	34	455	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR072C	5fl8-q-bundle1@q@270	1	488	28	515	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR072C	5jcs-q-bundle1@q@271	1	488	28	515	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL126W	4hg5@A@272	1	304	4	307	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR018W	5jbm@A@273	1	81	520	600	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR026W	1yfq@A@274	1	341	1	341	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNR010W	5sva@V@275	1	85	65	149	dN_dS_max_gap_ratio_0.3	NA
+YNL151C	6eu1@Q@276	1	89	34	122	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR275C	4bjs@B@277	1	55	1857	1911	dN_dS_max_gap_ratio_0.3	NA
+YDL082W	5apo-L-bundle1@L@278	1	194	2	195	dN_dS_max_gap_ratio_0.3	0.3735
+YIL144W	5tcs@A@279	200	261	621	682	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR042W	2bf4@A@280	1	645	47	691	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR042W	2bf4@B@281	1	645	47	691	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR460W	5oqj@3@282	1	138	8	145	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR311W	5oqm@1@283	1	121	1	121	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR311W	5oqm@1@284	389	491	537	639	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER083C	3zs9@D@285	1	35	4	38	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL190C	2xnr@A@286	2	75	329	402	dN_dS_max_gap_ratio_0.3	NA
+YGL122C	3lcn@B@287	1	97	4	100	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL129C	1ruw@A@288	1	69	1121	1189	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL092W	5x62@B@289	1	387	9	395	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR326W	1n2d@C@290	1	48	806	853	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR326W	1m46@B@291	1	25	854	878	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR206W	2p22@D@292	2	79	4	81	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL021W	3gdk@A@293	1	260	3	262	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL021W	3gdk@B@294	1	260	3	262	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL104C	2k8q@A@295	2	134	2	134	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL140W	1pqv@D@296	30	135	116	221	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL050W	2xgj@B@297	514	777	810	1073	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAR042W	5h28@A@298	1	263	12	274	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR228W	1i4w@A@299	1	322	4	325	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR053C	1aqr@A@300	1	40	9	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR053C	1aoo@A@301	1	40	9	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR053C	1aqs@A@302	1	40	9	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR053C	1aqq@A@303	1	40	9	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR053C	1fmy@A@304	1	40	9	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR039C	1yrn@B@305	1	78	128	205	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR039C	1akh@B@306	1	78	128	205	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR039C	1mnm@C@307	1	77	113	189	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML110C	4obx@A@308	1	235	73	307	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML110C	4obx@B@309	1	235	73	307	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML110C	4obx@C@310	1	235	73	307	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML110C	4obx@D@311	1	235	73	307	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR194C	3i5x@A@312	1	509	88	596	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR023C	2k3x@A@313	1	113	1	113	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR245C	2y9z@A@314	1	287	789	1075	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR374C	4rcm@A@315	2	164	141	303	dN_dS_max_gap_ratio_0.3	NA
+YMR146C	3zwl@D@316	11	352	1	342	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNR024W	5vzj@L@317	1	29	90	118	dN_dS_max_gap_ratio_0.3	NA
+YLR025W	5fd9@A@318	1	125	18	142	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR325W	5oqq@B@319	480	824	567	911	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR193C	4xiz@A@320	1	170	1	170	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR193C	4xiz@B@321	1	170	1	170	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR079C	4u1c@A@322	1	271	225	495	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIR009W	6exn@Y@323	1	87	24	110	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR182W	2xfv@A@324	1	108	2	109	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR182W	2xfv@B@325	1	108	2	109	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR021C	5h5f@A@326	20	224	2	206	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL051C	3quw@A@327	1	125	20	144	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR064W	6fai@N@328	1	150	2	151	dN_dS_max_gap_ratio_0.3	NA
+YMR167W	4fmn@A@329	1	265	505	769	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCL024W	3ost@A@330	1	119	918	1036	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL016W	2li6@A@331	1	116	390	505	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR033C	3cx5@F@332	1	74	74	147	dN_dS_max_gap_ratio_0.3	NA
+YFR033C	3cx5@Q@333	1	74	74	147	dN_dS_max_gap_ratio_0.3	NA
+YLR362W	1x9x@A@334	1	62	22	83	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR362W	1x9x@B@335	1	62	22	83	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR045C	4u3j@C@336	1	241	319	559	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR010W	1j70@A@337	2	512	1	511	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR010W	1j70@B@338	2	512	1	511	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR010W	1j70@C@339	1	511	1	511	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR167C	2oq2@C@340	1	257	1	257	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR052C	1j5n@A@341	1	93	1	93	dN_dS_max_gap_ratio_0.3	NA
+YPR052C	1lwm@A@342	1	93	1	93	dN_dS_max_gap_ratio_0.3	NA
+YPR052C	1cg7@A@343	1	93	1	93	dN_dS_max_gap_ratio_0.3	NA
+YNL142W	5aex@A@344	1	456	2	457	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL142W	5aex@B@345	1	456	2	457	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL142W	5aex@C@346	1	456	2	457	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL142W	5aex@E@347	1	456	2	457	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL142W	5aex@F@348	1	456	2	457	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL135C	1yke@A@349	1	98	108	205	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL135C	1yke@C@350	1	98	108	205	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR058C	3j1o@N@351	1	25	166	190	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR174W	5sva@T@352	1	91	37	127	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL127C	3fbn@B@353	1	94	14	107	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL127C	3fbn@D@354	1	94	14	107	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR041C	4gwp@F@355	1	209	2	210	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR112C	4gwp@A@356	1	112	20	131	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL040C	6fai@P@357	1	127	16	142	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL111C	4a20@A@358	1	80	72	151	dN_dS_max_gap_ratio_0.3	NA
+YOL111C	3lku@F@359	1	54	3	56	dN_dS_max_gap_ratio_0.3	NA
+YMR190C	1d8b@A@360	1	81	1271	1351	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL201C	3jc6@6@361	1	99	97	195	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL030W	3b5n@A@362	2	61	27	86	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR043W	1mnm@A@363	1	85	15	99	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR013W	3jc6@A@364	1	208	1	208	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL056W	1bm8@A@365	1	99	4	102	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAR007C	1ynx@A@366	1	114	181	294	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL064C	5vso@A@367	6	75	1	70	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAR015W	1obg@A@368	1	305	2	306	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR287C	3aj7@A@369	1	586	4	589	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR254W	4je3@B@370	1	77	374	450	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL010W	5tzs@h@371	1	355	7	361	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL006W	6emk@B@372	1	300	3	302	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL006W	6emk@D@373	1	300	3	302	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR183W	2p4q@A@374	1	476	1	476	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR378C	4c92@F@375	1	77	10	86	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL026W	4c92@B@376	12	105	2	95	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR081W	4wfc@B@377	1	118	3	120	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR438C-A	4n0a@A@378	1	80	1	80	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR438C-A	4n0a@B@379	1	80	1	80	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR451W	2er8@A@380	1	68	32	99	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR451W	2er8@D@381	1	68	32	99	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR344W	2ww9@L@382	1	127	1	127	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL208W	2lbx@A@383	1	121	36	156	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR435C	1rjd@A@384	1	327	2	328	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR435C	1rjd@B@385	1	327	2	328	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR435C	1rjd@C@386	1	327	2	328	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR499W	5omd@A@387	2	61	73	132	dN_dS_max_gap_ratio_0.3	NA
+YLR072W	5yqr@A@388	161	268	161	268	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML054C	3ks0@A@389	1	92	86	177	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML054C	3ks0@B@390	1	92	86	177	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR540C	5cog@B@391	1	169	2	170	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR199W	5a07@A@392	1	395	70	464	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR057W	3tmk@A@393	1	216	1	216	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR057W	3tmk@B@394	1	216	1	216	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR057W	3tmk@F@395	1	216	1	216	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCL059C	4qmf@B@396	1	175	38	212	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL098W	4j34@B@397	2	390	1	389	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR191W	1jqq@B@398	5	82	299	376	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL087C	5uz5@H@399	1	46	39	84	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR454C	1ex7@A@400	1	186	2	187	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR135C	5x18@A@401	1	294	62	355	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR135C	5x18@B@402	1	294	62	355	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR121W	2wpd@E@403	1	473	39	511	dN_dS_max_gap_ratio_0.3	NA
+YKL025C	4cyk@A@404	1	41	1	41	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL018C	3uo3@A@405	1	174	8	181	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL151C	6bk8@D@406	1	359	93	451	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR133C	3o8z@A@407	5	152	148	295	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR513W	3d4m@A@408	1	109	35	143	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL147C	5h4p-H-bundle1@H@409	1	191	1	191	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@a@410	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@b@411	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@c@412	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@d@413	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@e@414	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@f@415	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@g@416	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@h@417	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@i@418	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@j@419	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@k@420	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@l@421	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@m@422	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@n@423	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@o@424	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@p@425	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@q@426	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@r@427	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@s@428	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@t@429	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@u@430	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@v@431	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@w@432	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL135W	5tre@x@433	5	142	28	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL124C	4c92@A@434	1	130	43	172	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIR005W	5gm6-V-bundle1@V@435	1	128	2	129	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL265C	3ggz@D@436	1	188	5	192	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR143W	6c0f@w@437	1	70	174	243	dN_dS_max_gap_ratio_0.3	NA
+YIL033C	3of1@A@438	1	246	171	416	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL027W	6c6l@H@439	1	160	1	160	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL027W	6c6l@K@440	1	160	1	160	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL090W	1z56@A@441	1	77	159	235	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL024C	1ukz@A@442	1	196	9	204	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR061W	2l9b@B@443	1	40	630	669	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL162W	4eqv@A@444	1	509	24	532	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL162W	4eqv@B@445	1	509	24	532	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL162W	4eqv@C@446	1	509	24	532	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL162W	4eqv@D@447	1	509	24	532	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL162W	4eqv@E@448	1	509	24	532	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL162W	4eqv@F@449	1	509	24	532	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL162W	4eqv@G@450	1	509	24	532	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL162W	4eqv@H@451	1	509	24	532	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR009C	3b5n@C@452	3	69	433	499	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR009C	3b5n@G@453	3	69	433	499	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR009C	3b5n@D@454	3	64	589	650	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL244C	3j81@m@455	1	90	19	108	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL153C	1p1j@A@456	1	525	9	533	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR116W	5vkl@A@457	1	202	1250	1451	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR116W	3psf@A@458	797	826	1219	1248	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR116W	3oak@C@459	7	27	239	259	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML030W	5nf8@A@460	1	159	1	159	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML030W	5nf8@B@461	1	159	1	159	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR091C	4crm@P@462	1	608	1	608	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR347C	3nd2@A@463	1	861	1	861	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR041W	2ful@A@464	5	160	241	396	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR016C	3jct-y-bundle1@y@465	1	244	1	244	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL034W	3er0@A@466	1	146	12	157	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL139C	1ap8@A@467	1	213	1	213	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER025W	4zgn@B@468	1	103	423	525	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL113W	6eu1@K@469	1	104	39	142	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL048C	5mpc-J-bundle1@J@470	1	393	13	405	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL237W	3j81@l@471	1	17	127	143	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL144C	6eu0@G@472	1	212	1	212	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL028C	3jct-z-bundle1@z@473	1	55	2	56	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR170C	4oiy@A@474	3	189	824	1010	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR010W	5h4p-Z-bundle2@Z@475	1	135	2	136	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL084W	5sup@A@476	1	383	62	444	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL084W	5sup@B@477	1	383	62	444	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR126C	3mil@A@478	1	238	1	238	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR126C	3mil@B@479	1	238	1	238	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR099C	2ciq@A@480	1	287	2	288	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR171W	3vh3@A@481	2	320	295	613	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR171W	3t7g@A@482	1	286	3	288	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR111W-A	4wa6@B@483	1	96	1	96	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL081W	6fai@J@484	1	185	2	186	dN_dS_max_gap_ratio_0.3	0.0108
+YNR032C-A	1m94@A@485	1	73	1	73	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR084C	3vp8@B@486	1	80	2	81	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR207C	6eu3@B@487	1	1114	36	1149	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR306W	3o2u@A@488	3	190	1	188	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR078C	5okc@I@489	1	27	715	741	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR249C	1hfb@C@490	1	348	23	370	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL070C	1twf@I@491	1	122	1	122	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL034W	3qfu@A@492	1	379	48	426	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL034W	3h0x@A@493	2	150	438	586	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR080W	2a6w@B@494	1	219	54	272	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL047C	2g3q@A@495	1	43	1339	1381	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR072W	5jh0@A@496	1	156	27	182	dN_dS_max_gap_ratio_0.3	0.4408
+YPL046C	1hv2@A@497	1	99	1	99	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL078C	3rui@B@498	1	113	4	116	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR172W	4crn@P@499	1	430	256	685	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR193C	1qsm@D@500	1	152	5	156	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR033C	2ciu@A@501	1	123	103	225	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR529C	3cx5@G@502	1	126	2	127	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR529C	3cx5@R@503	1	126	2	127	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER146W	4c92@E@504	1	84	4	87	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER126C	6em1-r-bundle1@r@505	1	73	2	74	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR239C	5t16@A@506	1	276	184	459	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR239C	5t16@I@507	1	276	184	459	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR239C	5t16@N@508	1	117	43	159	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR024C-A	1ssh@A@509	2	60	401	459	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL207W	3bip@A@510	1	444	4	447	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER063W	4uzx@A@511	3	67	119	183	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER063W	4uzw@A@512	2	50	2	50	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR253W	4gwp@D@513	1	121	1	121	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR260C	3j81@i@514	1	111	5	115	dN_dS_max_gap_ratio_0.3	NA
+YER162C	2m14@B@515	1	15	90	104	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL063W	4qqf@A@516	5	198	164	357	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL030C	2m6m@A@517	1	83	19	101	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL009W	4v7f-n-bundle1@n@518	1	236	1	236	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR486C	2luh@B@519	1	59	128	186	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR301C	4myc@A@520	1	593	98	690	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR301C	4myc@B@521	1	593	98	690	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR301C	4myc@C@522	1	593	98	690	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL078C	6cp6@Z@523	1	155	88	242	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL078C	6b2z@N@524	1	97	42	138	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR079C-A	5oqj@5@525	1	66	2	67	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL192W	3tjz@A@526	1	159	18	176	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL192W	3tjz@D@527	1	159	18	176	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR004W	5mpd@V@528	1	289	18	306	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR118W	6fai@X@529	1	144	2	145	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR330W	4in3@A@530	5	80	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR200W	2czo@A@531	1	130	273	402	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR200W	2rqw@A@532	1	105	156	260	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL213C	3gae@A@533	2	253	464	715	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL213C	3gae@B@534	2	253	464	715	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL009C	1z2g@A@535	1	69	1	69	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL009C	1u97@A@536	1	69	1	69	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL009C	1u96@A@537	1	69	1	69	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL040C	1h7r@A@538	1	342	1	342	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR019W	5v8f@4@539	1	751	178	928	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR286C	4txe@A@540	1	288	25	312	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR334W	3rkg@A@542	1	258	48	305	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR458C	4pvz@C@543	4	28	100	124	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR129W	5tvz@A@544	1	103	718	820	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL003C	4jjn@G@545	1	106	17	122	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL271W	2wpd@I@546	1	59	2	60	dN_dS_max_gap_ratio_0.3	NA
+YER139C	5c2y@A@547	3	178	1	176	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL248C	5w66@M@548	1	396	8	403	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL076W	3mv2@B@549	1	293	1	293	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL076W	3mv2@D@550	1	293	1	293	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL076W	3mv2@F@551	1	293	1	293	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL137W	2ynp@A@552	1	601	1	601	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL272C	2eqb@B@553	2	93	51	142	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL272C	2eqb@C@554	2	93	51	142	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR257W	3fwb@A@555	1	153	9	161	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL229C	1g6w@D@556	1	259	96	354	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL229C	1k0b@D@557	1	259	96	354	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR028C	5xw4@B@558	10	369	9	368	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL089W	2vpv@A@559	1	94	437	530	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL110C	3jct-o-bundle1@o@560	1	133	88	220	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL009C	1ysa@C@561	2	57	226	281	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR038C	1jk9@B@562	1	243	3	245	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR038C	1jk9@D@563	1	243	3	245	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCL035C	3c1r@A@564	2	110	1	109	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR031W	5h4p-C-bundle1@C@565	1	361	2	362	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR034C	4chh@B@566	1	158	28	185	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL005C	3i4m@K@567	1	116	1	116	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR011W	1t0i@A@568	1	185	1	185	dN_dS_max_gap_ratio_0.3	NA
+YMR297W	1wpx@A@569	1	421	112	532	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL077W-A	6b2z@T@570	1	24	5	28	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL077W-A	6b2z@k@571	1	24	5	28	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL077W-A	6b8h@k@572	1	24	5	28	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL077W-A	6b8h@x@573	1	24	5	28	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR015W	4rt4@E@574	1	21	481	501	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL002W	1id3@H@575	1	96	36	131	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR256C	1a4e@A@576	1	488	15	502	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR256C	1a4e@B@577	1	488	15	502	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR256C	1a4e@C@578	1	488	15	502	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR256C	1a4e@D@579	1	488	15	502	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR346W	5wm1@A@580	1	433	306	738	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR346W	5umv@A@581	1	90	162	251	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML007W	1sse@B@582	1	86	565	650	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML007W	1sse@A@583	1	35	279	313	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR252W	1ygh@A@584	1	164	99	262	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR252W	1ygh@B@585	1	164	99	262	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR264W	4jqu@B@586	2	54	151	203	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR011C	1m38@A@587	1	282	2	283	dN_dS_max_gap_ratio_0.3	0.1676
+YBR011C	1m38@B@588	1	282	2	283	dN_dS_max_gap_ratio_0.3	0.1566
+YJL168C	2c5z@A@589	1	93	622	714	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL168C	1e0n@A@590	1	27	479	505	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL022C	4nq0@A@591	72	254	164	346	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL022C	4nq0@A@592	1	67	13	79	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL071W	2lm4@A@593	12	109	55	152	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR050C	7tim@A@594	1	247	2	248	dN_dS_max_gap_ratio_0.3	NA
+YDR050C	7tim@B@595	1	247	2	248	dN_dS_max_gap_ratio_0.3	NA
+YDR050C	1ypi@A@596	1	247	2	248	dN_dS_max_gap_ratio_0.3	NA
+YDR050C	1ypi@B@597	1	247	2	248	dN_dS_max_gap_ratio_0.3	NA
+YPR107C	6eoj@B@598	2	94	2	94	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR087W	1nyn@A@599	1	111	1	111	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR063W	5gmk@T@600	1	157	1	157	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL133C	5h4p-O-bundle1@O@601	1	197	3	199	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR090C	5j9u@D@602	1	120	1	120	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR090C	5j9u@H@603	1	120	1	120	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR090C	5j9u@K@604	1	120	1	120	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER136W	2bcg@G@605	1	442	5	446	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL220C	4hce@B@606	1	130	346	475	dN_dS_max_gap_ratio_0.3	NA
+YKL180W	5h4p-P-bundle1@P@607	1	183	2	184	dN_dS_max_gap_ratio_0.3	0.6259
+YKL069W	1f5m@B@608	1	177	3	179	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR283C	1zy4@A@609	3	73	594	664	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR283C	1zy4@B@610	3	73	594	664	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL064C	1ka1@A@611	1	354	2	355	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR073W	4ic4@A@612	1	372	625	996	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR073W	4iap@A@613	178	256	237	315	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR044W	1tlb@A@614	1	326	3	328	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR044W	1tlb@D@615	1	326	3	328	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR044W	1tlb@Q@616	1	326	3	328	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR044W	1tlb@S@617	1	326	3	328	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR044W	1tlb@U@618	1	326	3	328	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR044W	1tlb@W@619	1	326	3	328	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNR034W-A	2grg@A@620	1	98	1	98	dN_dS_max_gap_ratio_0.3	0.9184
+YOR057W	5an3@B@621	1	136	2	137	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL102W	3flo@B@622	1	180	1273	1452	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL102W	3flo@D@623	1	180	1273	1452	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL102W	3flo@F@624	1	180	1273	1452	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL102W	3flo@H@625	1	180	1273	1452	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL102W	3oiq@B@626	1	30	216	245	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL037C	3m62@B@627	1	72	3	74	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL037C	1x3z@B@628	1	57	253	309	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL078W	6emk@I@629	1	146	647	792	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL078W	6emk@J@630	1	146	647	792	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL053W	2qlt@A@631	2	251	1	250	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL127C	1ust@A@632	1	92	39	130	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL127C	1uss@A@633	1	88	171	258	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR084C	3izq@1@634	66	516	161	611	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL066W	2qfw@D@635	1	412	16	427	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR167W	5l6h@B@636	1	76	1	76	dN_dS_max_gap_ratio_0.3	NA
+YLR167W	5l6h@D@637	1	76	1	76	dN_dS_max_gap_ratio_0.3	NA
+YLR167W	6eml@N@638	1	51	102	152	dN_dS_max_gap_ratio_0.3	0.6322
+YPL232W	3b5n@B@639	1	69	189	257	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL123W	2cjk@A@640	1	167	156	322	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL123W	2km8@C@641	1	167	156	322	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR225W	1id3@C@642	1	110	17	126	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL026W	6amn@A@643	1	349	4	352	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL216W	4bjt@A@644	1	152	676	827	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL216W	4bjt@B@645	1	152	676	827	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL216W	4bjt@C@646	1	152	676	827	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR125C	3onk@A@647	1	137	28	164	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR272C	4a3t@B@648	1	459	7	465	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR181C	5xmk@G@649	1	54	277	330	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR181C	5xmk@I@650	1	54	277	330	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR181C	5xmk@K@651	1	54	277	330	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR181C	5xmk@M@652	1	54	277	330	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR468C	2c5j@B@653	1	89	6	94	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER019C-A	2ww9@C@654	1	21	58	78	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR214W	6eml@P@655	1	206	2	207	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL245W	2hra@A@656	1	180	1	180	dN_dS_max_gap_ratio_0.3	NA
+YMR077C	5fvl@D@657	1	26	170	195	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR159W	3t5v@A@658	1	299	253	551	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR159W	3t5v@D@659	1	299	252	550	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR159W	3fwc@F@660	2	84	723	805	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR289C	2l0i@A@661	2	130	3	131	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR289C	2km4@A@662	2	130	3	131	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0130	2wpd@J@663	1	76	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0130	2wpd@K@664	1	76	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0130	2wpd@L@665	1	76	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0130	2wpd@M@666	1	76	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0130	2wpd@N@667	1	76	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0130	2wpd@O@668	1	76	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0130	2wpd@P@669	1	76	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0130	2wpd@Q@670	1	76	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0130	2wpd@R@671	1	76	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0130	2wpd@S@672	1	76	1	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR182W	6exn@q@673	1	73	12	84	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER056C-A	5h4p-g-bundle2@g@674	1	112	2	113	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL129W	3qrl@A@675	1	137	1	137	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL203C	1ac5@A@676	1	483	23	505	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL212W	3lwt@X@677	2	457	1	456	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCL043C	2b5e@A@678	2	483	23	504	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0160	5a0m@A@679	1	224	3	226	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL229W	3gl1@A@680	1	383	2	384	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR037C	2b7j@B@681	1	181	113	293	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR037C	2b7j@D@682	1	181	113	293	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR272C	4zr1@A@683	1	268	117	384	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR272C	4zr1@B@684	1	268	117	384	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR166C	5yfp@E@685	463	776	554	867	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL005W	3cph@A@686	1	175	20	194	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR335W	1un0@C@687	1	16	36	51	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR335W	1un0@D@688	1	16	36	51	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR143C	4crm@X@689	1	282	140	421	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR029C	5tdr@A@690	2	70	116	184	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL018C	1asy@A@691	1	490	68	557	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL018C	1asy@B@692	1	490	68	557	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR007C	5lyp@A@693	2	137	93	228	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR007C	3zdm@A@694	1	69	2	70	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR141C	4am6@A@695	1	623	259	881	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR141C	4am6@B@696	1	623	259	881	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER118C	2vkn@A@697	1	66	299	364	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR151C	5vvr@B@698	1	1207	18	1224	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR398C	4a4k@A@699	1	246	837	1082	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR398C	4a4k@G@700	1	246	837	1082	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR359W	2f8k@A@701	1	84	440	523	dN_dS_max_gap_ratio_0.3	NA
+YBR065C	6bk8@F@702	1	145	3	147	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR020W	2c5i@P@703	1	23	8	30	dN_dS_max_gap_ratio_0.3	NA
+YMR117C	5t6j@A@704	1	59	155	213	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL034W	3htk@B@705	1	73	739	811	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL034W	3htk@A@706	1	60	304	363	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR104C	1f1g@A@707	1	153	2	154	dN_dS_max_gap_ratio_0.3	NA
+YJR104C	1f1g@B@708	1	153	2	154	dN_dS_max_gap_ratio_0.3	NA
+YJR104C	1f1g@C@709	1	153	2	154	dN_dS_max_gap_ratio_0.3	NA
+YJR104C	1f1g@D@710	1	153	2	154	dN_dS_max_gap_ratio_0.3	NA
+YJR104C	1f1g@E@711	1	153	2	154	dN_dS_max_gap_ratio_0.3	NA
+YJR104C	1f1g@F@712	1	153	2	154	dN_dS_max_gap_ratio_0.3	NA
+YPL248C	1d66@A@713	1	57	8	64	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL248C	1d66@B@714	1	57	8	64	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL112W	2pqn@B@715	1	20	145	164	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR149W	4ijc@A@716	1	330	15	344	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR149W	4ijc@B@717	1	330	15	344	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL211W	6elz-l-bundle2@l@718	1	174	1	174	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR103W	4f2h@A@719	1	191	584	774	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIR012W	4zox@A@720	1	379	53	431	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL120C	3kx2@A@721	1	755	1	755	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL120C	3kx2@B@722	1	755	1	755	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR119W	2f66@C@723	1	65	142	206	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML120C	4g6h@A@724	1	472	42	513	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML120C	4g6h@B@725	1	472	42	513	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR283C	2ww9@A@726	1	490	1	490	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL093W	4jwj@A@727	3	193	84	274	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL093W	4jwj@B@728	3	193	84	274	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL007C	3idw@A@729	1	66	654	719	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL138W	1k4z@A@730	2	157	369	524	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL138W	1k4z@B@731	2	157	369	524	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR442C	3zco@A@732	1	127	849	975	dN_dS_max_gap_ratio_0.3	NA
+YLR442C	3owt@C@733	1	20	461	480	dN_dS_max_gap_ratio_0.3	NA
+YCL032W	1uqv@A@734	4	85	27	108	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL047W	3mhs@C@735	1	93	3	95	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR320C	1pgy@A@736	1	47	137	183	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR146C	1ncs@A@737	1	47	532	578	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR146C	1zfd@A@738	1	32	577	608	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR166C	4pqz@A@739	1	136	323	458	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR030C	3g9h@A@740	1	262	609	870	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR030C	3g9g@A@741	1	250	1	250	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR418C	3v46@A@742	1	160	234	393	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL143W	5wwo@C@743	1	46	360	405	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL194C	3ugt@C@744	1	427	36	462	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL097C	3kt8@D@745	1	410	16	425	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML043C	5w5y@Q@746	1	36	1	36	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR092W	5ojw@A@747	1	152	1	152	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR211W	2xjp@A@748	10	258	23	271	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR198C	2j49@A@749	1	134	149	282	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL037W	5w3f@B@750	1	427	1	427	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR265W	1qsd@A@751	1	102	4	105	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR265W	1qsd@B@752	1	102	4	105	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL008C	5gw5@Q@753	1	543	7	549	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL008C	5gw5@q@754	1	543	7	549	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR188W	4v94-F-bundle1@F@755	1	538	2	539	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR188W	4v94-N-bundle1@N@756	1	538	2	539	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR188W	4v94-f-bundle1@f@757	1	538	2	539	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR188W	4v94-n-bundle1@n@758	1	538	2	539	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL026W	2ale@A@759	1	126	1	126	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR034C	1g6q@5@760	1	321	28	348	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL172W	6elz-J-bundle2@J@761	1	145	196	340	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER018C	4geq@A@762	1	89	133	221	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER018C	4geq@C@763	2	90	133	221	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR252W	2kkm@A@764	1	141	38	178	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL042W	2q6q@B@765	1	65	67	131	dN_dS_max_gap_ratio_0.3	NA
+YGR024C	5xox@A@766	1	229	5	233	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR024C	5xox@B@767	1	229	5	233	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR024C	5xox@C@768	1	229	5	233	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR024C	5xox@D@769	1	229	5	233	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR024C	5xox@E@770	1	229	5	233	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR143C	1ig0@B@771	1	319	1	319	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL160C	1afw@B@772	1	393	25	417	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL041W	1pqs@A@773	1	77	778	854	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR181W	3cjh@I@774	1	54	46	99	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL145W	3etv@A@775	1	24	9	32	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR373W	1fpw@A@776	1	190	1	190	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR077C	4ojj@C@777	1	321	476	796	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR077C	4brw@B@778	1	30	25	54	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR155C	1vdn@A@779	1	161	2	162	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR226C	3rku@A@780	2	268	1	267	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR226C	3rku@B@781	2	268	1	267	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR226C	3rku@C@782	2	268	1	267	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR226C	3rku@D@783	2	268	1	267	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL017W-A	6exn@r@784	1	75	2	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL017W-A	5uz5@Q@785	1	75	2	76	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL125W	3tj1@A@786	1	201	46	246	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL125W	3tj1@B@787	1	201	46	246	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL143W	5gw5@D@788	1	521	8	528	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL143W	5gw5@d@789	1	521	8	528	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL208W	2qlv@E@790	1	87	161	247	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL212W	1kmd@A@791	1	117	8	124	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR029C	1ym5@A@792	1	293	2	294	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR086C	2ww9@B@793	1	60	21	80	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER172C	3im1@A@794	1	325	1839	2163	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER172C	5gm6-B-bundle1@B@795	1	80	113	192	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL145W	4a3v@B@796	2	79	378	455	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL142W	4v94-B-bundle1@B@797	1	518	3	520	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL142W	4v94-J-bundle1@J@798	1	518	3	520	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL142W	4v94-b-bundle1@b@799	1	518	3	520	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL142W	4v94-j-bundle2@j@800	1	518	3	520	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR439W	3n7n@E@801	1	31	3	33	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML081C-A	6b8h@i@802	1	59	1	59	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML081C-A	6b8h@w@803	1	59	1	59	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML081C-A	6b2z@S@804	1	59	1	59	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML081C-A	6b2z@i@805	1	59	1	59	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR447C	5vox@Q@806	1	345	1	345	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR005C-A	3dxr@B@807	1	69	15	83	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR039C-A	4dl0@G@808	1	105	2	106	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR341C	1f7u@A@809	1	606	2	607	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL239W	4bsz@B@810	1	150	7	156	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR246C	6eu0@Z@811	266	339	439	512	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL082W	2kzb@A@812	1	114	254	367	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL065W	2j9v@A@814	5	99	148	242	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL142W	5c0x@G@815	1	237	1	237	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL038C	1ukv@Y@816	1	196	3	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAR050W	4lhn@A@817	1	247	25	271	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR232W	5txr@A@818	1	479	70	548	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR429C	4u1e@G@819	1	89	8	96	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR083W	2oe3@A@820	1	106	22	127	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR060W	2l6j@A@821	1	111	1	111	dN_dS_max_gap_ratio_0.3	NA
+YPL122C	5oqj@2@822	1	110	3	112	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL122C	3dom@C@823	1	77	431	507	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR130C	4ll8@E@824	4	119	81	196	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR130C	4ll7@A@825	1	94	43	136	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML085C	5w3f@A@826	1	440	1	440	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR036C	2pqr@D@827	1	45	78	122	dN_dS_max_gap_ratio_0.3	0.1887
+YDL235C	2r25@A@828	1	166	2	167	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR016C	2a08@B@829	2	57	413	468	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR046C	4geq@F@830	1	19	61	79	dN_dS_max_gap_ratio_0.3	NA
+YLR433C	2lhi@A@831	153	176	453	476	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL137W	1mr3@F@832	1	177	5	181	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL072W	5l3t@B@833	1	455	1	455	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR048W	1zc1@A@834	1	208	1	208	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR064C	2jmj@A@835	1	60	153	212	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR064C	2jmi@A@836	1	60	153	212	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL115W	2hue@A@837	2	164	2	164	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCL008C	2p22@A@838	1	168	218	385	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR390C	3ong@A@839	1	114	439	552	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR170W-B	6c6l@O@840	1	76	2	77	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR056W	5oqj@4@841	1	67	22	88	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR190C	6eu1@O@842	1	344	31	374	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR190C	6eu1@O@843	345	551	448	654	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR164C	2wpv@C@844	1	282	11	292	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR326C	5ys0@B@845	1	164	1060	1223	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR089C	3u28@C@846	1	92	33	124	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR334W	5i9e@H@847	1	44	350	393	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL225W	2jyn@A@848	1	146	1	146	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL151C	4lcd@D@849	1	14	104	117	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR147C	5uz5@N@850	1	92	5	96	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR353W	3itj@B@851	2	319	2	319	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR135W-A	3cjh@B@852	1	59	28	86	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL032W	3ja8@3@853	518	605	651	738	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL032W	5v8f@3@854	586	654	902	970	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR473C	5gap@G@855	1	318	150	467	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL189W	1bk5@A@856	1	422	89	510	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL189W	1bk5@B@857	1	422	89	510	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR275W	5uz5@M@858	1	96	13	108	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR227W	1pl5@S@859	1	76	1272	1347	dN_dS_max_gap_ratio_0.3	0.9888
+YIL105C	4a5k@A@860	3	115	469	581	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR212W	5gw5@A@861	1	543	5	547	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR212W	5gw5@a@862	1	543	5	547	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR026W	5vox@R@863	1	213	1	213	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL022W	2fxt@A@864	1	192	234	425	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR251C	3utn@X@865	1	304	1	304	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR453C	5ept@E@866	5	178	1	174	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR453C	5ept@H@867	5	178	1	174	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR394W	5mp9@K@868	1	389	40	428	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL087C	5h4p-V-bundle2@V@869	1	136	2	137	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL031W	5v1a@B@870	2	26	821	845	dN_dS_max_gap_ratio_0.3	NA
+YGR264C	2hsn@A@871	1	160	1	160	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNR071C	1yga@A@872	1	336	7	342	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNR071C	1yga@B@873	1	336	7	342	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL067C	5kci@A@877	1	184	15	198	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCL005W-A	6c6l@M@878	1	69	1	69	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR224C	4wnn@B@879	2	98	31	127	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR224C	4wnn@D@880	1	97	31	127	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR224C	4wnn@F@881	2	98	31	127	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR224C	4wnn@H@882	2	98	31	127	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL234C	6c6l@D@884	1	157	7	163	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR319W	5lsl@A@885	1	79	8	86	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR319W	5lsl@B@886	1	79	8	86	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR319W	5lsl@C@887	1	79	8	86	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR319W	5lsl@D@888	1	79	8	86	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL251C	5o1w@A@889	1	167	305	471	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML108W	1n6z@A@890	1	105	1	105	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR080C	6bym@A@891	1	200	946	1145	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR080C	5yqj@B@892	1	178	752	929	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL185W	1gpp@A@893	179	217	698	736	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR172C	3k3v@A@894	1	79	205	283	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL039W	6f42@W@895	1	41	280	320	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL014W	5gw5@G@896	1	518	13	530	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL014W	5gw5@g@897	1	518	13	530	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL238W	1r64@A@898	1	481	121	601	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL238W	1r64@B@899	1	481	121	601	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL187C	2odx@A@900	1	54	94	147	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR037C	1jra@A@901	1	106	74	179	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR037C	1jra@B@902	1	106	74	179	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL002C	1w7p@A@903	1	213	20	232	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL002C	1u5t@A@904	1	213	20	232	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL018C	1v59@A@906	1	478	22	499	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL018C	1v59@B@907	1	478	22	499	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL066W	3mhh@E@908	1	92	5	96	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL020C	1euv@A@909	3	221	403	621	dN_dS_max_gap_ratio_0.3	NA
+YPL020C	5h2w@D@910	1	19	154	172	dN_dS_max_gap_ratio_0.3	NA
+YPL001W	4psw@A@911	1	316	5	320	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR173C	5fvk@A@912	1	82	1	82	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR173C	5fvk@B@913	1	82	1	82	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR209C	2fa4@A@914	1	104	1	104	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR209C	2fa4@B@915	1	104	1	104	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL241C	5cya@B@916	1	168	101	268	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL246W	2zd7@A@917	1	222	4	225	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL060C	3ibh@A@918	1	208	19	226	dN_dS_max_gap_ratio_0.3	0.4005
+YGL174W	5lqw@L@919	1	32	235	266	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR177W	1fzy@A@920	1	149	2	150	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR177W	1fzy@B@921	1	149	2	150	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR363W-A	3jcp-Y-bundle1@Y@922	1	34	56	89	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR417W	1w7p@D@923	1	171	396	566	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR417W	2j9u@B@924	1	47	115	161	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNR006W	1q0v@A@925	2	81	250	329	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR270C	5i1m@V@926	1	458	383	840	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR197C	3onj@A@927	1	97	3	99	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL058W	1ayz@A@928	1	153	2	154	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL058W	1ayz@B@929	1	153	2	154	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL058W	1ayz@C@930	1	153	2	154	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL196C	3bw6@A@931	3	137	1	135	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR020C	4rnd@B@932	1	118	1	118	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR043C	3f3q@A@933	7	109	1	103	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL051W	5d80@G@934	1	223	4	226	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR308C	3plv@C@935	1	21	37	57	dN_dS_max_gap_ratio_0.3	NA
+YOR308C	5gao@E@936	318	338	540	560	dN_dS_max_gap_ratio_0.3	NA
+YBR127C	5bw9@d@937	1	460	27	486	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL008W	2qjl@A@938	1	99	1	99	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL039C	4nnj@B@939	3	78	1	76	dN_dS_max_gap_ratio_0.3	NA
+YLL039C	4nnj@D@940	2	77	1	76	dN_dS_max_gap_ratio_0.3	NA
+YLL039C	4nnj@E@941	2	77	1	76	dN_dS_max_gap_ratio_0.3	NA
+YLL039C	4hcn@B@942	2	77	77	152	dN_dS_max_gap_ratio_0.3	NA
+YLL039C	4hcn@B@943	2	77	153	228	dN_dS_max_gap_ratio_0.3	NA
+YLL039C	4hcn@B@944	2	77	229	304	dN_dS_max_gap_ratio_0.3	NA
+YLL039C	4hcn@B@945	2	77	305	380	dN_dS_max_gap_ratio_0.3	NA
+YIL147C	2r25@B@946	1	133	1086	1218	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR007W	4xpm@A@947	1	39	146	184	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR096W	5tzs@7@948	1	186	2	187	dN_dS_max_gap_ratio_0.3	0.314
+YMR022W	2ucz@A@950	1	164	2	165	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL012C	3g3r@A@951	1	286	195	480	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR332W	4efa@E@952	1	225	2	226	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR116C	6fai@g@953	1	317	3	319	dN_dS_max_gap_ratio_0.3	0.1223
+YGL003C	4bh6@D@954	1	305	244	548	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR135W	5wvi-C-bundle1@C@955	1	245	2	246	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR135W	5wvi-d-bundle1@d@956	1	245	2	246	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR107C	4je3@A@957	3	244	1	242	dN_dS_max_gap_ratio_0.3	NA
+YNR046W	2j6a@A@958	1	135	1	135	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL010W	5j3r@A@959	1	114	112	225	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL091C	3b7n@A@960	1	307	4	310	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR066W	1w1n@A@961	1	33	2438	2470	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR066W	2kio@A@962	1	33	2438	2470	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR066W	2kit@A@963	1	33	2438	2470	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR510W	2eke@C@964	9	91	13	95	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR064W	4v94-E-bundle1@E@965	1	535	25	559	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR064W	4v94-M-bundle1@M@966	1	535	25	559	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR064W	4v94-e-bundle1@e@967	1	535	25	559	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR064W	4v94-m-bundle2@m@968	1	535	25	559	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR074C	1gpu@A@969	1	678	3	680	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR074C	1gpu@B@970	1	678	3	680	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR358W	5cn2@A@971	1	115	443	557	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL019W	4qmf@A@972	2	20	145	163	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL019W	4qmf@C@973	2	20	145	163	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR049C	1wpi@A@974	1	133	1	133	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL235W	5oun@A@975	5	107	132	234	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR372C	2zih@D@976	1	283	62	344	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL004W	2mzt@A@977	3	100	357	454	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL004W	2mzs@A@978	3	99	262	358	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL004W	2mzr@A@979	3	95	144	236	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCL011C	2mzq@A@980	3	101	329	427	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR165C	5m52@D@981	2	268	2147	2413	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR165C	3e9p@A@982	1	255	1833	2087	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR145C	6eml@p@983	1	185	90	274	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR135W	1qb3@B@984	1	119	6	124	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR003W	4ph7@D@985	1	407	36	442	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL161W	5ahv@E@986	1	154	1	154	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR247C	6fai@i@987	1	262	205	466	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL064W	3ong@B@988	2	158	1	157	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR312W	4ejs@C@989	1	271	2	272	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR063W	4c2m@I@990	1	124	2	125	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR106W	1hs7@A@991	1	97	23	119	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR014C	1pyi@A@992	1	88	30	117	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR309C	4u1c@C@993	1	544	251	794	dN_dS_max_gap_ratio_0.3	NA
+YMR079W	6f0e@A@994	1	300	4	303	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR031C	5jpq@w@995	1	128	2	129	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR031C	5ll6@Z@996	1	127	11	137	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR235W	5uz5@D@997	1	539	2	540	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL015W	4bru@B@998	1	29	88	116	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR076C	5g06@P@999	1	95	146	240	dN_dS_max_gap_ratio_0.3	0.0901
+YPL059W	3gx8@A@1000	1	111	31	141	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR228C	1sza@A@1001	1	140	1	140	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR228C	4c0b@C@1002	1	27	473	499	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL245C	5lj3@F@1003	1	46	3	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR074C	2fh0@A@1004	1	81	36	116	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL231W	2wat@A@1005	1	121	1766	1886	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR029W	3w4y@B@1006	3	118	73	188	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR029W	3w4y@C@1007	4	119	73	188	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR252W	3f4f@A@1008	1	138	6	143	dN_dS_max_gap_ratio_0.3	NA
+YBR252W	3f4f@B@1009	1	138	6	143	dN_dS_max_gap_ratio_0.3	NA
+YJR007W	1q46@A@1010	1	174	3	176	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL118C	4k6e@A@1011	1	144	102	245	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL118C	5lmf@C@1012	1	17	484	500	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL145C	1zhx@A@1013	4	436	2	434	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL151W	4pvc@A@1014	1	342	1	342	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL151W	4pvc@B@1015	1	342	1	342	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL123W	5ll6@R@1016	1	226	29	254	dN_dS_max_gap_ratio_0.3	0.1737
+YPR062W	1p6o@B@1017	4	161	1	158	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR063C	2exu@A@1018	1	97	3	99	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR162W	1rf8@B@1019	3	100	391	488	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR082C	5nrl-D-bundle1@D@1020	1	142	2	143	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR210W	5vvr@J@1021	1	70	1	70	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL195W	2qtv@D@1022	1	36	907	942	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR139C	1ebf@A@1023	1	358	2	359	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR139C	1ebf@B@1024	1	358	2	359	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR109C	1lkj@A@1025	1	146	2	147	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR109C	2lhi@A@1026	2	147	2	147	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL249C-A	6em3@i@1027	1	74	27	100	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR057W	2yma@A@1028	2	135	266	399	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR153C	5j08@A@1029	2	163	31	192	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL004C	3plt@A@1030	1	214	51	264	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL038W	2g80@A@1031	1	225	3	227	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL007C	1c3g@A@1032	1	170	180	349	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL007C	4rwu@A@1033	1	81	1	81	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR025W	6eml@X@1034	1	155	2	156	dN_dS_max_gap_ratio_0.3	0.258
+YPL169C	4wwu@D@1035	1	69	23	91	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL169C	4wwu@G@1036	1	69	23	91	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR424C	4ds1@A@1037	1	86	7	92	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR424C	4ds1@C@1038	1	86	7	92	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR240C	5lsl@E@1039	2	62	290	350	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR240C	5lsl@G@1040	2	62	290	350	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR240C	5lsl@H@1041	2	62	290	350	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR208W	3mzk@A@1042	1	297	1	297	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR208W	3mzk@D@1043	1	297	1	297	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL176C	2fq3@A@1044	1	85	311	395	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL178W	4bsz@A@1045	1	187	12	198	dN_dS_max_gap_ratio_0.3	0.6732
+YDR163W	6bk8@H@1046	1	40	2	41	dN_dS_max_gap_ratio_0.3	NA
+YDR052C	3oq4@A@1047	2	124	120	242	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR052C	3qbz@A@1048	1	123	98	220	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHL015W	6fai@U@1049	1	103	19	121	dN_dS_max_gap_ratio_0.3	0.0159
+YDR002W	3m1i@B@1050	1	131	71	201	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR155W	6c2z@A@1051	1	345	4	348	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR048W	5cig@B@1052	1	108	2	109	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR048W	5cig@D@1053	1	108	2	109	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0105	3cx5@C@1054	1	385	1	385	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0105	3cx5@N@1055	1	385	1	385	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR409W	2rnn@A@1056	4	114	1	111	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR192C	3pym@A@1057	1	332	1	332	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL155W	5ij4@A@1058	1	49	11	59	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL087C	5ojw@B@1059	1	137	1	137	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL090W	1otr@A@1060	1	49	6	54	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL097W	5oqq@C@1061	1	64	458	521	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL025C	6c0f@D@1062	1	190	2	191	dN_dS_max_gap_ratio_0.3	NA
+YNL271C	1ux5@A@1063	1	411	1350	1760	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR093C	3c66@C@1064	1	24	80	103	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL209C	5gmk@R@1065	1	261	1	261	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER128W	4niq@C@1066	1	22	182	203	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR057W	6fai@V@1067	1	87	1	87	dN_dS_max_gap_ratio_0.3	0.4928
+YEL024W	3cx5@E@1068	1	185	31	215	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL024W	3cx5@P@1069	1	185	31	215	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL020C	4d4p@B@1070	2	334	1	333	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL020C	4d4p@E@1071	1	333	1	333	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR109W	4h86@A@1072	12	187	1	176	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR040W	2n94@A@1073	4	48	1	45	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0085	6b8h@a@1074	1	249	11	259	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0085	6b8h@p@1075	1	249	11	259	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0085	6b2z@M@1076	1	249	11	259	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0085	6b2z@a@1077	1	249	11	259	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR095C	5jea@D@1078	2	224	1	223	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL039C	1yag@A@1079	1	372	4	375	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR096W	3fem@A@1080	1	281	3	283	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR096W	3fem@B@1081	1	281	3	283	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR096W	3fem@C@1082	1	281	3	283	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR096W	3fem@D@1083	1	281	3	283	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR096W	3fem@E@1084	1	281	3	283	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR096W	3fem@F@1085	1	281	3	283	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL267W	4bh6@M@1086	1	21	60	80	dN_dS_max_gap_ratio_0.3	NA
+YPL267W	4bh6@P@1087	1	21	60	80	dN_dS_max_gap_ratio_0.3	NA
+YOL083W	2kzk@A@1088	1	103	246	348	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR037C	1st7@A@1089	1	86	2	87	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR341W	5m5w@A@1090	1263	1493	1433	1663	dN_dS_max_gap_ratio_0.3	NA
+YOR176W	1lbq@A@1091	1	356	36	391	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER112W	4c92@D@1092	1	84	1	84	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL014W	2l9q@A@1093	1	109	1	109	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL014W	4axp@A@1094	1	109	1	109	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL014W	2ljl@A@1095	1	109	1	109	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR255W	3lcn@C@1096	1	25	126	150	dN_dS_max_gap_ratio_0.3	0.031
+YDL074C	4r7e@A@1097	1	69	632	700	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL135C	1yat@A@1098	1	113	2	114	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR117C	5gmk@d@1099	1	240	36	275	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL020C	2rpn@B@1100	2	18	605	621	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL020C	3sjb@D@1101	1	68	36	103	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL020C	3b2e@G@1102	1	67	29	95	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL030W	1nmu@B@1103	1	104	2	105	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR116W	4wan@C@1104	1	125	145	269	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL153W	2ixp@B@1105	1	316	2	317	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL153W	2ixp@C@1106	1	316	2	317	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR027W	3uq3@A@1107	5	258	262	515	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL012W	1o6w@A@1108	1	75	1	75	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL012W	2kfd@A@1109	1	65	488	552	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR206W	5on7@A@1110	1	147	1	147	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR188C	4bl0@E@1111	1	45	303	347	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR188C	2i3s@B@1112	1	36	315	350	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER022W	3rj1@B@1113	293	310	669	686	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER022W	3rj1@I@1114	293	310	669	686	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER022W	3rj1@P@1115	293	310	669	686	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL004W	2wpd@H@1116	1	132	29	160	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR127C	1ldd@A@1117	1	74	773	846	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR127C	1ldd@B@1118	1	74	773	846	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR127C	1ldd@C@1119	1	74	773	846	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR127C	1ldd@D@1120	1	74	773	846	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL106W	1m46@A@1121	1	148	2	149	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR065W	3cx5@D@1122	1	248	62	309	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR065W	3cx5@O@1123	1	248	62	309	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL259C	1cc8@A@1124	1	72	2	73	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL001W	3izq@0@1125	1	386	1	386	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL022W	4fgw@A@1126	1	353	33	385	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL022W	4fgw@B@1127	1	353	33	385	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL021C	4b8c@J@1128	74	210	332	468	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL021C	4b8c@L@1129	74	210	332	468	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR035W-A	3ggz@H@1130	1	18	187	204	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL086C	4w6z@A@1131	1	347	2	348	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL086C	4w6z@B@1132	1	347	2	348	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL086C	4w6z@C@1133	1	347	2	348	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL086C	4w6z@D@1134	1	347	2	348	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR051C	5fk0@A@1135	1	263	284	546	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR051C	5fk0@B@1136	1	263	284	546	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR051C	5fk0@C@1137	1	263	284	546	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR051C	5fk0@D@1138	1	263	284	546	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR051C	5fk0@E@1139	1	263	284	546	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR051C	5fk0@F@1140	1	263	284	546	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR051C	5fk0@G@1141	1	263	284	546	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR051C	5fk0@H@1142	1	263	284	546	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL202W	4je5@B@1143	1	497	2	498	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR247C	5fg0@A@1144	1	407	14	420	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR247C	5fg0@B@1145	1	407	14	420	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR077C	4ftx@A@1146	1	158	5	162	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR270W	1fvq@A@1147	2	72	2	72	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR270W	2ggp@B@1148	2	72	2	72	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR270W	1fvs@A@1149	2	72	2	72	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL020W-A	3dxr@A@1150	1	69	12	80	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL016C	6cp6@7@1151	1	171	4	174	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER057C	1jd1@A@1152	1	126	3	128	dN_dS_max_gap_ratio_0.3	0.2001
+YER057C	1jd1@C@1153	1	126	3	128	dN_dS_max_gap_ratio_0.3	0.1914
+YDR356W	4ds7@F@1154	1	39	898	936	dN_dS_max_gap_ratio_0.3	NA
+YLR295C	6cp6@6@1155	1	89	36	124	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR224C	6eu1@H@1156	1	146	1	146	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER042W	3pil@A@1157	2	183	2	183	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR108W	5ims@B@1158	1	567	83	649	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNR050C	2axq@A@1159	1	445	2	446	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0080	6b8h@A@1160	1	48	1	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0080	6b8h@V@1161	1	48	1	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0080	6b2z@A@1162	1	48	1	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+Q0080	6b2z@L@1163	1	48	1	48	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR308C	5oqm@n@1164	1	136	3	138	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR449W	4bf8@A@1165	5	117	280	392	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL053C-A	4ytw@A@1166	1	75	3	77	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL020C	1tg0@A@1167	1	66	3	68	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL111W	4v94-G-bundle1@G@1168	1	526	2	527	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL111W	4v94-O-bundle1@O@1169	1	526	2	527	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL111W	4v94-g-bundle1@g@1170	1	526	2	527	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL111W	4v94-o-bundle2@o@1171	1	526	2	527	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR088W	1hqz@1@1172	1	139	3	141	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR088W	1hqz@2@1173	1	139	3	141	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR088W	1jo8@A@1174	1	58	535	592	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL253W	1ig8@A@1175	1	469	18	486	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL003W	5frp@C@1176	1	17	126	142	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL003W	5frp@D@1177	1	17	126	142	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR184C	3nit@A@1178	3	89	107	193	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR250C	4c0b@B@1179	1	429	17	445	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR046C	3pey@A@1180	1	391	91	481	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR109W	1zuy@A@1181	1	58	1088	1145	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR109W	1zuy@B@1182	1	58	1088	1145	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR058W	1zpu@A@1183	1	529	22	550	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR058W	1zpu@B@1184	1	529	22	550	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR058W	1zpu@C@1185	1	529	22	550	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR058W	1zpu@D@1186	1	529	22	550	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR058W	1zpu@E@1187	1	529	22	550	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR058W	1zpu@F@1188	1	529	22	550	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL099W	6cp6@A@1189	1	507	39	545	dN_dS_max_gap_ratio_0.3	0.0428
+YPR086W	4bbr@M@1190	1	193	22	214	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR318C	1piw@A@1192	1	360	1	360	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR318C	1piw@B@1193	1	360	1	360	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR200W	5mpd@W@1194	1	197	1	197	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR159C	3a7o@E@1195	1	60	60	119	dN_dS_max_gap_ratio_0.3	NA
+YMR159C	2dyo@B@1196	1	36	22	57	dN_dS_max_gap_ratio_0.3	NA
+YML022W	5vjn@A@1197	1	176	3	178	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR055W	2mjf@B@1198	1	95	70	164	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR055W	2n95@A@1199	4	49	1	46	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOL012C	4m6b@D@1200	100	187	27	114	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR009W	3jct-u-bundle1@u@1201	1	150	1	150	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR174C	1dpj@B@1202	1	29	3	31	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR082C	1qcq@A@1203	1	148	1	148	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR298C	6cp6@Y@1204	1	166	24	189	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL175C	2lli@A@1205	1	124	57	180	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHL007C	2rqw@B@1206	1	24	463	486	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL037C	2h0r@A@1207	1	216	1	216	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL037C	2h0r@B@1208	1	216	1	216	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL037C	2h0r@C@1209	1	216	1	216	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL037C	2h0r@D@1210	1	216	1	216	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL037C	2h0r@E@1211	1	216	1	216	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL037C	2h0r@F@1212	1	216	1	216	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL037C	2h0r@G@1213	1	216	1	216	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL115W	3tdh@C@1214	1	316	6	321	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR377W	6cp6@U@1215	1	85	7	91	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL252C	2mje@A@1216	1	115	58	172	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL252C	2mjd@A@1217	1	115	58	172	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL132W	3o2p@E@1218	1	86	730	815	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL035C	4lfi@B@1219	1	371	1	371	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL105W	2hqt@T@1220	1	121	1	121	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR156W	5lmx@D@1221	1	18	12	29	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLL050C	1cof@A@1226	1	135	6	140	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFL024C	5j9w@K@1227	1	277	123	399	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL213C	2mzj@A@1228	1	82	75	156	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR186W	5ip7@Q@1229	1	15	21	35	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL047W	2jzc@A@1230	1	201	2	202	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL047W	2ks6@A@1231	1	201	2	202	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR047C	3pbp@B@1232	1	145	967	1111	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR047C	3pbp@E@1233	1	145	967	1111	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR047C	3pbp@H@1234	1	145	967	1111	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR047C	3pbp@K@1235	1	145	967	1111	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL095W	5gmk@F@1236	1	115	2	116	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@A@1237	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@B@1238	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@C@1239	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@D@1240	1	21	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@E@1241	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@F@1242	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@G@1243	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@H@1244	2	22	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@I@1245	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@J@1246	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@K@1247	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@L@1248	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@M@1249	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@N@1250	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@O@1251	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@P@1252	2	22	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@Q@1253	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@R@1254	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@S@1255	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@T@1256	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@U@1257	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@V@1258	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@W@1259	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@X@1260	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@a@1261	2	22	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@b@1262	2	22	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@c@1263	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@d@1264	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@e@1265	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@f@1266	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@g@1267	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@h@1268	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@i@1269	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@j@1270	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@k@1271	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@l@1272	3	23	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL103C	5jhc@m@1273	1	21	1	21	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML001W	1ky2@A@1274	1	180	3	182	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR071C	2km1@A@1275	1	117	4	120	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR050W	5lj3@G@1276	1	97	1	97	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL044C	2x1b@A@1277	2	87	16	101	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL160C	1s2m@A@1278	1	377	46	422	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJR074W	1eq6@A@1280	1	189	30	218	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR361C	3ns6@A@1281	6	99	76	169	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR361C	3ns6@B@1282	6	99	76	169	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR361C	4u1e@B@1283	4	47	694	737	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL080W	5vox@O@1284	1	392	1	392	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER143W	4z2z@B@1285	1	138	188	325	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR049C	6em1-m-bundle1@m@1286	1	161	239	399	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR128W	2is9@A@1287	1	204	66	269	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR191W	5h4p-T-bundle2@T@1288	1	159	2	160	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR066C	1s73@A@1289	1	294	68	361	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML019W	3ga4@A@1290	1	156	30	185	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR268C	5tf6@A@1291	2	367	34	399	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR212C	5fm1@C@1292	1	445	1	445	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR212C	5fm1@D@1293	1	445	1	445	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDL060W	6eml@t@1294	314	633	467	786	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL012W	1n8p@A@1295	1	393	2	394	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL012W	1n8p@B@1296	1	393	2	394	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL012W	1n8p@C@1297	1	393	2	394	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL012W	1n8p@D@1298	1	393	2	394	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR245C	1r5t@A@1299	1	141	2	142	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER164W	2h1e@A@1300	1	165	175	339	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR319C	3okq@A@1301	1	125	553	677	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR319C	4wyb@B@1302	1	40	700	739	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER074W	6fai@Y@1303	1	134	2	135	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YAL003W	1f60@B@1304	1	90	117	206	dN_dS_max_gap_ratio_0.3	NA
+YPL090C	6fai@G@1305	1	232	1	232	dN_dS_max_gap_ratio_0.3	NA
+YLR364W	2m80@A@1306	1	109	1	109	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL193W	4nut@B@1308	1	27	239	265	dN_dS_max_gap_ratio_0.3	NA
+YCR012W	1fw8@A@1309	2	344	74	416	dN_dS_max_gap_ratio_0.3	0.4825
+YCR012W	1fw8@A@1310	345	415	2	72	dN_dS_max_gap_ratio_0.3	NA
+YER002W	6c0f@7@1311	1	83	1	83	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YER002W	6c0f@7@1312	84	156	156	228	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL182W	2pff@B@1313	1	545	1	545	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL182W	2pff@E@1314	1	545	1	545	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL182W	2pff@H@1315	1	545	1	545	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKL182W	2pff@B@1316	1624	1896	1669	1941	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR005C	5fmf@V@1317	1	89	54	142	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR005C	5sva@g@1318	104	172	291	359	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR009C	4jjn@F@1319	1	91	13	103	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR010W	4jjn@A@1320	1	98	39	136	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR118W	1f60@A@1321	1	440	2	441	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR039W	3ofn@Y@1322	52	115	246	309	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR039W	3ofn@Y@1323	1	41	34	74	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR405W	3j6b-P-bundle2@P@1324	1	207	55	261	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR122C	3j6b-V-bundle2@V@1325	1	64	20	83	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YKR085C	3j6b-a-bundle2@a@1326	1	176	20	195	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR150W	3j6b-H-bundle2@H@1327	1	148	2	149	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR220C	3j6b-C-bundle1@C@1328	1	249	21	269	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR024W	3j6b-5-bundle2@5@1329	1	326	65	390	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR340W	5apo-q-bundle2@q@1330	1	105	3	107	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR170W	5t6r-V-bundle2@V@1331	1	251	151	401	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR063W	5h4p-B-bundle1@B@1332	1	386	2	387	dN_dS_max_gap_ratio_0.3	0.1794
+YIL018W	4v8t-A-bundle1@A@1333	1	252	2	253	dN_dS_max_gap_ratio_0.3	0.6849
+YBL027W	4v8t-R-bundle1@R@1334	1	188	2	189	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YEL054C	4v7f-I-bundle1@I@1335	1	127	12	138	dN_dS_max_gap_ratio_0.3	0.6608
+YFR031C-A	5t62-D-bundle1@D@1336	1	252	2	253	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL002C	4v7f-r-bundle1@r@1337	1	322	1	322	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL002C	4v7f-s-bundle1@s@1338	1	322	1	322	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR043W	5h4p-p-bundle2@p@1339	1	91	2	92	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL103W	5h4p-a-bundle2@a@1340	1	148	2	149	dN_dS_max_gap_ratio_0.3	NA
+YDR115W	3j6b-Y-bundle2@Y@1341	1	45	61	105	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR100W	3j6b-4-bundle2@4@1342	1	138	2	139	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR071C	3j6b-7-bundle2@7@1343	1	106	41	146	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR237W	3j6b-E-bundle2@E@1344	1	274	19	292	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL029W	3jct-5-bundle2@5@1345	1	73	42	114	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR032C-A	5h4p-b-bundle2@b@1346	1	58	2	59	dN_dS_max_gap_ratio_0.3	0.4934
+YCR003W	3j6b-W-bundle2@W@1347	1	112	72	183	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNR022C	3j6b-G-bundle2@G@1348	1	55	10	64	dN_dS_max_gap_ratio_0.3	NA
+YNL162W	5t62-Q-bundle2@Q@1349	1	105	2	106	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR387C	5h4p-z-bundle2@z@1350	1	56	377	432	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YML009C	3j6b-X-bundle2@X@1351	1	64	6	69	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL131W	5h4p-D-bundle1@D@1352	1	296	2	297	dN_dS_max_gap_ratio_0.3	0.9815
+YKL138C	3j6b-c-bundle2@c@1353	1	118	14	131	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR102C	5h4p-J-bundle1@J@1354	1	169	6	174	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBL038W	3j6b-K-bundle2@K@1355	1	195	38	232	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR101C	5apo-x-bundle2@x@1356	1	579	2	580	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR029C	5h4p-N-bundle1@N@1357	1	203	2	204	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YCR046C	3j6b-M-bundle2@M@1358	1	151	16	166	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGL135W	5fl8-I-bundle1@I@1359	1	217	1	217	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL213W	5nrl-W-bundle2@W@1360	1	170	1	170	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YJL096W	3j6b-N-bundle2@N@1361	1	118	44	161	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL122C	3j6b-Z-bundle2@Z@1362	1	62	54	115	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL183W-A	3j6b-0-bundle2@0@1363	1	38	56	93	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL138W-A	5gm6-K-bundle1@K@1364	1	84	1	84	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL284C	3j6b-J-bundle2@J@1365	1	220	58	277	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIL075C	3jcp-N-bundle1@N@1366	1	784	4	787	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YFR010W	5mpc-8-bundle2@8@1367	1	395	105	499	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR286W	3j6b-U-bundle2@U@1368	1	82	2	83	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPR094W	5gm6-J-bundle1@J@1369	1	103	2	104	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNL301C	4v8t-Q-bundle1@Q@1370	1	185	2	186	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR076C	3j6b-b-bundle2@b@1371	1	155	3	157	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR462W	3j6b-2-bundle2@2@1372	1	113	34	146	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR364C	5gm6-n-bundle2@n@1373	1	23	51	73	dN_dS_max_gap_ratio_0.3	NA
+YIL148W	5t62-z-bundle2@z@1374	1	52	77	128	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YLR074C	3jct-I-bundle1@I@1375	1	131	1	131	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL146C	3jct-q-bundle1@q@1376	1	105	167	271	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL146C	3jct-q-bundle1@q@1377	111	183	383	455	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YGR253C	4g4s@E@17	1	249	1	249	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YOR362C	4g4s@G@541	1	246	1	246	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YPL065W	2caz@E@813	1	101	22	122	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YNR016C	1w96@C@874	1	536	14	549	dN_dS_max_gap_ratio_0.3	NA
+YNR016C	1uyv@A@875	1	151	1482	1632	dN_dS_max_gap_ratio_0.3	NA
+YNR016C	1uyv@C@876	468	570	2098	2200	dN_dS_max_gap_ratio_0.3	NA
+YIL113W	2j16@B@883	1	143	54	196	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YBR137W	4clc@C@905	1	173	1	173	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YHR028C	3kl4@B@949	1	20	31	50	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR214W	1usv@F@1191	1	145	9	153	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR419W	2xgq@A@1222	2	509	1	508	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR419W	2xgq@B@1223	3	511	1	509	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR419W	2xgp@A@1224	2	509	1	508	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YDR419W	2xgp@B@1225	3	511	1	509	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YMR314W	4g4s@F@1279	1	234	1	234	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
+YIR019C	4uyt@A@1307	1	177	30	206	dN_dS_max_gap_ratio_0.3	No interesting sites or related Ortholog groups!
