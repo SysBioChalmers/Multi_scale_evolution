@@ -1,0 +1,11 @@
+Saccharomycetaceae
+
+71 yeast species 39 WGD  32 Non-WGD
+
+Branch level analysis:
+
+<357> 39 levels  WGD
+
+<429> Non-WGD  11 levels  share the whole branch with <357>
+
+<467> Non-WGD  21 levels

@@ -1,0 +1,664 @@
+# The labeled CAFE tree:	(((((((((((((((((yHMPu5000041678&Debaryomyces&prosopidis<0>,(yHMPu5000041829&Debaryomyces&fabryi<2>,yHMPu5000041824&Debaryomyces&subglobosus<4>)<3>)<1>,Debaryomyces&hansenii<6>)<5>,yHMPu5000041693&Debaryomyces&nepalensis<8>)<7>,yHMPu5000041713&Debaryomyces&maramus<10>)<9>,Millerozyma&acaciae<12>)<11>,((yHMPu5000035296&Priceomyces&carsonii<14>,((yHMPu5000035297&Priceomyces&castillae<16>,Priceomyces&haplophilus<18>)<17>,yHMPu5000034606&Priceomyces&medius<20>)<19>)<15>,(((Scheffersomyces&lignosus<22>,Scheffersomyces&stipitis<24>)<23>,(((Spathaspora&passalidarum<26>,(Spathaspora&girioi<28>,Spathaspora&arborariae<30>)<29>)<27>,(Spathaspora&gorwiae<32>,Spathaspora&hagerdaliae<34>)<33>)<31>,(((Candida&sojae<36>,Candida&tropicalis<38>)<37>,(Candida&albicans<40>,Candida&dubliniensis<42>)<41>)<39>,(yHMPu5000034990&Candida&corydali<44>,(Lodderomyces&elongisporus<46>,(Candida&orthopsilosis<48>,Candida&parapsilosis<50>)<49>)<47>)<45>)<43>)<35>)<25>,(((yHMPu5000034654&Aciculoconidium&aculeatum<52>,(yHMPu5000034665&Kodamaea&laetipori<54>,(yHMPu5000034648&Candida&restingae<56>,yHMPu5000035677&Kodamaea&ohmeri<58>)<57>)<55>)<53>,(((yHMPu5000035022&Candida&emberorum<60>,yHMPu5000035018&Candida&canberraensis<62>)<61>,Candida&tanzawaensis<64>)<63>,yHMPu5000035011&Candida&pyralidae<66>)<65>)<59>,(Wickerhamia&fluorescens<68>,((yHMPu5000035031&Candida&kruisii<70>,yHMPu5000035033&Candida&cretensis<72>)<71>,yHMPu5000035032&Candida&gatunensis<74>)<73>)<69>)<67>)<51>)<21>)<13>,(((Candida&auris<76>,yHMPu5000035707&Candida&heveicola<78>)<77>,(yHMPu5000034986&Candida&oregonensis<80>,(((yHMPu5000034988&Candida&fructus<82>,Clavispora&lusitaniae<84>)<83>,(yHMPu5000035335&Candida&blattae<86>,Candida&intermedia<88>)<87>)<85>,((yHMPu5000041840&Candida&wancherniae<90>,(yHMPu5000041862&Candida&golubevii<92>,Metschnikowia&bicuspidata<94>)<93>)<91>,(yHMPu5000041743&Candida&hawaiiana<96>,(Metschnikowia&kipukae<98>,((Metschnikowia&hibisci<100>,(Metschnikowia&aberdeeniae<102>,Metschnikowia&shivogae<104>)<103>)<101>,((Metschnikowia&drakensbergensis<106>,Metschnikowia&proteae<108>)<107>,((((Metschnikowia&borealis<110>,Metschnikowia&ipomoeae<112>)<111>,((Metschnikowia&continentalis<114>,(Metschnikowia&cerradonensis<116>,Metschnikowia&santaceciliae<118>)<117>)<115>,(Metschnikowia&lockheadii<120>,(Metschnikowia&matae&maris<122>,Metschnikowia&matae<124>)<123>)<121>)<119>)<113>,(Metschnikowia&kamakouana<126>,(Metschnikowia&hawaiiensis<128>,(Metschnikowia&mauinuiana<130>,Metschnikowia&hamakuensis<132>)<131>)<129>)<127>)<125>,(Metschnikowia&arizonensis<134>,((Metschnikowia&bowlesiae<136>,Metschnikowia&dekortum<138>)<137>,Metschnikowia&similis<140>)<139>)<135>)<133>)<109>)<105>)<99>)<97>)<95>)<89>)<81>)<79>,((yHMPu5000034973&Danielozyma&ontarioensis<142>,(yHMPu5000035681&Candida&gotoi<144>,(yHMPu5000035679&Candida&rhagii<146>,yHMPu5000035318&Hyphopichia&heimii<148>)<147>)<145>)<143>,(Hyphopichia&burtonii<150>,Candida&homilentoma<152>)<151>)<149>)<141>)<75>,((((yHMPu5000035641&Yamadazyma&scolyti<154>,(Candida&tenuis<156>,(yHMPu5000035640&Yamadazyma&philogaea<158>,yHMPu5000035252&Yamadazyma&nakazawae<160>)<159>)<157>)<155>,(yHMPu5000041833&Candida&tammaniensis<162>,yHMPu5000041863&Candida&gorgasii<164>)<163>)<161>,yHMPu5000041855&Candida&ascalaphidarum<166>)<165>,(yHMPu5000034632&Candida&athensensis<168>,(Meyerozyma&guilliermondii<170>,(yHMPu5000035662&Meyerozyma&caribbica<172>,Candida&carpophila<174>)<173>)<171>)<169>)<167>)<153>,((yHMPu5000035667&Kurtzmaniella&cleridarum<176>,yHMPu5000035302&Candida&fragi<178>)<177>,yHMPu5000034643&Candida&schatavii<180>)<179>)<175>,(yHMPu5000034999&Cephaloascus&fragrans<182>,yHMPu5000034998&Cephaloascus&albidus<184>)<183>)<181>,Babjeviella&inositovora<186>)<185>,((Pachysolen&tannophilus<188>,((yHMPu5000034918&Nakazawaea&holstii<190>,Nakazawaea&peltata<192>)<191>,(yHMPu5000034884&Peterozyma&toletana<194>,yHMPu5000034883&Peterozyma&xylosa<196>)<195>)<193>)<189>,(((Komagataella&pastoris<198>,(yHMPu5000034939&Komagataella&pseudopastoris<200>,yHMPu5000026274&Komagataella&populi<202>)<201>)<199>,((yHMPu5000026142&Citeromyces&matritensis<204>,yHMPu5000034950&Citeromyces&hawaiiensis<206>)<205>,yHMPu5000034952&Citeromyces&siamensis<208>)<207>)<203>,(yHMPu5000034932&Kuraishia&ogatae<210>,((yHMPu5000034933&Kuraishia&molischiana<212>,Kuraishia&capsulata<214>)<213>,(Candida&boidinii&JCM9604<216>,((yHMPu5000034901&Ogataea&methylivora<218>,(yHMPu5000034890&Ogataea&ramenticola<220>,(yHMPu5000034903&Ogataea&naganishii<222>,Candida&succiphila<224>)<223>)<221>)<219>,((((yHMPu5000026197&Brettanomyces&custersianus<226>,(Dekkera&bruxellensis<228>,Brettanomyces&anomalus<230>)<229>)<227>,((yHMPu5000035674&Kregervanrija&delftensis<232>,yHMPu5000035675&Kregervanrija&fluxuum<234>)<233>,((yHMPu5000034631&Martiniozyma&abiesophila<236>,((yHMPu5000034614&Saturnispora&silvae<238>,yHMPu5000034611&Saturnispora&mendoncae<240>)<239>,((((yHMPu5000034610&Saturnispora&hagleri<242>,yHMPu5000034613&Saturnispora&serradocipensis<244>)<243>,yHMPu5000035659&Saturnispora&dispora<246>)<245>,yHMPu5000034615&Saturnispora&zaruensis<248>)<247>,yHMPu5000034612&Saturnispora&saitoi<250>)<249>)<241>)<237>,((yHMPu5000035301&Pichia&terricola<252>,Candida&sorboxylosa<254>)<253>,(Pichia&membranifaciens<256>,(((yHMPu5000034629&Pichia&exigua<258>,yHMPu5000034622&Pichia&occidentalis<260>)<259>,(yHMPu5000034625&Pichia&kudriavzevii<262>,yHMPu5000034623&Pichia&norvegensis<264>)<263>)<261>,(yHMPu5000034624&Pichia&nakasei<266>,yHMPu5000034627&Pichia&heedii<268>)<267>)<265>)<257>)<255>)<251>)<235>)<231>,(yHMPu5000035040&Ambrosiozyma&maleeae<270>,(((yHMPu5000026145&Ambrosiozyma&vanderkliftii<272>,yHMPu5000035041&Ambrosiozyma&pseudovanderkliftii<274>)<273>,Ambrosiozyma&kashinagacola<276>)<275>,(Ambrosiozyma&monospora<278>,(yHMPu5000034946&Ambrosiozyma&oregonensis<280>,(yHMPu5000026137&Ambrosiozyma&ambrosiae<282>,yHMPu5000034947&Ambrosiozyma&philentoma<284>)<283>)<281>)<279>)<277>)<271>)<269>,(((Candida&arabinofermentans<286>,(Ogataea&methanolica<288>,yHMPu5000034886&Ogataea&trehalophila<290>)<289>)<287>,(yHMPu5000034892&Ogataea&pilisensis<292>,yHMPu5000034636&Ogataea&nitratoaversa<294>)<293>)<291>,((yHMPu5000034637&Ogataea&populiabae<296>,yHMPu5000034887&Ogataea&trehaloabstinens<298>)<297>,((yHMPu5000034885&Ogataea&zsoltii<300>,(yHMPu5000034897&Ogataea&glucozyma<302>,(yHMPu5000034891&Ogataea&pini<304>,yHMPu5000026124&Ogataea&henricii<306>)<305>)<303>)<301>,((yHMPu5000034904&Ogataea&nonfermentans<308>,yHMPu5000034902&Ogataea&minuta<310>)<309>,((yHMPu5000034893&Ogataea&philodendra<312>,(Ogataea&parapolymorpha<314>,Ogataea&polymorpha<316>)<315>)<313>,yHMPu5000034899&Ogataea&kodamae<318>)<317>)<311>)<307>)<299>)<295>)<285>)<225>)<217>)<215>)<211>)<209>)<197>)<187>,(((Saccharomycopsis&malanga<320>,yHMPu5000034607&Saccharomycopsis&capsularis<322>)<321>,(Ascoidea&rubescens<324>,Ascoidea&asiatica<326>)<325>)<323>,((((Hanseniaspora&vinae<328>,yHMPu5000034957&Hanseniaspora&osmophila<330>)<329>,(((yHMPu5000035695&Hanseniaspora&pseudoguilliermondii<332>,(yHMPu5000034963&Hanseniaspora&clermontiae<334>,Hanseniaspora&uvarum<336>)<335>)<333>,yHMPu5000035684&Kloeckera&hatyaiensis<338>)<337>,(Hanseniaspora&valbyensis<340>,yHMPu5000035696&Hanseniaspora&singularis<342>)<341>)<339>)<331>,(((((yHMPu5000035629&Yueomyces&sinensis<344>,Tetrapisispora&blattae<346>)<345>,(Vanderwaltozyma&polyspora<348>,(yHMPu5000034876&Tetrapisispora&iriomotensis<350>,(Tetrapisispora&phaffii<352>,(yHMPu5000034875&Tetrapisispora&fleetii<354>,yHMPu5000034877&Tetrapisispora&namnaonensis<356>)<355>)<353>)<351>)<349>)<347>,((((Nakaseomyces&castellii<358>,Nakaseomyces&bacillisporus<360>)<359>,(Candida&glabrata<362>,(Nakaseomyces&bracarensis<364>,(Nakaseomyces&delphensis<366>,Nakaseomyces&nivariensis<368>)<367>)<365>)<363>)<361>,((Saccharomyces&eubayanus<370>,Saccharomyces&uvarum<372>)<371>,(Saccharomyces&arboricola<374>,(Saccharomyces&kudriavzevii<376>,(Saccharomyces&mikatae<378>,(Saccharomyces&cerevisiae<380>,Saccharomyces&paradoxus<382>)<381>)<379>)<377>)<375>)<373>)<369>,(((((yHAB153&Kazachstania&rosinii<384>,yHAB155&Kazachstania&spencerorum<386>)<385>,(yHAB160&Kazachstania&kunashirensis<388>,yHAB134&Kazachstania&turicensis<390>)<389>)<387>,(yHAB158&Kazachstania&viticola<392>,Kazachstania&africana<394>)<393>)<391>,((yHAB132&Kazachstania&martiniae<396>,yHAB148&Kazachstania&intestinalis<398>)<397>,((yHAB136&Kazachstania&bromeliacearum<400>,Kazachstania&naganishii<402>)<401>,(yHAB147&Kazachstania&taianensis<404>,((yHAB166&Kazachstania&yakushimaensis<406>,yHAB154&Kazachstania&transvaalensis<408>)<407>,(((yHAB164&Kazachstania&aerobia<410>,yHAB159&Kazachstania&solicola<412>)<411>,yHAB133&Kazachstania&unispora<414>)<413>,yHAB143&Kazachstania&siamensis<416>)<415>)<409>)<405>)<403>)<399>)<395>,(Naumovozyma&castellii<418>,Naumovozyma&dairenensis<420>)<419>)<417>)<383>)<357>,((((Zygosaccharomyces&bailii<422>,yHMPu5000034866&Zygosaccharomyces&bisporus<424>)<423>,yHMPu5000034865&Zygosaccharomyces&kombuchaensis<426>)<425>,Zygosaccharomyces&rouxii<428>)<427>,((yHMPu5000026256&Zygotorulaspora&mrakii<430>,yHMPu5000034862&Zygotorulaspora&florentina<432>)<431>,((((yHMPu5000034881&Torulaspora&pretoriensis<434>,yHMPu5000026152&Torulaspora&franciscae<436>)<435>,Torulaspora&delbrueckii<438>)<437>,yHMPu5000035652&Torulaspora&maleeae<440>)<439>,yHMPu5000035651&Torulaspora&microellipsoides<442>)<441>)<433>)<429>)<421>,((Lachancea&kluyveri<444>,((Lachancea&cidri<446>,Lachancea&fermentati<448>)<447>,(Lachancea&mirantina<450>,((Lachancea&waltii<452>,(Lachancea&thermotolerans<454>,Lachancea&quebecensis<456>)<455>)<453>,((Lachancea&dasiensis<458>,((Lachancea&lanzarotensis<460>,Lachancea&fantastica<462>)<461>,Lachancea&meyersii<464>)<463>)<459>,Lachancea&nothofagi<466>)<465>)<457>)<451>)<449>)<445>,((yHMPu5000034709&Kluyveromyces&aestuarii<468>,(Kluyveromyces&marxianus<470>,(yHMPu5000034710&Kluyveromyces&dobzhanskii<472>,Kluyveromyces&lactis<474>)<473>)<471>)<469>,(((Ashbya&aceri<476>,Eremothecium&gossypii<478>)<477>,Eremothecium&cymbalariae<480>)<479>,(Eremothecium&sinecaudum<482>,Eremothecium&coryli<484>)<483>)<481>)<475>)<467>)<443>)<343>,(yHMPu5000035261&Candida&ponderosae<486>,((yHMPu5000034594&Starmera&quercuum<488>,(yHMPu5000034597&Candida&stellimalicola<490>,yHMPu5000035658&Starmera&amethionina<492>)<491>)<489>,((Wickerhamomyces&anomalus<494>,Wickerhamomyces&ciferrii<496>)<495>,(((yHMPu5000035271&Wickerhamomyces&bovis<498>,((yHMPu5000035045&Barnettozyma&hawaiiensis<500>,(yHMPu5000035046&Barnettozyma&populi<502>,yHMPu5000035044&Barnettozyma&californica<504>)<503>)<501>,((yHMPu5000035037&Candida&montana<506>,((yHMPu5000035671&Phaffomyces&antillensis<508>,yHMPu5000035670&Phaffomyces&opuntiae<510>)<509>,(yHMPu5000035673&Candida&orba<512>,yHMPu5000035672&Phaffomyces&thermotolerans<514>)<513>)<511>)<507>,(yHMPu5000035048&Barnettozyma&salicaria<516>,yHMPu5000035047&Barnettozyma&pratensis<518>)<517>)<515>)<505>)<499>,(yHMPu5000035274&Wickerhamomyces&alni<520>,(yHMPu5000035286&Candida&azyma<522>,yHMPu5000035639&Wickerhamomyces&canadensis<524>)<523>)<521>)<519>,(yHMPu5000035268&Wickerhamomyces&hampshirensis<526>,(yHMPu5000034967&Candida&freyschussii<528>,((((yHMPu5000035687&Cyberlindnera&suaveolens<530>,yHMPu5000035686&Cyberlindnera&saturnus<532>)<531>,yHMPu5000034978&Cyberlindnera&mrakii<534>)<533>,((yHMPu5000034979&Cyberlindnera&misumaiensis<536>,yHMPu5000035699&Cyberlindnera&maclurae<538>)<537>,(yHMPu5000035690&Candida&vartiovaarae<540>,Cyberlindnera&jadinii<542>)<541>)<539>)<535>,(yHMPu5000035688&Cyberlindnera&xylosilytica<544>,(Cyberlindnera&fabianii&JCM3601<546>,(yHMPu5000035325&Cyberlindnera&petersonii<548>,(yHMPu5000035689&Candida&mycetangii<550>,yHMPu5000035703&Cyberlindnera&americana<552>)<551>)<549>)<547>)<545>)<543>)<529>)<527>)<525>)<497>)<493>)<487>)<485>)<327>)<319>,((Sporopachydermia&quercuum<554>,yHMPu5000034604&Sporopachydermia&lactativora<556>)<555>,Alloascoidea&hylecoeti<558>)<557>)<553>,(((yHMPu5000034635&Nadsonia&fulvescens<560>,Nadsonia&fulvescens&var&elongata<562>)<561>,(yHMPu5000035633&Candida&hispaniensis<564>,(yHMPu5000035643&Yarrowia&bubula<566>,(Yarrowia&keelungensis<568>,(Yarrowia&lipolytica<570>,(Yarrowia&deformans<572>,yHMPu5000035645&Yarrowia&divulgata<574>)<573>)<571>)<569>)<567>)<565>)<563>,((yHMPu5000035665&Middelhovenomyces&tepae<576>,(((yHMPu5000034661&Dipodascus&albidus<578>,yHMPu5000041822&Dipodascus&geniculatus<580>)<579>,Geotrichum&candidum<582>)<581>,(yHMPu5000041818&Magnusiomyces&tetrasperma<584>,Saprochaete&clavata<586>)<585>)<583>)<577>,(((yHMPu5000035244&Candida&incommunis<588>,yHMPu5000034974&Deakozyma&indianensis<590>)<589>,((Candida&versatilis<592>,((Starmerella&bombicola&JCM9596<594>,Candida&apicola<596>)<595>,Wickerhamiella&domercqiae<598>)<597>)<593>,(yHMPu5000034646&Wickerhamiella&cacticola<600>,Candida&infanticola<602>)<601>)<599>)<591>,((yHMPu5000034674&Blastobotrys&muscicola<604>,((yHMPu5000034667&Blastobotrys&serpentis<606>,((yHMPu5000034681&Blastobotrys&americana<608>,yHMPu5000034671&Blastobotrys&peoriensis<610>)<609>,(Arxula&adeninivorans<612>,yHMPu5000034669&Blastobotrys&raffinofermentans<614>)<613>)<611>)<607>,(yHMPu5000034675&Blastobotrys&mokoenaii<616>,(yHMPu5000034673&Blastobotrys&nivea<618>,yHMPu5000034670&Blastobotrys&proliferans<620>)<619>)<617>)<615>)<605>,((yHMPu5000035691&Candida&salmanticensis<622>,(yHMPu5000035242&Zygoascus&ofunaensis<624>,yHMPu5000035243&Zygoascus&meyerae<626>)<625>)<623>,(Sugiyamaella&lignohabitans<628>,(yHMPu5000034605&Spencermartinsiella&europaea<630>,yHMPu5000034660&Diddensiella&caesifluorescens<632>)<631>)<629>)<627>)<621>)<603>)<587>)<575>)<559>,((yHMPu5000035650&Trigonopsis&variabilis<634>,yHMPu5000035282&Trigonopsis&vinaria<636>)<635>,((yHMPu5000035279&Tortispora&starmeri<638>,(yHMPu5000035654&Tortispora&ganteri<640>,Tortispora&caseinolytica<642>)<641>)<639>,yHMPu5000034655&Botryozyma&nematodophila<644>)<643>)<637>)<633>,(((yHMPu5000034761&Lipomyces&lipofer<646>,yHMPu5000034758&Lipomyces&japonicus<648>)<647>,(yHMPu5000034757&Lipomyces&doorenjongii<650>,(yHMPu5000034760&Lipomyces&kononenkoae<652>,(Lipomyces&starkeyi<654>,(yHMPu5000034754&Lipomyces&arxii<656>,yHMPu5000034749&Lipomyces&mesembrius<658>)<657>)<655>)<653>)<651>)<649>,(yHMPu5000034748&Lipomyces&oligophaga<660>,yHMPu5000034742&Lipomyces&suomiensis<662>)<661>)<659>)<645>
+Overall :	OG4707,OG3994,OG4231,OG2970,OG3790,OG2099,OG1013,OG1022,OG1281,OG1044,OG1411,OG4079,OG1008,OG1105,OG1151,OG60187,OG56415,OG53863,OG1037,OG3548,OG23930,OG1023,OG3061,OG28446
+Geotrichum&candidum<582>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG3790[+1],OG1013[+2],OG1151[-1],OG3061[-1]
+Metschnikowia&matae<124>:	OG4707[+1*],OG3994[+1*],OG1281[+1*],OG1008[+2*],OG1105[+3*],OG1151[+2*],OG60187[+1*],OG1037[+2*],OG1023[+2*],OG3061[+2*],OG28446[+1*]
+<641>:	OG4079[-1]
+yHMPu5000034904&Ogataea&nonfermentans<308>:	OG2970[+1*],OG3790[+1],OG1013[+1],OG1008[+1],OG1105[+4*],OG1151[+1*],OG1037[+1],OG1023[+2*]
+<249>:	
+yHMPu5000035670&Phaffomyces&opuntiae<510>:	OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+1*]
+Metschnikowia&aberdeeniae<102>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+1*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*]
+<397>:	
+Saccharomyces&mikatae<378>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+<609>:	OG1105[+1]
+<387>:	OG1044[+1],OG23930[-1]
+<133>:	OG1044[+1*]
+<561>:	OG3790[+1],OG1008[+1],OG1037[+1],OG1023[+2],OG1105[-1],OG1151[-1],OG23930[-1],OG3061[-1]
+yHMPu5000034665&Kodamaea&laetipori<54>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+4*],OG1151[+1*],OG4231[-1],OG1013[-1],OG4079[-1]
+<123>:	
+yHMPu5000034611&Saturnispora&mendoncae<240>:	OG2970[+1*]
+yHMPu5000035686&Cyberlindnera&saturnus<532>:	OG3994[+1*],OG2970[+2*],OG1105[+2*],OG1037[+1*],OG1023[+2*]
+yHMPu5000035048&Barnettozyma&salicaria<516>:	OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+1*],OG4231[-1],OG1013[-1],OG1023[-1],OG3061[-1]
+yHMPu5000035045&Barnettozyma&hawaiiensis<500>:	OG2970[+1*],OG1105[+3*],OG1151[+1*]
+yHMPu5000034990&Candida&corydali<44>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1044[+1],OG1411[+1],OG1105[+3*],OG1151[+1*],OG3790[-1],OG3548[-1]
+<299>:	
+<577>:	OG23930[-1]
+yHMPu5000034709&Kluyveromyces&aestuarii<468>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+4*],OG4079[-1]
+Eremothecium&cymbalariae<480>:	OG2970[+1*],OG4079[-1]
+<3>:	
+<41>:	
+yHMPu5000034884&Peterozyma&toletana<194>:	OG3994[+1*],OG2970[+1*],OG1105[+5*],OG1151[+3*]
+yHMPu5000035707&Candida&heveicola<78>:	OG2970[+1*],OG1105[+3*],OG1151[+1*]
+yHMPu5000035279&Tortispora&starmeri<638>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+2],OG1411[-1]
+yHMPu5000035673&Candida&orba<512>:	OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+1*],OG1411[-1]
+<239>:	OG1013[+1]
+Spathaspora&gorwiae<32>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+2*],OG1023[+2*],OG1008[-1]
+yHMPu5000034624&Pichia&nakasei<266>:	OG2970[+1*],OG1151[+1*],OG1281[-1],OG1044[-1]
+Metschnikowia&mauinuiana<130>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG1411[-1*]
+yHMPu5000034675&Blastobotrys&mokoenaii<616>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+1]
+yHMPu5000041829&Debaryomyces&fabryi<2>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+4*],OG1151[+2*]
+<201>:	OG3548[-1]
+yHMPu5000035274&Wickerhamomyces&alni<520>:	OG2970[+1*],OG1105[+3*],OG1151[+3*]
+<431>:	OG3061[-1]
+Lachancea&meyersii<464>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[-1]
+Metschnikowia&kamakouana<126>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1008[+2*],OG1105[+2*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG3790[-1*]
+Brettanomyces&anomalus<230>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+2],OG1105[+2*],OG1151[+1*]
+<449>:	
+Candida&tenuis<156>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+1*],OG3790[-1],OG1013[-1],OG1044[-1],OG1008[-1]
+<301>:	
+<347>:	OG23930[-1],OG1023[-1]
+Ascoidea&asiatica<326>:	OG2970[+1*],OG2099[+1],OG1013[+2],OG1044[+1],OG1105[+4*],OG1151[+1*],OG1023[+5*],OG3061[+1],OG1281[-1],OG1037[-1]
+<479>:	
+<481>:	OG4231[-1],OG1013[-1],OG1044[-1],OG1411[-1]
+yHMPu5000035652&Torulaspora&maleeae<440>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG3548[-1]
+yHMPu5000035699&Cyberlindnera&maclurae<538>:	OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1022[-1]
+Candida&apicola<596>:	OG3994[+1*],OG2970[+1*],OG3061[+1],OG4231[-1]
+yHMPu5000034614&Saturnispora&silvae<238>:	OG2970[+1*],OG1151[+1*],OG1022[-1],OG1411[-1]
+yHMPu5000034918&Nakazawaea&holstii<190>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+4*],OG1151[+2*],OG1022[-1],OG3548[-1]
+<85>:	OG1008[+1*],OG1037[+1*],OG3061[+1*],OG23930[-2*]
+yHMPu5000035690&Candida&vartiovaarae<540>:	OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+1*]
+Metschnikowia&proteae<108>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+1*],OG1105[+2*],OG1151[+1*],OG1037[+2*],OG1023[+2*],OG3061[+2*],OG3790[-1*]
+yHMPu5000034899&Ogataea&kodamae<318>:	OG2970[+1*],OG1151[+4*],OG1022[-1],OG1281[-1],OG3548[-1]
+Lachancea&lanzarotensis<460>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1023[+1],OG3548[-1]
+<73>:	OG3548[-1]
+<531>:	
+yHMPu5000035037&Candida&montana<506>:	OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+1*]
+<151>:	
+Naumovozyma&dairenensis<420>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+Nakaseomyces&nivariensis<368>:	OG2970[+1*],OG1013[+1]
+<213>:	OG3061[+1],OG4231[-1]
+yHMPu5000041855&Candida&ascalaphidarum<166>:	OG3994[+1*],OG2970[+1*],OG1008[+1],OG1105[+1*],OG3790[-1],OG1013[-1],OG1044[-1],OG3548[-1]
+yHMPu5000035651&Torulaspora&microellipsoides<442>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1022[+1],OG1013[-1]
+Metschnikowia&hawaiiensis<128>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+2*],OG1037[+3*],OG3548[+1*],OG1023[+2*],OG3061[+1*],OG4079[-1*]
+yHMPu5000034901&Ogataea&methylivora<218>:	OG3994[+1*],OG2970[+1*],OG1013[+1],OG1008[+1],OG1105[+3*],OG1151[+1*],OG3061[+1]
+yHMPu5000034643&Candida&schatavii<180>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1008[+2],OG1151[+1*],OG3061[+1],OG1044[-1]
+yHMPu5000035643&Yarrowia&bubula<566>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1151[+1]
+<651>:	
+<269>:	OG3061[-1]
+Ashbya&aceri<476>:	OG2970[+1*],OG4079[-1]
+yHMPu5000034866&Zygosaccharomyces&bisporus<424>:	OG3994[+1*],OG2970[+1*]
+<403>:	
+<21>:	
+<629>:	
+yHMPu5000034890&Ogataea&ramenticola<220>:	OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+1*],OG3061[+1],OG4231[-1]
+<35>:	OG3061[-1]
+<413>:	
+<393>:	OG1013[+3],OG3548[+1*]
+<259>:	
+yHMPu5000035659&Saturnispora&dispora<246>:	OG2970[+1*]
+<383>:	OG1008[+1]
+yHMPu5000034865&Zygosaccharomyces&kombuchaensis<426>:	OG3994[+1*],OG2970[+1*]
+<619>:	OG1013[+1],OG1151[+1]
+Ogataea&methanolica<288>:	OG2970[+1*],OG1013[+1],OG1022[+1],OG1105[+6*],OG1151[+1*],OG1023[+2*]
+<459>:	
+Saccharomyces&uvarum<372>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+<545>:	OG1023[+1]
+<503>:	
+Millerozyma&acaciae<12>:	OG4707[+1*],OG3994[+1*],OG1105[+1*],OG1151[+1*],OG1008[-1],OG3548[-1],OG1023[-1]
+yHMPu5000034886&Ogataea&trehalophila<290>:	OG2970[+1*],OG1105[+2*],OG1151[+2*]
+yHMPu5000034654&Aciculoconidium&aculeatum<52>:	OG4707[+1*],OG2970[+1*],OG1044[+2],OG1105[+1*],OG1151[+2*],OG4231[-1],OG1037[-1],OG1023[-1]
+yHMPu5000034757&Lipomyces&doorenjongii<650>:	OG1151[+1],OG53863[-1],OG1023[-1]
+yHMPu5000034594&Starmera&quercuum<488>:	OG3994[+1*],OG2970[+1*],OG4079[+1],OG1105[+1*],OG1151[+1*],OG1008[-1]
+<45>:	
+yHMPu5000034661&Dipodascus&albidus<578>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG3790[-1]
+Ascoidea&rubescens<324>:	OG2970[+1*],OG1151[+2*],OG1023[-2]
+yHMPu5000034681&Blastobotrys&americana<608>:	OG3994[+1*],OG2970[+1*],OG3061[-1]
+<51>:	OG1044[+1]
+yHMPu5000034862&Zygotorulaspora&florentina<432>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+3],OG4079[-1],OG3548[-1]
+<211>:	
+<595>:	OG3061[+1]
+<27>:	OG1023[+1]
+<445>:	OG1013[+1]
+<223>:	
+yHMPu5000035687&Cyberlindnera&suaveolens<530>:	OG3994[+1*],OG2970[+1*],OG1105[+2*]
+Nakaseomyces&castellii<358>:	OG2970[+1*],OG1044[+5*],OG1013[-1]
+<105>:	
+Metschnikowia&lockheadii<120>:	OG4707[+1*],OG3994[+1*],OG1008[+2*],OG1105[+3*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG3790[-1*]
+<233>:	OG1023[+1]
+yHMPu5000035633&Candida&hispaniensis<564>:	OG3994[+1*],OG2970[+1*],OG1013[-1],OG4079[-1],OG1105[-1],OG1151[-1]
+Lachancea&cidri<446>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+<381>:	OG1013[+5]
+yHMPu5000034670&Blastobotrys&proliferans<620>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+1],OG1151[+2],OG3061[+1]
+yHMPu5000034932&Kuraishia&ogatae<210>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1151[+1*],OG1023[+2],OG3061[+1]
+yHMPu5000034939&Komagataella&pseudopastoris<200>:	OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+1*],OG4079[-1*]
+<139>:	OG1044[+1*],OG4079[-1]
+yHMPu5000034967&Candida&freyschussii<528>:	OG3994[+1*],OG2970[+1*],OG1013[+1],OG1105[+2*],OG1151[+2*],OG3061[+1],OG1022[-1],OG1023[-1]
+Saccharomyces&paradoxus<382>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1037[-1],OG3548[-1]
+<485>:	OG1044[-1]
+Debaryomyces&hansenii<6>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+2*],OG1023[+1]
+Metschnikowia&arizonensis<134>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+1*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG4231[-1],OG3790[-1],OG23930[-1]
+<277>:	
+<491>:	
+<585>:	OG1022[-1],OG4079[-1]
+<243>:	
+<141>:	OG53863[-1]
+Babjeviella&inositovora<186>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1008[+2],OG1105[+4*],OG1151[+2*],OG1037[+1],OG1023[+2],OG3061[+1],OG4231[-1],OG53863[-1],OG23930[-2]
+yHMPu5000035031&Candida&kruisii<70>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1281[+1*],OG1044[+1],OG1105[+1*],OG1151[+1*],OG3061[+1]
+yHMPu5000026152&Torulaspora&franciscae<436>:	OG3994[+5*],OG4231[+1*],OG2970[+1*],OG1013[+1]
+<467>:	OG23930[-1],OG3061[-1]
+<81>:	
+yHMPu5000035674&Kregervanrija&delftensis<232>:	OG2970[+1*],OG1105[+2*],OG1151[+1*]
+yHMPu5000035675&Kregervanrija&fluxuum<234>:	OG2970[+1*],OG1105[+2*],OG1151[+1*],OG4231[-1]
+<95>:	OG1037[-1],OG3548[-1],OG23930[-1],OG1023[-1],OG3061[-1]
+<477>:	
+<17>:	
+<535>:	
+Candida&auris<76>:	OG2970[+1*],OG1105[+2*],OG1151[+2*]
+<521>:	OG1044[+1],OG3061[+1],OG4231[-1]
+Candida&parapsilosis<50>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1044[+2*],OG1151[+2*],OG3548[-1]
+Saccharomyces&eubayanus<370>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[-2]
+yHAB136&Kazachstania&bromeliacearum<400>:	OG4707[+1*],OG3994[+2*],OG2970[+1*],OG1013[+1],OG3790[-1]
+yHMPu5000034632&Candida&athensensis<168>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+1*],OG1022[-1],OG4079[-1]
+<327>:	OG1022[+1*],OG1008[+1*],OG1037[+1*],OG1023[+1*],OG4231[-1],OG53863[-1],OG28446[-1]
+<227>:	OG1013[+1],OG1023[-1]
+<429>:	OG1013[-1],OG23930[-1]
+yHMPu5000034946&Ambrosiozyma&oregonensis<280>:	OG2970[+1*],OG1022[+1],OG1105[+6*],OG1151[+1*],OG1013[-1]
+<435>:	OG4231[+1],OG1022[+1]
+<625>:	OG1023[-1]
+Yarrowia&keelungensis<568>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1023[-1]
+yHMPu5000034893&Ogataea&philodendra<312>:	OG2970[+1*],OG1105[+2*],OG1151[+1*],OG3548[-1]
+<639>:	OG1022[+1],OG1044[+1],OG1008[+1],OG1037[+1],OG1023[-1]
+<407>:	OG1013[+1],OG3790[-1],OG1037[-1]
+<25>:	
+<31>:	OG1023[+1],OG1013[-1]
+<417>:	OG3790[+1*],OG1013[+1],OG1044[+1]
+<427>:	OG1013[-1],OG1411[-1],OG1023[-1],OG3061[-1]
+<357>:	OG4231[+1*],OG1013[+1],OG1281[+1*],OG1044[+1*],OG3061[-1]
+<113>:	
+yHMPu5000034606&Priceomyces&medius<20>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+3*],OG1044[-1]
+yHMPu5000026124&Ogataea&henricii<306>:	OG2970[+1*],OG1105[+3*],OG1151[+3*]
+<289>:	OG1023[+2*]
+Candida&carpophila<174>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+1*],OG3061[+1*],OG4079[-1*],OG3548[-1*],OG1023[-1]
+<363>:	
+Candida&tanzawaensis<64>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+1],OG1105[+2*],OG1151[+1*],OG3790[-1]
+yHAB133&Kazachstania&unispora<414>:	OG4707[+2*],OG3994[+1*],OG2970[+1*],OG1013[+3]
+<567>:	OG1411[+2],OG1008[+1],OG1151[+3],OG1023[+1]
+<355>:	OG4231[-1]
+<341>:	
+<187>:	OG1022[+1],OG28446[-1]
+<49>:	
+Eremothecium&gossypii<478>:	OG2970[+1*]
+<55>:	
+Metschnikowia&continentalis<114>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1008[+2*],OG1105[+3*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG3790[-1*],OG4079[-1*]
+<65>:	
+<209>:	
+<79>:	
+<215>:	
+<265>:	
+yHMPu5000034957&Hanseniaspora&osmophila<330>:	OG2970[+1*],OG1008[+1],OG1105[+3*]
+<331>:	OG4231[-1],OG2099[-1],OG1411[-1],OG23930[-1],OG1023[-1],OG3061[-1]
+<163>:	OG1044[+1],OG1023[+1]
+<649>:	OG1023[+1]
+yHMPu5000034635&Nadsonia&fulvescens<560>:	OG4707[+1*],OG3994[+2*],OG2970[+1*],OG28446[+1*]
+<279>:	OG1022[+1]
+<325>:	OG1023[+1],OG3061[+1]
+<655>:	OG4231[+1],OG1105[+1],OG3061[+1]
+<77>:	OG1044[+1],OG1008[+2*],OG1037[+1],OG1023[+1],OG4231[-2*],OG3790[-1],OG4079[-1],OG23930[-2*]
+<191>:	
+<455>:	
+<237>:	OG1023[+1]
+<207>:	OG1013[+3],OG1281[+1],OG1008[+1],OG1037[+1],OG3548[+1],OG1023[+1],OG4231[-1]
+<185>:	OG23930[+1]
+<353>:	
+Meyerozyma&guilliermondii<170>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+3*],OG1044[-1],OG4079[-1]
+<647>:	OG53863[-1]
+yHAB148&Kazachstania&intestinalis<398>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG3790[-1],OG1013[-3],OG3548[-1]
+<495>:	OG1013[+1],OG1022[-1]
+<589>:	OG1151[+1],OG1023[+2]
+Candida&dubliniensis<42>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+2*],OG1013[-1],OG1044[-1]
+<507>:	OG1022[+1],OG4231[-1],OG1013[-1]
+<247>:	OG1023[+1]
+<145>:	OG1022[+1],OG3061[-1]
+<135>:	OG1008[+2*]
+Dekkera&bruxellensis<228>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG3790[+1*],OG1105[+2*],OG1151[+1*],OG1281[-1]
+<257>:	
+Metschnikowia&bicuspidata<94>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+2*],OG1037[+2*],OG1023[+2*],OG3061[+1*],OG4079[-1]
+<539>:	OG1023[-1]
+Komagataella&pastoris<198>:	OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+1*],OG1022[-1],OG4079[-1]
+<343>:	OG1013[+2]
+yHMPu5000035696&Hanseniaspora&singularis<342>:	OG2970[+1*],OG1105[+1*],OG1151[+1*]
+<525>:	
+Wickerhamomyces&ciferrii<496>:	OG4707[+2*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1044[+1],OG1105[+1*],OG1151[+4*]
+yHMPu5000035679&Candida&rhagii<146>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+2*]
+<13>:	OG1008[+2*],OG1037[+1*],OG1023[+1*],OG3061[+1*],OG4231[-1],OG53863[-1],OG23930[-2*]
+yHAB159&Kazachstania&solicola<412>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1008[+1*],OG1037[+2*]
+<515>:	
+yHMPu5000034877&Tetrapisispora&namnaonensis<356>:	OG4707[+1*],OG3994[+2*],OG2970[+1*]
+Spathaspora&passalidarum<26>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+3*],OG1105[+4*],OG1151[+2*],OG4079[-1]
+<183>:	OG1013[+1],OG1044[+1],OG1008[+2],OG1037[+1],OG53863[-1],OG23930[-2]
+Saprochaete&clavata<586>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1151[+1],OG1008[-1]
+yHMPu5000035335&Candida&blattae<86>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+1],OG1105[+5*],OG1151[+1*],OG1023[+1],OG4231[-1],OG4079[-1]
+Candida&succiphila<224>:	OG4707[+1*],OG3994[+1*],OG1105[+1*],OG1151[+3*],OG1023[+1]
+<509>:	
+yHMPu5000041818&Magnusiomyces&tetrasperma<584>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG2099[+1],OG1013[+4],OG1044[+1],OG1008[+2],OG1037[+2]
+Ambrosiozyma&monospora<278>:	OG2970[+1*],OG2099[+1],OG1044[+2*],OG1105[+5*],OG1151[+1*],OG1023[+1]
+yHMPu5000035645&Yarrowia&divulgata<574>:	OG4707[+2*],OG3994[+1*],OG2970[+1*],OG1411[+1],OG1151[+1]
+<293>:	
+yHMPu5000041743&Candida&hawaiiana<96>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+2*],OG1008[+2*],OG1105[+2*],OG1151[+1*],OG1037[+2*],OG1023[+2*],OG3061[+2*],OG4231[-1],OG3790[-1],OG4079[-1],OG23930[-1]
+Metschnikowia&ipomoeae<112>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1008[+2*],OG1105[+2*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG3790[-1*]
+yHAB134&Kazachstania&turicensis<390>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+1]
+<441>:	
+Metschnikowia&hamakuensis<132>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG4079[-1*]
+<5>:	OG1013[+1]
+Saccharomycopsis&malanga<320>:	OG2970[+1*],OG1022[+1],OG1044[+2],OG1151[+3*],OG3061[+1]
+<635>:	OG1008[+1],OG1037[+1]
+yHMPu5000034897&Ogataea&glucozyma<302>:	OG2970[+1*],OG3790[+1],OG1013[+1],OG1105[+2*],OG1151[+4*]
+Priceomyces&haplophilus<18>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1151[+2*],OG1023[-1]
+yHMPu5000041862&Candida&golubevii<92>:	OG4707[+1*],OG3994[+1*],OG1044[+1],OG1105[+2*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*]
+<423>:	
+Sugiyamaella&lignohabitans<628>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1151[+1]
+<285>:	
+<117>:	
+<367>:	
+<107>:	OG1008[+2*],OG4231[-1],OG23930[-1]
+Clavispora&lusitaniae<84>:	OG4707[+1*],OG3994[+1*],OG1013[+1],OG1044[+1],OG1105[+2*],OG1151[+1*],OG3790[-1]
+<317>:	
+yHMPu5000034885&Ogataea&zsoltii<300>:	OG2970[+1*],OG1105[+5*],OG1151[+3*],OG1023[+1]
+yHMPu5000041822&Dipodascus&geniculatus<580>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+<307>:	OG3061[-1]
+<91>:	OG1008[+2*],OG4231[-1],OG3790[-1],OG23930[-1]
+<473>:	OG1013[-1]
+Starmerella&bombicola&JCM9596<594>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+<23>:	OG3790[-1]
+<375>:	
+yHMPu5000034607&Saccharomycopsis&capsularis<322>:	OG2970[+1*],OG2099[+1],OG1013[+3],OG1151[+2*]
+<369>:	OG23930[-1]
+Metschnikowia&hibisci<100>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG3790[-1*]
+Hanseniaspora&uvarum<336>:	OG2970[+1*],OG4079[+1*],OG1105[+2*]
+yHMPu5000034933&Kuraishia&molischiana<212>:	OG3994[+1*],OG2970[+1*],OG1105[+4*],OG1151[+5*]
+<59>:	
+<61>:	
+yHAB147&Kazachstania&taianensis<404>:	OG4707[+2*],OG3994[+2*],OG2970[+1*],OG1013[+1],OG1023[-1]
+<177>:	OG1008[+1],OG3548[-1]
+<261>:	
+<335>:	OG1013[+2]
+<167>:	OG1008[+1*],OG1037[+1*],OG1023[+1*],OG3061[+1*],OG4231[-1],OG53863[-1],OG23930[-2*]
+<157>:	OG4079[-1],OG3548[-1]
+Ogataea&polymorpha<316>:	OG2970[+1*],OG1105[+2*],OG1151[+2*],OG3548[-1*]
+<275>:	
+<321>:	OG1044[+2],OG1023[+1]
+<29>:	OG1044[-1]
+<621>:	OG3061[+1],OG23930[-1]
+yHAB154&Kazachstania&transvaalensis<408>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[-2],OG3548[-1],OG1023[-1]
+<203>:	
+<181>:	
+<179>:	OG1008[+1],OG1037[+1],OG1023[+1],OG3061[+1],OG4231[-1],OG53863[-1],OG23930[-2*]
+yHMPu5000035684&Kloeckera&hatyaiensis<338>:	OG2970[+1*],OG1105[+2*],OG1013[-1]
+<643>:	OG1013[-1]
+yHMPu5000041678&Debaryomyces&prosopidis<0>:	OG4707[+1*],OG3994[+1*],OG2970[+2*],OG1044[+1],OG1411[+2*],OG1105[+3*],OG1151[+3*],OG1022[-1],OG3548[-1]
+yHMPu5000034760&Lipomyces&kononenkoae<652>:	OG1013[+1],OG1044[+1],OG1023[+1],OG53863[-1]
+<149>:	OG1044[+1],OG1008[+2*],OG1037[+1],OG1023[+1],OG3061[+1],OG4231[-1],OG3790[-1],OG23930[-2*]
+<395>:	
+<253>:	
+yHMPu5000035297&Priceomyces&castillae<16>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+3*]
+<359>:	OG1023[-1]
+<131>:	
+<573>:	
+<613>:	OG1151[+2],OG3061[-1]
+Lachancea&fermentati<448>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1105[+1*]
+yHMPu5000034613&Saturnispora&serradocipensis<244>:	OG2970[+1*],OG1013[-1]
+<125>:	OG1044[+1*],OG4231[-1],OG23930[-1*]
+<563>:	
+yHMPu5000035301&Pichia&terricola<252>:	OG2970[+1*],OG1044[+1],OG1151[+1*]
+Saccharomyces&kudriavzevii<376>:	OG3994[+1*],OG2970[+1*],OG4231[-2*],OG1013[-1]
+yHMPu5000041693&Debaryomyces&nepalensis<8>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+2*],OG1023[+1],OG1044[-1],OG4079[-1],OG1008[-1]
+yHMPu5000035271&Wickerhamomyces&bovis<498>:	OG2970[+1*],OG1105[+1*],OG1151[+1*],OG4231[-1],OG1022[-1],OG1023[-1]
+Torulaspora&delbrueckii<438>:	OG4707[+1*],OG3994[+3*],OG2970[+1*],OG4079[-1],OG3548[-1]
+<297>:	
+yHMPu5000035640&Yamadazyma&philogaea<158>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+2*],OG1023[+1],OG3790[-1],OG1044[-1],OG3061[-1]
+yHMPu5000026197&Brettanomyces&custersianus<226>:	OG2970[+1*],OG1105[+1*],OG1151[+1*],OG4231[-1],OG1022[-1]
+yHMPu5000034637&Ogataea&populiabae<296>:	OG2970[+1*],OG1105[+5*],OG1151[+1*],OG3061[-1]
+<559>:	OG4231[+1]
+Candida&infanticola<602>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1411[+1],OG1105[-1],OG1151[-1]
+<451>:	
+<1>:	OG4079[-1]
+Candida&boidinii&JCM9604<216>:	OG2970[+1*],OG1151[+1*],OG4231[-1]
+Zygosaccharomyces&rouxii<428>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+yHMPu5000034761&Lipomyces&lipofer<646>:	OG4231[+1],OG3790[+1],OG4079[+1],OG1105[+1],OG1023[+2],OG3061[+1]
+<195>:	OG1013[+1],OG1022[+1],OG3061[+2],OG4231[-1],OG1044[-1],OG1023[-1]
+yHMPu5000034999&Cephaloascus&fragrans<182>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1151[+2*],OG4231[-1],OG1013[-1],OG3061[-1]
+yHMPu5000034604&Sporopachydermia&lactativora<556>:	OG3994[+1*],OG2970[+1*],OG1022[+1],OG1105[+1*],OG1151[+1*],OG4231[-1]
+yHMPu5000034988&Candida&fructus<82>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+1*],OG4231[-1],OG3548[-1]
+<103>:	
+yHMPu5000035667&Kurtzmaniella&cleridarum<176>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1151[+2*]
+<281>:	OG1013[-1]
+Saccharomyces&arboricola<374>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+2]
+<225>:	
+Wickerhamomyces&anomalus<494>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+3*],OG3061[+1]
+Candida&glabrata<362>:	OG2970[+1*],OG1013[+2]
+yHMPu5000035296&Priceomyces&carsonii<14>:	OG4707[+1*],OG3994[+1*],OG1022[+3*],OG1105[+3*],OG1151[+1*],OG1023[+1],OG1044[-1],OG1411[-1]
+<313>:	
+yHMPu5000034610&Saturnispora&hagleri<242>:	OG2970[+1*],OG1411[+1*],OG1151[+1*]
+<89>:	
+<303>:	
+<193>:	
+yHMPu5000035641&Yamadazyma&scolyti<154>:	OG4707[+1*],OG3994[+1*],OG1105[+4*],OG1151[+2*]
+Ambrosiozyma&kashinagacola<276>:	OG2970[+1*],OG1013[+2],OG1105[+1*],OG1151[+1*],OG1023[-1]
+yHMPu5000034623&Pichia&norvegensis<264>:	OG2970[+1*],OG1151[+1*],OG1023[+1],OG3548[-1]
+yHMPu5000034749&Lipomyces&mesembrius<658>:	OG1105[-2*],OG1023[-2*],OG3061[-1]
+<231>:	
+<71>:	
+Lachancea&mirantina<450>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[-2]
+<339>:	OG1013[+1]
+yHMPu5000034671&Blastobotrys&peoriensis<610>:	OG3994[+1*],OG2970[+1*],OG1105[+3*]
+Metschnikowia&shivogae<104>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1281[+1*],OG1105[+2*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG3790[-1*]
+Candida&arabinofermentans<286>:	OG2970[+1*],OG1013[+2],OG1105[+1*],OG1151[+2*]
+<271>:	OG1013[+2],OG1023[+1],OG4231[-1]
+<581>:	OG1411[+1]
+yHMPu5000034974&Deakozyma&indianensis<590>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG2099[+1],OG1023[+4*],OG23930[-1]
+<153>:	OG1013[+1]
+Kuraishia&capsulata<214>:	OG3994[+1*],OG2970[+1*],OG1022[+1],OG1105[+4*],OG1151[+5*],OG1013[-1],OG1044[-1]
+<631>:	OG1105[+1]
+<39>:	
+yHMPu5000034978&Cyberlindnera&mrakii<534>:	OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+1*]
+yHMPu5000034891&Ogataea&pini<304>:	OG2970[+1*],OG1022[+1],OG1105[+3*],OG1151[+3*],OG1023[+1]
+yHMPu5000035318&Hyphopichia&heimii<148>:	OG4707[+1*],OG3994[+1*],OG1105[+2*],OG1151[+2*]
+<593>:	
+<169>:	OG3790[-1],OG1044[-1]
+yHAB132&Kazachstania&martiniae<396>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+1],OG3548[+1],OG1013[-1],OG1023[-1]
+yHMPu5000041840&Candida&wancherniae<90>:	OG4707[+1*],OG3994[+1*],OG1044[+1],OG1411[+1],OG1105[+1*],OG1151[+1*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG1013[-1],OG4079[-1]
+yHMPu5000035695&Hanseniaspora&pseudoguilliermondii<332>:	OG2970[+1*],OG1105[+2*],OG1151[+1*]
+<401>:	
+Eremothecium&coryli<484>:	OG2970[+1*],OG4079[-1]
+yHMPu5000035011&Candida&pyralidae<66>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1151[+1*],OG3790[-1]
+yHMPu5000034673&Blastobotrys&nivea<618>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1044[+1],OG1008[+2],OG3061[-1]
+Pichia&membranifaciens<256>:	OG2970[+1*],OG1022[+1],OG1151[+1*]
+yHMPu5000034998&Cephaloascus&albidus<184>:	OG4707[+2*],OG3994[+1*],OG2970[+1*],OG1013[+4],OG1105[+1*],OG1151[+2*],OG1022[-1],OG3548[-1]
+yHAB166&Kazachstania&yakushimaensis<406>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+5],OG1022[+1],OG1281[+1]
+<391>:	
+yHMPu5000035261&Candida&ponderosae<486>:	OG4707[+1*],OG3994[+3*],OG2970[+1*],OG1044[+1],OG1105[+3*],OG1151[+1*],OG1022[-1],OG1008[-1]
+<121>:	
+<385>:	
+Kazachstania&africana<394>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+2],OG1044[+1],OG3790[-1],OG1022[-1],OG23930[-1]
+<119>:	
+<349>:	OG1013[-1]
+yHMPu5000034892&Ogataea&pilisensis<292>:	OG2970[+1*],OG1022[+1],OG1105[+10*],OG1151[+1*],OG1023[+1],OG3548[-1]
+yHMPu5000034660&Diddensiella&caesifluorescens<632>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1105[+1],OG1023[+3]
+Alloascoidea&hylecoeti<558>:	OG4707[+1*],OG3994[+2*],OG2970[+1*],OG2099[+1],OG1013[+4],OG1022[+3],OG1281[+1],OG1044[+4],OG4079[+1],OG1008[+4],OG1105[+3*],OG1037[+1],OG1023[+1],OG3061[+1],OG4231[-1],OG53863[-1],OG23930[-1],OG28446[-1]
+<371>:	OG1013[-1]
+Metschnikowia&similis<140>:	OG4707[+1*],OG3994[+2*],OG1022[+1*],OG1105[+3*],OG1151[+1*],OG56415[+1*],OG1037[+2*],OG1023[+2*],OG3061[+1*],OG3790[-1*],OG23930[-1*]
+Wickerhamiella&domercqiae<598>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG4231[-1],OG3790[-1],OG4079[-1]
+<501>:	OG4231[-1]
+Metschnikowia&kipukae<98>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+2*],OG1008[+2*],OG1105[+2*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG4231[-1],OG3790[-1],OG23930[-1]
+yHMPu5000034973&Danielozyma&ontarioensis<142>:	OG4707[+1*],OG3994[+1*],OG1105[+2*],OG1151[+1*],OG4079[-1]
+yHMPu5000026274&Komagataella&populi<202>:	OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+1*]
+<551>:	
+<579>:	OG1044[+1]
+<235>:	
+Tetrapisispora&blattae<346>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+4]
+Lodderomyces&elongisporus<46>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1151[+1*],OG1022[-1],OG1044[-2]
+<43>:	OG1044[+2*],OG1411[+1*]
+yHMPu5000026137&Ambrosiozyma&ambrosiae<282>:	OG2970[+1*],OG1105[+5*],OG1151[+1*],OG1023[+1],OG1022[-1]
+<199>:	OG4231[-1],OG1044[-1],OG1023[-1],OG3061[-1]
+Lachancea&fantastica<462>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+Yarrowia&lipolytica<570>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1151[-2*]
+yHMPu5000035047&Barnettozyma&pratensis<518>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+1*],OG1022[-1]
+Lachancea&dasiensis<458>:	OG4707[+1*],OG3994[+2*],OG4231[+1],OG2970[+1*],OG4079[-1],OG1023[-1]
+<549>:	
+yHMPu5000035703&Cyberlindnera&americana<552>:	OG3994[+1*],OG2970[+1*],OG1105[+4*],OG1151[+2*]
+yHMPu5000034605&Spencermartinsiella&europaea<630>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1022[+1],OG1044[+2],OG1105[+2],OG1151[+1],OG4079[-1],OG1023[-1]
+yHMPu5000034952&Citeromyces&siamensis<208>:	OG2970[+1*],OG2099[+1],OG1013[+1],OG1022[+1],OG1008[+3*],OG1151[+2*],OG3061[+1],OG4079[-1]
+Zygosaccharomyces&bailii<422>:	OG3994[+1*],OG2970[+1*],OG4079[-1]
+<433>:	
+<221>:	
+yHMPu5000034963&Hanseniaspora&clermontiae<334>:	OG2970[+1*],OG1105[+3*],OG1151[+1*]
+Kluyveromyces&marxianus<470>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1105[+1*]
+<661>:	OG1013[-1],OG53863[-1]
+yHMPu5000034950&Citeromyces&hawaiiensis<206>:	OG2970[+1*],OG4079[+1],OG1151[+1*],OG1037[-1],OG3548[-1]
+yHMPu5000035032&Candida&gatunensis<74>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+1*],OG4079[-1],OG1023[-1]
+Tortispora&caseinolytica<642>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+<99>:	
+yHMPu5000035022&Candida&emberorum<60>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+1*],OG1044[-1],OG3548[-1]
+<483>:	
+Candida&homilentoma<152>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+2*]
+<241>:	
+<493>:	
+<463>:	
+Wickerhamia&fluorescens<68>:	OG4707[+1*],OG3994[+1*],OG1151[+2*],OG1023[-1],OG3061[-1]
+<461>:	
+<87>:	OG1022[+1],OG1008[+1],OG3790[-1],OG3548[-1]
+<319>:	
+<519>:	
+yHMPu5000034881&Torulaspora&pretoriensis<434>:	OG4707[+1*],OG3994[+2*],OG2970[+2*],OG2099[+1*],OG1008[+1*],OG1105[+2*],OG1013[-1]
+<97>:	OG1044[-1]
+<475>:	OG1013[-1],OG1023[-1]
+<75>:	
+Lachancea&thermotolerans<454>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[-1],OG4079[-1]
+<533>:	
+Scheffersomyces&stipitis<24>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+2],OG1105[+6*],OG1151[+2*]
+Lipomyces&starkeyi<654>:	OG1022[+1],OG1105[+1],OG1151[+1],OG1023[+1],OG3061[+1],OG53863[-1]
+Spathaspora&hagerdaliae<34>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+2*],OG1022[-1]
+<19>:	OG1013[-1]
+<523>:	OG1022[-1],OG1023[-1]
+<329>:	
+yHMPu5000035689&Candida&mycetangii<550>:	OG3994[+1*],OG2970[+1*],OG1105[+4*],OG1151[+4*],OG1022[-1]
+yHMPu5000035629&Yueomyces&sinensis<344>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+3],OG1022[+1],OG1044[+1]
+yHMPu5000034674&Blastobotrys&muscicola<604>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+5*],OG1411[+1],OG1105[-1]
+yHMPu5000035252&Yamadazyma&nakazawae<160>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+2*],OG1105[+3*],OG1151[+2*]
+Metschnikowia&cerradonensis<116>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1008[+2*],OG1105[+3*],OG1151[+2*],OG53863[+1*],OG1037[+2*],OG1023[+2*],OG3061[+2*],OG3790[-1*],OG1411[-1*]
+yHMPu5000026142&Citeromyces&matritensis<204>:	OG2970[+1*],OG1151[+3*],OG1023[+1],OG1281[-1]
+yHMPu5000034883&Peterozyma&xylosa<196>:	OG3994[+1*],OG2970[+1*],OG1105[+5*],OG1151[+3*]
+yHMPu5000035650&Trigonopsis&variabilis<634>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1]
+yHAB153&Kazachstania&rosinii<384>:	OG3994[+2*],OG2970[+1*],OG3790[-1],OG1013[-2],OG1044[-1]
+<53>:	OG3790[-1],OG3061[-1]
+yHMPu5000035268&Wickerhamomyces&hampshirensis<526>:	OG2970[+1*],OG1044[+3*],OG1105[+3*],OG1151[+3*],OG1023[+1]
+<653>:	OG1105[+1],OG1023[+2],OG1411[-1]
+<405>:	
+Sporopachydermia&quercuum<554>:	OG4707[+1*],OG3994[+2*],OG2970[+1*],OG1013[+1],OG1105[+1*],OG1151[+1*]
+yHMPu5000035242&Zygoascus&ofunaensis<624>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1411[+1],OG1105[-1],OG1151[-1]
+Scheffersomyces&lignosus<22>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+2],OG1411[+1],OG1105[+4*],OG1151[+2*],OG1013[-1],OG3548[-1],OG1023[-1]
+<607>:	
+<37>:	OG3790[-1]
+<411>:	OG1013[-1]
+Metschnikowia&borealis<110>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1008[+2*],OG1105[+2*],OG1151[+2*],OG1037[+2*],OG3548[+1*],OG1023[+2*],OG3061[+2*],OG3790[-1*],OG4079[-1*]
+yHMPu5000041833&Candida&tammaniensis<162>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+1],OG1105[+5*],OG1151[+2*],OG1023[+2]
+<283>:	
+yHMPu5000035681&Candida&gotoi<144>:	OG4707[+1*],OG3994[+1*],OG1105[+3*],OG1151[+2*],OG3548[-1]
+<361>:	OG4231[-2*]
+yHMPu5000035302&Candida&fragi<178>:	OG4707[+1*],OG3994[+1*],OG1044[+1],OG1151[+2*],OG3790[-1]
+yHMPu5000034629&Pichia&exigua<258>:	OG2970[+1*],OG1151[+1*],OG3548[-1]
+<109>:	
+Candida&orthopsilosis<48>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1151[+1*],OG1022[-1],OG4079[-1]
+Metschnikowia&drakensbergensis<106>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+2*],OG1105[+2*],OG1151[+1*],OG1037[+2*],OG1023[+2*],OG3061[+2*],OG4079[-1*]
+<575>:	OG1022[+1],OG1008[+1],OG1037[+1],OG4231[-1],OG60187[-1],OG56415[-1],OG53863[-1]
+<601>:	
+yHMPu5000034648&Candida&restingae<56>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+1],OG1105[+3*],OG1151[+2*],OG4079[-1]
+Candida&sojae<36>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+2*],OG1022[-1],OG3548[-1]
+<615>:	OG1151[+1]
+<617>:	OG1151[+1]
+<345>:	OG1013[+7],OG1022[+1],OG1044[+1],OG1008[+1],OG3548[+1]
+<9>:	
+<47>:	OG1023[-1]
+Hyphopichia&burtonii<150>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+2],OG1105[+1*],OG1151[+2*],OG4079[-1]
+yHMPu5000035282&Trigonopsis&vinaria<636>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1022[+1],OG1023[+1]
+<57>:	
+yHMPu5000035286&Candida&azyma<522>:	OG2970[+1*],OG1105[+2*],OG1151[+3*]
+<67>:	
+Lachancea&kluyveri<444>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1105[+1*]
+<189>:	OG1013[+1]
+<171>:	OG1411[+1],OG1008[+1],OG1023[+1]
+Vanderwaltozyma&polyspora<348>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[-1],OG1022[-1]
+<333>:	OG1013[+1]
+<599>:	OG1013[-1],OG1022[-1],OG23930[-1],OG1023[-1]
+yHMPu5000034876&Tetrapisispora&iriomotensis<350>:	OG4707[+1*],OG3994[+2*],OG2970[+1*],OG1411[+1],OG3548[+1]
+yHMPu5000034669&Blastobotrys&raffinofermentans<614>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG3790[+1*],OG1008[+1],OG1151[+2*]
+<457>:	OG1023[+2*]
+<557>:	OG1022[+1],OG1008[+1]
+yHMPu5000035672&Phaffomyces&thermotolerans<514>:	OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+1*]
+Spathaspora&arborariae<30>:	OG4707[+1*],OG3994[+1*],OG1105[+4*],OG1151[+1*],OG3548[+1],OG1008[-1]
+yHAB143&Kazachstania&siamensis<416>:	OG4707[+2*],OG3994[+1*],OG2970[+1*],OG3790[-1],OG3548[-1]
+Pachysolen&tannophilus<188>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1022[+1],OG1105[+2*],OG1151[+2*],OG1044[-1],OG1023[-1],OG3061[-1]
+Candida&tropicalis<38>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1022[+1],OG1105[+1*],OG1151[+2*],OG1023[+2*]
+<547>:	
+yHMPu5000035044&Barnettozyma&californica<504>:	OG2970[+1*],OG1022[+1],OG1105[+5*]
+yHMPu5000035243&Zygoascus&meyerae<626>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+2],OG3061[+1]
+<487>:	OG1022[+1],OG1008[+1],OG23930[-1]
+<587>:	OG1008[+1],OG28446[-1]
+yHMPu5000034612&Saturnispora&saitoi<250>:	OG2970[+1*],OG1013[+1],OG1411[-1]
+<497>:	OG1023[+1]
+<553>:	OG1044[+1],OG1105[-1],OG1151[-1],OG60187[-1],OG56415[-1]
+yHMPu5000034887&Ogataea&trehaloabstinens<298>:	OG2970[+1*],OG1022[+3*],OG1105[+7*],OG1151[+3*]
+Lachancea&quebecensis<456>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG3548[-1]
+yHMPu5000034758&Lipomyces&japonicus<648>:	OG1023[+1],OG1013[-1],OG1151[-1]
+yHMPu5000035244&Candida&incommunis<588>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+1],OG1023[-1]
+<255>:	OG1013[+1]
+<143>:	
+yHAB160&Kazachstania&kunashirensis<388>:	OG4707[+1*],OG3994[+2*],OG2970[+1*],OG1044[+1]
+<505>:	
+<93>:	
+<471>:	
+<489>:	OG4231[-1]
+Nakazawaea&peltata<192>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+4*],OG1151[+2*],OG1411[-1]
+yHMPu5000034615&Saturnispora&zaruensis<248>:	OG2970[+1*],OG1151[+1*]
+<537>:	OG4079[-1]
+yHMPu5000034646&Wickerhamiella&cacticola<600>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1022[+1],OG1044[+1],OG1411[+1],OG1105[-1],OG1151[-1]
+yHMPu5000034902&Ogataea&minuta<310>:	OG2970[+1*],OG1022[+1],OG1105[+3*],OG1151[+1*]
+<15>:	OG3790[-1],OG4079[-1]
+yHMPu5000026145&Ambrosiozyma&vanderkliftii<272>:	OG2970[+1*],OG1151[+1*]
+Lachancea&nothofagi<466>:	OG4707[+1*],OG3994[+3*],OG4231[+2*],OG2970[+1*],OG1013[-1]
+<517>:	
+yHMPu5000034748&Lipomyces&oligophaga<660>:	OG1281[-1],OG1411[-1],OG1105[-1]
+yHMPu5000035665&Middelhovenomyces&tepae<576>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+1],OG1105[+1]
+yHMPu5000041863&Candida&gorgasii<164>:	OG4707[+1*],OG3994[+1*],OG1044[+1],OG1105[+4*],OG1151[+2*],OG3790[-1]
+yHMPu5000035018&Candida&canberraensis<62>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+1],OG1105[+2*],OG1151[+2*],OG3790[-1],OG4079[-1]
+Tetrapisispora&phaffii<352>:	OG4707[+1*],OG3994[+2*],OG2970[+1*]
+<267>:	OG1022[+1]
+<291>:	OG1013[+1],OG3061[-1]
+yHMPu5000034875&Tetrapisispora&fleetii<354>:	OG4707[+1*],OG3994[+2*],OG2970[+1*],OG1013[-1]
+Naumovozyma&castellii<418>:	OG4707[+2*],OG3994[+1*],OG2970[+1*],OG1013[+4]
+<437>:	
+<447>:	OG4231[+1],OG1013[+1]
+<173>:	
+<409>:	
+<637>:	OG1105[-1],OG60187[-1],OG56415[-1],OG53863[-1],OG23930[-1],OG3061[-1],OG28446[-1]
+Candida&intermedia<88>:	OG4707[+1*],OG3994[+2*],OG2970[+1*],OG1105[+6*],OG1151[+1*]
+<33>:	OG3548[+1],OG1023[+1],OG3790[-1],OG4079[-1]
+<415>:	
+<399>:	OG23930[-1]
+<129>:	OG1008[+2*]
+<425>:	OG1013[-1]
+yHMPu5000035639&Wickerhamomyces&canadensis<524>:	OG2970[+1*],OG1105[+2*],OG1151[+2*]
+Kluyveromyces&lactis<474>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+3*]
+<111>:	
+<439>:	OG3061[-1]
+yHMPu5000034754&Lipomyces&arxii<656>:	OG3061[+1],OG4231[-1],OG53863[-1]
+<529>:	
+<287>:	
+<597>:	OG1105[-1],OG1151[-1]
+<555>:	OG1022[+2],OG1008[+1],OG1037[+1],OG4231[-1],OG1044[-1],OG53863[-1],OG23930[-1],OG28446[-1]
+Ogataea&parapolymorpha<314>:	OG2970[+1*],OG1105[+3*],OG1151[+2*]
+Metschnikowia&matae&maris<122>:	OG4707[+1*],OG3994[+1*],OG2099[+1*],OG1281[+1*],OG1008[+2*],OG1105[+3*],OG1151[+2*],OG1037[+2*],OG1023[+2*],OG3061[+2*]
+<365>:	OG1013[-1]
+<315>:	
+yHMPu5000034655&Botryozyma&nematodophila<644>:	OG4707[+2*],OG3994[+1*],OG2970[+1*],OG2099[+1],OG1281[+1],OG1044[+2],OG1008[+1],OG1037[+1],OG1023[+1]
+yHMPu5000034947&Ambrosiozyma&philentoma<284>:	OG3994[+1*],OG2970[+1*],OG1022[+1],OG1105[+9*],OG1151[+1*]
+<309>:	OG3548[-1]
+<465>:	OG1023[+1],OG1013[-1]
+<83>:	OG1023[+1],OG4231[-1]
+<565>:	OG1411[+1],OG1151[+1],OG23930[-1],OG28446[-1]
+<611>:	OG1411[+1]
+<377>:	
+yHMPu5000035662&Meyerozyma&caribbica<172>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+1*],OG1022[-1]
+<511>:	
+yHMPu5000034979&Cyberlindnera&misumaiensis<536>:	OG3994[+1*],OG2970[+1*],OG1105[+2*]
+Metschnikowia&bowlesiae<136>:	OG4707[+2*],OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+1*],OG56415[+1*],OG1037[+2*],OG3548[+1*],OG1023[+3*],OG3061[+1*],OG4231[-1*]
+Candida&sorboxylosa<254>:	OG2970[+1*],OG1151[+1*],OG1013[-1],OG1281[-1]
+Arxula&adeninivorans<612>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG4079[-1]
+<217>:	OG1044[-1]
+<63>:	
+yHMPu5000035033&Candida&cretensis<72>:	OG4707[+1*],OG3994[+1*],OG1105[+1*],OG1151[+2*]
+<351>:	OG1411[+1],OG1013[-1]
+yHMPu5000041713&Debaryomyces&maramus<10>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+2*],OG4079[-1]
+yHMPu5000034710&Kluyveromyces&dobzhanskii<472>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+1*]
+yHMPu5000034903&Ogataea&naganishii<222>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1022[+2],OG1105[+2*],OG1151[+2*]
+<379>:	
+<657>:	
+yHMPu5000035654&Tortispora&ganteri<640>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+<337>:	
+<161>:	OG1008[+1]
+<627>:	
+yHMPu5000034597&Candida&stellimalicola<490>:	OG3994[+1*],OG2970[+1*],OG1105[+1*],OG1151[+1*],OG1022[-1]
+Nadsonia&fulvescens&var&elongata<562>:	OG4707[+1*],OG3994[+2*],OG2970[+1*],OG28446[-1]
+<159>:	OG1023[+1]
+<205>:	OG1044[-1]
+<197>:	OG1008[+2*],OG1037[+1],OG1023[+1],OG4231[-1],OG53863[-1],OG23930[-1]
+Metschnikowia&dekortum<138>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+4*],OG1151[+1*],OG1037[+2*],OG23930[+1*],OG1023[+4*],OG3061[+1*],OG4231[-1*]
+yHMPu5000035658&Starmera&amethionina<492>:	OG3994[+1*],OG2970[+1*],OG1151[+1*]
+<219>:	OG1013[+1]
+Eremothecium&sinecaudum<482>:	OG2970[+1*],OG1022[-1],OG1023[-1]
+yHMPu5000035041&Ambrosiozyma&pseudovanderkliftii<274>:	OG2970[+1*],OG1022[+1],OG1105[+1*],OG1151[+1*],OG28446[+1*],OG1023[-1]
+yHMPu5000034742&Lipomyces&suomiensis<662>:	OG4231[+1],OG3790[+1],OG1105[+1]
+yHMPu5000035671&Phaffomyces&antillensis<508>:	OG3994[+1*],OG2970[+1*],OG1105[+2*],OG1151[+1*],OG1023[-1]
+yHMPu5000034631&Martiniozyma&abiesophila<236>:	OG2970[+1*],OG1013[+1],OG1151[+1*]
+<659>:	OG1022[+1],OG1044[+1],OG1008[+1],OG1151[+1],OG1037[+1],OG60187[-1],OG56415[-1],OG23930[-1],OG28446[-1]
+yHMPu5000035325&Cyberlindnera&petersonii<548>:	OG3994[+1*],OG2970[+1*],OG1105[+4*],OG1151[+1*],OG1023[-1]
+Saccharomyces&cerevisiae<380>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+2],OG1044[+1*]
+Nakaseomyces&bacillisporus<360>:	OG2970[+1*],OG1013[-1]
+Hanseniaspora&valbyensis<340>:	OG2970[+1*],OG1013[+1],OG1105[+2*],OG1151[+1*]
+<147>:	OG4079[-1]
+<541>:	
+<245>:	
+<137>:	
+Kazachstania&naganishii<402>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[-1],OG1022[-1]
+<251>:	OG4231[-1]
+yHMPu5000034636&Ogataea&nitratoaversa<294>:	OG2970[+1*],OG1105[+4*],OG1151[+1*]
+<127>:	
+<571>:	
+<605>:	OG1023[-1]
+<11>:	OG1044[+1],OG3790[-1]
+Yarrowia&deformans<572>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+<499>:	
+<513>:	
+yHMPu5000035040&Ambrosiozyma&maleeae<270>:	OG2970[+1*],OG1151[+1*],OG4079[-1]
+yHMPu5000035688&Cyberlindnera&xylosilytica<544>:	OG3994[+1*],OG2970[+1*],OG1022[+1],OG1105[+5*],OG1151[+6*],OG1023[+1]
+Nakaseomyces&bracarensis<364>:	OG2970[+1*]
+<263>:	
+<295>:	OG4231[-1]
+yHMPu5000034986&Candida&oregonensis<80>:	OG2970[+1*],OG1044[+1],OG1008[+2*],OG1105[+2*],OG1151[+1*],OG1037[+1],OG1023[+1],OG3061[+1],OG4231[-2*],OG3790[-1],OG1013[-1],OG1411[-1],OG3548[-1],OG23930[-2*]
+<527>:	OG4231[-1]
+yHMPu5000035691&Candida&salmanticensis<622>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1411[+1],OG1008[+1],OG1105[+1],OG1151[-1],OG3061[-1]
+<583>:	OG1008[+1],OG1105[-1],OG1023[-1]
+<229>:	
+yHMPu5000034627&Pichia&heedii<268>:	OG2970[+1*],OG1151[+1*],OG1023[+3*],OG3548[-1]
+<7>:	OG1022[+1]
+<443>:	
+<543>:	
+<453>:	
+<389>:	OG1044[+2]
+<419>:	OG1013[+3],OG3548[+1],OG23930[-1]
+yHMPu5000034667&Blastobotrys&serpentis<606>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1044[+1],OG1411[+1],OG1151[+1],OG3790[-1]
+yHAB164&Kazachstania&aerobia<410>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[-1]
+<421>:	OG1013[+2]
+Spathaspora&girioi<28>:	OG4707[+2*],OG3994[+2*],OG4231[+2*],OG2970[+1*],OG1013[+1],OG1105[+6*],OG1151[+2*],OG1023[+1],OG3790[-1],OG4079[-1],OG3548[-1]
+Nakaseomyces&delphensis<366>:	OG2970[+1*],OG1013[-1]
+<115>:	
+Hanseniaspora&vinae<328>:	OG2970[+1*],OG1105[+2*],OG1013[-1]
+Lachancea&waltii<452>:	OG2970[+1*],OG1013[+3],OG4231[-1]
+<101>:	OG1044[+2*],OG1008[+2*],OG4231[-1],OG4079[-1],OG23930[-1]
+<469>:	
+<69>:	OG3790[-1]
+<311>:	
+yHAB158&Kazachstania&viticola<392>:	OG4707[+2*],OG3994[+1*],OG2970[+1*],OG1013[+7],OG3548[+1]
+Metschnikowia&santaceciliae<118>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1008[+3*],OG1105[+3*],OG1151[+2*],OG1037[+2*],OG1023[+2*],OG3061[+2*],OG3790[-1*],OG1411[-1*]
+<603>:	
+yHMPu5000035677&Kodamaea&ohmeri<58>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1022[+1],OG1105[+2*],OG1151[+2*],OG1044[-1]
+<305>:	
+Candida&versatilis<592>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1022[+1],OG1044[+1],OG1151[+4*]
+yHMPu5000026256&Zygotorulaspora&mrakii<430>:	OG4707[+1*],OG3994[+1*],OG2970[+1*]
+Cyberlindnera&jadinii<542>:	OG3994[+1*],OG2970[+1*],OG1044[+2*],OG1105[+3*],OG1151[+1*]
+<373>:	OG3790[+1],OG1013[+3],OG3548[+1]
+<569>:	
+Candida&albicans<40>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1013[+1],OG1105[+1*],OG1151[+2*],OG3548[+1*]
+<165>:	
+yHAB155&Kazachstania&spencerorum<386>:	OG4707[+1*],OG3994[+1*],OG4231[+1],OG2970[+1*],OG1013[+4],OG1411[+2*],OG1008[+1]
+<175>:	
+<591>:	
+Cyberlindnera&fabianii&JCM3601<546>:	OG3994[+1*],OG2970[+1*],OG1105[+3*],OG1151[+3*],OG1023[-1]
+yHMPu5000035046&Barnettozyma&populi<502>:	OG2970[+1*],OG1105[+4*],OG1151[+1*],OG3061[+1]
+<323>:	OG1008[+1],OG1023[+1],OG3061[+1],OG4231[-1],OG23930[-1]
+<155>:	
+<273>:	
+yHMPu5000041824&Debaryomyces&subglobosus<4>:	OG4707[+1*],OG3994[+1*],OG2970[+1*],OG1105[+4*],OG1151[+2*],OG60187[+1*],OG1013[-1]
+<623>:	
+yHMPu5000034625&Pichia&kudriavzevii<262>:	OG2970[+1*],OG1013[+3],OG1411[+1],OG1151[+1*],OG4079[-1]
+yHMPu5000034622&Pichia&occidentalis<260>:	OG2970[+1*],OG1151[+1*],OG1037[+1]
+<633>:	OG4707[-1],OG3994[-1],OG2970[-1]

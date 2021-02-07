@@ -1,0 +1,36 @@
+-----------------------------------------------------------
+Family information: yeast_filtered_input.txt
+Log: reports/log_run1.txt
+The number of families is 13921
+Root Family size : 1 ~ 109
+Family size : 0 ~ 137
+P-value: 0.01
+Num of Threads: 4
+Num of Random: 1000
+Empirical Prior Estimation Result: (49 iterations)
+Poisson lambda: 0.085816 & Score: 482115.652221
+Lambda : 0.00296016844030 & Score: -inf
+.Lambda : 0.00310817686232 & Score: -inf
+.Lambda : 0.00281216001829 & Score: -inf
+.Lambda : 0.00288616422929 & Score: -inf
+.Lambda : 0.00303417265131 & Score: -inf
+.Lambda : 0.00299717054580 & Score: -inf
+.Lambda : 0.00292316633480 & Score: -inf
+.Lambda : 0.00294166738755 & Score: -inf
+.Lambda : 0.00297866949305 & Score: -inf
+.Lambda : 0.00296941896668 & Score: -inf
+.Lambda : 0.00295091791393 & Score: -inf
+.Lambda : 0.00295554317711 & Score: -inf
+.Lambda : 0.00296479370349 & Score: -inf
+.Lambda : 0.00296248107190 & Score: -inf
+.Lambda : 0.00295785580871 & Score: -inf
+.Lambda : 0.00295901212450 & Score: -inf
+.Lambda : 0.00296132475610 & Score: -inf
+.Lambda : 0.00296074659820 & Score: -inf
+.
+Lambda Search Result: 8
+Lambda : 0.00296016844030 & Score: inf
+DONE: Lambda Search or setting, for command:
+lambda -s 
+Running Viterbi algorithm....
+Report Done
