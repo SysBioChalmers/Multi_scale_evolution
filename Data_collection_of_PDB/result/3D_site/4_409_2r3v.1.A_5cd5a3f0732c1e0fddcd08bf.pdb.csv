@@ -1,6 +1,0 @@
-P07277	Nucleotide binding@_group0	[143, 144, 145, 146, 147, 148, 149]	7	[142, 143, 144, 145, 146, 147, 148, 149, 150]	4_409_2r3v.1.A_5cd5a3f0732c1e0fddcd08bf.pdb
-P07277	Metal binding@_group1	[149]	1	[148, 149, 150]	4_409_2r3v.1.A_5cd5a3f0732c1e0fddcd08bf.pdb
-P07277	Metal binding@_group2	[191]	1	[188, 190, 191, 192]	4_409_2r3v.1.A_5cd5a3f0732c1e0fddcd08bf.pdb
-P07277	Binding site@_group3	[12]	1	[11, 12, 13, 31]	4_409_2r3v.1.A_5cd5a3f0732c1e0fddcd08bf.pdb
-P07277	Binding site@_group4	[138]	1	[37, 137, 138, 139]	4_409_2r3v.1.A_5cd5a3f0732c1e0fddcd08bf.pdb
-P07277	Active site@_group5	[202]	1	[201, 202, 203]	4_409_2r3v.1.A_5cd5a3f0732c1e0fddcd08bf.pdb

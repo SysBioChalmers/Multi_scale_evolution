@@ -1,7 +1,0 @@
-P15180	Mutagenesis@_group0	[488]	1	[487, 488, 489, 502]	68_579_6chd.1.A_5cd754383b85d14d339d6131.pdb
-P15180	Cross-link@_group1	[308]	1	[307, 308, 309]	68_579_6chd.1.A_5cd754383b85d14d339d6131.pdb
-P15180	Cross-link@_group2	[577]	1	[576, 577, 578]	68_579_6chd.1.A_5cd754383b85d14d339d6131.pdb
-P15180	Modified residue@_group3	[2]	1	[576, 577, 578]	68_579_6chd.1.A_5cd754383b85d14d339d6131.pdb
-P15180	Modified residue@_group4	[30]	1	[576, 577, 578]	68_579_6chd.1.A_5cd754383b85d14d339d6131.pdb
-P15180	Modified residue@_group5	[62]	1	[576, 577, 578]	68_579_6chd.1.A_5cd754383b85d14d339d6131.pdb
-P15180	Compositional bias@_group6	[33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]	29	[576, 577, 578]	68_579_6chd.1.A_5cd754383b85d14d339d6131.pdb
