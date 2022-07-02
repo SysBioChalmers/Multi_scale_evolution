@@ -1,6 +1,0 @@
-P53598	Binding site@_group0	[71]	1	[70, 71, 72]	24_329_4xx0.1.A_5cd4bf0b732c1ee0a7be3187.pdb
-P53598	Binding site@_group1	[189]	1	[188, 189, 190]	24_329_4xx0.1.A_5cd4bf0b732c1ee0a7be3187.pdb
-P53598	Active site@_group2	[284]	1	[283, 284, 285]	24_329_4xx0.1.A_5cd4bf0b732c1ee0a7be3187.pdb
-P53598	Transit peptide@_group3	[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]	24	[24, 25, 144]	24_329_4xx0.1.A_5cd4bf0b732c1ee0a7be3187.pdb
-P53598	Region@_group4	[45, 46, 47, 48]	4	[44, 45, 46, 47, 48, 49, 51]	24_329_4xx0.1.A_5cd4bf0b732c1ee0a7be3187.pdb
-P53598	Region@_group5	[124, 125, 126]	3	[123, 124, 125, 126, 127, 152]	24_329_4xx0.1.A_5cd4bf0b732c1ee0a7be3187.pdb
