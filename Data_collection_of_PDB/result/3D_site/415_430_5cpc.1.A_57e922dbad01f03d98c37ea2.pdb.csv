@@ -1,9 +1,0 @@
-Q04213	Modified residue@_group0	[2]	1	[325, 326, 327, 328, 329]	415_430_5cpc.1.A_57e922dbad01f03d98c37ea2.pdb
-Q04213	Modified residue@_group1	[9]	1	[325, 326, 327, 328, 329]	415_430_5cpc.1.A_57e922dbad01f03d98c37ea2.pdb
-Q04213	Modified residue@_group2	[65]	1	[325, 326, 327, 328, 329]	415_430_5cpc.1.A_57e922dbad01f03d98c37ea2.pdb
-Q04213	Modified residue@_group3	[73]	1	[325, 326, 327, 328, 329]	415_430_5cpc.1.A_57e922dbad01f03d98c37ea2.pdb
-Q04213	Modified residue@_group4	[242]	1	[325, 326, 327, 328, 329]	415_430_5cpc.1.A_57e922dbad01f03d98c37ea2.pdb
-Q04213	Compositional bias@_group5	[74, 75, 76, 77]	4	[325, 326, 327, 328, 329]	415_430_5cpc.1.A_57e922dbad01f03d98c37ea2.pdb
-Q04213	Compositional bias@_group6	[186, 187, 188, 189, 190, 191, 192, 193, 194, 195]	10	[325, 326, 327, 328, 329]	415_430_5cpc.1.A_57e922dbad01f03d98c37ea2.pdb
-Q04213	Compositional bias@_group7	[243, 244, 245, 246, 247, 248, 249, 250, 251]	9	[325, 326, 327, 328, 329]	415_430_5cpc.1.A_57e922dbad01f03d98c37ea2.pdb
-Q04213	Q00916+Q04213_interface@_group8	[156, 160, 162, 172, 351, 406, 430]	7	[429, 430]	415_430_5cpc.1.A_57e922dbad01f03d98c37ea2.pdb
